@@ -94,6 +94,27 @@ table { width: 100%; border-collapse: collapse; background: var(--surface-1); bo
 th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--grid); }
 th { color: var(--text-secondary); font-weight: 600; font-size: 12.5px; }
 td.num { font-variant-numeric: tabular-nums; }
+.apps { display: grid; gap: 6px; }
+.app { background: var(--bet-bg); border-radius: 10px; padding: 8px 11px; font-size: 14px; }
+.app .ch { font-size: 12px; font-weight: 600; color: var(--text-secondary); display: block; }
+.app .fs { display: block; color: var(--text-secondary); font-size: 13px; margin-top: 2px; }
+.badge.lane { background: var(--accent-soft); border-color: transparent; color: var(--text-primary); }
+.ask { font-size: 13px; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.chipbtn { border: 1px solid var(--border); background: var(--surface-1); color: var(--text-secondary);
+  border-radius: 999px; padding: 4px 12px; font: inherit; font-size: 13px; cursor: pointer; }
+.chipbtn[aria-pressed="true"] { background: var(--text-primary); color: var(--surface-1); border-color: var(--text-primary); }
+.chat { max-width: 760px; display: grid; gap: 14px; }
+.chat textarea { width: 100%; min-height: 84px; font: inherit; padding: 10px; border-radius: 10px;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); resize: vertical; }
+.btn { display: inline-block; background: var(--accent); color: #fff; border: 0; border-radius: 9px;
+  padding: 8px 16px; font: inherit; cursor: pointer; text-decoration: none; }
+.btn:hover { text-decoration: none; opacity: .92; }
+.thread { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px; padding: 12px 14px; }
+.thread h3 { margin: 0 0 6px; font-size: 15px; }
+.msg { border-radius: 10px; padding: 8px 11px; margin-top: 8px; font-size: 14px; white-space: pre-wrap; overflow-wrap: anywhere; }
+.msg.me { background: var(--grid); } .msg.ai { background: var(--bet-bg); }
+.msg .who { font-size: 11.5px; color: var(--text-muted); display: block; }
 .empty { color: var(--text-muted); padding: 30px; text-align: center; background: var(--surface-1);
   border: 1px dashed var(--border); border-radius: 12px; }
 .note { color: var(--text-muted); font-size: 13px; margin: 10px 0; }
@@ -117,9 +138,12 @@ td.num { font-variant-numeric: tabular-nums; }
     <div class="tabs" role="tablist" id="tabs"></div>
     <label class="ctl">Сортировка
       <select id="sort"><option value="score">ранность</option><option value="earn">заработать</option>
-        <option value="learn">научиться</option></select></label>
+        <option value="learn">научиться</option><option value="window">окно: срочные сначала</option></select></label>
+    <label class="ctl">Канал <select id="channel"></select></label>
+    <label class="ctl">Стадия <select id="stage"></select></label>
     <label class="ctl">Неделя <select id="week"></select></label>
   </div>
+  <div class="chips" id="lanes" style="margin-bottom:14px"></div>
   <main id="main"></main>
 </div>
 <div id="tip"></div>
@@ -127,7 +151,10 @@ td.num { font-variant-numeric: tabular-nums; }
 const DATA = /*__RADAR_DATA__*/null;
 const KINDS = [["research","Статьи","--series-1"],["builder","Код и модели","--series-2"],["talk","Обсуждения","--series-3"]];
 const SRC = DATA.sources;
-const state = { tab: "main", sort: "score", week: 0 };
+const state = { tab: "main", sort: "score", week: 0, lane: "все", channel: "", stage: "" };
+const WIN_ORDER = { "дни": 4, "недели": 3, "месяцы": 2, "годы": 1 };
+const REPO = DATA.repo || "";
+const askUrl = (title, body) => `https://github.com/${REPO}/issues/new?title=${encodeURIComponent("[чат] " + title)}&body=${encodeURIComponent(body)}`;
 const $ = s => document.querySelector(s);
 const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const fmt = (v, d=1) => (v == null || isNaN(v)) ? "—" : Number(v).toFixed(d).replace(".", ",");
@@ -138,9 +165,9 @@ function showTip(html, ev) { tip.innerHTML = html; tip.style.display = "block";
 function hideTip() { tip.style.display = "none"; }
 const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
 
-const PART_LABEL = { growth: "Рост частоты", acceleration: "Ускорение", diversity: "Разные типы источников",
+const PART_LABEL = { hops: "Прыжки между платформами", items: "Число объектов", rank: "Место в списке платформы", growth: "Рост частоты", acceleration: "Ускорение", diversity: "Разные типы источников",
   builders: "Активность строителей", media_gap: "Разрыв со СМИ", toy_test: "«Тест игрушки»", novelty: "Новизна", focus: "Фокус" };
-const PART_TIP = { growth: "Во сколько раз чаще встречается, чем по базовой линии (перцентиль среди кандидатов)",
+const PART_TIP = { hops: "На скольких разных платформах тема всплыла одновременно", items: "Сколько отдельных игр, модов, запросов несут эту тему", rank: "Насколько высоко объект стоит в списке своей платформы", growth: "Во сколько раз чаще встречается, чем по базовой линии (перцентиль среди кандидатов)",
   acceleration: "Растёт ли сам рост за последние недели", diversity: "Статьи / код / обсуждения: 0 — один тип, 1 — все три",
   builders: "Звёзды GitHub в сутки и тренды Hugging Face", media_gap: "1 — строители уже тут, СМИ ещё молчат",
   toy_test: "Одновременно скептики («игрушка») и энтузиасты в комментариях HN", novelty: "Насколько недавно термин появился", focus: "Доля работ, где термин стоит в заголовке: ими занимаются, а не упоминают вскользь" };
@@ -148,6 +175,7 @@ const PART_TIP = { growth: "Во сколько раз чаще встречае
 function sparkline(c) {
   const W = 340, H = 74, pl = 2, pr = 2, pt = 6, pb = 14;
   const sk = c.series_by_kind; if (!sk) return "";
+  if (!sk.research) return "";
   const n = sk.research.length; if (n < 2) return `<div class="note">История копится — график появится через пару недель.</div>`;
   const max = Math.max(1, ...KINDS.flatMap(([k]) => sk[k]));
   const x = i => pl + i * (W - pl - pr) / (n - 1), y = v => pt + (H - pt - pb) * (1 - v / max);
@@ -190,12 +218,17 @@ function card(c, i, section) {
   if (tr && tr.status) badges.push(`<span class="badge st">${esc(tr.status)}</span>`);
   if (reg && reg.weeks.length > 1) badges.push(`<span class="badge" title="В подборке впервые: ${esc(reg.first_week)}">в радаре ${reg.weeks.length} нед.</span>`);
   else badges.push(`<span class="badge">впервые</span>`);
+  if (c.lane) badges.unshift(`<span class="badge lane">${esc(c.lane)}</span>`);
+  if (a.stage) badges.push(`<span class="badge" title="Стадия тренда по оценке нейросети">${esc(a.stage)}</span>`);
+  if (a.window) badges.push(`<span class="badge" title="Сколько осталось до того, как это станет общим местом">окно: ${esc(a.window)}</span>`);
+  if (c.hops > 1) badges.push(`<span class="badge st" title="Тема одновременно всплыла на нескольких платформах">${c.hops} платформы</span>`);
+  if (c.lane === "культура и мемы" || c.lane === "игры") badges.push(`<span class="badge" title="Если строите на чужом персонаже или бренде, платформа может удалить проект по жалобе правообладателя">чужой IP: проверьте</span>`);
   if (c.fit_domain && c.fit >= 0.15) badges.push(`<span class="badge" title="Совпадение с вашими интересами: ${fmt(c.fit,2)}">${esc(c.fit_domain)}</span>`);
   if (section === "outside") badges.push(`<span class="badge">вне пузыря</span>`);
   if (a.by === "template") badges.push(`<span class="badge" title="Нейросеть не ответила по этому сигналу — разбор собран по шаблону из цифр">шаблонный разбор</span>`);
   const p = (k, v) => v ? `<p class="p"><span class="k">${k}</span>${esc(v)}</p>` : "";
   const ex = (c.examples || []).map(e => {
-    const m = e.meta || {}; const extra = m.stars_per_day ? ` · ★${m.stars} (${fmt(m.stars_per_day)}/сут)` : m.points ? ` · ${m.points} очк.` : m.likes ? ` · ♥${m.likes}` : "";
+    const m = e.meta || {}; const extra = m.value ? ` · ${m.value}` : m.stars_per_day ? ` · ★${m.stars} (${fmt(m.stars_per_day)}/сут)` : m.points ? ` · ${m.points} очк.` : m.likes ? ` · ♥${m.likes}` : "";
     return `<li><span class="src">${esc(SRC[e.source] || e.source)}${extra}</span><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></li>`; }).join("");
   const parts = Object.entries(c.parts || {}).map(([k, v]) =>
     `<span title="${esc(PART_TIP[k])}">${PART_LABEL[k] || k}</span><div class="bar"><i style="width:${100*v}%"></i></div><span class="num">${fmt(v,2)}</span>`).join("");
@@ -204,16 +237,19 @@ function card(c, i, section) {
   const srcs = Object.entries(c.by_source || {}).sort((a,b)=>b[1]-a[1]).map(([s,n]) => `${SRC[s]||s}: ${n}`).join(" · ");
   return `<article class="card">
     <div class="top"><div><h2>${i+1}. ${esc(title)}</h2>
-      <div class="term">${esc(c.label)}${(c.aliases||[]).length ? " · " + esc(c.aliases.slice(0,3).join(", ")) : ""}</div></div>
+      <div class="term">${esc(c.term)}${(c.aliases||[]).length ? " · " + esc(c.aliases.slice(0,3).join(", ")) : ""}</div></div>
       <div class="score" title="Ранность сигнала, 0–100"><div class="v">${fmt(c.score,0)}</div><div class="l">ранность</div></div></div>
     <div class="badges">${badges.join("")}</div>
     <div class="meters">${meter("Заработать", c.earn, 10)}${meter("Научиться", c.learn, 10)}</div>
     ${a.earn_why || a.learn_why ? `<div class="note" style="margin:0">${esc(a.earn_why || "")} ${esc(a.learn_why || "")}</div>` : ""}
-    <div><div class="spark-head"><span>${c.now} упом. за неделю · рост ×${fmt(times)}</span>
-      <span class="legend">${KINDS.map(([,l,col]) => `<span style="--c:var(${col})">${l}</span>`).join("")}</span></div>${sparkline(c)}</div>
+    <div><div class="spark-head"><span>${c.metric_label ? esc(c.metric_label) : `${c.now} упом. за неделю · рост ×${fmt(times)}`}</span>
+      ${c.series_by_kind ? `<span class="legend">${KINDS.map(([,l,col]) => `<span style="--c:var(${col})">${l}</span>`).join("")}</span>` : ""}</div>${sparkline(c)}</div>
     ${p("Что это", a.what)}${p("Почему сейчас", a.why_now)}${p("Скептики и фанаты", a.skeptics_vs_fans)}${p("Ваше преимущество", a.edge_for_user)}
-    ${a.cheap_bet ? `<div class="bet"><span class="k">Ставка на выходные</span>${esc(a.cheap_bet)}</div>` : ""}
+    ${c.occupancy_text ? `<p class="p"><span class="k">Занято ли место</span>${esc(c.occupancy_text)}</p>` : ""}
+    ${(a.applications || []).length ? `<div class="apps"><span class="p"><span class="k">Как применить</span></span>${a.applications.map(x => `<div class="app"><span class="ch">${esc(x.channel)}</span>${esc(x.idea)}<span class="fs">Первый шаг: ${esc(x.first_step)}</span></div>`).join("")}</div>`
+      : a.cheap_bet ? `<div class="bet"><span class="k">Ставка на выходные</span>${esc(a.cheap_bet)}</div>` : ""}
     ${a.kill_criteria ? `<div class="kill"><span class="k">Критерий смерти</span>${esc(a.kill_criteria)}</div>` : ""}
+    ${REPO ? `<a class="ask" target="_blank" rel="noopener" href="${askUrl(title, "signal: " + c.term + "\n\nМой вопрос: ")}">Спросить нейросеть об этом сигнале →</a>` : ""}
     <details><summary>Доказательства: примеры, источники, из чего балл</summary>
       <div class="note">${esc(srcs)}${c.media != null ? ` · в новостях за 4 нед.: ${c.media}` : ""}${c.toy ? ` · HN-комментариев: ${c.toy.comments} (скептиков ${c.toy.skeptic}, энтузиастов ${c.toy.enthusiast})` : ""}</div>
       <ul class="ex">${ex}</ul>${quotes}<div class="parts">${parts}</div></details>
@@ -273,36 +309,83 @@ function bindBt() {
   });
 }
 
+let chatCache = null;
+async function loadChat() {
+  const owner = REPO.split("/")[0];
+  const r = await fetch(`https://api.github.com/repos/${REPO}/issues?state=all&creator=${owner}&per_page=30&sort=updated`);
+  if (!r.ok) throw new Error(r.status === 403 ? "GitHub временно ограничил запросы, попробуйте через несколько минут" : "GitHub не ответил");
+  const issues = (await r.json()).filter(i => i.title.startsWith("[чат]") && !i.pull_request).slice(0, 6);
+  for (const i of issues) {
+    i.msgs = i.comments ? await fetch(i.comments_url + "?per_page=50").then(x => x.ok ? x.json() : []) : [];
+  }
+  return issues;
+}
+function chatView(main) {
+  if (!REPO) { main.innerHTML = `<div class="empty">Чат работает в опубликованном дашборде на GitHub Pages.</div>`; return; }
+  const strip = t => String(t || "").replace(/^signal:.*$/mi, "").trim();
+  const threads = !chatCache ? `<div class="note">Загружаю переписку…</div>` : chatCache.error ? `<div class="note">${esc(chatCache.error)}</div>`
+    : chatCache.length ? chatCache.map(i => `<div class="thread"><h3>${esc(i.title.replace("[чат]", "").trim())}</h3>
+        <div class="msg me"><span class="who">вы · ${new Date(i.created_at).toLocaleString("ru-RU")}</span>${esc(strip(i.body))}</div>
+        ${i.msgs.map(m => `<div class="msg ${m.user.login.endsWith("[bot]") ? "ai" : "me"}"><span class="who">${m.user.login.endsWith("[bot]") ? "нейросеть радара" : "вы"} · ${new Date(m.created_at).toLocaleString("ru-RU")}</span>${esc(m.body)}</div>`).join("")}
+        ${i.msgs.length && i.msgs.at(-1).user.login.endsWith("[bot]") ? "" : `<div class="note">Нейросеть думает: ответ обычно приходит за 3–6 минут. Обновите вкладку.</div>`}
+        <div style="margin-top:8px"><a class="ask" target="_blank" rel="noopener" href="${esc(i.html_url)}#issue-comment-box">Продолжить разговор →</a></div></div>`).join("")
+    : `<div class="empty">Вопросов пока не было.</div>`;
+  main.innerHTML = `<div class="chat">
+    <p class="note" style="margin:0">Здесь можно спросить ту же нейросеть, что пишет разборы: уточнить сигнал, сравнить два пункта, попросить план. Она видит все данные текущего выпуска. Вопрос уходит на GitHub (откроется готовая форма, останется нажать «Create»), модель запускается там и отвечает за 3–6 минут. Это небольшая модель: с уточнениями и планами справляется, глубокой стратегии от неё не ждите.</p>
+    <textarea id="q" placeholder="Например: сравни два самых ранних сигнала в играх и скажи, какой проще проверить за выходные"></textarea>
+    <div><button class="btn" id="send">Задать вопрос</button> <button class="chipbtn" id="reload">Обновить переписку</button></div>
+    ${threads}</div>`;
+  $("#send").onclick = () => { const q = $("#q").value.trim(); if (q) window.open(askUrl(q.slice(0, 60), q), "_blank", "noopener"); };
+  $("#reload").onclick = () => { chatCache = null; chatView(main); };
+  if (!chatCache) loadChat().then(x => chatCache = x).catch(e => chatCache = { error: e.message }).then(() => { if (state.tab === "chat") chatView(main); });
+}
+
 function render() {
   const d = DATA.digests[state.week];
   const main = $("#main");
   if (!d) { $("#sub").textContent = "Данных пока нет — запустите workflow «radar» во вкладке Actions."; main.innerHTML = ""; return; }
   const dt = s => new Date(s).toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
   $("#sub").innerHTML = `Неделя ${esc(d.week)} · ${dt(d.start)} — ${dt(new Date(new Date(d.end) - 864e5))} · обновлено ${new Date(d.generated_at).toLocaleString("ru-RU")}`;
-  const total = Object.values(d.stats.docs).reduce((a,b)=>a+b, 0);
+  const total = Object.values(d.stats.docs).reduce((a,b)=>a+b, 0) + Object.values(d.stats.items || {}).reduce((a,b)=>a+b, 0);
   $("#stats").innerHTML = `<span class="chip">просмотрено <b>${total.toLocaleString("ru-RU")}</b></span>` +
-    Object.entries(d.stats.docs).map(([s,n]) => `<span class="chip">${SRC[s]||s}: <b>${n.toLocaleString("ru-RU")}</b></span>`).join("") +
+    Object.entries({...d.stats.docs, ...(d.stats.items || {})}).map(([s,n]) => `<span class="chip">${SRC[s]||s}: <b>${n.toLocaleString("ru-RU")}</b></span>`).join("") +
     `<span class="chip">кандидатов: <b>${d.stats.candidates.toLocaleString("ru-RU")}</b></span><span class="chip">история: <b>${d.stats.history_weeks} нед.</b></span>` +
     `<span class="chip">разбор: <b>${{local: "своя нейросеть", ai: "Claude API"}[d.analyst] || "шаблон"}</b></span>`;
   $("#summary").hidden = !d.summary; $("#summary").textContent = d.summary || "";
   const tabs = [["main","Ранние сигналы",d.main.length],["outside","Вне пузыря",d.outside.length],["wave","Уже волна",d.wave.length],
-    ["tracker","Трекер",Object.keys(DATA.registry).length],["backtest","Проверка на прошлом",null],["rejected","Отсеяно",d.rejected.length]];
+    ["tracker","Трекер",Object.keys(DATA.registry).length],["backtest","Проверка на прошлом",null],["rejected","Отсеяно",d.rejected.length],["chat","Чат с нейросетью",null]];
   $("#tabs").innerHTML = tabs.map(([k,l,n]) => `<button class="tab" role="tab" data-tab="${k}" aria-selected="${state.tab===k}">${l}${n!=null?`<span class="n">${n}</span>`:""}</button>`).join("");
   $("#tabs").querySelectorAll(".tab").forEach(b => b.onclick = () => { state.tab = b.dataset.tab; render(); });
-  $("#sort").disabled = !["main","outside"].includes(state.tab);
-  if (state.tab === "main" || state.tab === "outside") {
-    const list = [...d[state.tab]].sort((a,b) => (b[state.sort]||0) - (a[state.sort]||0));
+  const cards = ["main","outside"].includes(state.tab);
+  for (const id of ["#sort", "#channel", "#stage"]) $(id).disabled = !cards;
+  $("#lanes").style.display = state.tab === "main" ? "" : "none";
+  const laneList = ["все", ...(d.lanes || [...new Set(d.main.map(c => c.lane).filter(Boolean))])];
+  $("#lanes").innerHTML = laneList.map(l => `<button class="chipbtn" aria-pressed="${state.lane===l}" data-lane="${esc(l)}">${esc(l)}${l === "все" ? "" : ` · ${d.main.filter(c => c.lane === l).length}`}</button>`).join("");
+  $("#lanes").querySelectorAll(".chipbtn").forEach(b => b.onclick = () => { state.lane = b.dataset.lane; render(); });
+  const all = [...d.main, ...d.outside];
+  const opts = (vals, cur, any) => `<option value="">${any}</option>` + vals.map(v => `<option ${v===cur?"selected":""}>${esc(v)}</option>`).join("");
+  $("#channel").innerHTML = opts([...new Set(all.flatMap(c => ((c.analysis||{}).applications||[]).map(x => x.channel)))].sort(), state.channel, "любой");
+  $("#stage").innerHTML = opts(["зарождение","разгон","пик","спад"].filter(s => all.some(c => (c.analysis||{}).stage === s)), state.stage, "любая");
+  if (cards) {
+    const key = c => state.sort === "window" ? (WIN_ORDER[(c.analysis||{}).window] || 0) * 1000 + (c.score||0) : (c[state.sort]||0);
+    const list = d[state.tab].filter(c => (state.tab !== "main" || state.lane === "все" || c.lane === state.lane)
+        && (!state.channel || ((c.analysis||{}).applications||[]).some(x => x.channel === state.channel))
+        && (!state.stage || (c.analysis||{}).stage === state.stage))
+      .sort((a,b) => key(b) - key(a));
     const intro = state.tab === "outside" ? `<p class="note">Сильные сигналы из областей, далёких от ваших интересов. Эти слоты отданы им принудительно, чтобы радар не превратился в ещё один пузырь.</p>` : "";
     main.innerHTML = intro + (list.length ? `<div class="grid">${list.map((c,i)=>card(c,i,state.tab)).join("")}</div>` : `<div class="empty">На этой неделе пусто.</div>`);
     list.forEach(c => { const svg = main.querySelector(`svg[data-term="${CSS.escape(c.term)}"]`); if (svg) bindSpark(svg, c); });
   } else if (state.tab === "wave") main.innerHTML = waveTable(d.wave);
   else if (state.tab === "tracker") main.innerHTML = trackerView();
   else if (state.tab === "backtest") { main.innerHTML = backtestView(); bindBt(); }
-  else main.innerHTML = d.rejected.length ? `<p class="note">Кандидаты, которых нейросеть отсеяла как шум: устоявшиеся области, шаблонные фразы, имена и новости. Если что-то отсеяно зря — добавьте термин в <code>tracker.yaml</code> с оценкой 👍.</p><table><thead><tr><th>Термин</th><th>Причина</th></tr></thead><tbody>${d.rejected.map(r=>`<tr><td>${esc(r.term)}</td><td>${esc(r.reason||"")}</td></tr>`).join("")}</tbody></table>` : `<div class="empty">Ничего не отсеяно.</div>`;
+  else if (state.tab === "chat") chatView(main);
+  else main.innerHTML = d.rejected.length ? `<p class="note">Кандидаты, которых нейросеть отсеяла как шум: устоявшиеся области, шаблонные фразы, имена и новости. Если что-то отсеяно зря — добавьте термин в <code>tracker.yaml</code> с оценкой 👍.</p><table><thead><tr><th>Объект</th><th>Дорожка</th><th>Причина</th></tr></thead><tbody>${d.rejected.map(r=>`<tr><td>${esc(r.term)}</td><td>${esc(r.lane||"")}</td><td>${esc(r.reason||"")}</td></tr>`).join("")}</tbody></table>` : `<div class="empty">Ничего не отсеяно.</div>`;
 }
 $("#week").innerHTML = DATA.digests.map((d,i) => `<option value="${i}">${d.week}</option>`).join("") || "<option>—</option>";
 $("#week").onchange = e => { state.week = +e.target.value; render(); };
 $("#sort").onchange = e => { state.sort = e.target.value; render(); };
+$("#channel").onchange = e => { state.channel = e.target.value; render(); };
+$("#stage").onchange = e => { state.stage = e.target.value; render(); };
 render();
 </script>
 </body>

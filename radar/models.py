@@ -23,6 +23,9 @@ SOURCE_LABEL = {
     "github": "GitHub",
     "huggingface": "Hugging Face",
     "hn": "Hacker News",
+    "wikipedia": "Википедия", "trends": "Google Trends", "kym": "Know Your Meme",
+    "urban": "Urban Dictionary", "roblox": "Roblox", "modrinth": "Modrinth",
+    "steam": "Steam", "itch": "itch.io", "polymarket": "Polymarket", "coingecko": "CoinGecko",
 }
 
 

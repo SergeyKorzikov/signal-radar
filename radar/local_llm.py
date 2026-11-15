@@ -21,9 +21,16 @@ from .models import SOURCE_LABEL
 log = logging.getLogger("radar.llm")
 CACHE = Path(os.environ.get("RADAR_MODEL_DIR", Path.home() / ".cache" / "radar-models"))
 
-KINDS_KEEP = ("технология, метод или инструмент", "новые данные или научный проект")
+KINDS_KEEP = ("технология, метод или инструмент", "новые данные или научный проект",
+              "мем, персонаж или интернет-явление", "игра, мод или игровой жанр",
+              "рыночная возможность")
 KINDS = KINDS_KEEP + ("устоявшаяся область", "шаблонная фраза или обычное слово",
-                      "имя, компания или новость")
+                      "имя, компания или разовая новость")
+CHANNELS = ["игра в Roblox", "короткие видео", "сайт или веб-инструмент", "бот или расширение",
+            "мерч или цифровые товары", "мод или ассет", "рыночная ставка",
+            "экспертиза: обзор, курс, консалтинг", "продукт на основе технологии"]
+STAGES = ["зарождение", "разгон", "пик", "спад"]
+WINDOWS = ["дни", "недели", "месяцы", "годы"]
 
 # Порядок полей важен: модель сначала объясняет, потом решает (так маленькие модели ошибаются реже).
 FILTER_SCHEMA = {
@@ -42,60 +49,82 @@ WRITE_SCHEMA = {
     "properties": {
         "what": {"type": "string"},
         "why_now": {"type": "string"},
-        "cheap_bet": {"type": "string"},
+        "stage": {"type": "string", "enum": STAGES},
+        "window": {"type": "string", "enum": WINDOWS},
+        "applications": {
+            "type": "array", "minItems": 2, "maxItems": 3,
+            "items": {"type": "object",
+                      "properties": {"channel": {"type": "string", "enum": CHANNELS},
+                                     "idea": {"type": "string"},
+                                     "first_step": {"type": "string"}},
+                      "required": ["channel", "idea", "first_step"]}},
         "kill_criteria": {"type": "string"},
         "earn_why": {"type": "string"},
         "earn": {"type": "integer", "minimum": 0, "maximum": 10},
         "learn_why": {"type": "string"},
         "learn": {"type": "integer", "minimum": 0, "maximum": 10},
     },
-    "required": ["what", "why_now", "cheap_bet", "kill_criteria", "earn_why", "earn",
-                 "learn_why", "learn"],
+    "required": ["what", "why_now", "stage", "window", "applications", "kill_criteria",
+                 "earn_why", "earn", "learn_why", "learn"],
 }
 
-FILTER_SYSTEM = """Ты — строгий фильтр радара ранних технологических сигналов. Тебе дают термин,
-который стал чаще встречаться в научных статьях и коде, и примеры работ с ним.
+FILTER_SYSTEM = """Ты — строгий фильтр радара ранних трендов. Тебе дают объект или термин, который
+начал расти в одной из дорожек (наука, технологии, культура и мемы, игры, рынки), и примеры.
 Заполни поля по порядку:
 what — что это такое, 5–12 слов по-русски, только по примерам;
-kind — к какому типу относится термин:
+kind — тип:
   «технология, метод или инструмент» — конкретная вещь, которую можно применить или построить;
   «новые данные или научный проект» — новый набор данных, телескоп, атлас, крупный проект;
-  «устоявшаяся область» — большая давно существующая тема (обработка сигналов, энергосистемы,
-    управление движением, синтез белка);
-  «шаблонная фраза или обычное слово» — фраза, которой просто пишут статьи;
-  «имя, компания или новость»;
+  «мем, персонаж или интернет-явление» — мем, вирусный персонаж, формат, сленг, челлендж, фэндом;
+  «игра, мод или игровой жанр» — новая игра, мод, механика или жанр, набирающие игроков;
+  «рыночная возможность» — рынок предсказаний или актив с необычным ростом интереса;
+  «устоявшаяся область» — большая давно существующая тема;
+  «шаблонная фраза или обычное слово» — фраза или слово без конкретного явления за ним;
+  «имя, компания или разовая новость» — человек, спортивный матч, выборы, смерть знаменитости,
+    премьера фильма, инцидент: то, о чём пишут новости, но на чём нельзя ничего построить;
 age — новое это (появилось или стало популярным за последние 1–3 года) или известно давно;
 title_ru — короткое понятное название по-русски, 2–5 слов."""
 
 FILTER_EXAMPLES = [
-    ("neural radiance field", "Neural Radiance Fields for view synthesis | NeRF in the wild",
+    ("neural radiance field", "наука", "Neural Radiance Fields for view synthesis | NeRF in the wild",
      {"what": "метод 3D-реконструкции сцены нейросетью по фотографиям",
       "kind": "технология, метод или инструмент", "age": "новое (последние 1–3 года)",
       "title_ru": "Нейронные поля излучения (NeRF)"}),
-    ("experimental results", "Experimental results on graph learning | Robust control: experimental results",
+    ("experimental results", "наука", "Experimental results on graph learning | Robust control: experimental results",
      {"what": "раздел статьи с результатами экспериментов",
       "kind": "шаблонная фраза или обычное слово", "age": "старое (известно давно)",
       "title_ru": "Экспериментальные результаты"}),
-    ("image segmentation", "Image segmentation of MRI | Lightweight image segmentation for drones",
-     {"what": "разделение изображения на области по объектам",
-      "kind": "устоявшаяся область", "age": "старое (известно давно)",
-      "title_ru": "Сегментация изображений"}),
+    ("skibidi", "культура и мемы", "[Roblox] Skibidi Tower Defense | [Know Your Meme] Skibidi Toilet | [Google Trends] skibidi meaning",
+     {"what": "вирусный сериал-мем про поющие головы, разошедшийся по играм",
+      "kind": "мем, персонаж или интернет-явление", "age": "новое (последние 1–3 года)",
+      "title_ru": "Мем Skibidi Toilet"}),
+    ("Champions League final", "культура и мемы", "[Википедия] 2026 UEFA Champions League final | [Google Trends] champions league final",
+     {"what": "футбольный матч, финал турнира этого года",
+      "kind": "имя, компания или разовая новость", "age": "старое (известно давно)",
+      "title_ru": "Финал Лиги чемпионов"}),
 ]
 
-WRITE_SYSTEM = """Ты — аналитик радара ранних технологических сигналов. Пиши по-русски, конкретно, коротко.
+WRITE_SYSTEM = """Ты — аналитик радара ранних трендов. Пиши по-русски, конкретно, коротко.
 ГЛАВНОЕ ПРАВИЛО: опирайся только на данные и примеры, которые тебе дали. Не выдумывай даты,
 организации, цифры и названия, которых нет в данных. Если чего-то не видно — так и напиши.
+Не пиши про рост в процентах или разах, если этого числа нет в поле «метрика».
+Примеры с разных платформ могут оказаться разными вещами с одинаковым словом в названии
+(мем и одноимённый фильм): описывай то, о чём большинство примеров, а лишнее не смешивай.
 Поля (заполняй по порядку):
-what — что это, 1–2 предложения простым языком, по аннотациям примеров;
-why_now — почему всплыло сейчас: используй цифры из данных (рост, источники);
-cheap_bet — одно конкретное действие на 1–2 дня по ПРИМЕРАМ из данных (прочитать конкретную
-  статью, запустить конкретный репозиторий, написать обзор, собрать прототип);
-kill_criteria — признак провала: что НЕ должно случиться за 4–8 недель, чтобы сигнал стоило
-  бросить (например: «за 6 недель не появилось новых статей и репозиториев с этим термином»);
-earn_why и earn (0–10) — можно ли за год одному человеку с ИИ-инструментами получить
-  с этого продукт, услугу или доход. Оценивай для любого человека, без фантазий.
-  Фундаментальная наука (космос, биология, физика) без прямого применения — 0–3;
-  инструмент, который уже можно скачать и встроить в продукт, — 6–10;
+what — что это, 1–2 предложения простым языком, строго по описаниям из примеров;
+why_now — почему всплыло сейчас: используй цифры из данных;
+stage — стадия тренда: зарождение (знают единицы), разгон (быстро растёт), пик, спад;
+window — сколько осталось до того, как это станет общим местом: дни, недели, месяцы или годы
+  (мемы — обычно дни или недели, игры — недели или месяцы, технологии — месяцы или годы);
+applications — 2–3 РАЗНЫХ способа применить тренд. Для каждого: channel — канал из списка;
+  idea — что именно сделать, одно предложение (должно соответствовать каналу: для канала
+  «игра в Roblox» — игра в Roblox, а не мод); first_step — первое действие на 1–2 дня.
+  Смотри на поле «занятость»: где уже много игр или проектов — туда поздно, где пусто — туда и идти.
+  Выбирай каналы, подходящие типу тренда: для мема — игра, видео, мерч, мод; для технологии —
+  продукт, инструмент, экспертиза; для рынка — рыночная ставка или инструмент;
+kill_criteria — признак провала: что должно случиться, чтобы бросить сигнал;
+earn_why и earn (0–10) — можно ли одному человеку с ИИ-инструментами быстро получить с этого
+  доход. Фундаментальная наука без прямого применения — 0–3; тренд с пустой полкой — 6–10;
 learn_why и learn (0–10) — выгодно ли стать в этом экспертом заранее (2–3 года)."""
 
 
@@ -145,16 +174,20 @@ class LocalAnalyst:
 
     # ---------------------------------------------------------------- фильтр
     @staticmethod
-    def _filter_prompt(term: str, titles: str) -> str:
-        return f"Термин: «{term}»\nПримеры работ: {titles}"
+    def _filter_prompt(term: str, lane: str, titles: str) -> str:
+        return f"Дорожка: {lane}\nОбъект: «{term}»\nПримеры: {titles}"
 
     def filter(self, cands: list[dict]) -> None:
-        shots = [(self._filter_prompt(t, ex), a) for t, ex, a in FILTER_EXAMPLES]
+        shots = [(self._filter_prompt(t, lane, ex), a) for t, lane, ex, a in FILTER_EXAMPLES]
         for c in cands:
-            titles = " | ".join(e["title"][:110] for e in c["examples"][:6])
-            user = (self._filter_prompt(c["label"], titles) +
-                    f"\nИсточники за неделю: " +
-                    ", ".join(f"{SOURCE_LABEL[s]} {n}" for s, n in c["by_source"].items()))
+            titles = " | ".join(f"[{SOURCE_LABEL[e['source']]}] {e['title'][:110]}"
+                                for e in c["examples"][:6])
+            user = self._filter_prompt(c["label"], c.get("lane", "наука"), titles)
+            snippet = next((e["snippet"] for e in c["examples"] if e.get("snippet")), "")
+            if snippet:
+                user += f"\nОписание: {snippet[:300]}"
+            if c.get("metric_label"):
+                user += f"\nМетрика: {c['metric_label']}"
             t = time.time()
             r = self._ask(FILTER_SYSTEM, user, FILTER_SCHEMA, 120, shots)
             log.info("фильтр «%s» → %s / %s (%.0fс)", c["label"], r and r.get("kind"),
@@ -163,33 +196,49 @@ class LocalAnalyst:
                 continue
             c["llm_title"] = (r.get("title_ru") or "").strip()
             c["llm_what"] = r.get("what")
+            c["llm_kind"] = r.get("kind")
             new = str(r.get("age", "")).startswith("новое")
             if r.get("kind") not in KINDS_KEEP or not new:
                 c["keep"] = False
                 c["reject_reason"] = f"{r.get('kind')}, {'новое' if new else 'известно давно'}: {r.get('what')}"
 
     # ---------------------------------------------------------------- разбор
-    def write(self, c: dict, profile: str) -> dict | None:
+    def write(self, c: dict, profile: str = "") -> dict | None:
+        from . import occupancy
+
         toy = c.get("toy") or {}
         data = {
-            "термин": c["label"], "название": c.get("llm_title") or c["label"],
-            "упоминаний_за_неделю": c["now"], "ожидалось_по_истории": c["expected"],
-            "рост_в_разах": round(2 ** c["growth"], 1),
+            "дорожка": c.get("lane"), "тип": c.get("llm_kind"),
+            "объект": c["label"], "название": c.get("llm_title") or c["label"],
+            "метрика": c.get("metric_label") or (
+                f"{c['now']} упоминаний за неделю при ожидаемых {c['expected']}, "
+                f"рост в {round(2 ** c['growth'], 1)} раза"),
             "по_источникам": {SOURCE_LABEL[s]: n for s, n in c["by_source"].items()},
+            "занятость": occupancy.describe(c.get("occupancy") or {}) or None,
             "звёзд_GitHub_в_сутки": c.get("stars_per_day") or None,
-            "статей_в_новостях_за_4_недели": c.get("media"),
             "HN_скептиков_и_энтузиастов": [toy.get("skeptic"), toy.get("enthusiast")] if toy else None,
             "примеры": [f"[{SOURCE_LABEL[e['source']]}] {e['title'][:150]}"
-                        + (f" — {e['snippet'][:300]}" if e.get("snippet") else "")
+                        + (f" ({e['meta']['value']})" if (e.get("meta") or {}).get("value") else "")
+                        + (f" — {e['snippet'][:260]}" if e.get("snippet") else "")
                         for e in c["examples"][:6]],
         }
+        data = {k: v for k, v in data.items() if v is not None}
         # профиль пользователя маленькой модели не даём: она начинает притягивать к нему
         # всё подряд. Связь с интересами считаем в коде (поле fit).
         user = f"Данные сигнала:\n{json.dumps(data, ensure_ascii=False, indent=1)}"
         t = time.time()
-        r = self._ask(WRITE_SYSTEM, user, WRITE_SCHEMA, 600)
+        r = self._ask(WRITE_SYSTEM, user, WRITE_SCHEMA, 900)
         log.info("разбор «%s» (%.0fс)", c["label"], time.time() - t)
         return r
+
+    def chat(self, messages: list[dict], max_tokens: int = 700) -> str | None:
+        try:
+            out = self.llm.create_chat_completion(messages=messages, temperature=0.3,
+                                                  max_tokens=max_tokens)
+            return out["choices"][0]["message"]["content"].strip()
+        except Exception as e:  # noqa: BLE001
+            log.warning("модель не ответила: %s", e)
+            return None
 
     def summarize(self, chosen: list[dict]) -> str | None:
         lines = "\n".join(f"- {c['analysis'].get('title_ru') or c['label']}: "
@@ -223,8 +272,11 @@ def apply_write(c: dict, r: dict | None) -> None:
         if c.get("llm_title"):
             c["analysis"]["title_ru"] = c["llm_title"]
         return
+    apps = [a for a in (r.get("applications") or []) if isinstance(a, dict) and a.get("idea")]
     c["analysis"] = {k: r.get(k) for k in ("what", "why_now", "earn_why", "learn_why",
-                                            "cheap_bet", "kill_criteria")}
+                                            "kill_criteria", "stage", "window")}
+    c["analysis"]["applications"] = apps
+    c["analysis"]["cheap_bet"] = apps[0].get("first_step") if apps else None
     c["analysis"]["edge_for_user"] = edge_text(c)
     c["analysis"].update({"title_ru": c.get("llm_title") or c["label"],
                           "skeptics_vs_fans": None, "by": "local"})

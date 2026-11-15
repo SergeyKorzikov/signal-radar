@@ -2,7 +2,7 @@ name: radar
 
 on:
   schedule:
-    - cron: "17 4 * * 1"   # каждый понедельник в 07:17 по Стамбулу
+    - cron: "17 4 * * *"   # каждый день в 07:17 по Стамбулу
   workflow_dispatch:
     inputs:
       backtest:
@@ -39,7 +39,7 @@ jobs:
         uses: actions/cache@v4
         with:
           path: ~/.cache/radar-models
-          key: radar-model-${{ hashFiles('config.yaml') }}
+          key: radar-model-v1
           restore-keys: radar-model-
 
       - name: Тесты алгоритма
@@ -49,9 +49,10 @@ jobs:
         if: ${{ inputs.backtest || hashFiles('data/backtest.json') == '' }}
         run: python -m radar backtest
 
-      - name: Недельный прогон радара
+      - name: Прогон радара
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}   # необязательно: проверка занятости на YouTube
         run: python -m radar run
 
       - name: Сохранить данные в репозиторий
@@ -59,10 +60,13 @@ jobs:
           git config user.name "radar-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data
-          git diff --cached --quiet || git commit -m "Радар: данные за неделю"
+          git diff --cached --quiet || git commit -m "Радар: свежие данные"
+          git pull --rebase --autostash
           git push
 
       - name: Собрать дашборд
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
         run: python -m radar build --out site
 
       - uses: actions/configure-pages@v5

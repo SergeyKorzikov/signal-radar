@@ -1,6 +1,6 @@
 """Командная строка радара.
 
-  python -m radar run                 # недельный прогон (сам догрузит историю при первом запуске)
+  python -m radar run                 # прогон радара (сам догрузит историю при первом запуске)
   python -m radar backfill --weeks 8  # догрузить историю
   python -m radar build --out site    # собрать дашборд из data/
   python -m radar backtest            # проверить алгоритм на прошлых волнах
@@ -25,6 +25,8 @@ def main(argv=None) -> int:
     s = sub.add_parser("build")
     s.add_argument("--out", default="site")
     sub.add_parser("backtest")
+    c = sub.add_parser("chat")
+    c.add_argument("--issue", type=int, required=True)
     a = p.parse_args(argv)
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s: %(message)s",
@@ -39,6 +41,9 @@ def main(argv=None) -> int:
     elif a.cmd == "build":
         out = site.build(a.out)
         print(f"Дашборд: {out}")
+    elif a.cmd == "chat":
+        from . import chat
+        print(chat.answer_issue(a.issue, cfg)[:300])
     elif a.cmd == "backtest":
         res = backtest.run(cfg["backtest"])
         out = pipeline.ROOT / "data" / "backtest.json"

@@ -2,6 +2,7 @@
 from __future__ import annotations
 
 import json
+import os
 from pathlib import Path
 
 import yaml
@@ -18,7 +19,7 @@ def _read_json(p: Path):
 
 
 def collect_data() -> dict:
-    digests = [history.load_digest(w) for w in history.list_digests()]
+    digests = [history.load_digest(w) for w in history.list_digests()[-12:]]
     tracker_p = ROOT / "tracker.yaml"
     tracker = {}
     if tracker_p.exists():
@@ -30,7 +31,8 @@ def collect_data() -> dict:
             b["rows"] = [{"m": r["month"], "rate": r["rate"]} for r in b["rows"]]
     return {"digests": [d for d in digests if d][::-1],  # новые сначала
             "registry": _read_json(ROOT / "data" / "signals.json") or {},
-            "tracker": tracker, "backtest": backtest, "sources": SOURCE_LABEL}
+            "tracker": tracker, "backtest": backtest, "sources": SOURCE_LABEL,
+            "repo": os.environ.get("GITHUB_REPOSITORY", "")}
 
 
 def build(out: str | Path = "site") -> Path:

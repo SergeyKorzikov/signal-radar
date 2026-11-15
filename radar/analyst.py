@@ -123,11 +123,15 @@ def template_writeup(c: dict) -> dict:
     src = ", ".join(f"{SOURCE_LABEL[s]} — {n}" for s, n in
                     sorted(c["by_source"].items(), key=lambda kv: -kv[1]))
     times = 2 ** c["growth"]
-    why = (f"{c['now']} упоминаний за неделю при ожидаемых ≈{c['expected']:.0f} "
-           f"(рост ×{times:.1f}). Источники: {src}.")
+    if c.get("metric_label"):
+        why = f"{c['metric_label']}."
+    else:
+        why = (f"{c['now']} упоминаний за неделю при ожидаемых ≈{c['expected']:.0f} "
+               f"(рост ×{times:.1f}). Источники: {src}.")
     if c.get("media") is not None:
         why += f" В новостях за 4 недели: {c['media']}."
-    research = c["by_kind"]["research"] >= c["by_kind"]["builder"]
+    bk = c.get("by_kind") or {"research": 0, "builder": 1}
+    research = bk["research"] >= bk["builder"] and not c.get("metric_label")
     bet = ("Прочитайте 2–3 самые свежие статьи из примеров и напишите короткий обзор — "
            "так вы проверите, есть ли за термином реальная идея."
            if research else
