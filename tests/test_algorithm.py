@@ -70,7 +70,8 @@ def test_selection_reserves_outside_bubble_slots():
     assert d["main"], "основная подборка пуста"
     assert all(c["fit"] < 0.15 for c in d["outside"])
     assert all(c["lane"] in pipeline.LANES for c in d["main"])
-    assert any("perovskite" in c["term"] for c in d["outside"] + d["main"])
+    assert any("perovskite" in " ".join([c["term"]] + c.get("aliases", []))
+               or "photovoltaic" in c["term"] for c in d["outside"] + d["main"])
     for c in d["main"]:
         assert c["analysis"]["cheap_bet"] and 0 <= c["earn"] <= 10 and 0 <= c["learn"] <= 10
 

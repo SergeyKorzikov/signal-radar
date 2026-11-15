@@ -201,10 +201,13 @@ def dedupe(cands: list[dict], postings: dict[str, list[int]], overlap: float = 0
         s1 = set(postings.get(c["term"], []))
         dup_i = None
         for i, k in enumerate(kept):
-            if not (w1 & set(k["term"].split())):
-                continue
             s2 = set(postings.get(k["term"], []))
-            if s1 and s2 and len(s1 & s2) / min(len(s1), len(s2)) >= overlap:
+            if not (s1 and s2):
+                continue
+            share = len(s1 & s2) / min(len(s1), len(s2))
+            # общее слово + сильное пересечение, либо почти те же самые документы без общего слова
+            # (несколько фраз из одного и того же расплодившегося шаблона репозитория)
+            if (w1 & set(k["term"].split()) and share >= overlap) or share >= 0.9:
                 dup_i = i
                 break
         if dup_i is None:

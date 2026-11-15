@@ -105,6 +105,8 @@ def run_analyst(pool: list[dict], cfg: dict, use_llm: bool = True):
     main, outside = choose(pool, cfg)
     if use_llm:
         for c in main + outside:
+            if c["lane"] == lanes.MARKETS:
+                continue  # для рынка предсказаний «сколько игр в Roblox» не имеет смысла
             c["occupancy"] = occupancy.check(_query(c))
             c["occupancy_text"] = occupancy.describe(c["occupancy"])
     if llm:
