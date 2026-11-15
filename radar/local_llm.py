@@ -282,7 +282,6 @@ def apply_write(c: dict, r: dict | None) -> None:
                                             "kill_criteria", "stage", "window")}
     c["analysis"]["applications"] = apps
     c["analysis"]["cheap_bet"] = apps[0].get("first_step") if apps else None
-    c["analysis"]["edge_for_user"] = edge_text(c)
     c["analysis"].update({"title_ru": c.get("llm_title") or c["label"],
                           "skeptics_vs_fans": None, "by": "local"})
     for k in ("earn", "learn"):

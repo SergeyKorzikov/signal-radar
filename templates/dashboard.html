@@ -223,7 +223,6 @@ function card(c, i, section) {
   if (a.window) badges.push(`<span class="badge" title="Сколько осталось до того, как это станет общим местом">окно: ${esc(a.window)}</span>`);
   if (c.hops > 1) badges.push(`<span class="badge st" title="Тема одновременно всплыла на нескольких платформах">${c.hops} платформы</span>`);
   if (c.lane === "культура и мемы" || c.lane === "игры") badges.push(`<span class="badge" title="Если строите на чужом персонаже или бренде, платформа может удалить проект по жалобе правообладателя">чужой IP: проверьте</span>`);
-  if (c.fit_domain && c.fit >= 0.15) badges.push(`<span class="badge" title="Совпадение с вашими интересами: ${fmt(c.fit,2)}">${esc(c.fit_domain)}</span>`);
   if (section === "outside") badges.push(`<span class="badge">вне пузыря</span>`);
   if (a.by === "template") badges.push(`<span class="badge" title="Нейросеть не ответила по этому сигналу — разбор собран по шаблону из цифр">шаблонный разбор</span>`);
   const p = (k, v) => v ? `<p class="p"><span class="k">${k}</span>${esc(v)}</p>` : "";
@@ -244,7 +243,7 @@ function card(c, i, section) {
     ${a.earn_why || a.learn_why ? `<div class="note" style="margin:0">${esc(a.earn_why || "")} ${esc(a.learn_why || "")}</div>` : ""}
     <div><div class="spark-head"><span>${c.metric_label ? esc(c.metric_label) : `${c.now} упом. за неделю · рост ×${fmt(times)}`}</span>
       ${c.series_by_kind ? `<span class="legend">${KINDS.map(([,l,col]) => `<span style="--c:var(${col})">${l}</span>`).join("")}</span>` : ""}</div>${sparkline(c)}</div>
-    ${p("Что это", a.what)}${p("Почему сейчас", a.why_now)}${p("Скептики и фанаты", a.skeptics_vs_fans)}${p("Ваше преимущество", a.edge_for_user)}
+    ${p("Что это", a.what)}${p("Почему сейчас", a.why_now)}${p("Скептики и фанаты", a.skeptics_vs_fans)}
     ${c.occupancy_text ? `<p class="p"><span class="k">Занято ли место</span>${esc(c.occupancy_text)}</p>` : ""}
     ${(a.applications || []).length ? `<div class="apps"><span class="p"><span class="k">Как применить</span></span>${a.applications.map(x => `<div class="app"><span class="ch">${esc(x.channel)}</span>${esc(x.idea)}<span class="fs">Первый шаг: ${esc(x.first_step)}</span></div>`).join("")}</div>`
       : a.cheap_bet ? `<div class="bet"><span class="k">Ставка на выходные</span>${esc(a.cheap_bet)}</div>` : ""}
@@ -352,7 +351,7 @@ function render() {
     `<span class="chip">кандидатов: <b>${d.stats.candidates.toLocaleString("ru-RU")}</b></span><span class="chip">история: <b>${d.stats.history_weeks} нед.</b></span>` +
     `<span class="chip">разбор: <b>${{local: "своя нейросеть", ai: "Claude API"}[d.analyst] || "шаблон"}</b></span>`;
   $("#summary").hidden = !d.summary; $("#summary").textContent = d.summary || "";
-  const tabs = [["main","Ранние сигналы",d.main.length],["outside","Вне пузыря",d.outside.length],["wave","Уже волна",d.wave.length],
+  const tabs = [["main","Ранние сигналы",d.main.length],...(d.outside.length ? [["outside","Ещё сигналы",d.outside.length]] : []),["wave","Уже волна",d.wave.length],
     ["tracker","Трекер",Object.keys(DATA.registry).length],["backtest","Проверка на прошлом",null],["rejected","Отсеяно",d.rejected.length],["chat","Чат с нейросетью",null]];
   $("#tabs").innerHTML = tabs.map(([k,l,n]) => `<button class="tab" role="tab" data-tab="${k}" aria-selected="${state.tab===k}">${l}${n!=null?`<span class="n">${n}</span>`:""}</button>`).join("");
   $("#tabs").querySelectorAll(".tab").forEach(b => b.onclick = () => { state.tab = b.dataset.tab; render(); });
@@ -372,7 +371,7 @@ function render() {
         && (!state.channel || ((c.analysis||{}).applications||[]).some(x => x.channel === state.channel))
         && (!state.stage || (c.analysis||{}).stage === state.stage))
       .sort((a,b) => key(b) - key(a));
-    const intro = state.tab === "outside" ? `<p class="note">Сильные сигналы из областей, далёких от ваших интересов. Эти слоты отданы им принудительно, чтобы радар не превратился в ещё один пузырь.</p>` : "";
+    const intro = state.tab === "outside" ? "" : "";
     main.innerHTML = intro + (list.length ? `<div class="grid">${list.map((c,i)=>card(c,i,state.tab)).join("")}</div>` : `<div class="empty">На этой неделе пусто.</div>`);
     list.forEach(c => { const svg = main.querySelector(`svg[data-term="${CSS.escape(c.term)}"]`); if (svg) bindSpark(svg, c); });
   } else if (state.tab === "wave") main.innerHTML = waveTable(d.wave);

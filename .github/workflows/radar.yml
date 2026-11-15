@@ -5,6 +5,10 @@ on:
     - cron: "17 4 * * *"   # каждый день в 07:17 по Стамбулу
   workflow_dispatch:
     inputs:
+      rebuild_only:
+        description: "Только пересобрать дашборд из уже собранных данных (2 минуты)"
+        type: boolean
+        default: false
       backtest:
         description: "Заодно прогнать бэктест на прошлых волнах (~20 минут)"
         type: boolean
@@ -46,10 +50,11 @@ jobs:
         run: python -m pytest -q
 
       - name: Бэктест
-        if: ${{ inputs.backtest || hashFiles('data/backtest.json') == '' }}
+        if: ${{ !inputs.rebuild_only && (inputs.backtest || hashFiles('data/backtest.json') == '') }}
         run: python -m radar backtest
 
       - name: Прогон радара
+        if: ${{ !inputs.rebuild_only }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}   # необязательно: проверка занятости на YouTube
