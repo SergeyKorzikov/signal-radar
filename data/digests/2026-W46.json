@@ -1,0 +1,2923 @@
+{
+ "week": "2026-W46",
+ "start": "2026-11-06T00:00:00+00:00",
+ "end": "2026-11-13T00:00:00+00:00",
+ "generated_at": "2026-11-15T13:21+00:00",
+ "analyst": "local",
+ "summary": "Сигналы недели объединяются вокруг трендов в AI-развитии — от агентов и сандбоксов до инструментов для их разработки, что свидетельствует о росте фокуса на практической реализации ИИ в реальных задачах. Параллельно наблюдается активность на рынках прогнозов (Polymarket) и в мем-культуре, что указывает на рост общественного интереса к будущим событиям и технологическим трендам. Наиболее значимо — развитие инструментов и сред для AI-агентов, а также их интеграция с реальными задачами и платформами.",
+ "lanes": [
+  "наука",
+  "технологии",
+  "культура и мемы",
+  "игры",
+  "рынки"
+ ],
+ "stats": {
+  "docs": {
+   "arxiv": 4113,
+   "biorxiv": 1350,
+   "github": 2838,
+   "huggingface": 600,
+   "hn": 1698
+  },
+  "candidates": 749,
+  "history_weeks": 6,
+  "items": {
+   "wikipedia": 400,
+   "trends": 60,
+   "kym": 16,
+   "urban": 10,
+   "roblox": 143,
+   "steam": 100,
+   "itch": 36,
+   "polymarket": 48,
+   "coingecko": 15,
+   "modrinth": 100,
+   "_themes": 141
+  }
+ },
+ "main": [
+  {
+   "term": "weight space programming",
+   "label": "weight space programming",
+   "now": 18,
+   "by_source": {
+    "arxiv": 10,
+    "github": 4,
+    "huggingface": 2,
+    "hn": 4
+   },
+   "by_kind": {
+    "research": 10,
+    "builder": 4,
+    "talk": 4
+   },
+   "expected": 1.11,
+   "growth": 2.832,
+   "acceleration": 1.319,
+   "n_kinds": 3,
+   "builder_weight": 12.52,
+   "stars_per_day": 35.7,
+   "novelty": 0.88,
+   "focus": 0.8,
+   "specificity": 0.18,
+   "weeks_seen": 2,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    5.91,
+    16.87
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     4,
+     10
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     2,
+     6
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     4
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.774,
+    "acceleration": 0.935,
+    "diversity": 1.0,
+    "builders": 0.403,
+    "media_gap": 0.5,
+    "toy_test": 0.35,
+    "novelty": 0.88,
+    "focus": 0.8
+   },
+   "score": 72.3,
+   "aliases": [
+    "space programming",
+    "weight space"
+   ],
+   "examples": [
+    {
+     "source": "github",
+     "title": "jushengzhang/robot-weight-debugging: First release for Can LLMs Debug Robots by Editing Their Weights? Code, 65-row edit, 16 experiment logs and evidence. V2 and real-robot experiments in progress.",
+     "url": "https://github.com/jushengzhang/robot-weight-debugging",
+     "snippet": "ng robotics vision-language-action weight-space-programming",
+     "meta": {
+      "stars": 126,
+      "stars_per_day": 20.0
+     }
+    },
+    {
+     "source": "hn",
+     "title": "Can a Linear Program Do Weight-Space Programming?",
+     "url": "https://news.ycombinator.com/item?id=50452655",
+     "snippet": "",
+     "meta": {
+      "points": 294
+     }
+    },
+    {
+     "source": "github",
+     "title": "suayptalha/wsr: A toolkit for Weight-Space Programming / Reading",
+     "url": "https://github.com/suayptalha/wsr",
+     "snippet": "ace-programming",
+     "meta": {
+      "stars": 22,
+      "stars_per_day": 5.9
+     }
+    },
+    {
+     "source": "github",
+     "title": "nathanrs/weight-space-lp: Linear Programming for Weight-Space Programming",
+     "url": "https://github.com/nathanrs/weight-space-lp",
+     "snippet": "",
+     "meta": {
+      "stars": 48,
+      "stars_per_day": 5.6
+     }
+    },
+    {
+     "source": "huggingface",
+     "title": "RikiyaT/Qwen3.5-0.8B-weight-space-programming (image-text-to-text)",
+     "url": "https://huggingface.co/RikiyaT/Qwen3.5-0.8B-weight-space-programming",
+     "snippet": "",
+     "meta": {
+      "likes": 143
+     }
+    },
+    {
+     "source": "hn",
+     "title": "Adventures in Weight Space Programming",
+     "url": "https://news.ycombinator.com/item?id=50459411",
+     "snippet": "",
+     "meta": {
+      "points": 9
+     }
+    },
+    {
+     "source": "hn",
+     "title": "Weight-space programming: editing Qwen3.5 into a top Pac-Man decision model",
+     "url": "https://news.ycombinator.com/item?id=50427171",
+     "snippet": "",
+     "meta": {
+      "points": 6
+     }
+    },
+    {
+     "source": "huggingface",
+     "title": "chrisvoncsefalvay/vespasian",
+     "url": "https://huggingface.co/spaces/chrisvoncsefalvay/vespasian",
+     "snippet": "",
+     "meta": {
+      "likes": 4
+     }
+    },
+    {
+     "source": "arxiv",
+     "title": "Zero-Shot Weight-Space Programming Across a Difficulty-Graded Ladder of Two-Player Games",
+     "url": "https://arxiv.org/abs/2611.09271v2",
+     "snippet": "",
+     "meta": {}
+    }
+   ],
+   "fit": 0.3,
+   "fit_domain": "ai",
+   "domains": [
+    "cs.AI",
+    "Python",
+    "story"
+   ],
+   "earn": 6.0,
+   "learn": 9.0,
+   "lane": "наука",
+   "toy": {
+    "comments": 31,
+    "skeptic": 0,
+    "enthusiast": 1,
+    "examples": [
+     {
+      "side": "энтузиаст",
+      "text": "can do. Experiments 1, 2, 3, 5 and 6. All of these are technical breakthroughs Weight space programming is a holy grail of RSI research, and what you are talking about is very different from that, while the paper's proposal",
+      "url": "https://news.ycombinator.com/item?id=50350355"
+     }
+    ]
+   },
+   "toy_score": 0.35,
+   "media_gap": 0.5,
+   "llm_title": "Программирование в пространстве весов",
+   "llm_what": "метод программирования нейросетей через пространство весов",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "roblox": {
+     "count": 0,
+     "top_players": 0,
+     "players": 0
+    },
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 240
+    },
+    "domain": {
+     "domain": "weightspaceprogramming.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 240 репозиториев · домен weightspaceprogramming.com занят",
+   "analysis": {
+    "what": "Программирование в пространстве весов — это метод, при котором параметры нейронных сетей (веса) изменяются как переменные в линейной или оптимизационной задаче, чтобы улучшить их поведение, например, для отладки или обучения роботов. Технология основана на решении задач линейного программирования для настройки весов модели.",
+    "why_now": "Упоминаний за неделю — 18, в 7.1 раза больше, чем ожидаемых (1.11)",
+    "earn_why": "Метод пока не встроен в стандартные практики, но может быть использован для специализированных задач",
+    "learn_why": "Технология требует глубокого понимания линейного программирования и нейронных сетей",
+    "kill_criteria": "Отсутствие реальных экспериментальных результатов в отладке или обучении моделей в реальных задачах (например, в робототехнике или компьютерном зрении)",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать инструмент для отладки нейронных сетей, позволяющий изменять веса через линейное программирование",
+      "first_step": "Создать минимальный рабочий пример на GitHub с примером отладки робота через изменение весов"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Написать обзор или курс по программированию в пространстве весов для специалистов в области ИИ",
+      "first_step": "Собрать 5 примеров из GitHub и Hugging Face, оформить в виде структурированного обзора"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Предложить ставку на внедрение метода в производственные ИИ-системы для отладки",
+      "first_step": "Провести анализ 2-х репозиториев на GitHub, выделить ключевые проблемы и возможности"
+     }
+    ],
+    "cheap_bet": "Создать минимальный рабочий пример на GitHub с примером отладки робота через изменение весов",
+    "edge_for_user": "Пересекается с вашей областью: ИИ. Стоит смотреть, как это переносится к вам.",
+    "title_ru": "Программирование в пространстве весов",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "card game",
+   "label": "card game",
+   "now": 6,
+   "by_source": {
+    "arxiv": 3,
+    "github": 3
+   },
+   "by_kind": {
+    "research": 3,
+    "builder": 3,
+    "talk": 0
+   },
+   "expected": 0.72,
+   "growth": 2.028,
+   "acceleration": 0.623,
+   "n_kinds": 2,
+   "builder_weight": 11.33,
+   "stars_per_day": 50.4,
+   "novelty": 0.75,
+   "focus": 0.67,
+   "specificity": 0.12,
+   "weeks_seen": 3,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    3.14,
+    0.0,
+    7.23
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     2,
+     0,
+     3
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     1,
+     0,
+     3
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.661,
+    "acceleration": 0.565,
+    "diversity": 0.5,
+    "builders": 0.363,
+    "media_gap": 0.5,
+    "toy_test": 0.35,
+    "novelty": 0.75,
+    "focus": 0.67
+   },
+   "score": 56.0,
+   "examples": [
+    {
+     "source": "github",
+     "title": "adetounfisayomi/governor-of-poker-game-enhancement: Governor of Poker: Wild West poker against 100+ rivals on Windows",
+     "url": "https://github.com/adetounfisayomi/governor-of-poker-game-enhancement",
+     "snippet": "s governor-of-poker governor-of-poker-setup poker-game trial-version windows windows-software",
+     "meta": {
+      "stars": 102,
+      "stars_per_day": 21.7
+     }
+    },
+    {
+     "source": "github",
+     "title": "rehansaid226-ops/solitaire-well-desktop: Solitaire-Well: Windows Card Game with Diamond and Napoleon's Tomb Variants",
+     "url": "https://github.com/rehansaid226-ops/solitaire-well-desktop",
+     "snippet": "games solitaire-variants solitaire-well-download trial-version undo-redo windows windows-software",
+     "meta": {
+      "stars": 101,
+      "stars_per_day": 21.6
+     }
+    },
+    {
+     "source": "github",
+     "title": "HalfVulpes/sts2ai: Zero-search RL policies for Slay the Spire 2 with failure-driven restarts: code, frozen protocols, trained policies and evaluation records. Topics: reinforcement-learning, slay-the-spire, ppo, game-ai,",
+     "url": "https://github.com/HalfVulpes/sts2ai",
+     "snippet": "",
+     "meta": {
+      "stars": 44,
+      "stars_per_day": 7.1
+     }
+    },
+    {
+     "source": "arxiv",
+     "title": "Attention Is Only as Good as Its Witnesses: When Higher-Order Layers Help, and When They Do Not",
+     "url": "https://arxiv.org/abs/2611.11937v1",
+     "snippet": "",
+     "meta": {}
+    },
+    {
+     "source": "arxiv",
+     "title": "Rational Use of Time for Social Coordination in Humans and AI",
+     "url": "https://arxiv.org/abs/2611.14766v1",
+     "snippet": "",
+     "meta": {}
+    },
+    {
+     "source": "arxiv",
+     "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game",
+     "url": "https://arxiv.org/abs/2611.15524v1",
+     "snippet": "",
+     "meta": {}
+    }
+   ],
+   "fit": 1.0,
+   "fit_domain": "games",
+   "domains": [
+    "HTML",
+    "C#",
+    "cs.LG"
+   ],
+   "earn": 7.0,
+   "learn": 8.0,
+   "lane": "наука",
+   "toy": {
+    "comments": 18,
+    "skeptic": 0,
+    "enthusiast": 1,
+    "examples": [
+     {
+      "side": "энтузиаст",
+      "text": "shows Turing Completeness in the mathematical equivalent of a petri dish. We've built Turing Machines out of Magic the Gathering card game decks [1]. To some extent if there was a way to build a truly, well enforced, secure",
+      "url": "https://news.ycombinator.com/item?id=50471755"
+     }
+    ]
+   },
+   "toy_score": 0.35,
+   "media_gap": 0.5,
+   "llm_title": "Игра на основе карт для ИИ",
+   "llm_what": "игровой формат на основе карт, используемый в исследованиях ИИ",
+   "llm_kind": "игра, мод или игровой жанр",
+   "occupancy": {
+    "modrinth": {
+     "count": 32
+    },
+    "steam": {
+     "count": 10
+    },
+    "github": {
+     "count": 81268
+    },
+    "domain": {
+     "domain": "cardgame.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 32 · Steam: 10 игр · GitHub: 81268 репозиториев · домен cardgame.com занят",
+   "analysis": {
+    "what": "Игры на основе карт, где ИИ участвует как игрок или используется для генерации правил и стратегий. Примеры — моды в Minecraft и проекты на GitHub, где ИИ обучается играть в покер, солитейр и другие карточные игры.",
+    "why_now": "6 упоминаний за неделю против ожидаемых 0.72 — рост в 4.1 раза",
+    "earn_why": "Моды и игры могут быть быстро запущены и распространены, ИИ-игры — потенциальный источник дохода через продажу модов или подписки",
+    "learn_why": "Для понимания работы ИИ в играх на основе карт важно знать основы машинного обучения и стратегий в карточных играх",
+    "kill_criteria": "Нет роста упоминаний в течение 3 дней подряд, или отсутствие активных репозиториев на GitHub",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод в Minecraft, где ИИ играет в карточные игры против пользователя",
+      "first_step": "Найти или адаптировать код из GitHub-репозиториев, например, governor-of-poker или sts2ai"
+     },
+     {
+      "channel": "игра в Roblox",
+      "idea": "Разработать игру в Roblox, где ИИ-игроки участвуют в карточных сражениях",
+      "first_step": "Проверить, есть ли готовые шаблоны в Roblox-сообществе по карточным играм"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Создать курс по разработке ИИ-игр на основе карт",
+      "first_step": "Собрать примеры из arXiv и GitHub, проанализировать, как ИИ обучается в карточных играх"
+     }
+    ],
+    "cheap_bet": "Найти или адаптировать код из GitHub-репозиториев, например, governor-of-poker или sts2ai",
+    "edge_for_user": "Прямо в вашей области: игр. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Игра на основе карт для ИИ",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "purpose ai agent",
+   "label": "purpose ai agent",
+   "now": 27,
+   "by_source": {
+    "arxiv": 1,
+    "github": 26
+   },
+   "by_kind": {
+    "research": 1,
+    "builder": 26,
+    "talk": 0
+   },
+   "expected": 0.39,
+   "growth": 4.332,
+   "acceleration": 1.257,
+   "n_kinds": 1,
+   "builder_weight": 116.05,
+   "stars_per_day": 804.3,
+   "novelty": 1.0,
+   "focus": 1.0,
+   "specificity": 0.19,
+   "weeks_seen": 1,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    32.53
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     1
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     26
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.992,
+    "acceleration": 0.911,
+    "diversity": 0.0,
+    "builders": 0.823,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 1.0,
+    "focus": 1.0
+   },
+   "score": 72.2,
+   "aliases": [
+    "ai manus",
+    "purpose ai",
+    "general purpose ai"
+   ],
+   "examples": [
+    {
+     "source": "github",
+     "title": "Sorsax/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/Sorsax/ai--manus",
+     "snippet": "-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "ShedrackOlisa/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/ShedrackOlisa/ai--manus",
+     "snippet": "ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "sachinspanchal05/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/sachinspanchal05/ai--manus",
+     "snippet": "-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "arxiv",
+     "title": "ChipOmni: A General-Purpose AI Agent for Electronic Design Automation",
+     "url": "https://arxiv.org/abs/2611.13020v1",
+     "snippet": "",
+     "meta": {}
+    }
+   ],
+   "fit": 1.0,
+   "fit_domain": "ai",
+   "domains": [
+    "Python",
+    "cs.AI"
+   ],
+   "earn": 8.0,
+   "learn": 9.0,
+   "lane": "технологии",
+   "toy": {
+    "comments": 0,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media": null,
+   "media_gap": 0.5,
+   "llm_title": "Целенаправленный AI-агент",
+   "llm_what": "AI-агент, способный выполнять задачи и использовать инструменты",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 960
+    },
+    "domain": {
+     "domain": "purposeaiagent.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 960 репозиториев · домен purposeaiagent.com свободен",
+   "analysis": {
+    "what": "Целенаправленный AI-агент — это система, которая может выполнять задачи в sandbox-среде, используя инструменты и вызывая функции, например, для работы с данными, чатами или интерфейсами. Такие агенты построены на базе LLM и могут взаимодействовать с различными сервисами, как OpenAI, Anthropic или через SDK.",
+    "why_now": "Упоминаний за неделю — 27, в 20.1 раза больше, чем ожидаемых 0.39; на GitHub — 960 репозиториев, 804 звёзд в день.",
+    "earn_why": "Можно быстро создать рабочий инструмент, который можно продавать или интегрировать в сервисы",
+    "learn_why": "Знание архитектуры агентов позволяет быстро адаптироваться к новым задачам и интеграциям",
+    "kill_criteria": "Появление более 100 ошибок в реальных сценариях использования (например, при вызове функций или сбоях в sandbox-среде)",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать AI-агента для автоматизации задач в DevOps (например, запуск тестов, настройка окружений)",
+      "first_step": "Создать минимальный рабочий пример (MVP) на основе ai--manus с интеграцией OpenAI и функцией вызова"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Предоставить обучающий контент по созданию агентов с использованием tool-calling и sandbox-среды",
+      "first_step": "Написать обзорный пост на HN или в Reddit с примерами из GitHub"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, где AI-агент управляет объектами в мире",
+      "first_step": "Создать прототип агента в Minecraft через API-интеграцию с встроенным сценарием"
+     }
+    ],
+    "cheap_bet": "Создать минимальный рабочий пример (MVP) на основе ai--manus с интеграцией OpenAI и функцией вызова",
+    "edge_for_user": "Прямо в вашей области: ИИ. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Целенаправленный AI-агент",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "sandbox environment",
+   "label": "sandbox environment",
+   "now": 27,
+   "by_source": {
+    "github": 27
+   },
+   "by_kind": {
+    "research": 0,
+    "builder": 27,
+    "talk": 0
+   },
+   "expected": 0.39,
+   "growth": 4.332,
+   "acceleration": 1.257,
+   "n_kinds": 1,
+   "builder_weight": 121.3,
+   "stars_per_day": 873.6,
+   "novelty": 1.0,
+   "focus": 1.0,
+   "specificity": 0.45,
+   "weeks_seen": 1,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    32.53
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     27
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.984,
+    "acceleration": 0.903,
+    "diversity": 0.0,
+    "builders": 0.895,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 1.0,
+    "focus": 1.0
+   },
+   "score": 72.9,
+   "examples": [
+    {
+     "source": "github",
+     "title": "devvmhq/devvm: One VM for every project. An isolated sandbox with your project’s toolchain, ready for you or a coding agent to start coding",
+     "url": "https://github.com/devvmhq/devvm",
+     "snippet": "-agent coding-agents developer-tools development lima lima-vm linux sandbox sandbox-environment ubuntu virtual-machine vm",
+     "meta": {
+      "stars": 639,
+      "stars_per_day": 69.3
+     }
+    },
+    {
+     "source": "github",
+     "title": "Sorsax/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/Sorsax/ai--manus",
+     "snippet": "-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "ShedrackOlisa/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/ShedrackOlisa/ai--manus",
+     "snippet": "ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    }
+   ],
+   "fit": 0.9,
+   "fit_domain": "ai",
+   "domains": [
+    "Python",
+    "Go"
+   ],
+   "earn": 8.0,
+   "learn": 9.0,
+   "lane": "технологии",
+   "toy": {
+    "comments": 7,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media": null,
+   "media_gap": 0.5,
+   "llm_title": "Сандбоксная среда",
+   "llm_what": "изолированная среда для тестирования и разработки программ",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 2832
+    },
+    "domain": {
+     "domain": "sandboxenvironment.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 2832 репозиториев · домен sandboxenvironment.com занят",
+   "analysis": {
+    "what": "Сандбоксная среда — это изолированная виртуальная среда, где можно запускать проекты, код или AI-агенты без риска повредить основную систему. Используется для тестирования, разработки и безопасного выполнения инструментов.",
+    "why_now": "Упоминаний в GitHub выросли с 0.39 до 27 за неделю — рост в 20.1 раза",
+    "earn_why": "Можно быстро создать сервис, который решает задачу изоляции кода и AI-агентов",
+    "learn_why": "Знание сандбоксных сред важно для разработки AI-агентов и безопасной интеграции инструментов",
+    "kill_criteria": "Появление 10+ критических ошибок в реальных проектах, где сандбокс не защищает от сбоев",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать сервис для разработчиков, который предлагает сандбоксную среду с поддержкой AI-агентов и инструментов",
+      "first_step": "Создать MVP-репозиторий на GitHub с примером запуска AI-агента в сандбоксе"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Написать обзор сандбоксных сред и их роли в разработке AI-агентов",
+      "first_step": "Собрать 5 примеров из GitHub и проанализировать их архитектуру"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, который имитирует сандбоксную среду для обучения",
+      "first_step": "Найти базовый мод и добавить функцию изоляции проектов"
+     }
+    ],
+    "cheap_bet": "Создать MVP-репозиторий на GitHub с примером запуска AI-агента в сандбоксе",
+    "edge_for_user": "Прямо в вашей области: ИИ. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Сандбоксная среда",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "typescript sdk",
+   "label": "typescript sdk",
+   "now": 27,
+   "by_source": {
+    "github": 27
+   },
+   "by_kind": {
+    "research": 0,
+    "builder": 27,
+    "talk": 0
+   },
+   "expected": 0.39,
+   "growth": 4.332,
+   "acceleration": 1.257,
+   "n_kinds": 1,
+   "builder_weight": 119.49,
+   "stars_per_day": 814.7,
+   "novelty": 1.0,
+   "focus": 1.0,
+   "specificity": 0.63,
+   "weeks_seen": 1,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    32.53
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     27
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.976,
+    "acceleration": 0.895,
+    "diversity": 0.0,
+    "builders": 0.887,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 1.0,
+    "focus": 1.0
+   },
+   "score": 72.5,
+   "aliases": [
+    "ai sdk"
+   ],
+   "examples": [
+    {
+     "source": "github",
+     "title": "Sorsax/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/Sorsax/ai--manus",
+     "snippet": "-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "ShedrackOlisa/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/ShedrackOlisa/ai--manus",
+     "snippet": "ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "sachinspanchal05/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/sachinspanchal05/ai--manus",
+     "snippet": "-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    }
+   ],
+   "fit": 0.9,
+   "fit_domain": "ai",
+   "domains": [
+    "Python",
+    "HTML"
+   ],
+   "earn": 8.0,
+   "learn": 9.0,
+   "lane": "технологии",
+   "toy": {
+    "comments": 3,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media": null,
+   "media_gap": 0.5,
+   "llm_title": "SDK на TypeScript для AI-агентов",
+   "llm_what": "SDK на TypeScript для работы с AI-агентами и инструментами",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 7275
+    },
+    "domain": {
+     "domain": "typescriptsdk.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 7275 репозиториев · домен typescriptsdk.com занят",
+   "analysis": {
+    "what": "SDK на TypeScript, позволяющий строить AI-агентов с поддержкой инструментов и вызова функций. Используется в проектах, где важна типизация и интеграция с современными фронтенд-фреймворками.",
+    "why_now": "27 упоминаний за неделю при ожидаемых 0.39 — рост в 20.1 раза",
+    "earn_why": "Технология может быть быстро внедрена в проекты, где важна типизация и интеграция с AI-системами",
+    "learn_why": "Разработчики, понимающие типизацию и агентные системы, могут быстро стать востребованными",
+    "kill_criteria": "Снижение упоминаний до 1 за неделю и отсутствие активных репозиториев на GitHub в течение 2 недель",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать интегрируемый SDK для разработчиков, который позволяет быстро настраивать AI-агентов с типизированными API и поддержкой функционального вызова",
+      "first_step": "Создать минимальный рабочий пример (MVP) с поддержкой одного инструмента (например, OpenAI) и опубликовать на GitHub"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Написать обзор для разработчиков, объясняющий, как использовать TypeScript SDK для AI-агентов в реальных проектах",
+      "first_step": "Собрать 3-5 примеров из GitHub и оформить в виде статьи на HN или в блоге"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод для Minecraft, где AI-агенты управляют объектами с использованием TypeScript-SDK",
+      "first_step": "Создать простой скрипт на TypeScript, который может управлять блоками в Minecraft через API"
+     }
+    ],
+    "cheap_bet": "Создать минимальный рабочий пример (MVP) с поддержкой одного инструмента (например, OpenAI) и опубликовать на GitHub",
+    "edge_for_user": "Прямо в вашей области: ИИ. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "SDK на TypeScript для AI-агентов",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "support running",
+   "label": "supports running",
+   "now": 26,
+   "by_source": {
+    "github": 26
+   },
+   "by_kind": {
+    "research": 0,
+    "builder": 26,
+    "talk": 0
+   },
+   "expected": 0.39,
+   "growth": 4.279,
+   "acceleration": 1.246,
+   "n_kinds": 1,
+   "builder_weight": 116.05,
+   "stars_per_day": 804.3,
+   "novelty": 1.0,
+   "focus": 1.0,
+   "specificity": 0.2,
+   "weeks_seen": 1,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    31.32
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     26
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.952,
+    "acceleration": 0.871,
+    "diversity": 0.0,
+    "builders": 0.831,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 1.0,
+    "focus": 1.0
+   },
+   "score": 71.1,
+   "examples": [
+    {
+     "source": "github",
+     "title": "Sorsax/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/Sorsax/ai--manus",
+     "snippet": "-agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "ShedrackOlisa/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/ShedrackOlisa/ai--manus",
+     "snippet": "ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "sachinspanchal05/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/sachinspanchal05/ai--manus",
+     "snippet": "-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 261,
+      "stars_per_day": 32.8
+     }
+    }
+   ],
+   "fit": 0.9,
+   "fit_domain": "ai",
+   "domains": [
+    "Python"
+   ],
+   "earn": 8.0,
+   "learn": 9.0,
+   "lane": "технологии",
+   "toy": {
+    "comments": 4,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media_gap": 0.5,
+   "llm_title": "Поддержка выполнения задач (run support)",
+   "llm_what": "функция AI-системы, поддерживающая выполнение внешних инструментов",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 5
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 1138
+    },
+    "domain": {
+     "domain": "supportsrunning.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 5 · Steam: 0 игр · GitHub: 1138 репозиториев · домен supportsrunning.com свободен",
+   "analysis": {
+    "what": "Инструмент, который позволяет AI-агентам выполнять задачи, используя инструменты и операции в изолированной среде (sandbox). Пример — система AI Manus, которая поддерживает вызов функций, интеграцию с API и работу с различными платформами.",
+    "why_now": "Упоминаний в GitHub за неделю — 26, в 19,4 раза больше, чем ожидаемых (0,39).",
+    "earn_why": "Технология может быть использована для автоматизации задач в бизнесе, например, в DevOps или CRM.",
+    "learn_why": "Знание работы AI-агентов с инструментами важно для разработки и интеграции в автоматизированные системы.",
+    "kill_criteria": "Нет активных репозиториев на GitHub в течение 2 недель или снижение упоминаний до 1 за неделю.",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Разработать AI-агент, который может выполнять задачи в автоматическом режиме через инструменты (например, обновление конфигураций, работа с API).",
+      "first_step": "Создать минимальный рабочий пример (MVP) на основе AI Manus с функцией вызова API."
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Предоставить обучающий материал по использованию AI-агентов с поддержкой выполнения задач.",
+      "first_step": "Собрать 3 примера из GitHub-репозиториев и оформить в виде статьи о принципах работы."
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод для Minecraft, который демонстрирует работу AI-агента в виртуальной среде.",
+      "first_step": "Найти базовый мод и интегрировать в него функцию вызова инструментов."
+     }
+    ],
+    "cheap_bet": "Создать минимальный рабочий пример (MVP) на основе AI Manus с функцией вызова API.",
+    "edge_for_user": "Прямо в вашей области: ИИ. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Поддержка выполнения задач (run support)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:elissa slotkin",
+   "label": "elissa slotkin",
+   "lane": "культура и мемы",
+   "kind": "тема",
+   "now": 2,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 2,
+   "metric_label": "2 объектов на 2 платформах: Polymarket, Википедия",
+   "by_source": {
+    "wikipedia": 1,
+    "polymarket": 1
+   },
+   "score": 69,
+   "parts": {
+    "hops": 0.33,
+    "items": 0.33
+   },
+   "examples": [
+    {
+     "source": "polymarket",
+     "title": "Will Elissa Slotkin win the 2028 Democratic presidential nomination?",
+     "url": "https://polymarket.com/market/will-elissa-slotkin-win-the-2028-democratic-presidential-nomination",
+     "snippet": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of",
+     "meta": {
+      "value": "118 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "wikipedia",
+     "title": "Elissa Slotkin",
+     "url": "https://en.wikipedia.org/wiki/Elissa_Slotkin",
+     "snippet": "Elissa Blair Slotkin is an American politician and former Department of Defense official serving since 2025 as the junior United States senator from Michigan. A member of the Democratic Party, she served in the United States House of Representatives from 2019 to 2025.",
+     "meta": {
+      "value": "93 тыс. просмотров Википедии за неделю"
+     }
+    }
+   ],
+   "aliases": [
+    "slotkin",
+    "elissa"
+   ],
+   "fit": 0.5,
+   "fit_domain": "trading",
+   "earn": 7.0,
+   "learn": 3.0,
+   "stars_per_day": 0,
+   "llm_title": "Выборы 2028: Elissa Slotkin",
+   "llm_what": "предсказание на выборы президента 2028 года",
+   "llm_kind": "рыночная возможность",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 0
+    },
+    "domain": {
+     "domain": "elissaslotkin.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 0 репозиториев · домен elissaslotkin.com занят",
+   "analysis": {
+    "what": "Возможность формирования рынка вокруг кандидатуры Элиссы Слоткин на выборах 2028 года в США. Платформы, где уже есть данные — Polymarket (рынок прогнозов) и Википедия (информация о кандидате).",
+    "why_now": "На Polymarket — 118 тыс. долларов оборота в сутки; на Википедии — 93 тыс. просмотров за неделю.",
+    "earn_why": "Можно быстро получить доход, если ставки растут и люди активно участвуют в прогнозах",
+    "learn_why": "Знание о политических кандидатах и структуре выборов полезно для анализа, но не требует глубоких знаний",
+    "kill_criteria": "Потеря интереса к кандидату в США или отсутствие новых ставок на Polymarket в течение 30 дней",
+    "stage": "зарождение",
+    "window": "месяцы",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "Создать ставку на победу Элиссы Слоткин в 2028 году на Polymarket",
+      "first_step": "Создать ставку с суммой 100 долларов на «Да»"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать простой сайт с информацией о кандидате и статистикой",
+      "first_step": "Запустить домен elissaslotkin.com и разместить базовую информацию"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод в Minecraft с персонажем Элиссы Слоткин",
+      "first_step": "Найти тему и создать базовый персонаж в Minecraft"
+     }
+    ],
+    "cheap_bet": "Создать ставку с суммой 100 долларов на «Да»",
+    "edge_for_user": "Пересекается с вашей областью: трейдинга. Стоит смотреть, как это переносится к вам.",
+    "title_ru": "Выборы 2028: Elissa Slotkin",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:aero",
+   "label": "aero",
+   "lane": "культура и мемы",
+   "kind": "тема",
+   "now": 2,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 2,
+   "metric_label": "2 объектов на 2 платформах: CoinGecko, Know Your Meme",
+   "by_source": {
+    "kym": 1,
+    "coingecko": 1
+   },
+   "score": 63,
+   "parts": {
+    "hops": 0.33,
+    "items": 0.33
+   },
+   "examples": [
+    {
+     "source": "kym",
+     "title": "Frutiger Aero Yams",
+     "url": "https://knowyourmeme.com/memes/frutiger-aero-yams",
+     "snippet": "Frutiger Aero Yams is a brainrot slang term and catchphrase referencing both someone's buttocks designed in the Frutiger Aero aesthetic and, more literally, yam vegetables in a Frutiger Aero aesthetic. The term started spreading through surreal and ironic memes, primarily on Instagram, in mid-October 2026. It became in",
+     "meta": {
+      "value": "12 новая запись в базе мемов"
+     }
+    },
+    {
+     "source": "coingecko",
+     "title": "Aero (AERO)",
+     "url": "https://www.coingecko.com/en/coins/aero",
+     "snippet": "",
+     "meta": {
+      "value": "6 место в поисковых трендах CoinGecko"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.5,
+   "fit_domain": "neuroscience",
+   "earn": 4.0,
+   "learn": 2.0,
+   "stars_per_day": 0,
+   "llm_title": "Мем «Aero»",
+   "llm_what": "сюрреалистический сленг о заднике в стиле Frutiger Aero",
+   "llm_kind": "мем, персонаж или интернет-явление",
+   "occupancy": {
+    "modrinth": {
+     "count": 699
+    },
+    "steam": {
+     "count": 10
+    },
+    "github": {
+     "count": 58905
+    },
+    "domain": {
+     "domain": "aero.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 699 · Steam: 10 игр · GitHub: 58905 репозиториев · домен aero.com занят",
+   "analysis": {
+    "what": "Мем «Aero» — это интернет-явление, связанное с аэстетикой Frutiger Aero, где используется для описания ироничных, абсурдных образов, включая формы задней части тела или картофельные овощи в этом стиле. В тренде — как интернет-сленг и визуальный мем.",
+    "why_now": "В поисковых трендах CoinGecko — 6-е место, 1 запись в Know Your Meme (новая), что указывает на рост внимания в течение недели.",
+    "earn_why": "Мемы с высокой визуальной иронией могут привлекать внимание к модам и веб-проектам, но без прямой коммерческой модели — слабый потенциал дохода",
+    "learn_why": "Сложно получить выгоду от экспертизы без понимания контекста иронии и культурных отсылок",
+    "kill_criteria": "Потеря интереса в поисковых трендах CoinGecko и отсутствие новых записей в Know Your Meme в течение 3 недель",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать игру или уровень, где персонажи или объекты оформлены в стиле Frutiger Aero",
+      "first_step": "Найти 1–2 примера изображений в стиле Frutiger Aero и создать базовый мем-объект в Roblox"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, в котором включены элементы Frutiger Aero-стиля",
+      "first_step": "Создать 1–2 ассета в стиле Frutiger Aero и разместить в репозитории Minecraft-модов"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать сайт с коллекцией мемов и объяснением стиля Frutiger Aero",
+      "first_step": "Занять домен aero.com и разместить базовую страницу с 3–5 примерами мемов"
+     }
+    ],
+    "cheap_bet": "Найти 1–2 примера изображений в стиле Frutiger Aero и создать базовый мем-объект в Roblox",
+    "edge_for_user": "Пересекается с вашей областью: нейронаук. Стоит смотреть, как это переносится к вам.",
+    "title_ru": "Мем «Aero»",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:clapping",
+   "label": "clapping",
+   "lane": "культура и мемы",
+   "kind": "тема",
+   "now": 2,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 2,
+   "metric_label": "2 объектов на 2 платформах: Know Your Meme, Modrinth",
+   "by_source": {
+    "kym": 1,
+    "modrinth": 1
+   },
+   "score": 63,
+   "parts": {
+    "hops": 0.33,
+    "items": 0.33
+   },
+   "examples": [
+    {
+     "source": "modrinth",
+     "title": "Clapping Cat Meme",
+     "url": "https://modrinth.com/mod/clapping-cat-meme",
+     "snippet": "This datapack adds the Clapping Cat meme to Minecraft, triggering the clapping mechanic whenever you tame an adult cat.",
+     "meta": {
+      "value": "3028 скачиваний мода"
+     }
+    },
+    {
+     "source": "kym",
+     "title": "Black Cat Clapping",
+     "url": "https://knowyourmeme.com/memes/black-cat-clapping",
+     "snippet": "Black Cat Clapping is an exploitable green-screen meme and trend based on an AI-generated video of a black cat with human hands slowly clapping and smiling. The AI video clip originates from a video by Instagram user merkurianin, uploaded in late September 2026. It was popularized as a meme between late September and O",
+     "meta": {
+      "value": "1 новая запись в базе мемов"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.0,
+   "fit_domain": "",
+   "earn": 8.0,
+   "learn": 6.0,
+   "stars_per_day": 0,
+   "llm_title": "Мем о хлопающем коте",
+   "llm_what": "мем о коте, который хлопает в ладоши",
+   "llm_kind": "мем, персонаж или интернет-явление",
+   "occupancy": {
+    "roblox": {
+     "count": 1,
+     "top_players": 65,
+     "players": 65
+    },
+    "modrinth": {
+     "count": 2
+    },
+    "steam": {
+     "count": 1
+    },
+    "github": {
+     "count": 3726
+    },
+    "domain": {
+     "domain": "clapping.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "Roblox: 1 игр, лучший онлайн 65 · моды Minecraft: 2 · Steam: 1 игр · GitHub: 3726 репозиториев · домен clapping.com занят",
+   "analysis": {
+    "what": "Мем о хлопающем коте — это интернет-явление, где кот с человеческими руками медленно хлопает в ладоши, часто используемое в видеороликах и модах. Варианты включают в себя моды в Minecraft и AI-созданные видео.",
+    "why_now": "В сентябре 2023 года в Instagram появился видео от пользователя merkurianin, которое стало основой для мема — 1 новая запись в Know Your Meme, 3028 скачиваний мода на Modrinth.",
+    "earn_why": "Мем может быть быстро адаптирован в моды и игры, где есть активная аудитория",
+    "learn_why": "Для понимания контекста и художественного стиля мема важно знать, как работают AI-генерируемые видео и реакции пользователей",
+    "kill_criteria": "Отсутствие новых видео или модов в течение 3 недель подряд",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать игру с механикой хлопания кота при взаимодействии с животными",
+      "first_step": "Найти 1-2 готовых шаблона взаимодействия с котами в Roblox-играх и адаптировать их"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод для Minecraft, который активирует хлопание при разведении взрослых котов",
+      "first_step": "Создать базовый datapack на Modrinth с описанием механики хлопания"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать сайт clapping.com с коллекцией видео и модов по мему",
+      "first_step": "Запустить домен clapping.com и разместить 3 примера видео и ссылки на моды"
+     }
+    ],
+    "cheap_bet": "Найти 1-2 готовых шаблона взаимодействия с котами в Roblox-играх и адаптировать их",
+    "edge_for_user": null,
+    "title_ru": "Мем о хлопающем коте",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "wikipedia:scene_(2026_film)",
+   "label": "Scene (2026 film)",
+   "lane": "культура и мемы",
+   "kind": "объект",
+   "now": 1,
+   "value": 946842,
+   "expected": 53899.8,
+   "growth": 3.01,
+   "novelty": 0.75,
+   "metric_label": "947 тыс. просмотров Википедии за неделю · рост ×8,1",
+   "by_source": {
+    "wikipedia": 1
+   },
+   "score": 62.6,
+   "spark": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    142441,
+    946842
+   ],
+   "parts": {
+    "growth": 1.0,
+    "rank": 0.98,
+    "novelty": 0.75
+   },
+   "examples": [
+    {
+     "source": "wikipedia",
+     "title": "Scene (2026 film)",
+     "url": "https://en.wikipedia.org/wiki/Scene_(2026_film)",
+     "snippet": "Scene is a 2026 Indian Tamil-language action comedy film written and directed by Jithu Madhavan. Produced by Suriya and Jyothika's 2D Entertainment and the newly established Zhagaram Studios, the film stars Suriya, Naslen and Nazriya Nazim, with Anandaraj, Lal, Rajpriyan, Suresh Mathiyalagan and Gajaraj in supporting roles. It revolves around a visually-impaired DSP being forced to reopen an unfin",
+     "meta": {
+      "value": "947 тыс. просмотров Википедии за неделю"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.0,
+   "fit_domain": "",
+   "earn": 6.0,
+   "learn": 4.0,
+   "stars_per_day": 0,
+   "llm_title": "Фильм Scene (2026)",
+   "llm_what": "индийская тамильская комедия-ак션 2026 года с Сурия",
+   "llm_kind": "мем, персонаж или интернет-явление",
+   "occupancy": {
+    "modrinth": {
+     "count": 88
+    },
+    "steam": {
+     "count": 10
+    },
+    "github": {
+     "count": 88343
+    },
+    "domain": {
+     "domain": "scene.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 88 · Steam: 10 игр · GitHub: 88343 репозиториев · домен scene.com занят",
+   "analysis": {
+    "what": "Мем — фильм «Scene (2026)», индийский тамильский комедийный акшен, ставший вирусным в интернете. В нём участвуют известные актёры Сурия и Джиту Мадхаван, а также новая студия Zhagaram.",
+    "why_now": "Рост просмотров Википедии на 8,1 раза — до 947 тыс. за неделю",
+    "earn_why": "Мем может быть использован для создания контента, который быстро распространяется, но требует активного продвижения",
+    "learn_why": "Знание сюжета и культурного контекста помогает быстро включаться в обсуждение",
+    "kill_criteria": "Падение просмотров Википедии на 50% в течение недели или исчезновение домена scene.com",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать мини-игру в Roblox, где игроки ведут себя как персонажи из фильма — например, ведут драку или снимают сцены",
+      "first_step": "Создать базовую сцену в Roblox с персонажами Сурия и Наслена"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, где включены сцены из фильма — например, кинотеатр или сцена с битвой",
+      "first_step": "Найти и адаптировать изображения сцены из фильма для использования в моде"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать сайт с информацией о фильме, включая сценарий, актёров и тренды, с возможностью вставки видео",
+      "first_step": "Запустить простой сайт на scene.com с текстом и ссылкой на Википедию"
+     }
+    ],
+    "cheap_bet": "Создать базовую сцену в Roblox с персонажами Сурия и Наслена",
+    "edge_for_user": null,
+    "title_ru": "Фильм Scene (2026)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:ragdoll",
+   "label": "ragdoll",
+   "lane": "игры",
+   "kind": "тема",
+   "now": 15,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 1,
+   "metric_label": "15 объектов на 1 платформе: Roblox",
+   "by_source": {
+    "roblox": 15
+   },
+   "score": 62,
+   "parts": {
+    "hops": 0.0,
+    "items": 1
+   },
+   "examples": [
+    {
+     "source": "roblox",
+     "title": "Bloody Ragdoll Physics 🩸",
+     "url": "https://www.roblox.com/games/140431845542654",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "50 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Ragdoll Soccer",
+     "url": "https://www.roblox.com/games/106931373443671",
+     "snippet": "Sports & Racing",
+     "meta": {
+      "value": "50 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Ragdoll Physics 🩸",
+     "url": "https://www.roblox.com/games/121868512253414",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "34 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "[🏢] Ragdoll Research",
+     "url": "https://www.roblox.com/games/135264274035761",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "21 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "💣 Ragdoll Destruction Playground",
+     "url": "https://www.roblox.com/games/135471930388646",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "20 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Ragdoll Playground",
+     "url": "https://www.roblox.com/games/106521346673466",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "16 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Realistic Ragdoll MMA 🥊",
+     "url": "https://www.roblox.com/games/124780003623150",
+     "snippet": "Action",
+     "meta": {
+      "value": "15 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "untitled ragdoll game",
+     "url": "https://www.roblox.com/games/117446388741509",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "13 тыс. игроков онлайн"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 1.0,
+   "fit_domain": "ai",
+   "earn": 8.0,
+   "learn": 7.0,
+   "stars_per_day": 0,
+   "llm_title": "Физика разрушенных персонажей (Ragdoll)",
+   "llm_what": "механика физического моделирования для персонажей",
+   "llm_kind": "игра, мод или игровой жанр",
+   "occupancy": {
+    "modrinth": {
+     "count": 35
+    },
+    "steam": {
+     "count": 10
+    },
+    "github": {
+     "count": 2735
+    },
+    "domain": {
+     "domain": "ragdoll.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 35 · Steam: 10 игр · GitHub: 2735 репозиториев · домен ragdoll.com занят",
+   "analysis": {
+    "what": "Игры с физикой разрушения персонажей (ragdoll), где игроки могут двигать и разрушать персонажей в реалистичном режиме. Примеры — симуляции, спорт и разрушения в Roblox.",
+    "why_now": "На Roblox 15 объектов, 50 тыс. игроков онлайн в самых популярных модах.",
+    "earn_why": "Моды и игры с физикой разрушения быстро привлекают внимание, есть активные сообщества и высокая вовлечённость.",
+    "learn_why": "Разработчики могут быстро освоить физику в играх и применять её в новых проектах.",
+    "kill_criteria": "Падение числа игроков в играх с ragdoll-физикой ниже 10 тыс. в течение 2 недель",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать игру с физикой разрушения персонажей, например, с сценарием по борьбе или разрушению объектов",
+      "first_step": "Создать базовую сцену с персонажем и включить физику разрушения в Roblox Studio"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft с эффектами разрушения персонажей",
+      "first_step": "Проверить, есть ли в Minecraft моды с ragdoll-физикой, и найти базу для адаптации"
+     },
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать инструмент для разработчиков, который автоматизирует добавление физики разрушения в игры",
+      "first_step": "Изучить API физики в Roblox и Minecraft, создать прототип интеграции"
+     }
+    ],
+    "cheap_bet": "Создать базовую сцену с персонажем и включить физику разрушения в Roblox Studio",
+    "edge_for_user": "Прямо в вашей области: ИИ. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Физика разрушенных персонажей (Ragdoll)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "roblox:10766972131",
+   "label": "Throw Food For Animals",
+   "lane": "игры",
+   "kind": "объект",
+   "now": 1,
+   "value": 486850,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.6,
+   "metric_label": "487 тыс. игроков онлайн",
+   "by_source": {
+    "roblox": 1
+   },
+   "score": 57.8,
+   "spark": [
+    486850
+   ],
+   "parts": {
+    "growth": 0.5,
+    "rank": 1.0,
+    "novelty": 0.6
+   },
+   "examples": [
+    {
+     "source": "roblox",
+     "title": "Throw Food For Animals",
+     "url": "https://www.roblox.com/games/120219252362013",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "487 тыс. игроков онлайн"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.9,
+   "fit_domain": "games",
+   "earn": 7.0,
+   "learn": 4.0,
+   "stars_per_day": 0,
+   "llm_title": "Бросай еду животным",
+   "llm_what": "игра-симулятор, где игрок бросает еду животным",
+   "llm_kind": "игра, мод или игровой жанр",
+   "occupancy": {
+    "modrinth": {
+     "count": 1
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 15
+    },
+    "domain": {
+     "domain": "throwfoodforanimals.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 1 · Steam: 0 игр · GitHub: 15 репозиториев · домен throwfoodforanimals.com занят",
+   "analysis": {
+    "what": "Игра-мем в Roblox, где игроки бросают еду животным в виртуальном мире. Игра основана на идее симуляции, где игроки взаимодействуют с животными, бросая еду.",
+    "why_now": "487 тыс. игроков онлайн — показатель высокой активности в реальном времени.",
+    "earn_why": "Можно быстро создать и запустить игру, использовать популярный мем-сценарий",
+    "learn_why": "Требуется понимание механик симуляций и поведения игроков в мем-играх",
+    "kill_criteria": "Снижение до 10 тыс. игроков онлайн в течение 3 дней или удаление игры из Roblox",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать собственную версию игры 'Бросай еду животным' в Roblox",
+      "first_step": "Создать аккаунт в Roblox и найти публикацию игры с 487 тыс. онлайн-игроков"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, имитирующий сценарий бросания еды животным",
+      "first_step": "Проверить наличие репозиториев на GitHub и найти подходящий шаблон"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать веб-сайт с описанием игры и инструкциями по запуску",
+      "first_step": "Забронировать домен throwfoodforanimals.com, если он не занят"
+     }
+    ],
+    "cheap_bet": "Создать аккаунт в Roblox и найти публикацию игры с 487 тыс. онлайн-игроков",
+    "edge_for_user": "Прямо в вашей области: игр. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Бросай еду животным",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:graveyard",
+   "label": "graveyard",
+   "lane": "игры",
+   "kind": "тема",
+   "now": 2,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 2,
+   "metric_label": "2 объектов на 2 платформах: Modrinth, Steam",
+   "by_source": {
+    "modrinth": 1,
+    "steam": 1
+   },
+   "score": 63,
+   "parts": {
+    "hops": 0.33,
+    "items": 0.33
+   },
+   "examples": [
+    {
+     "source": "modrinth",
+     "title": "Aquamirae Recipe Tweaks - easier Graveyard Echoes",
+     "url": "https://modrinth.com/mod/aquamirae-recipe-tweaks",
+     "snippet": "This Datapack removes the Shipbreaker requirement for the Echoes from Aquamirae to drop as it is a very occasional drop and frankly confusing for players",
+     "meta": {
+      "value": "2888 скачиваний мода"
+     }
+    },
+    {
+     "source": "steam",
+     "title": "Graveyard Keeper 2",
+     "url": "https://store.steampowered.com/app/4358690",
+     "snippet": "",
+     "meta": {
+      "value": "2 место в популярных новинках"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.5,
+   "fit_domain": "games",
+   "earn": 7.0,
+   "learn": 8.0,
+   "stars_per_day": 0,
+   "llm_title": "Мод «Graveyard Echoes»",
+   "llm_what": "мод или модификация для игры, удаляющая сложные условия получения эхо",
+   "llm_kind": "игра, мод или игровой жанр",
+   "occupancy": {
+    "modrinth": {
+     "count": 27
+    },
+    "steam": {
+     "count": 10
+    },
+    "github": {
+     "count": 2749
+    },
+    "domain": {
+     "domain": "graveyard.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 27 · Steam: 10 игр · GitHub: 2749 репозиториев · домен graveyard.com занят",
+   "analysis": {
+    "what": "Мод для Minecraft, называемый «Graveyard Echoes», который изменяет механику получения эхо-предметов, делая их доступнее и понятнее для игроков. В моде убрано ограничение по выпадению, что упрощает игровой процесс.",
+    "why_now": "2 объекта на 2 платформах (Modrinth и Steam), 2888 скачиваний на Modrinth, 2-е место в новинках на Steam",
+    "earn_why": "Моды в Minecraft — активный рынок, есть спрос на упрощение сложных механик",
+    "learn_why": "Знание механик Minecraft-модов и их пользовательского поведения — ключ к успеху",
+    "kill_criteria": "Падение скачиваний на Modrinth ниже 500 или уход с 2-го места в Steam",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать аналогичный мод для Minecraft в других платформах",
+      "first_step": "Проверить, есть ли в других версиях Minecraft аналогичные механики"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать и опубликовать мод на Modrinth с улучшенной механикой получения эхо-предметов",
+      "first_step": "Создать базовый мод с упрощением выпадения эхов"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать сайт с описанием и инструкциями по установке мода",
+      "first_step": "Зарегистрировать домен graveyard.com и разместить базовую документацию"
+     }
+    ],
+    "cheap_bet": "Проверить, есть ли в других версиях Minecraft аналогичные механики",
+    "edge_for_user": "Пересекается с вашей областью: игр. Стоит смотреть, как это переносится к вам.",
+    "title_ru": "Мод «Graveyard Echoes»",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:neythox",
+   "label": "neythox",
+   "lane": "игры",
+   "kind": "тема",
+   "now": 5,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 1,
+   "metric_label": "5 объектов на 1 платформе: Modrinth",
+   "by_source": {
+    "modrinth": 5
+   },
+   "score": 58,
+   "parts": {
+    "hops": 0.0,
+    "items": 0.83
+   },
+   "examples": [
+    {
+     "source": "modrinth",
+     "title": "Neythox 3D Tools (All Colors)",
+     "url": "https://modrinth.com/resourcepack/neythox-3d-tools",
+     "snippet": "Custom 3D Netherite tools and weapons for Minecraft, available in 8 colors. Created by Neythox.",
+     "meta": {
+      "value": "4179 скачиваний мода"
+     }
+    },
+    {
+     "source": "modrinth",
+     "title": "Neythox Fireworks (All Colors)",
+     "url": "https://modrinth.com/resourcepack/neythox-fireworks",
+     "snippet": "Custom 3D Firework Rockets in 8 colors with rainbow particle effects for Minecraft. Created by Neythox.",
+     "meta": {
+      "value": "2809 скачиваний мода"
+     }
+    },
+    {
+     "source": "modrinth",
+     "title": "Neythox Nether Portal (All Colors)",
+     "url": "https://modrinth.com/resourcepack/neythox-nether-portal-ender",
+     "snippet": "Custom Nether Portal, Enderman, Ender Dragon, End Crystal and particle textures for Minecraft, available in 8 colors. Created by Neythox.",
+     "meta": {
+      "value": "2635 скачиваний мода"
+     }
+    },
+    {
+     "source": "modrinth",
+     "title": "Neythox Enchant Glint (All Colors)",
+     "url": "https://modrinth.com/resourcepack/neythox-enchant-glint",
+     "snippet": "Custom Minecraft enchantment glint effect available in 8 colors. Created by Neythox.",
+     "meta": {
+      "value": "2613 скачиваний мода"
+     }
+    },
+    {
+     "source": "modrinth",
+     "title": "Neythox Nether Sky",
+     "url": "https://modrinth.com/resourcepack/neythox-nether-sky",
+     "snippet": "Custom Minecraft Nether sky textures for all 5 Nether biomes, featuring unique skyboxes for each biome. Created by Neythox.",
+     "meta": {
+      "value": "1396 скачиваний мода"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.2,
+   "fit_domain": "ai",
+   "earn": 7.0,
+   "learn": 8.0,
+   "stars_per_day": 0,
+   "llm_title": "Мод Neythox для Minecraft",
+   "llm_what": "мод для Minecraft с 3D инструментами и оружием из нейтхирита",
+   "llm_kind": "игра, мод или игровой жанр",
+   "occupancy": {
+    "modrinth": {
+     "count": 6
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 0
+    },
+    "domain": {
+     "domain": "neythox.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 6 · Steam: 0 игр · GitHub: 0 репозиториев · домен neythox.com занят",
+   "analysis": {
+    "what": "Моды для Minecraft, созданные командой Neythox, которые добавляют 3D-элементы, цветовые варианты и текстуры (например, инструменты, фейерверки, порталы).",
+    "why_now": "На Modrinth 5 модов, 4 из них — с более чем 2000 скачиваний, что указывает на рост интереса к конкретным функциям.",
+    "earn_why": "Моды могут быть проданы как готовые решения или использованы в коммерческих проектах",
+    "learn_why": "Знание стиля и техники создания 3D-модов в Minecraft позволяет быстро адаптироваться к новым проектам",
+    "kill_criteria": "Падение скачиваний ниже 500 в течение 2 недель или исчезновение модов с Modrinth",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Использовать моды Neythox как вдохновение для создания 3D-элементов в Minecraft-играх в Roblox",
+      "first_step": "Проверить, есть ли в Roblox-играх уже реализованные 3D-инструменты или фейерверки, похожие на те, что в модах Neythox"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать собственный мод на основе стиля Neythox — например, 3D-инструменты или текстуры для Nether",
+      "first_step": "Создать базовый мод на Modrinth, добавить 3D-инструменты и 8 цветов, как в примерах"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать веб-платформу, где пользователи могут выбрать цвет и стиль 3D-элементов для Minecraft-модов",
+      "first_step": "Создать простой сайт с выбором цветов и генерацией текстуры, имитирующей стиль Neythox"
+     }
+    ],
+    "cheap_bet": "Проверить, есть ли в Roblox-играх уже реализованные 3D-инструменты или фейерверки, похожие на те, что в модах Neythox",
+    "edge_for_user": "Пересекается с вашей областью: ИИ. Стоит смотреть, как это переносится к вам.",
+    "title_ru": "Мод Neythox для Minecraft",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:nvidia",
+   "label": "nvidia",
+   "lane": "рынки",
+   "kind": "тема",
+   "now": 5,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 3,
+   "metric_label": "5 объектов на 3 платформах: Know Your Meme, Polymarket, Википедия",
+   "by_source": {
+    "wikipedia": 1,
+    "kym": 1,
+    "polymarket": 3
+   },
+   "score": 92,
+   "parts": {
+    "hops": 0.67,
+    "items": 0.83
+   },
+   "examples": [
+    {
+     "source": "wikipedia",
+     "title": "Nvidia",
+     "url": "https://en.wikipedia.org/wiki/Nvidia",
+     "snippet": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial intelligence (AI) hardware, and mobile and automotive applications. Founded in 1993 by Jensen Huang,",
+     "meta": {
+      "value": "372 тыс. просмотров Википедии за неделю"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+     "url": "https://polymarket.com/market/will-jensen-huang-rejoin-nvidia-by-december-31-2026",
+     "snippet": "On November 12, 2026, NVIDIA announced that Jensen Huang had resigned as its President, Chief Executive Officer, and a member of its Board of Directors, effective immediately.\n\nThis market will resolve to “Yes” if Jensen Huang is officially announced as accepting or beginning a formal role within th",
+     "meta": {
+      "value": "277 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
+     "url": "https://polymarket.com/market/will-candidate-a-be-the-next-ceo-of-nvidia",
+     "snippet": "This market will resolve according to the first individual who is officially announced as the successor to Jensen Huang as CEO of NVIDIA Corporation by December 31, 2028, 11:59 PM ET.\n\nAn announcement of a successor will be sufficient for a \"Yes\" resolution regardless of whether the announced replac",
+     "meta": {
+      "value": "152 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
+     "url": "https://polymarket.com/market/will-jensen-huang-rejoin-nvidia-by-november-30-2026",
+     "snippet": "On November 12, 2026, NVIDIA announced that Jensen Huang had resigned as its President, Chief Executive Officer, and a member of its Board of Directors, effective immediately.\n\nThis market will resolve to “Yes” if Jensen Huang is officially announced as accepting or beginning a formal role within th",
+     "meta": {
+      "value": "73 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "kym",
+     "title": "Nvidia CEO Jensen Huang Chinese Spy Cheating Controversy",
+     "url": "https://knowyourmeme.com/memes/nvidia-ceo-jensen-huang-chinese-spy-cheating-controversy",
+     "snippet": "The Nvidia CEO Jensen Huang Chinese Spy Cheating Controversy, also known as Jensen Huang Chinese Spy Memes or Jensen Huang Chinese Honeypot Scandal, refers to a highly publicized incident in which Nvidia CEO Jensen Huang admitted to having cheated on his wife, Lori Huang, with a Chinese woman named Alice Huang, who is ",
+     "meta": {
+      "value": "16 новая запись в базе мемов"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.6,
+   "fit_domain": "trading",
+   "earn": 6.0,
+   "learn": 3.0,
+   "stars_per_day": 0,
+   "llm_title": "Рынок NVIDIA",
+   "llm_what": "рынок графических процессоров и AI-технологий",
+   "llm_kind": "рыночная возможность",
+   "occupancy": {
+    "modrinth": {
+     "count": 27
+    },
+    "steam": {
+     "count": 3
+    },
+    "github": {
+     "count": 52649
+    },
+    "domain": {
+     "domain": "nvidia.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 27 · Steam: 3 игр · GitHub: 52649 репозиториев · домен nvidia.com занят",
+   "analysis": {
+    "what": "Рынок NVIDIA — это сфера интересов, связанная с компанией Nvidia, включая её технологии (GPU), руководство и спекуляции вокруг будущего CEO. В центре внимания — возможная замена или возвращение Джейсона Ханга, а также мемы вокруг его личной жизни.",
+    "why_now": "На Polymarket 3 рынка с оборотом 277 тыс. долларов в сутки (средний — 152 тыс.) и 16 новых мемов в Know Your Meme — активность растёт в течение недели.",
+    "earn_why": "Мемы и спекуляции могут быть быстро проданы как контент, но без прямого прибыли от технологий",
+    "learn_why": "Знание спекуляций и мемов помогает понимать общественное мнение, но не даёт прямого преимущества в бизнесе",
+    "kill_criteria": "Потеря интереса к Хангу — отсутствие новых ставок на Polymarket и мемов в Know Your Meme в течение 3 дней",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "Сделать ставку на то, вернётся ли Джейсон Ханг в качестве CEO NVIDIA до 2026–2028 гг.",
+      "first_step": "Проверить актуальные данные на Polymarket и найти рынок с наибольшим оборотом (например, 'Will Jensen Huang rejoin by Dec 31, 2026?')"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мем-мод в Minecraft или другой платформе, посвящённый скандалу с Хангом и его «спойером»",
+      "first_step": "Найти 1–2 примера мем-модов в Minecraft и скопировать структуру"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать простой веб-сайт с обзором спекуляций и мемов вокруг Nvidia CEO",
+      "first_step": "Создать страницу на Notion или WordPress с актуальными ссылками из Википедии, Polymarket и Know Your Meme"
+     }
+    ],
+    "cheap_bet": "Проверить актуальные данные на Polymarket и найти рынок с наибольшим оборотом (например, 'Will Jensen Huang rejoin by Dec 31, 2026?')",
+    "edge_for_user": "Прямо в вашей области: трейдинга. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Рынок NVIDIA",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "polymarket:3215008",
+   "label": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+   "lane": "рынки",
+   "kind": "объект",
+   "now": 1,
+   "value": 426228.804181,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.6,
+   "metric_label": "426 тыс. долларов оборота за сутки",
+   "by_source": {
+    "polymarket": 1
+   },
+   "score": 57.8,
+   "spark": [
+    426228.804181
+   ],
+   "parts": {
+    "growth": 0.5,
+    "rank": 1.0,
+    "novelty": 0.6
+   },
+   "examples": [
+    {
+     "source": "polymarket",
+     "title": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+     "url": "https://polymarket.com/market/will-the-fed-increase-interest-rates-by-25-bps-after-the-december-2026-meeting-20260729232808636",
+     "snippet": "The FED interest rates are defined in this market by the upper bound of the target federal funds range. The decisions on the target federal funds range are made by the Federal Open Market Committee (FOMC) meetings.\n\nThis market will resolve to the amount of basis points the upper bound of the target",
+     "meta": {
+      "value": "426 тыс. долларов оборота за сутки"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.9,
+   "fit_domain": "trading",
+   "earn": 8.0,
+   "learn": 9.0,
+   "stars_per_day": 0,
+   "llm_title": "ФРС повысит ставки на 25 бп в декабре 2026?",
+   "llm_what": "предсказание роста ставок ФРС на 25 базовых пунктов после встречи в декабре 2026 года",
+   "llm_kind": "рыночная возможность",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 0
+    },
+    "domain": {
+     "domain": "willthefedincrease.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 0 репозиториев · домен willthefedincrease.com свободен",
+   "analysis": {
+    "what": "Вопрос о том, повысит ли ФРС ставки на 25 базовых пунктов после встречи в декабре 2026 года, становится активным рынком прогнозирования, где участники ставят деньги на вероятность этого события.",
+    "why_now": "На рынке Polymarket оборот составляет 426 тыс. долларов в сутки — это показатель активности, который указывает на рост интереса к прогнозированию ключевых экономических решений.",
+    "earn_why": "Да, можно быстро получить доход, если участвовать в прогнозах и использовать данные о движении ставок",
+    "learn_why": "Да, важно понимать экономические механизмы и прогнозирование, чтобы быть в курсе ключевых событий",
+    "kill_criteria": "Падение оборота до 10 тыс. долларов в сутки или исчезновение вопроса на рынке",
+    "stage": "разгон",
+    "window": "месяцы",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "Создать рынок прогнозирования на основе вопроса о повышении ставок ФРС в декабре 2026 года",
+      "first_step": "Создать или настроить рынок на Polymarket с вопросом о повышении ставок на 25 бп"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Проанализировать текущие прогнозы и движения на рынке, чтобы выявить тенденции в ожиданиях ФРС",
+      "first_step": "Собрать данные по текущим ставкам и вероятностям на Polymarket"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать цифровой ассет или NFT, связанный с прогнозом ставок ФРС",
+      "first_step": "Проверить, свободен ли домен willthefedincrease.com и провести анализ спроса"
+     }
+    ],
+    "cheap_bet": "Создать или настроить рынок на Polymarket с вопросом о повышении ставок на 25 бп",
+    "edge_for_user": "Прямо в вашей области: трейдинга. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "ФРС повысит ставки на 25 бп в декабре 2026?",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "polymarket:2772194",
+   "label": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+   "lane": "рынки",
+   "kind": "объект",
+   "now": 1,
+   "value": 421491.0,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.6,
+   "metric_label": "421 тыс. долларов оборота за сутки",
+   "by_source": {
+    "polymarket": 1
+   },
+   "score": 57.3,
+   "spark": [
+    421491.0
+   ],
+   "parts": {
+    "growth": 0.5,
+    "rank": 0.98,
+    "novelty": 0.6
+   },
+   "examples": [
+    {
+     "source": "polymarket",
+     "title": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
+     "url": "https://polymarket.com/market/will-shakhtar-donetsk-win-the-2026-27-uefa-champions-league-championship-20260701202025578",
+     "snippet": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Champions League (e.g., they are eliminated in the playoffs), ",
+     "meta": {
+      "value": "421 тыс. долларов оборота за сутки"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.9,
+   "fit_domain": "trading",
+   "earn": 8.0,
+   "learn": 7.0,
+   "stars_per_day": 0,
+   "llm_title": "Будет ли выиграть Шахтар в 2026–27 УЕФА?",
+   "llm_what": "предсказание победы шахтара в финале УЕФА 2026–27",
+   "llm_kind": "рыночная возможность",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 0
+    },
+    "domain": {
+     "domain": "willshakhtardonetskwin.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 0 репозиториев · домен willshakhtardonetskwin.com свободен",
+   "analysis": {
+    "what": "Маркетинговая возможность: люди ставят деньги на то, выиграет ли Шахтар Донецк в 2026–27 году в УЕФА. Это не прогноз, а финансовый рынок, где участники ставят на исход события.",
+    "why_now": "На Polymarket оборот достиг 421 тыс. долларов в сутки — это показатель активности, который указывает на рост интереса к событию.",
+    "earn_why": "Да, можно быстро получить доход, если ставка сработает — на ставках с высоким оборотом есть шанс на прибыль",
+    "learn_why": "Да, важно понимать, как работают рынки прогнозов и как оцениваются риски в спортивных событиях",
+    "kill_criteria": "Появление официального уведомления от UEFA о том, что Шахтар не может участвовать в турнире или событие отменено",
+    "stage": "разгон",
+    "window": "месяцы",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "Создать ставку на победу Шахтара в УЕФА 2026–27, используя платформу Polymarket",
+      "first_step": "Создать запрос на Polymarket с вопросом: 'Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?'"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать простой веб-сайт с информацией о ставках и статистикой, чтобы привлекать фанатов",
+      "first_step": "Проверить, свободен ли домен willshakhtardonetskwin.com и создать базовый HTML-файл"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать инструмент, который отображает текущие ставки и вероятности, чтобы быть полезным для фанатов",
+      "first_step": "Подключить API Polymarket и разработать минимальную версию интерфейса"
+     }
+    ],
+    "cheap_bet": "Создать запрос на Polymarket с вопросом: 'Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?'",
+    "edge_for_user": "Прямо в вашей области: трейдинга. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Будет ли выиграть Шахтар в 2026–27 УЕФА?",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "polymarket:701502",
+   "label": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+   "lane": "рынки",
+   "kind": "объект",
+   "now": 1,
+   "value": 385134.754827,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.6,
+   "metric_label": "385 тыс. долларов оборота за сутки",
+   "by_source": {
+    "polymarket": 1
+   },
+   "score": 56.7,
+   "spark": [
+    385134.754827
+   ],
+   "parts": {
+    "growth": 0.5,
+    "rank": 0.96,
+    "novelty": 0.6
+   },
+   "examples": [
+    {
+     "source": "polymarket",
+     "title": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+     "url": "https://polymarket.com/market/will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224-586-231-289-533-573",
+     "snippet": "This market will immediately resolve to \"Yes\" if any Binance 1 minute candle for Bitcoin (BTC/USDT) between November 24, 2025, 14:00 and December 31, 2026, 23:59 in the ET timezone has a final \"Low\" price equal to or lower than the price specified in the title. Otherwise, this market will resolve to",
+     "meta": {
+      "value": "385 тыс. долларов оборота за сутки"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.9,
+   "fit_domain": "trading",
+   "earn": 8.0,
+   "learn": 7.0,
+   "stars_per_day": 0,
+   "llm_title": "Биткоин дойдёт до $45 000 в 2026?",
+   "llm_what": "предсказание о падении цены биткоина до $45 000 в 2026 году",
+   "llm_kind": "рыночная возможность",
+   "occupancy": {
+    "roblox": {
+     "count": 0,
+     "top_players": 0,
+     "players": 0
+    },
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 0
+    },
+    "domain": {
+     "domain": "willbitcoindipto.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 0 репозиториев · домен willbitcoindipto.com свободен",
+   "analysis": {
+    "what": "Вопрос о том, дойдёт ли биткоин до $45 000 к 31 декабря 2026 года, реализуется как рынок прогнозов на платформе Polymarket. Вопрос имеет оборот в 385 тысяч долларов в сутки.",
+    "why_now": "Вопрос всплыл в ноябре 2025 года — в течение 30 дней после публикации в Polymarket оборот достиг 385 тыс. долларов в сутки.",
+    "earn_why": "Можно быстро получить доход, если предсказать правильный исход и использовать ставки как инструмент торговли.",
+    "learn_why": "Знание о структуре рынков прогнозов и поведении участников позволяет прогнозировать движения цен.",
+    "kill_criteria": "Появление противоречивых данных о ценах биткоина в 2025–2026 годах, подтверждающих, что $45 000 — это несуществующий уровень.",
+    "stage": "разгон",
+    "window": "месяцы",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "Сделать ставку на то, дойдёт ли биткоин до $45 000 к 31 декабря 2026 года, через Polymarket",
+      "first_step": "Открыть аккаунт на Polymarket и найти рынок с названием 'Will Bitcoin dip to $45,000 by December 31, 2026?'"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Создать собственный рынок прогнозов о цене биткоина в 2026 году, используя аналогичную логику",
+      "first_step": "Определить ключевые даты и ценовые уровни, на которые можно построить рынок прогнозов"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Использовать данные о ставках для анализа рыночных ожиданий и прогнозов на биткоин",
+      "first_step": "Собрать данные по ставкам в Polymarket и проанализировать динамику в течение последних 30 дней"
+     }
+    ],
+    "cheap_bet": "Открыть аккаунт на Polymarket и найти рынок с названием 'Will Bitcoin dip to $45,000 by December 31, 2026?'",
+    "edge_for_user": "Прямо в вашей области: трейдинга. Здесь у вас фора перед теми, кто заходит с нуля.",
+    "title_ru": "Биткоин дойдёт до $45 000 в 2026?",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  }
+ ],
+ "outside": [
+  {
+   "term": "pre configured environment",
+   "label": "pre configured environment",
+   "now": 18,
+   "by_source": {
+    "github": 18
+   },
+   "by_kind": {
+    "research": 0,
+    "builder": 18,
+    "talk": 0
+   },
+   "expected": 0.39,
+   "growth": 3.772,
+   "acceleration": 1.138,
+   "n_kinds": 1,
+   "builder_weight": 71.25,
+   "stars_per_day": 384.2,
+   "novelty": 1.0,
+   "focus": 1.0,
+   "specificity": 0.43,
+   "weeks_seen": 1,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    21.68
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     18
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.944,
+    "acceleration": 0.806,
+    "diversity": 0.0,
+    "builders": 0.758,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 1.0,
+    "focus": 1.0
+   },
+   "score": 69.2,
+   "aliases": [
+    "configured environment",
+    "pre configured"
+   ],
+   "examples": [
+    {
+     "source": "github",
+     "title": "phantomsociallook/auslogics: Digital Audio Workstation Suite 2026 pre-configured environment, ready for seamless local workstation deployment with optimized audio...",
+     "url": "https://github.com/phantomsociallook/auslogics",
+     "snippet": "ics-2026 auslogics-boostspeed auslogics-boostspeed-2026 auslogics-crack auslogics-disk-defrag-pro-64-bit auslogics-driver-roll-back-update auslogics-driver-updater auslogics-free boostspeed-install-setup-windows-2026 boostspeed-pro ccleaner-computer-maintenance device-manager-tool disk-defrag-pro driver-tool free-key-w",
+     "meta": {
+      "stars": 324,
+      "stars_per_day": 45.3
+     }
+    },
+    {
+     "source": "github",
+     "title": "PlanetCraneInterface/autodesk-revit: Autodesk Revit 2026 automated deployment pipeline pre-configured environment ready for immediate workstation setup.",
+     "url": "https://github.com/PlanetCraneInterface/autodesk-revit",
+     "snippet": "k-revit-2023-pro autodesk-revit-2025 autodesk-revit-mcp autodesk-revit-pc autodesk-revit-windows civil-engineering-ai clash-detection construction-documentation design-automation-revit inventor revit revit-2025 revit-addins revit-mcp-server revit-mep revit-plugin revit-secondary-development revit-windows windows-cad",
+     "meta": {
+      "stars": 276,
+      "stars_per_day": 38.6
+     }
+    },
+    {
+     "source": "github",
+     "title": "VillageExecutive/ultra-edit: Ultra Edit 2026 pre-configured environment for rapid desktop software utility deployment.",
+     "url": "https://github.com/VillageExecutive/ultra-edit",
+     "snippet": "n antigravity-ai cyberlink-powerdirector-19-download license-patcher pdf-editor-pdf ultra-edit ultra-edit-crack ultraedit ultraedit-2026 ultraedit-crack ultraedit-download ultraedit-download-free ultraedit-free ultraedit-license ultraedit-pack ultraedit-pro-crack ultraedit-text-editor ultraedit-unlock ultraedit-unlocke",
+     "meta": {
+      "stars": 265,
+      "stars_per_day": 37.0
+     }
+    }
+   ],
+   "fit": 0.06,
+   "fit_domain": "games",
+   "domains": [
+    "HTML"
+   ],
+   "earn": 8.0,
+   "learn": 7.0,
+   "lane": "технологии",
+   "toy": {
+    "comments": 0,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media_gap": 0.5,
+   "llm_title": "Готовая технологическая среда",
+   "llm_what": "готовая среда для быстрого запуска программ или инструментов",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 73
+    },
+    "domain": {
+     "domain": "preconfiguredenvironment.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 73 репозиториев · домен preconfiguredenvironment.com свободен",
+   "analysis": {
+    "what": "Готовая технологическая среда — это настроенный и настроенный в автоподготовке рабочий образец (например, для CAD-пакетов, ДАВ или редакторов), который можно сразу запустить без настройки. Примеры — репозитории на GitHub, где описаны автоматизированные среды для Autodesk Revit, Ultra Edit и других программ.",
+    "why_now": "18 упоминаний за неделю при ожидаемых 0.39, рост в 13.7 раза",
+    "earn_why": "Можно быстро создать и продавать готовые среды как инструменты для разработчиков",
+    "learn_why": "Для понимания архитектуры и автоматизации рабочих сред важно знать, как строятся такие системы",
+    "kill_criteria": "Появление официального отказа от поддержки готовых сред или отсутствие активных репозиториев на GitHub в течение 2 недель",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать готовую среду для автоматизированного запуска CAD-пакетов в Revit или аналогах",
+      "first_step": "Создать репозиторий на GitHub с конфигурацией и скриптами для автоматической установки Revit 2026"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Описать и проанализировать, как работают готовые среды в индустрии проектирования",
+      "first_step": "Собрать 3 примера из GitHub и проанализировать их структуру и зависимости"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод для Minecraft, который имитирует работу готовой среды (например, как виртуальная рабочая станция)",
+      "first_step": "Найти базу для мода в Minecraft, например, через ресурсы по виртуальным рабочим станциям"
+     }
+    ],
+    "cheap_bet": "Создать репозиторий на GitHub с конфигурацией и скриптами для автоматической установки Revit 2026",
+    "edge_for_user": null,
+    "title_ru": "Готовая технологическая среда",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "desktop setup",
+   "label": "desktop setup",
+   "now": 23,
+   "by_source": {
+    "github": 23
+   },
+   "by_kind": {
+    "research": 0,
+    "builder": 23,
+    "talk": 0
+   },
+   "expected": 3.06,
+   "growth": 2.563,
+   "acceleration": 1.585,
+   "n_kinds": 1,
+   "builder_weight": 126.97,
+   "stars_per_day": 2483.1,
+   "novelty": 0.88,
+   "focus": 1.0,
+   "specificity": 0.08,
+   "weeks_seen": 2,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    20.7,
+    27.71
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     21,
+     23
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.726,
+    "acceleration": 0.976,
+    "diversity": 0.0,
+    "builders": 0.911,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 0.88,
+    "focus": 1.0
+   },
+   "score": 67.6,
+   "examples": [
+    {
+     "source": "github",
+     "title": "hembramneeraj3-create/aida-64-extreme: Aida 64 Extreme 2026: Complete Standalone Desktop Setup with Full Feature Configuration",
+     "url": "https://github.com/hembramneeraj3-create/aida-64-extreme",
+     "snippet": "e-compatibility-check aida64-extreme-detailed-reporting aida64-extreme-hardware-diagnostics aida64-extreme-setup aida64-extreme-system-information aida64-free-setup automation desktop developer-tools open-source pc-diagnostics-windows-platform python scripts software-engineering system utility windows-app windows-cpu-g",
+     "meta": {
+      "stars": 1208,
+      "stars_per_day": 139.5
+     }
+    },
+    {
+     "source": "github",
+     "title": "sajawal-12/cubase-studio-desktop: Cubase Studio 2026 desktop setup with full plugin suite and complete feature set",
+     "url": "https://github.com/sajawal-12/cubase-studio-desktop",
+     "snippet": "n cubase cubase-15 cubase-for-beginners cubase-pro cubase-pro-2026 cubase-setup cubase-tutorial cubase-windows-download cubasecubase-pro cube-solver cubic-splines developer-tools mixing-and-mastering open-source python scripts software-engineering steinberg-cubase vst3-plugins",
+     "meta": {
+      "stars": 1201,
+      "stars_per_day": 138.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "IsaiaR09/daemon-pro-desktop: daemon-pro: Complete Standalone Desktop Setup with Full Feature setup",
+     "url": "https://github.com/IsaiaR09/daemon-pro-desktop",
+     "snippet": "ion daemon-2026 daemon-tools daemon-tools-install-setup-windows-2026 daemon-tools-pro-advanced daemon-tools-pro-vs-ultra daemon-tools-ultra daemon-tools-ultra-2026 daemon-tools-ultra-download desktop developer-tools open-source python scripts software-engineering system utility windows-app",
+     "meta": {
+      "stars": 1198,
+      "stars_per_day": 138.5
+     }
+    }
+   ],
+   "fit": 0.04,
+   "fit_domain": "trading",
+   "domains": [
+    "HTML",
+    "JavaScript",
+    "TypeScript"
+   ],
+   "earn": 8.0,
+   "learn": 7.0,
+   "lane": "технологии",
+   "toy": {
+    "comments": 4,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media_gap": 0.5,
+   "llm_title": "Настройка ПК (desktop setup)",
+   "llm_what": "комплект настройки ПК для работы с программами и диагностикой",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 940
+    },
+    "domain": {
+     "domain": "desktopsetup.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 940 репозиториев · домен desktopsetup.com занят",
+   "analysis": {
+    "what": "Настройка ПК (desktop setup) — это набор инструкций или скриптов, которые автоматизируют настройку компьютера, включая проверку оборудования, установку программ и конфигурацию систем. В тренде — это открытые проекты на GitHub, где разработчики создают готовые конфигурации для ПК, например, с помощью Aida 64, Cubase или Daemon Tools.",
+    "why_now": "Упоминаний за неделю — 23, в 5.9 раз больше, чем ожидаемых (3.06). Рост в 5.9 раза, 23 упоминания, 940 репозиториев на GitHub.",
+    "earn_why": "Можно быстро создать инструмент, который будет востребован в разработке ПО и настройке ПК",
+    "learn_why": "Для понимания работы ПК, автоматизации и интеграции инструментов важно знать основы настройки",
+    "kill_criteria": "Появление 10+ репозиториев с отрицательными отзывами о стабильности или несовместимости на GitHub в течение 7 дней",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать инструмент для автоматической настройки ПК по типу оборудования",
+      "first_step": "Создать репозиторий на GitHub с примером настройки (например, Aida 64 или Cubase) и добавить скрипт проверки оборудования"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Написать обзор популярных desktop setup-проектов на GitHub и их применение в разработке",
+      "first_step": "Собрать 5–10 примеров из GitHub, проанализировать структуру и выделить общие паттерны"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод для Minecraft, который демонстрирует настройку ПК как часть игрового процесса",
+      "first_step": "Найти или создать простой мод, где в игре показывается процесс настройки ПК"
+     }
+    ],
+    "cheap_bet": "Создать репозиторий на GitHub с примером настройки (например, Aida 64 или Cubase) и добавить скрипт проверки оборудования",
+    "edge_for_user": null,
+    "title_ru": "Настройка ПК (desktop setup)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  }
+ ],
+ "wave": [],
+ "rejected": [
+  {
+   "term": "trial version",
+   "lane": "технологии",
+   "reason": "технология, метод или инструмент, известно давно: версия программного обеспечения для тестирования без покупки"
+  },
+  {
+   "term": "software engineering",
+   "lane": "технологии",
+   "reason": "устоявшаяся область, известно давно: наука о проектировании и разработке программного обеспечения"
+  },
+  {
+   "term": "windows software",
+   "lane": "технологии",
+   "reason": "технология, метод или инструмент, известно давно: программное обеспечение для Windows, используемое на рабочих станциях"
+  },
+  {
+   "term": "rpocket team",
+   "lane": "технологии",
+   "reason": "имя, компания или разовая новость, новое: команда разработчиков, работающая над инструментами оптимизации игр"
+  },
+  {
+   "term": "jensen huang",
+   "lane": "культура и мемы",
+   "reason": "имя, компания или разовая новость, новое: CEO NVIDIA, фигура в мемах и спекуляциях о его возвращении"
+  },
+  {
+   "term": "godzilla",
+   "lane": "культура и мемы",
+   "reason": "мем, персонаж или интернет-явление, известно давно: сериал-мем о гигантском японском киаю, включая фильмы и игры"
+  },
+  {
+   "term": "Stephen Miller",
+   "lane": "культура и мемы",
+   "reason": "имя, компания или разовая новость, новое: политический советник, фигура в администрации США"
+  },
+  {
+   "term": "Stacy Keach",
+   "lane": "культура и мемы",
+   "reason": "имя, компания или разовая новость, новое: американский актёр, известный своими театральными и экранными ролями"
+  },
+  {
+   "term": "verity",
+   "lane": "культура и мемы",
+   "reason": "имя, компания или разовая новость, новое: фильм-мем о психологической драме с элементами эротики"
+  },
+  {
+   "term": "cortes",
+   "lane": "культура и мемы",
+   "reason": "имя, компания или разовая новость, новое: событие в UFC: бой между Cortes и Acosta"
+  },
+  {
+   "term": "tycoon",
+   "lane": "игры",
+   "reason": "игра, мод или игровой жанр, известно давно: игра-симулятор, где игрок управляет бизнесом"
+  }
+ ]
+}
