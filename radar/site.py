@@ -20,6 +20,11 @@ def _read_json(p: Path):
 
 def collect_data() -> dict:
     digests = [history.load_digest(w) for w in history.list_digests()[-12:]]
+    for d in digests:  # в публичную страницу не попадает ничего личного
+        for c in (d or {}).get("main", []) + (d or {}).get("outside", []):
+            (c.get("analysis") or {}).pop("edge_for_user", None)
+            c.pop("fit", None)
+            c.pop("fit_domain", None)
     tracker_p = ROOT / "tracker.yaml"
     tracker = {}
     if tracker_p.exists():
