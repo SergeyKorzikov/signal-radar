@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Радар слабых сигналов</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f3f3f1; --surface-1: #fcfcfb; --surface-2: #ffffff;
+  --border: #e2e1dc; --grid: #ecebe7;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #7c7b77;
+  --accent: #2a78d6; --accent-soft: #cde2fb;
+  --series-1: #2a78d6; --series-2: #eb6834; --series-3: #1baf7a;
+  --bet-bg: #eef5fd; --kill-bg: #fbf1ee;
+  --good: #008300; --warn: #b07800; --bad: #c33a39;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --surface-0: #121211; --surface-1: #1a1a19; --surface-2: #222220;
+    --border: #33322f; --grid: #2a2a28;
+    --text-primary: #f0efec; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+    --accent: #3987e5; --accent-soft: #1c3554;
+    --series-1: #3987e5; --series-2: #d95926; --series-3: #199e70;
+    --bet-bg: #18263a; --kill-bg: #33201b;
+    --good: #0ca30c; --warn: #d99a1a; --bad: #e66767;
+  }
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-0); color: var(--text-primary);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+a { color: var(--accent); text-decoration: none; } a:hover { text-decoration: underline; }
+.wrap { max-width: 1240px; margin: 0 auto; padding: 24px 20px 60px; }
+header h1 { font-size: 26px; margin: 0 0 4px; letter-spacing: -0.01em; }
+.sub { color: var(--text-secondary); font-size: 14px; }
+.stats { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 6px; }
+.chip { background: var(--surface-1); border: 1px solid var(--border); border-radius: 999px;
+  padding: 3px 11px; font-size: 13px; color: var(--text-secondary); white-space: nowrap; }
+.chip b { color: var(--text-primary); font-weight: 600; }
+.summary { background: var(--surface-1); border: 1px solid var(--border); border-radius: 12px;
+  padding: 14px 16px; margin: 14px 0 4px; color: var(--text-primary); }
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin: 18px 0 16px;
+  position: sticky; top: 0; z-index: 5; background: var(--surface-0); padding: 10px 0; }
+.tabs { display: flex; flex-wrap: wrap; gap: 4px; background: var(--surface-1);
+  border: 1px solid var(--border); border-radius: 10px; padding: 3px; }
+.tab { border: 0; background: transparent; color: var(--text-secondary); padding: 6px 12px;
+  border-radius: 7px; font: inherit; font-size: 14px; cursor: pointer; }
+.tab[aria-selected="true"] { background: var(--accent); color: #fff; }
+.tab .n { opacity: .75; font-size: 12px; margin-left: 4px; }
+select { font: inherit; font-size: 14px; padding: 6px 8px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface-1); color: var(--text-primary); }
+label.ctl { font-size: 13px; color: var(--text-secondary); display: flex; gap: 6px; align-items: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(370px, 1fr)); gap: 16px; }
+.card { background: var(--surface-1); border: 1px solid var(--border); border-radius: 14px;
+  padding: 16px 16px 12px; display: flex; flex-direction: column; gap: 10px; }
+.card h2 { font-size: 18px; margin: 0; line-height: 1.3; }
+.term { font: 12.5px/1.4 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--text-muted); }
+.top { display: flex; justify-content: space-between; gap: 12px; align-items: flex-start; }
+.score { text-align: right; flex: none; }
+.score .v { font-size: 26px; font-weight: 700; line-height: 1; font-variant-numeric: tabular-nums; }
+.score .l { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: .05em; }
+.meters { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.meter .row { display: flex; justify-content: space-between; font-size: 12.5px; color: var(--text-secondary); }
+.meter .row b { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.bar { height: 6px; background: var(--grid); border-radius: 4px; overflow: hidden; margin-top: 3px; }
+.bar i { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.p { margin: 0; font-size: 14px; } .p .k { color: var(--text-muted); font-size: 12px;
+  text-transform: uppercase; letter-spacing: .04em; display: block; }
+.bet { background: var(--bet-bg); border-radius: 10px; padding: 9px 11px; font-size: 14px; }
+.kill { background: var(--kill-bg); border-radius: 10px; padding: 9px 11px; font-size: 14px; }
+.bet .k, .kill .k { font-size: 12px; font-weight: 600; display: block; color: var(--text-secondary); }
+.spark-head { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 2px 10px; font-size: 12px; color: var(--text-muted); }
+.legend { display: flex; gap: 10px; white-space: nowrap; font-size: 12px; color: var(--text-secondary); }
+.legend span::before { content: ""; display: inline-block; width: 10px; height: 2px; margin-right: 4px;
+  vertical-align: middle; background: var(--c); }
+svg.spark { width: 100%; height: 74px; display: block; overflow: visible; }
+details { border-top: 1px solid var(--border); padding-top: 8px; font-size: 13.5px; }
+summary { cursor: pointer; color: var(--text-secondary); font-size: 13px; }
+.ex { list-style: none; padding: 0; margin: 8px 0 0; display: grid; gap: 5px; }
+.ex li { display: grid; grid-template-columns: 96px 1fr; gap: 8px; }
+.src { font-size: 11.5px; color: var(--text-muted); }
+.parts { display: grid; grid-template-columns: 120px 1fr 36px; gap: 3px 8px; align-items: center;
+  margin-top: 8px; font-size: 12.5px; color: var(--text-secondary); }
+.parts .bar { margin: 0; }
+.quote { border-left: 2px solid var(--border); padding-left: 8px; color: var(--text-secondary);
+  margin: 6px 0; font-size: 13px; }
+.badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badge { font-size: 11.5px; border-radius: 6px; padding: 1px 7px; border: 1px solid var(--border);
+  color: var(--text-secondary); }
+.badge.st { border-color: var(--accent); color: var(--accent); }
+table { width: 100%; border-collapse: collapse; background: var(--surface-1); border: 1px solid var(--border);
+  border-radius: 12px; overflow: hidden; font-size: 14px; }
+th, td { text-align: left; padding: 8px 12px; border-bottom: 1px solid var(--grid); }
+th { color: var(--text-secondary); font-weight: 600; font-size: 12.5px; }
+td.num { font-variant-numeric: tabular-nums; }
+.empty { color: var(--text-muted); padding: 30px; text-align: center; background: var(--surface-1);
+  border: 1px dashed var(--border); border-radius: 12px; }
+.note { color: var(--text-muted); font-size: 13px; margin: 10px 0; }
+#tip { position: fixed; pointer-events: none; background: var(--surface-2); color: var(--text-primary);
+  border: 1px solid var(--border); border-radius: 8px; padding: 6px 9px; font-size: 12.5px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.12); display: none; z-index: 50; white-space: nowrap; }
+#tip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 2px; margin-right: 5px; }
+.bt-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 16px; margin-top: 16px; }
+@media (max-width: 480px) { .grid, .bt-grid { grid-template-columns: 1fr; } .meters { grid-template-columns: 1fr; } }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Радар слабых сигналов</h1>
+    <div class="sub" id="sub"></div>
+    <div class="stats" id="stats"></div>
+    <div class="summary" id="summary" hidden></div>
+  </header>
+  <div class="controls">
+    <div class="tabs" role="tablist" id="tabs"></div>
+    <label class="ctl">Сортировка
+      <select id="sort"><option value="score">ранность</option><option value="earn">заработать</option>
+        <option value="learn">научиться</option></select></label>
+    <label class="ctl">Неделя <select id="week"></select></label>
+  </div>
+  <main id="main"></main>
+</div>
+<div id="tip"></div>
+<script>
+const DATA = /*__RADAR_DATA__*/null;
+const KINDS = [["research","Статьи","--series-1"],["builder","Код и модели","--series-2"],["talk","Обсуждения","--series-3"]];
+const SRC = DATA.sources;
+const state = { tab: "main", sort: "score", week: 0 };
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const fmt = (v, d=1) => (v == null || isNaN(v)) ? "—" : Number(v).toFixed(d).replace(".", ",");
+const tip = $("#tip");
+function showTip(html, ev) { tip.innerHTML = html; tip.style.display = "block";
+  const x = Math.min(ev.clientX + 14, innerWidth - tip.offsetWidth - 8);
+  tip.style.left = x + "px"; tip.style.top = (ev.clientY + 14) + "px"; }
+function hideTip() { tip.style.display = "none"; }
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+
+const PART_LABEL = { growth: "Рост частоты", acceleration: "Ускорение", diversity: "Разные типы источников",
+  builders: "Активность строителей", media_gap: "Разрыв со СМИ", toy_test: "«Тест игрушки»", novelty: "Новизна", focus: "Фокус" };
+const PART_TIP = { growth: "Во сколько раз чаще встречается, чем по базовой линии (перцентиль среди кандидатов)",
+  acceleration: "Растёт ли сам рост за последние недели", diversity: "Статьи / код / обсуждения: 0 — один тип, 1 — все три",
+  builders: "Звёзды GitHub в сутки и тренды Hugging Face", media_gap: "1 — строители уже тут, СМИ ещё молчат",
+  toy_test: "Одновременно скептики («игрушка») и энтузиасты в комментариях HN", novelty: "Насколько недавно термин появился", focus: "Доля работ, где термин стоит в заголовке: ими занимаются, а не упоминают вскользь" };
+
+function sparkline(c) {
+  const W = 340, H = 74, pl = 2, pr = 2, pt = 6, pb = 14;
+  const sk = c.series_by_kind; if (!sk) return "";
+  const n = sk.research.length; if (n < 2) return `<div class="note">История копится — график появится через пару недель.</div>`;
+  const max = Math.max(1, ...KINDS.flatMap(([k]) => sk[k]));
+  const x = i => pl + i * (W - pl - pr) / (n - 1), y = v => pt + (H - pt - pb) * (1 - v / max);
+  let s = `<svg class="spark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" data-term="${esc(c.term)}">`;
+  s += `<line x1="0" x2="${W}" y1="${H-pb}" y2="${H-pb}" stroke="var(--border)" stroke-width="1"/>`;
+  for (const [k,, col] of KINDS) {
+    if (!sk[k].some(v => v > 0)) continue;
+    const d = sk[k].map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join("");
+    s += `<path d="${d}" fill="none" stroke="var(${col})" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" vector-effect="non-scaling-stroke"/>`;
+    s += `<circle cx="${x(n-1)}" cy="${y(sk[k][n-1])}" r="3.5" fill="var(${col})" stroke="var(--surface-1)" stroke-width="2"/>`;
+  }
+  s += `<line class="xh" x1="0" x2="0" y1="${pt}" y2="${H-pb}" stroke="var(--text-muted)" stroke-width="1" opacity="0"/>`;
+  s += `<text x="0" y="${H-1}" font-size="10" fill="var(--text-muted)">${n-1} нед. назад</text>`;
+  s += `<text x="${W}" y="${H-1}" font-size="10" fill="var(--text-muted)" text-anchor="end">эта неделя</text>`;
+  s += `<rect x="0" y="0" width="${W}" height="${H}" fill="transparent" class="hit"/></svg>`;
+  return s;
+}
+function bindSpark(svg, c) {
+  const sk = c.series_by_kind, n = sk.research.length, W = 340;
+  const hit = svg.querySelector(".hit"), xh = svg.querySelector(".xh");
+  hit.addEventListener("mousemove", ev => {
+    const r = svg.getBoundingClientRect(); const i = Math.round((ev.clientX - r.left) / r.width * (n - 1));
+    const xx = 2 + i * (W - 4) / (n - 1); xh.setAttribute("x1", xx); xh.setAttribute("x2", xx); xh.setAttribute("opacity", .5);
+    const wk = (c.series_weeks || [])[i]; const lab = wk === "now" || i === n-1 ? "эта неделя" : (wk || `${n-1-i} нед. назад`);
+    showTip(`<b>${esc(lab)}</b><br>` + KINDS.map(([k, l, col]) => `<span class="sw" style="background:${css(col)}"></span>${l}: <b>${sk[k][i]}</b>`).join("<br>"), ev);
+  });
+  hit.addEventListener("mouseleave", () => { hideTip(); xh.setAttribute("opacity", 0); });
+}
+
+function meter(label, v, max) {
+  const pct = Math.max(0, Math.min(100, 100 * (v || 0) / max));
+  return `<div class="meter"><div class="row"><span>${label}</span><b>${fmt(v, max === 100 ? 0 : 1)}<span style="color:var(--text-muted);font-weight:400">/${max}</span></b></div><div class="bar"><i style="width:${pct}%"></i></div></div>`;
+}
+
+function card(c, i, section) {
+  const a = c.analysis || {}, reg = DATA.registry[c.term], tr = DATA.tracker[c.term];
+  const title = a.title_ru && a.title_ru !== c.label ? a.title_ru : c.label;
+  const times = Math.pow(2, c.growth || 0);
+  const badges = [];
+  if (tr && tr.status) badges.push(`<span class="badge st">${esc(tr.status)}</span>`);
+  if (reg && reg.weeks.length > 1) badges.push(`<span class="badge" title="В подборке впервые: ${esc(reg.first_week)}">в радаре ${reg.weeks.length} нед.</span>`);
+  else badges.push(`<span class="badge">впервые</span>`);
+  if (c.fit_domain && c.fit >= 0.15) badges.push(`<span class="badge" title="Совпадение с вашими интересами: ${fmt(c.fit,2)}">${esc(c.fit_domain)}</span>`);
+  if (section === "outside") badges.push(`<span class="badge">вне пузыря</span>`);
+  if (a.by === "template") badges.push(`<span class="badge" title="Нейросеть не ответила по этому сигналу — разбор собран по шаблону из цифр">шаблонный разбор</span>`);
+  const p = (k, v) => v ? `<p class="p"><span class="k">${k}</span>${esc(v)}</p>` : "";
+  const ex = (c.examples || []).map(e => {
+    const m = e.meta || {}; const extra = m.stars_per_day ? ` · ★${m.stars} (${fmt(m.stars_per_day)}/сут)` : m.points ? ` · ${m.points} очк.` : m.likes ? ` · ♥${m.likes}` : "";
+    return `<li><span class="src">${esc(SRC[e.source] || e.source)}${extra}</span><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a></li>`; }).join("");
+  const parts = Object.entries(c.parts || {}).map(([k, v]) =>
+    `<span title="${esc(PART_TIP[k])}">${PART_LABEL[k] || k}</span><div class="bar"><i style="width:${100*v}%"></i></div><span class="num">${fmt(v,2)}</span>`).join("");
+  const quotes = ((c.toy || {}).examples || []).slice(0, 3).map(q =>
+    `<div class="quote"><b>${esc(q.side)}:</b> «…${esc(q.text)}…» <a href="${esc(q.url)}" target="_blank" rel="noopener">→</a></div>`).join("");
+  const srcs = Object.entries(c.by_source || {}).sort((a,b)=>b[1]-a[1]).map(([s,n]) => `${SRC[s]||s}: ${n}`).join(" · ");
+  return `<article class="card">
+    <div class="top"><div><h2>${i+1}. ${esc(title)}</h2>
+      <div class="term">${esc(c.label)}${(c.aliases||[]).length ? " · " + esc(c.aliases.slice(0,3).join(", ")) : ""}</div></div>
+      <div class="score" title="Ранность сигнала, 0–100"><div class="v">${fmt(c.score,0)}</div><div class="l">ранность</div></div></div>
+    <div class="badges">${badges.join("")}</div>
+    <div class="meters">${meter("Заработать", c.earn, 10)}${meter("Научиться", c.learn, 10)}</div>
+    ${a.earn_why || a.learn_why ? `<div class="note" style="margin:0">${esc(a.earn_why || "")} ${esc(a.learn_why || "")}</div>` : ""}
+    <div><div class="spark-head"><span>${c.now} упом. за неделю · рост ×${fmt(times)}</span>
+      <span class="legend">${KINDS.map(([,l,col]) => `<span style="--c:var(${col})">${l}</span>`).join("")}</span></div>${sparkline(c)}</div>
+    ${p("Что это", a.what)}${p("Почему сейчас", a.why_now)}${p("Скептики и фанаты", a.skeptics_vs_fans)}${p("Ваше преимущество", a.edge_for_user)}
+    ${a.cheap_bet ? `<div class="bet"><span class="k">Ставка на выходные</span>${esc(a.cheap_bet)}</div>` : ""}
+    ${a.kill_criteria ? `<div class="kill"><span class="k">Критерий смерти</span>${esc(a.kill_criteria)}</div>` : ""}
+    <details><summary>Доказательства: примеры, источники, из чего балл</summary>
+      <div class="note">${esc(srcs)}${c.media != null ? ` · в новостях за 4 нед.: ${c.media}` : ""}${c.toy ? ` · HN-комментариев: ${c.toy.comments} (скептиков ${c.toy.skeptic}, энтузиастов ${c.toy.enthusiast})` : ""}</div>
+      <ul class="ex">${ex}</ul>${quotes}<div class="parts">${parts}</div></details>
+  </article>`;
+}
+
+function waveTable(rows) {
+  if (!rows.length) return `<div class="empty">Нет терминов, которые уже стали волной и продолжают резко расти.</div>`;
+  return `<p class="note">Это уже мейнстрим — для ставок поздно, но полезно сверяться: часто внутри большой волны прячутся узкие ниши, которые ещё пусты.</p>
+  <table><thead><tr><th>Термин</th><th>За неделю</th><th>Ожидалось</th><th>Рост</th><th>Где</th></tr></thead><tbody>` +
+  rows.map(r => `<tr><td>${esc(r.label)}</td><td class="num">${r.now}</td><td class="num">${fmt(r.expected,0)}</td><td class="num">×${fmt(Math.pow(2,r.growth))}</td><td>${Object.entries(r.by_source).map(([s,n])=>`${SRC[s]}: ${n}`).join(" · ")}</td></tr>`).join("") + `</tbody></table>`;
+}
+
+function trackerView() {
+  const reg = Object.entries(DATA.registry).sort((a,b) => b[1].weeks.length - a[1].weeks.length || (b[1].scores.at(-1)||0) - (a[1].scores.at(-1)||0));
+  if (!reg.length) return `<div class="empty">Трекер наполнится после первого прогона.</div>`;
+  return `<p class="note">Все сигналы, когда-либо попадавшие в подборку. Статусы («наблюдаю», «ставлю», «мёртв», «сработал») и оценки 👍/👎 задаются в файле <code>tracker.yaml</code> в репозитории. «Мёртвые» больше не показываются, 👍 поднимает похожие сигналы.</p>
+  <table><thead><tr><th>Сигнал</th><th>Впервые</th><th>Недель в радаре</th><th>Последний балл</th><th>Статус</th><th>Заметка</th></tr></thead><tbody>` +
+  reg.map(([t, r]) => { const tr = DATA.tracker[t] || {}; return `<tr><td>${esc(r.label)}</td><td>${esc(r.first_week)}</td><td class="num">${r.weeks.length}</td><td class="num">${fmt(r.scores.at(-1),0)}</td><td>${esc(tr.status || "—")}</td><td>${esc(tr.note || "")}</td></tr>`; }).join("") + `</tbody></table>`;
+}
+
+function btChart(b) {
+  const W = 360, H = 120, pt = 8, pb = 18, rows = b.rows.filter(r => r.rate != null);
+  if (rows.length < 2) return "";
+  const max = Math.max(...rows.map(r => r.rate)), n = rows.length;
+  const x = i => i * W / (n - 1), y = v => pt + (H - pt - pb) * (1 - v / max);
+  const iOf = m => rows.findIndex(r => r.m === m);
+  let s = `<svg class="spark" style="height:120px" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">`;
+  s += `<line x1="0" x2="${W}" y1="${H-pb}" y2="${H-pb}" stroke="var(--border)"/>`;
+  for (const [m, lab, col, anchor, dy] of [[b.fired, "сигнал", "var(--series-3)", "start", 0], [b.hype, "хайп", "var(--series-2)", "end", 12]]) {
+    const i = iOf(m); if (i < 0) continue;
+    s += `<line x1="${x(i)}" x2="${x(i)}" y1="${pt}" y2="${H-pb}" stroke="${col}" stroke-width="1.5" stroke-dasharray="3 3" vector-effect="non-scaling-stroke"/>`;
+    s += `<text x="${x(i) + (anchor === "start" ? 4 : -4)}" y="${pt + 9 + dy}" font-size="10" fill="var(--text-secondary)" text-anchor="${anchor}">${lab} ${m}</text>`;
+  }
+  s += `<path d="${rows.map((r,i)=>`${i?"L":"M"}${x(i).toFixed(1)},${y(r.rate).toFixed(1)}`).join("")}" fill="none" stroke="var(--series-1)" stroke-width="2" vector-effect="non-scaling-stroke"/>`;
+  s += `<text x="0" y="${H-3}" font-size="10" fill="var(--text-muted)">${rows[0].m}</text><text x="${W}" y="${H-3}" font-size="10" fill="var(--text-muted)" text-anchor="end">${rows.at(-1).m}</text>`;
+  s += `<rect class="hit" x="0" y="0" width="${W}" height="${H}" fill="transparent"/></svg>`;
+  return s;
+}
+function backtestView() {
+  const bt = DATA.backtest;
+  if (!bt) return `<div class="empty">Бэктест ещё не запускался: <code>python -m radar backtest</code> (или кнопка в Actions).</div>`;
+  const caught = bt.filter(b => b.lead_months > 0).length;
+  return `<p class="note">Проверка правила «частота в статьях выросла в 2+ раза за квартал при ещё малом объёме» на прошлых волнах. Это только канал статей arXiv (у GitHub и HN нет таких длинных исторических срезов), так что это нижняя граница того, как рано радар мог бы заметить сигнал. Поймано заранее: <b>${caught} из ${bt.length}</b>. Важно: здесь проверяются только волны, которые реально случились, поэтому бэктест показывает, как рано правило замечает настоящие сигналы, но не то, сколько ложных оно даёт. Ложные отсеивают остальные компоненты балла, ИИ-аналитик и ваш трекер. Если волна не поймана, обычно до хайпа у неё почти не было «научного следа» под этим именем: так было с LLM-агентами, которые до AutoGPT назывались иначе (ReAct, tool use).</p>
+  <table><thead><tr><th>Волна</th><th>Радар загорелся</th><th>Хайп</th><th>Опережение</th></tr></thead><tbody>` +
+  bt.map(b => `<tr><td>${esc(b.label)}</td><td>${esc(b.fired || "не поймал")}</td><td>${esc(b.hype)}</td><td class="num">${b.lead_months != null ? (b.lead_months > 0 ? b.lead_months + " мес. раньше" : Math.abs(b.lead_months) + " мес. позже") : "—"}</td></tr>`).join("") +
+  `</tbody></table><div class="bt-grid">` + bt.map((b, i) => `<div class="card"><h2 style="font-size:16px">${esc(b.label)}</h2>
+   <div class="spark-head"><span>статей на 10 000 в cs.LG/AI/CL/CV и stat.ML, по месяцам</span></div><div data-bt="${i}">${btChart(b)}</div></div>`).join("") + `</div>`;
+}
+function bindBt() {
+  document.querySelectorAll("[data-bt]").forEach(el => {
+    const b = DATA.backtest[+el.dataset.bt], rows = b.rows.filter(r => r.rate != null), svg = el.querySelector("svg"); if (!svg) return;
+    svg.querySelector(".hit").addEventListener("mousemove", ev => { const r = svg.getBoundingClientRect();
+      const i = Math.max(0, Math.min(rows.length-1, Math.round((ev.clientX - r.left) / r.width * (rows.length - 1))));
+      showTip(`<b>${rows[i].m}</b><br>${fmt(rows[i].rate)} на 10 000 статей`, ev); });
+    svg.querySelector(".hit").addEventListener("mouseleave", hideTip);
+  });
+}
+
+function render() {
+  const d = DATA.digests[state.week];
+  const main = $("#main");
+  if (!d) { $("#sub").textContent = "Данных пока нет — запустите workflow «radar» во вкладке Actions."; main.innerHTML = ""; return; }
+  const dt = s => new Date(s).toLocaleDateString("ru-RU", { day: "numeric", month: "long" });
+  $("#sub").innerHTML = `Неделя ${esc(d.week)} · ${dt(d.start)} — ${dt(new Date(new Date(d.end) - 864e5))} · обновлено ${new Date(d.generated_at).toLocaleString("ru-RU")}`;
+  const total = Object.values(d.stats.docs).reduce((a,b)=>a+b, 0);
+  $("#stats").innerHTML = `<span class="chip">просмотрено <b>${total.toLocaleString("ru-RU")}</b></span>` +
+    Object.entries(d.stats.docs).map(([s,n]) => `<span class="chip">${SRC[s]||s}: <b>${n.toLocaleString("ru-RU")}</b></span>`).join("") +
+    `<span class="chip">кандидатов: <b>${d.stats.candidates.toLocaleString("ru-RU")}</b></span><span class="chip">история: <b>${d.stats.history_weeks} нед.</b></span>` +
+    `<span class="chip">разбор: <b>${{local: "своя нейросеть", ai: "Claude API"}[d.analyst] || "шаблон"}</b></span>`;
+  $("#summary").hidden = !d.summary; $("#summary").textContent = d.summary || "";
+  const tabs = [["main","Ранние сигналы",d.main.length],["outside","Вне пузыря",d.outside.length],["wave","Уже волна",d.wave.length],
+    ["tracker","Трекер",Object.keys(DATA.registry).length],["backtest","Проверка на прошлом",null],["rejected","Отсеяно",d.rejected.length]];
+  $("#tabs").innerHTML = tabs.map(([k,l,n]) => `<button class="tab" role="tab" data-tab="${k}" aria-selected="${state.tab===k}">${l}${n!=null?`<span class="n">${n}</span>`:""}</button>`).join("");
+  $("#tabs").querySelectorAll(".tab").forEach(b => b.onclick = () => { state.tab = b.dataset.tab; render(); });
+  $("#sort").disabled = !["main","outside"].includes(state.tab);
+  if (state.tab === "main" || state.tab === "outside") {
+    const list = [...d[state.tab]].sort((a,b) => (b[state.sort]||0) - (a[state.sort]||0));
+    const intro = state.tab === "outside" ? `<p class="note">Сильные сигналы из областей, далёких от ваших интересов. Эти слоты отданы им принудительно, чтобы радар не превратился в ещё один пузырь.</p>` : "";
+    main.innerHTML = intro + (list.length ? `<div class="grid">${list.map((c,i)=>card(c,i,state.tab)).join("")}</div>` : `<div class="empty">На этой неделе пусто.</div>`);
+    list.forEach(c => { const svg = main.querySelector(`svg[data-term="${CSS.escape(c.term)}"]`); if (svg) bindSpark(svg, c); });
+  } else if (state.tab === "wave") main.innerHTML = waveTable(d.wave);
+  else if (state.tab === "tracker") main.innerHTML = trackerView();
+  else if (state.tab === "backtest") { main.innerHTML = backtestView(); bindBt(); }
+  else main.innerHTML = d.rejected.length ? `<p class="note">Кандидаты, которых нейросеть отсеяла как шум: устоявшиеся области, шаблонные фразы, имена и новости. Если что-то отсеяно зря — добавьте термин в <code>tracker.yaml</code> с оценкой 👍.</p><table><thead><tr><th>Термин</th><th>Причина</th></tr></thead><tbody>${d.rejected.map(r=>`<tr><td>${esc(r.term)}</td><td>${esc(r.reason||"")}</td></tr>`).join("")}</tbody></table>` : `<div class="empty">Ничего не отсеяно.</div>`;
+}
+$("#week").innerHTML = DATA.digests.map((d,i) => `<option value="${i}">${d.week}</option>`).join("") || "<option>—</option>";
+$("#week").onchange = e => { state.week = +e.target.value; render(); };
+$("#sort").onchange = e => { state.sort = e.target.value; render(); };
+render();
+</script>
+</body>
+</html>

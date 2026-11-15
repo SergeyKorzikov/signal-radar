@@ -1,0 +1,112 @@
+# ===================== Радар слабых сигналов: настройки =====================
+# Этот файл можно редактировать прямо на GitHub (иконка карандаша).
+
+# Кто вы. Это видит ИИ-аналитик, когда пишет разборы и «ставки на выходные».
+profile: >
+  Нейробиолог. Активно использует ИИ для проектов: делает игру на Roblox,
+  пишет трейд-бота, читает книги и статьи методом RSVP и пишет обзоры.
+  Хочет находить технологии на ранней стадии (как ИИ в 2020–2021) —
+  и чтобы заработать на них, и чтобы стать экспертом раньше других.
+
+language: ru
+
+# ------------------------------- Источники -------------------------------
+sources:
+  arxiv:
+    enabled: true
+    # «ваши» области + далёкие от вас (для анти-пузыря) — чтобы радару было из чего выбирать
+    categories: [cs.AI, cs.LG, cs.CL, cs.CV, cs.RO, cs.HC, cs.NE, cs.MA, cs.SD, q-bio.NC,
+                 eess.SP, eess.SY, q-fin.TR, q-fin.CP, cond-mat.mtrl-sci, physics.chem-ph,
+                 physics.app-ph, q-bio.BM, q-bio.QM, econ.GN, astro-ph.IM, quant-ph]
+    max_docs: 15000
+  biorxiv:
+    enabled: true
+    servers: [biorxiv, medrxiv]
+    categories: []   # пусто = все категории
+  github:
+    enabled: true
+    min_stars: 10
+  huggingface:
+    enabled: true
+  hn:
+    enabled: true
+    min_points: 5
+  gdelt:
+    enabled: true   # медиа-фон; если API недоступен, радар работает без него
+
+# ------------------------------- Алгоритм -------------------------------
+scoring:
+  baseline_weeks: 8        # с чем сравниваем текущую неделю
+  min_docs_now: 4          # минимум упоминаний на этой неделе, чтобы стать кандидатом
+  min_growth: 1.0          # минимальный рост: log2, то есть 1.0 = частота выросла вдвое
+  unigram_penalty: 0.85    # одиночные слова чаще шум, чем фразы
+  min_title_share: 0.15    # хотя бы 15% упоминаний — в заголовках (работы ПРО это, а не вскользь)
+  min_specificity: 0.05    # фраза не должна быть случайным сочетанием частых слов
+  single_kind_factor: 2.5  # если сигнал виден только в одном типе источников, нужно в 2.5 раза больше упоминаний
+  mainstream_expected: 60  # если по базовой линии ожидалось > N упоминаний в неделю — это уже «волна»
+  candidate_pool: 40       # сколько лучших кандидатов проверять глубже (СМИ, HN-комментарии, ИИ)
+  weights:                 # из чего складывается «ранность» сигнала (0–100)
+    growth: 0.20           # во сколько раз выросла частота в статьях и коде против базовой линии
+    acceleration: 0.12     # растёт ли рост (вторая производная)
+    diversity: 0.12        # в скольких ТИПАХ источников виден: статьи / код / обсуждения
+    builders: 0.12         # активность строителей: звёзды GitHub в сутки, тренды HF
+    media_gap: 0.12        # строители уже тут, СМИ ещё нет
+    toy_test: 0.08         # одновременно «это игрушка» и «я не сплю третью ночь»
+    novelty: 0.10          # насколько недавно термин вообще появился
+    focus: 0.14            # доля работ, где термин в заголовке — им занимаются, а не упоминают
+  fit_bonus: 0.35          # насколько сильно поднимать сигналы из ваших областей
+
+selection:
+  main: 7                  # основная подборка
+  outside_bubble: 2        # принудительные слоты из далёких от вас областей
+  already_wave: 5          # «уже волна» — для сверки, а не для ставок
+
+# Ваши области. Совпадения поднимают сигнал в основной подборке,
+# а сигналы с нулевым совпадением идут в слоты «за пределами пузыря».
+interests:
+  neuroscience: [neuro, brain, neural recording, eeg, ecog, ieeg, fmri, spike, cortex, cortical,
+                 hippocamp, synap, neuron, bci, brain computer, neuromodulation, connectom,
+                 optogenet, cognition, cognitive, memory, sleep, plasticity]
+  ai: [llm, language model, agent, agentic, transformer, diffusion, reasoning, multimodal,
+       inference, fine tun, reinforcement learning, world model, embedding, rag, mcp]
+  learning: [learning, education, tutor, reading, rsvp, attention, spaced repetition,
+             comprehension, knowledge]
+  games: [game, roblox, procedural, npc, unity, unreal, simulation, gaming, player]
+  trading: [trading, market, portfolio, forecast, time series, crypto, finance, alpha, order book]
+
+# ------------------------------- Нейросеть-аналитик -------------------------------
+# Своя небольшая языковая модель, которая работает прямо в GitHub Actions:
+# отсеивает шум и пишет разборы. Никаких ключей и оплаты.
+analyst:
+  backend: local           # local — своя модель | none — без нейросети (шаблоны)
+  local:
+    repo: unsloth/Qwen3-4B-Instruct-2507-GGUF   # модель на Hugging Face
+    file: Qwen3-4B-Instruct-2507-Q4_K_M.gguf     # ~2,5 ГБ, работает на обычном процессоре
+    n_ctx: 4096
+  claude:                  # не используется по умолчанию (нужны pip install anthropic и ключ API)
+    model: claude-sonnet-5-5
+    max_tokens: 16000
+
+# ------------------------------- Бэктест -------------------------------
+# Поймал бы радар прошлые волны раньше хайпа? Запуск: python -m radar backtest
+backtest:
+  - term: 'abs:"diffusion model" OR abs:"diffusion models"'
+    label: Диффузионные модели
+    hype: 2022-08        # Stable Diffusion
+    from: 2019-01
+  - term: 'abs:"large language model" OR abs:"large language models"'
+    label: Большие языковые модели
+    hype: 2022-12        # ChatGPT
+    from: 2019-01
+  - term: 'abs:"self-attention" OR abs:"transformer architecture"'
+    label: Трансформеры
+    hype: 2019-02        # GPT-2 / BERT в новостях
+    from: 2016-06
+  - term: 'abs:"llm agent" OR abs:"llm agents" OR abs:"language agent" OR abs:"language agents"'
+    label: LLM-агенты
+    hype: 2023-04        # AutoGPT
+    from: 2021-01
+  - term: 'abs:"neural radiance field" OR abs:"neural radiance fields"'
+    label: NeRF
+    hype: 2022-03
+    from: 2019-06

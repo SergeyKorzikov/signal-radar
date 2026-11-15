@@ -1,0 +1,73 @@
+name: radar
+
+on:
+  schedule:
+    - cron: "17 4 * * 1"   # каждый понедельник в 07:17 по Стамбулу
+  workflow_dispatch:
+    inputs:
+      backtest:
+        description: "Заодно прогнать бэктест на прошлых волнах (~20 минут)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: radar
+  cancel-in-progress: false
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Установить зависимости (llama.cpp — готовая сборка под CPU)
+        run: pip install -r requirements.txt --extra-index-url https://abetlen.github.io/llama-cpp-python/whl/cpu
+
+      - name: Кэш нейросети (~2,5 ГБ скачивается только один раз)
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/radar-models
+          key: radar-model-${{ hashFiles('config.yaml') }}
+          restore-keys: radar-model-
+
+      - name: Тесты алгоритма
+        run: python -m pytest -q
+
+      - name: Бэктест
+        if: ${{ inputs.backtest || hashFiles('data/backtest.json') == '' }}
+        run: python -m radar backtest
+
+      - name: Недельный прогон радара
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m radar run
+
+      - name: Сохранить данные в репозиторий
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          git diff --cached --quiet || git commit -m "Радар: данные за неделю"
+          git push
+
+      - name: Собрать дашборд
+        run: python -m radar build --out site
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
