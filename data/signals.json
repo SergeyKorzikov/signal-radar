@@ -7,7 +7,7 @@
    "2026-W46"
   ],
   "scores": [
-   75.2
+   80.2
   ],
   "lane": "наука"
  },
@@ -19,7 +19,7 @@
    "2026-W46"
   ],
   "scores": [
-   59.8
+   60.0
   ],
   "lane": "наука"
  },
@@ -55,7 +55,7 @@
    "2026-W46"
   ],
   "scores": [
-   73.4
+   75.2
   ],
   "lane": "технологии"
  },
@@ -175,7 +175,7 @@
    "2026-W46"
   ],
   "scores": [
-   92
+   96
   ],
   "lane": "рынки"
  },
@@ -319,7 +319,7 @@
    "2026-W46"
   ],
   "scores": [
-   71
+   67
   ],
   "lane": "игры"
  },
@@ -346,5 +346,125 @@
    69.3
   ],
   "lane": "технологии"
+ },
+ "animated character": {
+  "label": "animated characters",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   62.5
+  ],
+  "lane": "наука"
+ },
+ "euclid data release": {
+  "label": "euclid data release",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   59.2
+  ],
+  "lane": "наука"
+ },
+ "iptv player application": {
+  "label": "iptv player application",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   80.5
+  ],
+  "lane": "технологии"
+ },
+ "blender scripting": {
+  "label": "blender scripting",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   75.2
+  ],
+  "lane": "технологии"
+ },
+ "coregold vcc": {
+  "label": "coregold vcc",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   73.5
+  ],
+  "lane": "технологии"
+ },
+ "тема:abdul el sayed": {
+  "label": "abdul el sayed",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   69
+  ],
+  "lane": "культура и мемы"
+ },
+ "тема:streamer": {
+  "label": "streamer",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   63
+  ],
+  "lane": "культура и мемы"
+ },
+ "тема:anthropic": {
+  "label": "anthropic",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   67
+  ],
+  "lane": "рынки"
+ },
+ "polymarket:561994": {
+  "label": "Will Kristi Noem win the 2028 Republican presidential nomination?",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   57.8
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:macca-the-gator-2": {
+  "label": "Macca the Gator (MACCA)",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-16",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   57.8
+  ],
+  "lane": "рынки"
  }
 }
