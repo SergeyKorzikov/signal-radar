@@ -7,7 +7,7 @@
    "2026-W46"
   ],
   "scores": [
-   80.2
+   74.3
   ],
   "lane": "наука"
  },
@@ -43,7 +43,7 @@
    "2026-W46"
   ],
   "scores": [
-   72.9
+   75.6
   ],
   "lane": "технологии"
  },
@@ -127,7 +127,7 @@
    "2026-W46"
   ],
   "scores": [
-   62
+   79
   ],
   "lane": "игры"
  },
@@ -223,7 +223,7 @@
    "2026-W46"
   ],
   "scores": [
-   71.8
+   71.0
   ],
   "lane": "технологии"
  },
@@ -319,7 +319,7 @@
    "2026-W46"
   ],
   "scores": [
-   67
+   71
   ],
   "lane": "игры"
  },
@@ -367,7 +367,7 @@
    "2026-W46"
   ],
   "scores": [
-   59.2
+   58.5
   ],
   "lane": "наука"
  },
@@ -379,7 +379,7 @@
    "2026-W46"
   ],
   "scores": [
-   80.5
+   80.3
   ],
   "lane": "технологии"
  },
@@ -427,9 +427,9 @@
    "2026-W46"
   ],
   "scores": [
-   63
+   67
   ],
-  "lane": "культура и мемы"
+  "lane": "игры"
  },
  "тема:anthropic": {
   "label": "anthropic",
@@ -439,7 +439,7 @@
    "2026-W46"
   ],
   "scores": [
-   67
+   62
   ],
   "lane": "рынки"
  },
@@ -464,6 +464,114 @@
   ],
   "scores": [
    57.8
+  ],
+  "lane": "рынки"
+ },
+ "morphing": {
+  "label": "morphing",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   29.9
+  ],
+  "lane": "наука"
+ },
+ "children aged": {
+  "label": "children aged",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   28.3
+  ],
+  "lane": "наука"
+ },
+ "landing software": {
+  "label": "landing software",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   73.5
+  ],
+  "lane": "технологии"
+ },
+ "тема:scott colom": {
+  "label": "scott colom",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   69
+  ],
+  "lane": "культура и мемы"
+ },
+ "тема:verity": {
+  "label": "verity",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   63
+  ],
+  "lane": "культура и мемы"
+ },
+ "тема:haley": {
+  "label": "haley",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   63
+  ],
+  "lane": "культура и мемы"
+ },
+ "coingecko:gato-the-cat": {
+  "label": "Gato The Cat (GATO)",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   57.8
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:solana": {
+  "label": "Solana (SOL)",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   56.0
+  ],
+  "lane": "рынки"
+ },
+ "polymarket:3580933": {
+  "label": "Will Puma Shen win the next Taipei Mayor election?",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-17",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   55.7
   ],
   "lane": "рынки"
  }

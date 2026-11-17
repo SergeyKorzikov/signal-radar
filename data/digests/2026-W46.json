@@ -1,10 +1,10 @@
 {
  "week": "2026-W46",
- "start": "2026-11-07T00:00:00+00:00",
- "end": "2026-11-14T00:00:00+00:00",
- "generated_at": "2026-11-16T13:57+00:00",
+ "start": "2026-11-08T00:00:00+00:00",
+ "end": "2026-11-15T00:00:00+00:00",
+ "generated_at": "2026-11-17T14:20+00:00",
  "analyst": "local",
- "summary": "Сигналы недели объединяются вокруг трендов в ИИ-интеграции, игровых экосистемах и мем-культуре, где технологии (AI, Blender, Minecraft-моды) переплетаются с социальными и политическими мемами. В первую очередь стоит следить за активностью в AI-инструментах (SDK, скрипты), модификациях игровых платформ и ставках на политические и технологические события, так как они отражают как инновационные, так и общественные тренды.",
+ "summary": "Сигналы недели объединяются вокруг трёх ключевых тем: развитие AI-инструментов (сандбок, плавное преобразование, приложения для разработки), рост интереса к политическим и культурным мемам (Haley, Скотт Колом, Годзилла), а также активность на криптовалютных и прогнозных рынках. В первую очередь стоит следить за динамикой AI-экспериментов и их практического внедрения, а также за ростом интереса к политическим и культурным трендам, которые могут сигнализировать о смене общественного внимания.",
  "lanes": [
   "наука",
   "технологии",
@@ -14,23 +14,23 @@
  ],
  "stats": {
   "docs": {
-   "arxiv": 3979,
-   "biorxiv": 1280,
-   "github": 2984,
+   "arxiv": 4054,
+   "biorxiv": 1285,
+   "github": 3137,
    "huggingface": 600,
-   "hn": 1629
+   "hn": 1679
   },
-  "candidates": 732,
+  "candidates": 763,
   "history_weeks": 6,
   "items": {
    "wikipedia": 400,
-   "trends": 56,
+   "trends": 60,
    "kym": 16,
    "urban": 10,
    "roblox": 136,
    "steam": 100,
    "itch": 36,
-   "polymarket": 51,
+   "polymarket": 50,
    "coingecko": 15,
    "modrinth": 100,
    "_themes": 166
@@ -52,15 +52,15 @@
     "builder": 3,
     "talk": 3
    },
-   "expected": 1.1,
-   "growth": 2.738,
-   "acceleration": 1.3,
+   "expected": 1.13,
+   "growth": 2.716,
+   "acceleration": 1.292,
    "n_kinds": 3,
-   "builder_weight": 9.83,
-   "stars_per_day": 31.5,
+   "builder_weight": 9.66,
+   "stars_per_day": 30.7,
    "novelty": 0.88,
-   "focus": 0.82,
-   "specificity": 0.16,
+   "focus": 0.88,
+   "specificity": 0.18,
    "weeks_seen": 2,
    "series": [
     0.0,
@@ -69,7 +69,7 @@
     0.0,
     0.0,
     5.91,
-    15.77
+    15.34
    ],
    "series_by_kind": {
     "research": [
@@ -110,16 +110,16 @@
     "now"
    ],
    "parts": {
-    "growth": 0.833,
-    "acceleration": 0.897,
+    "growth": 0.788,
+    "acceleration": 0.894,
     "diversity": 1.0,
-    "builders": 0.474,
-    "media_gap": 1.0,
+    "builders": 0.494,
+    "media_gap": 0.5,
     "toy_test": 0.35,
     "novelty": 0.88,
-    "focus": 0.82
+    "focus": 0.88
    },
-   "score": 80.2,
+   "score": 74.3,
    "aliases": [
     "space programming"
    ],
@@ -130,8 +130,8 @@
      "url": "https://github.com/jushengzhang/robot-weight-debugging",
      "snippet": "ng robotics vision-language-action weight-space-programming",
      "meta": {
-      "stars": 144,
-      "stars_per_day": 19.6
+      "stars": 169,
+      "stars_per_day": 20.2
      }
     },
     {
@@ -149,8 +149,8 @@
      "url": "https://github.com/suayptalha/wsr",
      "snippet": "ace-programming",
      "meta": {
-      "stars": 37,
-      "stars_per_day": 7.8
+      "stars": 40,
+      "stars_per_day": 6.9
      }
     },
     {
@@ -160,7 +160,7 @@
      "snippet": "",
      "meta": {
       "stars": 34,
-      "stars_per_day": 4.1
+      "stars_per_day": 3.6
      }
     },
     {
@@ -192,28 +192,28 @@
     },
     {
      "source": "arxiv",
-     "title": "Physics2Weight: Direct Neural Network Architecture and Weight Generation from Physical Laws Using Large Language Models",
-     "url": "https://arxiv.org/abs/2611.12954v1",
+     "title": "Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer",
+     "url": "https://arxiv.org/abs/2611.11537v1",
      "snippet": "",
      "meta": {}
     },
     {
      "source": "arxiv",
-     "title": "Weight-Space Programming of Variational Quantum Circuits: Large Language Models Write Quantum Circuit Parameters Without an Optimizer",
-     "url": "https://arxiv.org/abs/2611.11537v1",
+     "title": "Weight-Space Programming of Policies and Their Verification via Model Checking",
+     "url": "https://arxiv.org/abs/2611.11604v1",
      "snippet": "",
      "meta": {}
     }
    ],
-   "fit": 0.47,
+   "fit": 0.41,
    "fit_domain": "ai",
    "domains": [
     "story",
     "cs.AI",
     "cs.LG"
    ],
-   "earn": 4.0,
-   "learn": 8.0,
+   "earn": 7.0,
+   "learn": 9.0,
    "lane": "наука",
    "toy": {
     "comments": 31,
@@ -228,8 +228,8 @@
     ]
    },
    "toy_score": 0.35,
-   "media": 0,
-   "media_gap": 1.0,
+   "media": null,
+   "media_gap": 0.5,
    "llm_title": "Программирование в пространстве весов",
    "llm_what": "метод редактирования весов нейросетей для изменения их поведения",
    "llm_kind": "технология, метод или инструмент",
@@ -246,435 +246,41 @@
      "count": 0
     },
     "github": {
-     "count": 248
+     "count": 255
     },
     "domain": {
      "domain": "weightspaceprogramming.com",
      "free": false
     }
    },
-   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 248 репозиториев · домен weightspaceprogramming.com занят",
+   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 255 репозиториев · домен weightspaceprogramming.com занят",
    "analysis": {
-    "what": "Метод, при котором можно редактировать веса нейронных сетей для изменения их поведения, например, чтобы Qwen3.5 стала лучше играть в Пакман. Используется в исследованиях и коде.",
-    "why_now": "Упоминаний в неделю — 16 (ожидаемо 1.1), рост в 6.7 раза; 10 упоминаний на arXiv, 3 на GitHub.",
-    "earn_why": "Метод пока не востребован в промышленных приложениях, но может быть использован в экспериментах",
-    "learn_why": "Технология требует глубоких знаний в нейросетях и машинном обучении",
-    "kill_criteria": "Нет практического примера редактирования весов, приводящего к улучшению функции модели в реальном мире",
+    "what": "Метод, при котором можно редактировать веса нейронных сетей, чтобы изменить их поведение — например, превратить Qwen в модель, которая играет в Пакман. Это позволяет тестировать, как меняется поведение модели при небольших изменениях в весах.",
+    "why_now": "Упоминаний в неделю — 16, в 6.6 раз больше, чем ожидалось (1.13)",
+    "earn_why": "Метод может быть использован для быстрого тестирования моделей, что важно в R&D",
+    "learn_why": "Технология требует понимания нейронных сетей и их весов — важно для специалистов в области LLM",
+    "kill_criteria": "Нет роста упоминаний в течение 2 недель, или отсутствие новых репозиториев на GitHub",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "продукт на основе технологии",
-      "idea": "Создать инструмент для редактирования весов в LLM-моделях",
-      "first_step": "Найти 3 репозитория с кодом на GitHub, где используется weight-space programming, и проанализировать их структуру"
+      "idea": "Создать инструмент для редактирования весов в LLM-моделях, чтобы быстро тестировать их поведение",
+      "first_step": "Создать минимальный репозиторий на GitHub с примером редактирования весов Qwen3.5"
      },
      {
       "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Подготовить обзор метода для исследователей в области нейросетей",
-      "first_step": "Собрать 5 примеров кода и 2 статьи из arXiv и Hacker News"
+      "idea": "Написать обзор метода и его применений для разработчиков нейросетей",
+      "first_step": "Собрать 3 примера из GitHub и HN, оформить в виде статьи"
      },
      {
-      "channel": "рыночная ставка",
-      "idea": "Оценить потенциал рынка инструментов для редактирования весов",
-      "first_step": "Составить список 3-х ключевых применений (например, в робототехнике, редактировании LLM)"
+      "channel": "продукт на основе технологии",
+      "idea": "Разработать инструмент для визуализации изменений в весах при редактировании",
+      "first_step": "Использовать данные из репозиториев, чтобы построить простую визуализацию"
      }
     ],
-    "cheap_bet": "Найти 3 репозитория с кодом на GitHub, где используется weight-space programming, и проанализировать их структуру",
+    "cheap_bet": "Создать минимальный репозиторий на GitHub с примером редактирования весов Qwen3.5",
     "title_ru": "Программирование в пространстве весов",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "animated character",
-   "label": "animated characters",
-   "now": 4,
-   "by_source": {
-    "arxiv": 2,
-    "github": 2
-   },
-   "by_kind": {
-    "research": 2,
-    "builder": 2,
-    "talk": 0
-   },
-   "expected": 0.39,
-   "growth": 1.849,
-   "acceleration": 0.711,
-   "n_kinds": 2,
-   "builder_weight": 5.96,
-   "stars_per_day": 16.9,
-   "novelty": 1.0,
-   "focus": 1.0,
-   "specificity": 0.18,
-   "weeks_seen": 1,
-   "series": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    4.85
-   ],
-   "series_by_kind": {
-    "research": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     2
-    ],
-    "builder": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     2
-    ],
-    "talk": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   "series_weeks": [
-    "2026-W40",
-    "2026-W41",
-    "2026-W42",
-    "2026-W43",
-    "2026-W44",
-    "2026-W45",
-    "now"
-   ],
-   "parts": {
-    "growth": 0.667,
-    "acceleration": 0.59,
-    "diversity": 0.5,
-    "builders": 0.372,
-    "media_gap": 0.5,
-    "toy_test": 0.2,
-    "novelty": 1.0,
-    "focus": 1.0
-   },
-   "score": 62.5,
-   "examples": [
-    {
-     "source": "github",
-     "title": "Fuwni/dynamic-island-windows: Atoll — a Dynamic Island-style island for Windows: music with lyrics, live activities, screenshots with OCR, weather, AI chat and animated characters. Free & open source.",
-     "url": "https://github.com/Fuwni/dynamic-island-windows",
-     "snippet": "l claude-code desktop-widget dotnet dynamic-island i18n lyrics music-player screenshot-tool windows windows-11 wpf",
-     "meta": {
-      "stars": 73,
-      "stars_per_day": 14.5
-     }
-    },
-    {
-     "source": "github",
-     "title": "m0s4ik/home-companion: Lightweight voice companion for Home Assistant on old smart displays: on-device wake word and reflexes, an animated character, AirPlay music and screen mirroring.",
-     "url": "https://github.com/m0s4ik/home-companion",
-     "snippet": "ay debian home-assistant mcp rust slint smart-display thinksmart-view voice-assistant vosk wake-word wyoming",
-     "meta": {
-      "stars": 21,
-      "stars_per_day": 2.4
-     }
-    },
-    {
-     "source": "arxiv",
-     "title": "Action Transfer Across Character Body Plans in Latent-Action World Models: An Empirical Study of Animated Characters",
-     "url": "https://arxiv.org/abs/2611.10523v1",
-     "snippet": "Latent-action world models learn actions from video without labels, and recent methods aim to share these actions across bodies. Transfer between 2D characters with different body structures remains underexplored. In this paper, we study whether an action learned from one character can make a character with a different",
-     "meta": {}
-    },
-    {
-     "source": "arxiv",
-     "title": "Pose-based Neural Clothing for Animated Characters",
-     "url": "https://arxiv.org/abs/2611.18253v1",
-     "snippet": "",
-     "meta": {}
-    }
-   ],
-   "fit": 0.25,
-   "fit_domain": "ai",
-   "domains": [
-    "C#",
-    "Rust",
-    "cs.CV"
-   ],
-   "earn": 7.0,
-   "learn": 9.0,
-   "lane": "наука",
-   "toy": {
-    "comments": 0,
-    "skeptic": 0,
-    "enthusiast": 0,
-    "examples": []
-   },
-   "toy_score": 0.2,
-   "media": null,
-   "media_gap": 0.5,
-   "llm_title": "Анимированные персонажи",
-   "llm_what": "анимированные персонажи с движением и поведением в виртуальных средах",
-   "llm_kind": "технология, метод или инструмент",
-   "occupancy": {
-    "modrinth": {
-     "count": 4
-    },
-    "steam": {
-     "count": 0
-    },
-    "github": {
-     "count": 748
-    },
-    "domain": {
-     "domain": "animatedcharacters.com",
-     "free": false
-    }
-   },
-   "occupancy_text": "моды Minecraft: 4 · Steam: 0 игр · GitHub: 748 репозиториев · домен animatedcharacters.com занят",
-   "analysis": {
-    "what": "Анимированные персонажи — это цифровые образы, которые могут выполнять действия, реагировать на команды или отображать динамические состояния, например, через движение, музыку или визуальные эффекты. Их используют в интерфейсах, виртуальных помощниках и модах для игр.",
-    "why_now": "Упоминаний за неделю — 4, в 3,6 раза больше, чем ожидается (0,39)",
-    "earn_why": "Технология может быть использована в коммерческих продуктах (например, виртуальные помощники, интерфейсы), где есть спрос на визуальную интерактивность",
-    "learn_why": "Для понимания архитектуры анимированных персонажей (например, трансфер действий, нейронные модели) важно знать основы машинного обучения и 3D-анимации",
-    "kill_criteria": "Отсутствие активных разработок в GitHub или arXiv в течение 2 недель, снижение упоминаний до 0.39 за неделю",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "мод или ассет",
-      "idea": "Создать анимированных персонажей для Minecraft-модов",
-      "first_step": "Найти репозитории на GitHub с подобными модами и изучить их код (например, в репозиториях с 'animated character' или 'slint' или 'wpf')"
-     },
-     {
-      "channel": "продукт на основе технологии",
-      "idea": "Разработать виртуального помощника с анимированным персонажем, который отвечает на голосовые команды",
-      "first_step": "Изучить примеры на GitHub, где используется 'on-device wake word' и 'animated character'"
-     },
-     {
-      "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Подготовить обзор технологий, используемых в анимированных персонажах (например, слои, нейронные модели, трансфер действий)",
-      "first_step": "Проверить статьи на arXiv по теме 'animated characters' и 'latent-action world models'"
-     }
-    ],
-    "cheap_bet": "Найти репозитории на GitHub с подобными модами и изучить их код (например, в репозиториях с 'animated character' или 'slint' или 'wpf')",
-    "title_ru": "Анимированные персонажи",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "card game",
-   "label": "card game",
-   "now": 6,
-   "by_source": {
-    "arxiv": 3,
-    "github": 3
-   },
-   "by_kind": {
-    "research": 3,
-    "builder": 3,
-    "talk": 0
-   },
-   "expected": 0.71,
-   "growth": 2.032,
-   "acceleration": 0.625,
-   "n_kinds": 2,
-   "builder_weight": 10.82,
-   "stars_per_day": 41.6,
-   "novelty": 0.75,
-   "focus": 0.67,
-   "specificity": 0.12,
-   "weeks_seen": 3,
-   "series": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    3.14,
-    0.0,
-    7.28
-   ],
-   "series_by_kind": {
-    "research": [
-     0,
-     0,
-     0,
-     0,
-     2,
-     0,
-     3
-    ],
-    "builder": [
-     0,
-     0,
-     0,
-     0,
-     1,
-     0,
-     3
-    ],
-    "talk": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   "series_weeks": [
-    "2026-W40",
-    "2026-W41",
-    "2026-W42",
-    "2026-W43",
-    "2026-W44",
-    "2026-W45",
-    "now"
-   ],
-   "parts": {
-    "growth": 0.769,
-    "acceleration": 0.577,
-    "diversity": 0.5,
-    "builders": 0.5,
-    "media_gap": 0.5,
-    "toy_test": 0.35,
-    "novelty": 0.75,
-    "focus": 0.67
-   },
-   "score": 60.0,
-   "examples": [
-    {
-     "source": "github",
-     "title": "adetounfisayomi/governor-of-poker-game-enhancement: Governor of Poker: Wild West poker against 100+ rivals on Windows",
-     "url": "https://github.com/adetounfisayomi/governor-of-poker-game-enhancement",
-     "snippet": "s governor-of-poker governor-of-poker-setup poker-game trial-version windows windows-software",
-     "meta": {
-      "stars": 102,
-      "stars_per_day": 17.8
-     }
-    },
-    {
-     "source": "github",
-     "title": "rehansaid226-ops/solitaire-well-desktop: Solitaire-Well: Windows Card Game with Diamond and Napoleon's Tomb Variants",
-     "url": "https://github.com/rehansaid226-ops/solitaire-well-desktop",
-     "snippet": "games solitaire-variants solitaire-well-download trial-version undo-redo windows windows-software",
-     "meta": {
-      "stars": 101,
-      "stars_per_day": 17.7
-     }
-    },
-    {
-     "source": "github",
-     "title": "HalfVulpes/sts2ai: Zero-search RL policies for Slay the Spire 2 with failure-driven restarts: code, frozen protocols, trained policies and evaluation records. Topics: reinforcement-learning, slay-the-spire, ppo, game-ai,",
-     "url": "https://github.com/HalfVulpes/sts2ai",
-     "snippet": "",
-     "meta": {
-      "stars": 44,
-      "stars_per_day": 6.1
-     }
-    },
-    {
-     "source": "arxiv",
-     "title": "Attention Is Only as Good as Its Witnesses: When Higher-Order Layers Help, and When They Do Not",
-     "url": "https://arxiv.org/abs/2611.11937v1",
-     "snippet": "",
-     "meta": {}
-    },
-    {
-     "source": "arxiv",
-     "title": "Rational Use of Time for Social Coordination in Humans and AI",
-     "url": "https://arxiv.org/abs/2611.14766v1",
-     "snippet": "",
-     "meta": {}
-    },
-    {
-     "source": "arxiv",
-     "title": "Reading the Table: Sim-to-Real Game State Detection for the Chef's Hat Card Game",
-     "url": "https://arxiv.org/abs/2611.15524v1",
-     "snippet": "",
-     "meta": {}
-    }
-   ],
-   "fit": 1.0,
-   "fit_domain": "games",
-   "domains": [
-    "HTML",
-    "C#",
-    "cs.LG"
-   ],
-   "earn": 7.0,
-   "learn": 9.0,
-   "lane": "наука",
-   "toy": {
-    "comments": 18,
-    "skeptic": 0,
-    "enthusiast": 1,
-    "examples": [
-     {
-      "side": "энтузиаст",
-      "text": "shows Turing Completeness in the mathematical equivalent of a petri dish. We've built Turing Machines out of Magic the Gathering card game decks [1]. To some extent if there was a way to build a truly, well enforced, secure",
-      "url": "https://news.ycombinator.com/item?id=50471755"
-     }
-    ]
-   },
-   "toy_score": 0.35,
-   "media_gap": 0.5,
-   "llm_title": "Игра-карточка",
-   "llm_what": "игровой механизм или проект на основе карточной игры",
-   "llm_kind": "игра, мод или игровой жанр",
-   "occupancy": {
-    "modrinth": {
-     "count": 32
-    },
-    "steam": {
-     "count": 10
-    },
-    "github": {
-     "count": 81332
-    },
-    "domain": {
-     "domain": "cardgame.com",
-     "free": false
-    }
-   },
-   "occupancy_text": "моды Minecraft: 32 · Steam: 10 игр · GitHub: 81332 репозиториев · домен cardgame.com занят",
-   "analysis": {
-    "what": "Игра-карточка — это цифровые карточные игры, реализованные в виде модов или проектов, часто на платформах вроде Minecraft или в виде отдельных приложений. Примеры включают моды для Minecraft и проекты, где используются ИИ-модели для обучения и игры в карточные игры.",
-    "why_now": "6 упоминаний за неделю при ожидаемых 0.71, рост в 4.1 раза",
-    "earn_why": "Моды и игры с ИИ-противниками могут быть коммерчески реализованы как платные моды или встроенные в приложения",
-    "learn_why": "Карточные игры с ИИ — пересечение ИИ, игрового дизайна и пользовательского опыта, требует глубоких знаний",
-    "kill_criteria": "Появление 10+ скептиков на HN, отсутствие активных репозиториев на GitHub в течение 2 недель",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "игра в Roblox",
-      "idea": "Создать карточную игру в Roblox с модифицированными правилами и ИИ-противниками",
-      "first_step": "Найти 3 готовых мода на GitHub с активным кодом и включить их в прототип"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, где игроки могут играть в карточные игры с ИИ-противниками",
-      "first_step": "Создать базовый мод с функцией запуска карточной игры и включить в него примеры из GitHub"
-     },
-     {
-      "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Подготовить обзор трендов в карточных играх с ИИ-интеграцией",
-      "first_step": "Собрать 5 примеров из arXiv и GitHub, проанализировать их техническую реализацию"
-     }
-    ],
-    "cheap_bet": "Найти 3 готовых мода на GitHub с активным кодом и включить их в прототип",
-    "title_ru": "Игра-карточка",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -691,9 +297,9 @@
     "builder": 0,
     "talk": 0
    },
-   "expected": 0.39,
-   "growth": 3.228,
-   "acceleration": 1.022,
+   "expected": 0.4,
+   "growth": 3.216,
+   "acceleration": 1.013,
    "n_kinds": 1,
    "builder_weight": 0,
    "stars_per_day": 0,
@@ -708,7 +314,7 @@
     0.0,
     0.0,
     0.0,
-    14.56
+    14.16
    ],
    "series_by_kind": {
     "research": [
@@ -749,8 +355,8 @@
     "now"
    ],
    "parts": {
-    "growth": 0.897,
-    "acceleration": 0.808,
+    "growth": 0.871,
+    "acceleration": 0.788,
     "diversity": 0.0,
     "builders": 0.0,
     "media_gap": 0.5,
@@ -758,11 +364,11 @@
     "novelty": 1.0,
     "focus": 1.0
    },
-   "score": 59.2,
+   "score": 58.5,
    "aliases": [
     "euclid data",
-    "data release",
-    "euclid"
+    "euclid",
+    "data release"
    ],
    "examples": [
     {
@@ -794,7 +400,7 @@
     "astro-ph.GA",
     "astro-ph.CO"
    ],
-   "earn": 3.0,
+   "earn": 4.0,
    "learn": 8.0,
    "lane": "наука",
    "toy": {
@@ -806,7 +412,7 @@
    "toy_score": 0.2,
    "media_gap": 0.5,
    "llm_title": "Данные Euclid (DR1)",
-   "llm_what": "новый набор данных по данным телескопа Euclid о галактических линзах",
+   "llm_what": "новый набор данных по космическим линзам из проекта Euclid",
    "llm_kind": "новые данные или научный проект",
    "occupancy": {
     "modrinth": {
@@ -816,94 +422,95 @@
      "count": 0
     },
     "github": {
-     "count": 1
+     "count": 2
     },
     "domain": {
      "domain": "eucliddatarelease.com",
      "free": true
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 1 репозиториев · домен eucliddatarelease.com свободен",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 2 репозиториев · домен eucliddatarelease.com свободен",
    "analysis": {
-    "what": "Новые научные данные от миссии Euclid (DR1) — первая публикация данных о космосе, включая обработанные изображения и моделирование галактических линз, которые позволяют изучать массу галактик и распределение материи в Вселенной.",
-    "why_now": "12 упоминаний за неделю при ожидаемых 0.39, рост в 9.4 раза",
-    "earn_why": "Данные научные, но не прямой доход без коммерческого продукта",
-    "learn_why": "Для понимания физики космоса и методов обработки данных важно заранее",
-    "kill_criteria": "Нет роста упоминаний в течение 2 недель, или отсутствие открытых данных и примеров визуализации",
+    "what": "Новые научные данные проекта Euclid (DR1) — первая публикация наблюдений спутника, включающая обработанные изображения в видимом и инфракрасном диапазонах, для изучения структуры Вселенной.",
+    "why_now": "12 упоминаний за неделю при ожидаемых 0.4, рост в 9.3 раза",
+    "earn_why": "Можно использовать данные для создания образовательных продуктов или визуализаций, но без прямого коммерческого приложения",
+    "learn_why": "Для понимания фундаментальных астрономических методов важно изучать данные и процессы обработки",
+    "kill_criteria": "Нет реакции со стороны научного сообщества в течение 2 недель после публикации",
     "stage": "разгон",
     "window": "месяцы",
     "applications": [
      {
-      "channel": "бот или расширение",
-      "idea": "Создать бота, который автоматически суммирует и объясняет ключевые научные результаты из публикаций Euclid DR1 для аудитории без физики",
-      "first_step": "Собрать 3-5 ключевых статей из arXiv и написать простое объяснение в формате для новичков"
-     },
-     {
       "channel": "продукт на основе технологии",
-      "idea": "Разработать интерактивный инструмент, который позволяет пользователям визуализировать линзирование галактик на основе данных Euclid DR1",
-      "first_step": "Проверить, есть ли открытые данные и API для доступа к данным DR1"
+      "idea": "Создать интерактивный визуализатор данных Euclid для научного сообщества",
+      "first_step": "Собрать данные из arXiv и определить ключевые параметры изображений (например, масса галактик, линзы)"
      },
      {
       "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Создать курс для студентов и любителей физики, объясняющий, как данные Euclid используются для изучения Вселенной",
-      "first_step": "Найти 3-5 основных статей из arXiv и выделить их основные идеи"
+      "idea": "Подготовить обзор научных возможностей DR1 для студентов и начинающих астрономов",
+      "first_step": "Собрать 3-5 ключевых статей из arXiv и выделить основные выводы"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать 3D-модель галактической линзы на основе данных DR1 для Minecraft",
+      "first_step": "Проверить, есть ли в открытых данных параметры для моделирования линз"
      }
     ],
-    "cheap_bet": "Собрать 3-5 ключевых статей из arXiv и написать простое объяснение в формате для новичков",
+    "cheap_bet": "Собрать данные из arXiv и определить ключевые параметры изображений (например, масса галактик, линзы)",
     "title_ru": "Данные Euclid (DR1)",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "iptv player application",
-   "label": "iptv player application",
-   "now": 141,
+   "term": "morphing",
+   "label": "morphing",
+   "now": 9,
    "by_source": {
-    "github": 141
+    "arxiv": 5,
+    "github": 4
    },
    "by_kind": {
-    "research": 0,
-    "builder": 141,
+    "research": 5,
+    "builder": 4,
     "talk": 0
    },
-   "expected": 0.39,
-   "growth": 6.677,
-   "acceleration": 1.751,
-   "n_kinds": 1,
-   "builder_weight": 717.13,
-   "stars_per_day": 8310.2,
-   "novelty": 1.0,
-   "focus": 1.0,
-   "specificity": 0.98,
-   "weeks_seen": 1,
+   "expected": 3.46,
+   "growth": 1.166,
+   "acceleration": 0.085,
+   "n_kinds": 2,
+   "builder_weight": 10.9,
+   "stars_per_day": 25.7,
+   "novelty": 0.25,
+   "focus": 0.56,
+   "specificity": 1.0,
+   "weeks_seen": 7,
    "series": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    171.05
+    2.39,
+    4.59,
+    3.74,
+    7.06,
+    4.19,
+    2.96,
+    10.62
    ],
    "series_by_kind": {
     "research": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
+     3,
+     4,
+     4,
+     6,
+     2,
+     2,
+     5
     ],
     "builder": [
      0,
+     1,
      0,
-     0,
-     0,
-     0,
-     0,
-     141
+     1,
+     2,
+     1,
+     4
     ],
     "talk": [
      0,
@@ -925,16 +532,396 @@
     "now"
    ],
    "parts": {
-    "growth": 0.974,
-    "acceleration": 0.974,
+    "growth": 0.224,
+    "acceleration": 0.047,
+    "diversity": 0.5,
+    "builders": 0.518,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 0.25,
+    "focus": 0.56
+   },
+   "score": 29.9,
+   "examples": [
+    {
+     "source": "github",
+     "title": "fatimazahrakhallouq/fantamorph-media-tool: Fantamorph: Shape Seamless Photo Transformations and Visual Workflows",
+     "url": "https://github.com/fatimazahrakhallouq/fantamorph-media-tool",
+     "snippet": "software image-editing-software morphing morphing-software photo-enhancements share-morphing trial-version",
+     "meta": {
+      "stars": 102,
+      "stars_per_day": 15.1
+     }
+    },
+    {
+     "source": "github",
+     "title": "useFluid/fluidui: Your brand, in motion. Open-source React components where outlines flow on real springs, with agent skills and a CLI.",
+     "url": "https://github.com/useFluid/fluidui",
+     "snippet": "kills animation claude-code components morphing motion nextjs react spring svg",
+     "meta": {
+      "stars": 48,
+      "stars_per_day": 6.8
+     }
+    },
+    {
+     "source": "github",
+     "title": "willeastcott/splat-fashion: The future of clothes shopping: captured outfits as Gaussian splats, rigged, labelled and morphing from one look to the next. Built with PlayCanvas.",
+     "url": "https://github.com/willeastcott/splat-fashion",
+     "snippet": "an-splatting playcanvas webgl webgpu",
+     "meta": {
+      "stars": 14,
+      "stars_per_day": 2.7
+     }
+    },
+    {
+     "source": "arxiv",
+     "title": "Flexible Intelligent Metasurfaces for Enhancing Secure MISO Communications",
+     "url": "https://arxiv.org/abs/2611.16411v1",
+     "snippet": "",
+     "meta": {}
+    },
+    {
+     "source": "arxiv",
+     "title": "Quantum Transitions From Integrable to Chaotic",
+     "url": "https://arxiv.org/abs/2611.18777v1",
+     "snippet": "",
+     "meta": {}
+    },
+    {
+     "source": "arxiv",
+     "title": "Validation-Guided Prompt Selection for Differential Morphing Attack Detection",
+     "url": "https://arxiv.org/abs/2611.17176v1",
+     "snippet": "",
+     "meta": {}
+    }
+   ],
+   "fit": 0.11,
+   "fit_domain": "ai",
+   "domains": [
+    "cs.CV",
+    "TypeScript",
+    "JavaScript"
+   ],
+   "earn": 8.0,
+   "learn": 7.0,
+   "lane": "наука",
+   "toy": {
+    "comments": 7,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media_gap": 0.5,
+   "llm_title": "Плавное преобразование изображений (morphing)",
+   "llm_what": "технология плавного преобразования изображений и форм",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 9
+    },
+    "steam": {
+     "count": 10
+    },
+    "github": {
+     "count": 8268
+    },
+    "domain": {
+     "domain": "morphing.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 9 · Steam: 10 игр · GitHub: 8268 репозиториев · домен morphing.com занят",
+   "analysis": {
+    "what": "Метод плавного преобразования изображений (morphing) — технология, позволяющая плавно переходить от одного изображения к другому, например, изменять форму одежды или лица. Используется в редакторах, визуальных инструментах и открытых проектах.",
+    "why_now": "Упоминаний в неделю — 9, в 2.2 раза больше, чем ожидалось (3.46). Рост в 2.2 раза за неделю.",
+    "earn_why": "Можно быстро создать инструмент или сервис на основе open-source кода, особенно в области визуального контента",
+    "learn_why": "Знание morphing-механизмов позволяет участвовать в разработке визуальных инструментов и дизайна, что востребовано в 2024–2025 гг.",
+    "kill_criteria": "Появление 2–3 крупных проектов, которые не используют morphing, но предлагают альтернативу с более высокой производительностью и стабильностью",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать инструмент для редактирования фото с плавными переходами, например, для визуального контента в соцсетях",
+      "first_step": "Найти 3 GitHub-репозитория с активным использованием morphing и проанализировать их API и workflow"
+     },
+     {
+      "channel": "игра в Roblox",
+      "idea": "Внедрить механизм morphing в игру, где персонажи плавно меняют форму или одежду",
+      "first_step": "Проверить, есть ли в Roblox-играх примеры использования morphing-механизмов в визуальных эффектах"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Создать курс по использованию morphing-технологий в визуальном дизайне и редактировании",
+      "first_step": "Собрать 5 примеров реальных проектов с morphing на GitHub и arXiv"
+     }
+    ],
+    "cheap_bet": "Найти 3 GitHub-репозитория с активным использованием morphing и проанализировать их API и workflow",
+    "title_ru": "Плавное преобразование изображений (morphing)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "children aged",
+   "label": "children aged",
+   "now": 16,
+   "by_source": {
+    "arxiv": 1,
+    "biorxiv": 15
+   },
+   "by_kind": {
+    "research": 16,
+    "builder": 0,
+    "talk": 0
+   },
+   "expected": 5.19,
+   "growth": 1.459,
+   "acceleration": 0.512,
+   "n_kinds": 1,
+   "builder_weight": 0,
+   "stars_per_day": 0,
+   "novelty": 0.25,
+   "focus": 0.19,
+   "specificity": 0.27,
+   "weeks_seen": 7,
+   "series": [
+    5.57,
+    4.59,
+    5.61,
+    4.03,
+    5.24,
+    11.83,
+    18.88
+   ],
+   "series_by_kind": {
+    "research": [
+     7,
+     5,
+     6,
+     4,
+     5,
+     12,
+     16
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.459,
+    "acceleration": 0.529,
     "diversity": 0.0,
-    "builders": 0.974,
+    "builders": 0.0,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 0.25,
+    "focus": 0.19
+   },
+   "score": 28.3,
+   "examples": [
+    {
+     "source": "arxiv",
+     "title": "Three Invisible Failure Modes in Speech-Based Age Estimation for Child Safety",
+     "url": "https://arxiv.org/abs/2611.18971v1",
+     "snippet": "Child safety in AI depends on the accurate identification of minor users. Young children tend to talk rather than type when interacting with AI, so in practice this identification requires predicting age from speech. We evaluated whether three audio-capable large language models can predict a child's age from their spe",
+     "meta": {}
+    },
+    {
+     "source": "biorxiv",
+     "title": "Light-induced melatonin suppression in school-aged children before and during camping: associations with circadian phase and daytime light exposure",
+     "url": "https://www.biorxiv.org/content/10.64898/2026.11.12.766095v1",
+     "snippet": "Prior light exposure can influence the magnitude of melatonin suppression in response to evening light, even within the same individual. We examined whether light-induced melatonin suppression in school-aged children differed before and during a camp with approximately two weeks of exposure to a natural light-dark cycl",
+     "meta": {}
+    },
+    {
+     "source": "biorxiv",
+     "title": "Genetic diversity of Plasmodium falciparum and Plasmodium malariae and its association with infectivity of Anopheles coluzzii in the Mfou Health District, Central Region of Cameroon",
+     "url": "https://www.biorxiv.org/content/10.64898/2026.11.09.765288v1",
+     "snippet": "Background Malaria remains a major public health challenge in Cameroon, with sustained transmission particularly in forest-savannah transition zones. Although Plasmodium falciparum is the predominant malaria parasite, non-falciparum species such as P. malariae also contribute to the human infectious reservoir and to on",
+     "meta": {}
+    },
+    {
+     "source": "biorxiv",
+     "title": "Acceptability and feasibility of measles vaccination, small-quantity lipid-based nutrient supplementation, and their co-delivery among children aged 6-23 months in northern Nigeria: a qualitative study",
+     "url": "https://www.medrxiv.org/content/10.64898/2026.11.06.26367420v1",
+     "snippet": "",
+     "meta": {}
+    }
+   ],
+   "fit": 0.06,
+   "fit_domain": "neuroscience",
+   "domains": [
+    "medrxiv:public and global health",
+    "medrxiv:epidemiology",
+    "medrxiv:pediatrics"
+   ],
+   "earn": 7.0,
+   "learn": 9.0,
+   "lane": "наука",
+   "toy": {
+    "comments": 0,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media_gap": 0.5,
+   "llm_title": "Дети по возрастам в исследованиях ИИ",
+   "llm_what": "группа детей по возрасту в исследованиях безопасности и ИИ",
+   "llm_kind": "новые данные или научный проект",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 1165
+    },
+    "domain": {
+     "domain": "childrenaged.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 1165 репозиториев · домен childrenaged.com свободен",
+   "analysis": {
+    "what": "Исследования, где упоминаются дети по возрастам — например, в контексте безопасности AI (по речи), циркадных ритмов или вакцинации. В основном — научные статьи в arXiv и bioRxiv.",
+    "why_now": "16 упоминаний за неделю против ожидаемых 5.19 — рост в 2.7 раза.",
+    "earn_why": "Можно быстро создать продукт, если есть данные о речи и возрасте. Применение в детской безопасности — реальная ниша.",
+    "learn_why": "Для специалистов по детской безопасности и ИИ важно понимать, как возраст влияет на поведение и риски.",
+    "kill_criteria": "Наблюдается противоречие в данных: например, если в 3 из 5 статей возраст детей не влияет на результат, и нет доказательств практической применимости.",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Разработать инструмент для AI, который оценивает возраст детей по их речи, с фокусом на безопасность в детских приложениях",
+      "first_step": "Найти 3 статьи из bioRxiv, где речь или поведение детей анализируется, и выделить общие паттерны"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Создать обзор научных работ по возрасту детей в ИИ и медицине для специалистов по детской безопасности",
+      "first_step": "Собрать 10 последних статей из arXiv и bioRxiv по теме и проанализировать ключевые темы"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Предложить ставку на рынок детской безопасности в ИИ — например, на основе анализа речи детей",
+      "first_step": "Провести анализ 5 статей, где возраст детей упоминается в контексте рисков или безопасности"
+     }
+    ],
+    "cheap_bet": "Найти 3 статьи из bioRxiv, где речь или поведение детей анализируется, и выделить общие паттерны",
+    "title_ru": "Дети по возрастам в исследованиях ИИ",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "iptv player application",
+   "label": "iptv player application",
+   "now": 199,
+   "by_source": {
+    "github": 199
+   },
+   "by_kind": {
+    "research": 0,
+    "builder": 199,
+    "talk": 0
+   },
+   "expected": 0.4,
+   "growth": 7.16,
+   "acceleration": 1.846,
+   "n_kinds": 1,
+   "builder_weight": 933.43,
+   "stars_per_day": 8039.6,
+   "novelty": 1.0,
+   "focus": 1.0,
+   "specificity": 0.99,
+   "weeks_seen": 1,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    234.78
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     199
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.976,
+    "acceleration": 0.953,
+    "diversity": 0.0,
+    "builders": 0.976,
     "media_gap": 1.0,
     "toy_test": 0.2,
     "novelty": 1.0,
     "focus": 1.0
    },
-   "score": 80.5,
+   "score": 80.3,
    "aliases": [
     "iptv m3u8",
     "iptv channels",
@@ -966,32 +953,32 @@
    "examples": [
     {
      "source": "github",
+     "title": "tremorbuffalospire/IPTV_Player_2.0: 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
+     "url": "https://github.com/tremorbuffalospire/IPTV_Player_2.0",
+     "snippet": "ptv-channels iptv-m3u8 iptv-player iptv-player-application iptvtools m3u mag mpegts plex streaming tv xtream xtreamcode",
+     "meta": {
+      "stars": 381,
+      "stars_per_day": 138.7
+     }
+    },
+    {
+     "source": "github",
+     "title": "TorrentArrow/IPTV_Player_2.0: 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
+     "url": "https://github.com/TorrentArrow/IPTV_Player_2.0",
+     "snippet": "iptv iptv-channels iptv-m3u8 iptv-player iptv-player-application iptvtools m3u mag mpegts plex streaming tv xtream xtreamcode",
+     "meta": {
+      "stars": 376,
+      "stars_per_day": 136.5
+     }
+    },
+    {
+     "source": "github",
      "title": "GryphonEmpress/IPTV_Player2.0: 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
      "url": "https://github.com/GryphonEmpress/IPTV_Player2.0",
      "snippet": "tv iptv-channels iptv-m3u8 iptv-player iptv-player-application iptvtools m3u mag mpegts plex streaming tv xtream xtreamcode",
      "meta": {
       "stars": 188,
-      "stars_per_day": 66.2
-     }
-    },
-    {
-     "source": "github",
-     "title": "AtomEmissary/IPTV_Player2.0: 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
-     "url": "https://github.com/AtomEmissary/IPTV_Player2.0",
-     "snippet": "iptv iptv-channels iptv-m3u8 iptv-player iptv-player-application iptvtools m3u mag mpegts plex streaming tv xtream xtreamcode",
-     "meta": {
-      "stars": 187,
-      "stars_per_day": 65.9
-     }
-    },
-    {
-     "source": "github",
-     "title": "ArtisanArouse/IPTV_Player2.0: 🎬 A powerful, intuitive IPTV streaming app supporting M3U playlists, EPG, and community lists. Available for Windows, macOS, Linux, Android & TV Boxes. ",
-     "url": "https://github.com/ArtisanArouse/IPTV_Player2.0",
-     "snippet": "ptv iptv-channels iptv-m3u8 iptv-player iptv-player-application iptvtools m3u mag mpegts plex streaming tv xtream xtreamcode",
-     "meta": {
-      "stars": 187,
-      "stars_per_day": 65.9
+      "stars_per_day": 48.7
      }
     }
    ],
@@ -1012,15 +999,10 @@
    "toy_score": 0.2,
    "media": 0,
    "media_gap": 1.0,
-   "llm_title": "Приложение IPTV-плеер",
-   "llm_what": "приложение для просмотра телевидения через IPTV-каналы",
+   "llm_title": "Приложение для IPTV",
+   "llm_what": "приложение для просмотра IPTV-каналов через M3U-плейлисты",
    "llm_kind": "технология, метод или инструмент",
    "occupancy": {
-    "roblox": {
-     "count": 0,
-     "top_players": 0,
-     "players": 0
-    },
     "modrinth": {
      "count": 0
     },
@@ -1035,59 +1017,59 @@
      "free": true
     }
    },
-   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 20 репозиториев · домен iptvplayerapplication.com свободен",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 20 репозиториев · домен iptvplayerapplication.com свободен",
    "analysis": {
-    "what": "Приложение для просмотра IPTV-каналов, которое поддерживает M3U-плейлисты, EPG и позволяет смотреть трансляции через различные платформы, включая Windows и macOS.",
-    "why_now": "Рост упоминаний в 102,3 раза — с 0,39 до 141 упоминания за неделю",
-    "earn_why": "Можно быстро создать и запустить приложение, которое будет работать на основе открытых технологий и легко распространяться",
-    "learn_why": "Понимание архитектуры и работы IPTV-плееров важно для разработки и анализа рисков",
-    "kill_criteria": "Появление официальных блокировок или запретов на использование IPTV-плееров в странах с жёстким регулированием контента",
+    "what": "Приложение для IPTV — инструмент, который позволяет смотреть телевизионные каналы через интернет, поддерживая списки каналов (M3U), электронные программы (EPG) и работу с различными платформами, такими как Plex или Xtream.",
+    "why_now": "Упоминаний за неделю — 199, в 143 раза больше, чем ожидалось (0.4)",
+    "earn_why": "Можно быстро создать и запустить приложение, которое будет работать на основе открытых технологий, и продавать его как готовое решение",
+    "learn_why": "Для понимания работы M3U, EPG, протоколов и безопасности важно знать основы работы IPTV-систем",
+    "kill_criteria": "Появление официального патентованного решения от крупной компании (например, YouTube или Netflix) с аналогичным функционалом",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "продукт на основе технологии",
-      "idea": "Разработать и запустить приложение для просмотра IPTV-каналов с поддержкой M3U-плейлистов и EPG",
-      "first_step": "Создать репозиторий на GitHub с базовым функционалом и добавить поддержку M3U-плейлистов"
+      "idea": "Создать приложение для IPTV с поддержкой M3U-списков и EPG, доступное для Windows и других платформ",
+      "first_step": "Создать репозиторий на GitHub с базовым функционалом и документацией"
      },
      {
       "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Предоставить экспертный обзор возможностей и рисков использования IPTV-плееров",
-      "first_step": "Собрать данные из GitHub-репозиториев и проанализировать популярные функции и проблемы"
+      "idea": "Оформить курс по настройке и использованию IPTV-приложений для домашнего телевидения",
+      "first_step": "Собрать 5 примеров настроек и создать базовый контент для YouTube или Telegram"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод для Minecraft, который интегрирует IPTV-плеер в игровой интерфейс",
-      "first_step": "Проверить, возможно ли интегрировать плеер в Minecraft через API или встроенные механизмы"
+      "idea": "Разработать мод для Minecraft, который показывает IPTV-каналы в виде виртуального телевизора",
+      "first_step": "Создать прототип в Minecraft с подключением к M3U-файлам"
      }
     ],
-    "cheap_bet": "Создать репозиторий на GitHub с базовым функционалом и добавить поддержку M3U-плейлистов",
-    "title_ru": "Приложение IPTV-плеер",
+    "cheap_bet": "Создать репозиторий на GitHub с базовым функционалом и документацией",
+    "title_ru": "Приложение для IPTV",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "typescript sdk",
-   "label": "typescript sdk",
-   "now": 313,
+   "term": "sandbox environment",
+   "label": "sandbox environment",
+   "now": 403,
    "by_source": {
-    "github": 313
+    "github": 403
    },
    "by_kind": {
     "research": 0,
-    "builder": 313,
+    "builder": 403,
     "talk": 0
    },
-   "expected": 0.39,
-   "growth": 7.822,
-   "acceleration": 1.99,
+   "expected": 0.4,
+   "growth": 8.174,
+   "acceleration": 2.058,
    "n_kinds": 1,
-   "builder_weight": 1600.64,
-   "stars_per_day": 19274.3,
+   "builder_weight": 1905.64,
+   "stars_per_day": 17497.9,
    "novelty": 1.0,
    "focus": 1.0,
-   "specificity": 0.95,
+   "specificity": 0.94,
    "weeks_seen": 1,
    "series": [
     0.0,
@@ -1096,7 +1078,7 @@
     0.0,
     0.0,
     0.0,
-    379.72
+    475.46
    ],
    "series_by_kind": {
     "research": [
@@ -1115,7 +1097,7 @@
      0,
      0,
      0,
-     313
+     403
     ],
     "talk": [
      0,
@@ -1137,8 +1119,8 @@
     "now"
    ],
    "parts": {
-    "growth": 0.987,
-    "acceleration": 0.987,
+    "growth": 1.0,
+    "acceleration": 1.0,
     "diversity": 0.0,
     "builders": 1.0,
     "media_gap": 0.5,
@@ -1146,25 +1128,27 @@
     "novelty": 1.0,
     "focus": 1.0
    },
-   "score": 75.2,
+   "score": 75.6,
    "aliases": [
+    "typescript sdk",
     "purpose ai agent",
-    "sandbox environment",
     "supports running",
     "ai manus",
     "ai agent system",
     "ai sdk",
-    "function calling",
     "manus ai",
+    "ai manus2",
     "gemeni",
-    "tool calling",
     "manus",
+    "tool calling",
+    "function calling",
     "purpose ai",
-    "general purpose ai",
     "generative ai",
+    "general purpose ai",
     "solidjs",
     "anthropic",
     "agent system",
+    "manus2",
     "tanstack",
     "chatbot",
     "svelte"
@@ -1172,46 +1156,45 @@
    "examples": [
     {
      "source": "github",
-     "title": "PrathmeshYa/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-     "url": "https://github.com/PrathmeshYa/ai--manus",
-     "snippet": "ts ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
-     "meta": {
-      "stars": 202,
-      "stars_per_day": 69.2
-     }
-    },
-    {
-     "source": "github",
-     "title": "ITprogamatikDedSec/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-     "url": "https://github.com/ITprogamatikDedSec/ai--manus",
+     "title": "topapothecarycanal/ai--manus2.0: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/topapothecarycanal/ai--manus2.0",
      "snippet": "dk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
      "meta": {
-      "stars": 202,
-      "stars_per_day": 69.2
+      "stars": 380,
+      "stars_per_day": 138.0
      }
     },
     {
      "source": "github",
-     "title": "datrify/ai--manus: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
-     "url": "https://github.com/datrify/ai--manus",
-     "snippet": "agents ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "title": "toppatronweave/ai--manus2.0: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/toppatronweave/ai--manus2.0",
+     "snippet": "ai-sdk anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
      "meta": {
-      "stars": 202,
-      "stars_per_day": 69.2
+      "stars": 378,
+      "stars_per_day": 137.2
+     }
+    },
+    {
+     "source": "github",
+     "title": "topconstableinlet67/ai--manus2.0: AI Manus is a general-purpose AI Agent system that supports running various tools and operations in a sandbox environment.",
+     "url": "https://github.com/topconstableinlet67/ai--manus2.0",
+     "snippet": "k anthropic chatbot function-calling gemeni generative-ai llm multimodal openai react solidjs streaming svelte tanstack tool-calling typescript typescript-sdk vue",
+     "meta": {
+      "stars": 377,
+      "stars_per_day": 136.9
      }
     }
    ],
    "fit": 0.9,
    "fit_domain": "ai",
    "domains": [
-    "Python",
-    "HTML"
+    "Go"
    ],
    "earn": 8.0,
-   "learn": 9.0,
+   "learn": 7.0,
    "lane": "технологии",
    "toy": {
-    "comments": 3,
+    "comments": 7,
     "skeptic": 0,
     "enthusiast": 0,
     "examples": []
@@ -1219,8 +1202,8 @@
    "toy_score": 0.2,
    "media": null,
    "media_gap": 0.5,
-   "llm_title": "SDK на TypeScript для AI",
-   "llm_what": "SDK на TypeScript для интеграции AI-агентов и функций",
+   "llm_title": "Сандбок среда для AI",
+   "llm_what": "среда для тестирования AI-систем и инструментов",
    "llm_kind": "технология, метод или инструмент",
    "occupancy": {
     "modrinth": {
@@ -1230,66 +1213,66 @@
      "count": 0
     },
     "github": {
-     "count": 7297
+     "count": 2587
     },
     "domain": {
-     "domain": "typescriptsdk.com",
+     "domain": "sandboxenvironment.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 7297 репозиториев · домен typescriptsdk.com занят",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 2587 репозиториев · домен sandboxenvironment.com занят",
    "analysis": {
-    "what": "Инструмент на базе TypeScript, позволяющий AI-агентам вызывать функции и работать с различными инструментами в виртуальной среде, например, с OpenAI или Anthropic. Используется для создания гибких, модульных AI-систем.",
-    "why_now": "Упоминаний в неделю — 313, в 226,3 раза больше, чем ожидалось (0,39). На GitHub — 7297 репозиториев, звёзд в день — 19 274.",
-    "earn_why": "Технология может быть быстро внедрена в проекты с AI-агентами, особенно в DevOps и интеграции с LLM",
-    "learn_why": "Знание работы SDK позволяет быстро строить и тестировать AI-агенты, что востребовано в 2024–2025 гг.",
-    "kill_criteria": "Появление 10+ серьёзных багов в реальных проектах, приводящих к сбоям при вызове функций",
+    "what": "Сандбок среда для AI — это цифровая среда, в которой искусственный интеллект может выполнять задачи, используя инструменты и функции, как в реальном мире. Примеры — репозитории на GitHub, где разрабатываются системы, позволяющие AI вызывать API, работать с моделями и выполнять действия в виртуальной среде.",
+    "why_now": "Упоминаний в неделю — 403, в 288,8 раз больше, чем ожидалось (0,4).",
+    "earn_why": "Можно быстро создать инструмент, который будет использоваться в компаниях для автоматизации",
+    "learn_why": "Для понимания работы AI-агентов и sandbox-среды важно знать архитектуру и интеграции",
+    "kill_criteria": "Снижение упоминаний до 10 в неделю или отсутствие активных разработок на GitHub в течение 3 недель",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "продукт на основе технологии",
-      "idea": "Создать AI-агент, который использует TypeScript SDK для автоматического выполнения задач в среде с инструментами (например, анализ данных, генерация текста)",
-      "first_step": "Создать минимальный рабочий пример с вызовом OpenAI через TypeScript SDK"
+      "idea": "Создать платформу, где AI-агенты могут выполнять задачи в виртуальной среде, например, автоматизировать тестирование или обработку данных",
+      "first_step": "Создать MVP с интеграцией AI-агента и базовой sandbox-среды на GitHub"
      },
      {
       "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Предоставить обучающий материал по использованию TypeScript SDK для AI-агентов в проектах с функциональным вызовом",
-      "first_step": "Написать статью о типах ошибок при интеграции SDK с LLM"
+      "idea": "Предоставить обучение по использованию sandbox-сред для AI-агентов в компаниях, где важна автоматизация",
+      "first_step": "Найти 3 компании, где нужна автоматизация процессов, и провести анализ их задач"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, где AI-агенты используют TypeScript SDK для взаимодействия с миром",
-      "first_step": "Создать прототип функции, которая вызывает внешний инструмент (например, генератор текста) через SDK"
+      "idea": "Разработать мод для Minecraft, где игроки могут управлять AI-агентами в виртуальной среде",
+      "first_step": "Создать прототип мода с базовым AI-агентом, работающим в Minecraft"
      }
     ],
-    "cheap_bet": "Создать минимальный рабочий пример с вызовом OpenAI через TypeScript SDK",
-    "title_ru": "SDK на TypeScript для AI",
+    "cheap_bet": "Создать MVP с интеграцией AI-агента и базовой sandbox-среды на GitHub",
+    "title_ru": "Сандбок среда для AI",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "blender scripting",
-   "label": "blender scripting",
-   "now": 11,
+   "term": "landing software",
+   "label": "landing software",
+   "now": 60,
    "by_source": {
-    "github": 11
+    "github": 60
    },
    "by_kind": {
     "research": 0,
-    "builder": 11,
+    "builder": 60,
     "talk": 0
    },
-   "expected": 0.39,
-   "growth": 3.112,
-   "acceleration": 0.996,
+   "expected": 0.4,
+   "growth": 5.446,
+   "acceleration": 1.488,
    "n_kinds": 1,
-   "builder_weight": 66.37,
-   "stars_per_day": 1846.8,
+   "builder_weight": 261.38,
+   "stars_per_day": 2172.0,
    "novelty": 1.0,
    "focus": 1.0,
-   "specificity": 0.58,
+   "specificity": 0.87,
    "weeks_seen": 1,
    "series": [
     0.0,
@@ -1298,7 +1281,7 @@
     0.0,
     0.0,
     0.0,
-    13.34
+    70.79
    ],
    "series_by_kind": {
     "research": [
@@ -1317,7 +1300,7 @@
      0,
      0,
      0,
-     11
+     60
     ],
     "talk": [
      0,
@@ -1339,69 +1322,249 @@
     "now"
    ],
    "parts": {
-    "growth": 0.872,
-    "acceleration": 0.795,
+    "growth": 0.965,
+    "acceleration": 0.918,
     "diversity": 0.0,
-    "builders": 0.885,
-    "media_gap": 1.0,
+    "builders": 0.965,
+    "media_gap": 0.5,
     "toy_test": 0.2,
     "novelty": 1.0,
     "focus": 1.0
    },
-   "score": 75.2,
+   "score": 73.5,
    "aliases": [
-    "blender plugin",
-    "blender mcp",
-    "blender automation",
-    "blender ai",
-    "blender extension",
-    "blender llm",
-    "blender chatgpt",
-    "blender assistant",
-    "blender agents",
-    "3d automation",
-    "blender copilot",
-    "blender3d",
-    "blender addon",
-    "3d modeling",
-    "blender blender",
-    "addon"
+    "agent native",
+    "native desktop experience",
+    "agent native desktop",
+    "microsoft copilot",
+    "copilot app",
+    "desktop experience",
+    "adminlte",
+    "native desktop",
+    "github copilot",
+    "xcode",
+    "hacktoberfest",
+    "chatgpt",
+    "copilot"
    ],
    "examples": [
     {
      "source": "github",
-     "title": "hitkeeen/blender-ai-mcp-addon: AI assistant and MCP server for Blender: visual chat, scene tools, multi-agent workflows. Works with ChatGPT/GPT, Claude, Gemini, Ollama, OpenCode. Blender AI addon, copilot for 3D, bpy Pyt",
-     "url": "https://github.com/hitkeeen/blender-ai-mcp-addon",
-     "snippet": "ts ai-assistant blender blender-addon blender-ai blender-automation blender-mcp blender-plugin blender-scripting bpy chatgpt claude gemini llm mcp mcp-for-blender mcp-server model-context-protocol ollama opencode",
+     "title": "trackersnailgrip/GitHub-Copilot-app: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+     "url": "https://github.com/trackersnailgrip/GitHub-Copilot-app",
+     "snippet": "skills ai awesome chatgpt copilot github-copilot hacktoberfest microsoft-copilot openai prompts vue xcode xtreamcode",
      "meta": {
-      "stars": 1925,
-      "stars_per_day": 489.6
+      "stars": 384,
+      "stars_per_day": 139.5
      }
     },
     {
      "source": "github",
-     "title": "credoksopho1984/blender-ai-copilot-studio: An AI copilot and MCP server for Blender that turns plain-language briefs into scene operations—inside a visual chat studio with multi-agent teams, your choice of AI models, and",
-     "url": "https://github.com/credoksopho1984/blender-ai-copilot-studio",
-     "snippet": "pilot · blender ai copilot · blender ai assistant · blender mcp server. 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server m",
+     "title": "toppatronweave/GitHub-Copilot-app: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+     "url": "https://github.com/toppatronweave/GitHub-Copilot-app",
+     "snippet": "t-skills ai awesome chatgpt copilot github-copilot hacktoberfest microsoft-copilot openai prompts vue xcode xtreamcode",
      "meta": {
-      "stars": 514,
-      "stars_per_day": 138.0
+      "stars": 380,
+      "stars_per_day": 138.3
      }
     },
     {
      "source": "github",
-     "title": "tiobeharxi1987/blender-ai-copilot-flow: A controlled AI workflow for Blender: every copilot edit is a supervised tool call—proposed, approved, executed in sequence, cancellable after the current step and undoable by name",
-     "url": "https://github.com/tiobeharxi1987/blender-ai-copilot-flow",
-     "snippet": "er 3d · blender addon · blender plugin · blender extension. 3d-automation 3d-modeling blender blender-addon blender-agents blender-ai blender-assistant blender-automation blender-chatgpt blender-copilot blender-extension blender-llm blender-mcp blender-plugin blender-scripting blender3d bpy mcp mcp-server model-context",
+     "title": "TrapBladesmith/GitHub-Copilot-app: The GitHub Copilot app is an agent-native desktop experience for finding, running, steering, and landing software work across your GitHub repositories. ",
+     "url": "https://github.com/TrapBladesmith/GitHub-Copilot-app",
+     "snippet": "t-skills ai awesome chatgpt copilot github-copilot hacktoberfest microsoft-copilot openai prompts vue xcode xtreamcode",
      "meta": {
-      "stars": 512,
-      "stars_per_day": 137.7
+      "stars": 378,
+      "stars_per_day": 137.3
      }
     }
    ],
    "fit": 0.9,
    "fit_domain": "ai",
    "domains": [],
+   "earn": 8.0,
+   "learn": 9.0,
+   "lane": "технологии",
+   "toy": {
+    "comments": 0,
+    "skeptic": 0,
+    "enthusiast": 0,
+    "examples": []
+   },
+   "toy_score": 0.2,
+   "media": null,
+   "media_gap": 0.5,
+   "llm_title": "Приложение для посадки (landing software)",
+   "llm_what": "программное обеспечение для посадки и запуска космических аппаратов",
+   "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 0
+    },
+    "github": {
+     "count": 88
+    },
+    "domain": {
+     "domain": "landingsoftware.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 88 репозиториев · домен landingsoftware.com занят",
+   "analysis": {
+    "what": "Приложение для посадки (landing software) — это инструмент, который помогает AI-агентам находить, запускать и управлять программным обеспечением в реальном времени, особенно в среде GitHub. Оно используется для автоматизации процессов разработки, включая выбор и запуск кода.",
+    "why_now": "Упоминаний в GitHub за неделю — 60, при ожидаемых 0.4, рост в 43.6 раза",
+    "earn_why": "Технология может быть использована в автоматизации разработки, где есть спрос на инструменты для AI-агентов",
+    "learn_why": "Разработчики и AI-инженеры будут искать глубокое понимание процессов посадки кода",
+    "kill_criteria": "Отсутствие активных репозиториев на GitHub в течение 2 недель или снижение упоминаний до 5",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Разработать интегрированную платформу для автоматической посадки и запуска AI-агентов в разработке ПО",
+      "first_step": "Создать MVP с поддержкой GitHub Copilot и базовыми скриптами посадки"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Предоставить обучающий контент по использованию landing software в процессе разработки AI-агентов",
+      "first_step": "Собрать 5 примеров использования в реальных проектах на GitHub"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Создать мод для Minecraft, который демонстрирует работу AI-агента по посадке кода",
+      "first_step": "Найти 10 репозиториев с использованием landing software и извлечь примеры кода"
+     }
+    ],
+    "cheap_bet": "Создать MVP с поддержкой GitHub Copilot и базовыми скриптами посадки",
+    "title_ru": "Приложение для посадки (landing software)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "pre configured environment",
+   "label": "pre configured environment",
+   "now": 17,
+   "by_source": {
+    "github": 17
+   },
+   "by_kind": {
+    "research": 0,
+    "builder": 17,
+    "talk": 0
+   },
+   "expected": 0.4,
+   "growth": 3.686,
+   "acceleration": 1.115,
+   "n_kinds": 1,
+   "builder_weight": 61.7,
+   "stars_per_day": 253.0,
+   "novelty": 1.0,
+   "focus": 1.0,
+   "specificity": 0.52,
+   "weeks_seen": 1,
+   "series": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    20.06
+   ],
+   "series_by_kind": {
+    "research": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ],
+    "builder": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     17
+    ],
+    "talk": [
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ],
+   "parts": {
+    "growth": 0.953,
+    "acceleration": 0.835,
+    "diversity": 0.0,
+    "builders": 0.859,
+    "media_gap": 0.5,
+    "toy_test": 0.2,
+    "novelty": 1.0,
+    "focus": 1.0
+   },
+   "score": 71.0,
+   "aliases": [
+    "configured environment",
+    "pre configured"
+   ],
+   "examples": [
+    {
+     "source": "github",
+     "title": "phantomsociallook/auslogics: Digital Audio Workstation Suite 2026 pre-configured environment, ready for seamless local workstation deployment with optimized audio...",
+     "url": "https://github.com/phantomsociallook/auslogics",
+     "snippet": "ics-2026 auslogics-boostspeed auslogics-boostspeed-2026 auslogics-crack auslogics-disk-defrag-pro-64-bit auslogics-driver-roll-back-update auslogics-driver-updater auslogics-free boostspeed-install-setup-windows-2026 boostspeed-pro ccleaner-computer-maintenance device-manager-tool disk-defrag-pro driver-tool free-key-w",
+     "meta": {
+      "stars": 324,
+      "stars_per_day": 35.2
+     }
+    },
+    {
+     "source": "github",
+     "title": "PlanetCraneInterface/autodesk-revit: Autodesk Revit 2026 automated deployment pipeline pre-configured environment ready for immediate workstation setup.",
+     "url": "https://github.com/PlanetCraneInterface/autodesk-revit",
+     "snippet": "k-revit-2023-pro autodesk-revit-2025 autodesk-revit-mcp autodesk-revit-pc autodesk-revit-windows civil-engineering-ai clash-detection construction-documentation design-automation-revit inventor revit revit-2025 revit-addins revit-mcp-server revit-mep revit-plugin revit-secondary-development revit-windows windows-cad",
+     "meta": {
+      "stars": 276,
+      "stars_per_day": 30.0
+     }
+    },
+    {
+     "source": "github",
+     "title": "VillageExecutive/ultra-edit: Ultra Edit 2026 pre-configured environment for rapid desktop software utility deployment.",
+     "url": "https://github.com/VillageExecutive/ultra-edit",
+     "snippet": "n antigravity-ai cyberlink-powerdirector-19-download license-patcher pdf-editor-pdf ultra-edit ultra-edit-crack ultraedit ultraedit-2026 ultraedit-crack ultraedit-download ultraedit-download-free ultraedit-free ultraedit-license ultraedit-pack ultraedit-pro-crack ultraedit-text-editor ultraedit-unlock ultraedit-unlocke",
+     "meta": {
+      "stars": 265,
+      "stars_per_day": 28.8
+     }
+    }
+   ],
+   "fit": 0.06,
+   "fit_domain": "games",
+   "domains": [
+    "HTML"
+   ],
    "earn": 8.0,
    "learn": 7.0,
    "lane": "технологии",
@@ -1412,10 +1575,9 @@
     "examples": []
    },
    "toy_score": 0.2,
-   "media": 0,
-   "media_gap": 1.0,
-   "llm_title": "Скрипты для Blender с AI",
-   "llm_what": "написание скриптов для автоматизации в Blender с использованием AI",
+   "media_gap": 0.5,
+   "llm_title": "Готовая технологическая среда",
+   "llm_what": "готовая среда для быстрого запуска программ или инструментов",
    "llm_kind": "технология, метод или инструмент",
    "occupancy": {
     "modrinth": {
@@ -1425,221 +1587,41 @@
      "count": 0
     },
     "github": {
-     "count": 640
+     "count": 68
     },
     "domain": {
-     "domain": "blenderscripting.com",
+     "domain": "preconfiguredenvironment.com",
      "free": true
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 640 репозиториев · домен blenderscripting.com свободен",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 68 репозиториев · домен preconfiguredenvironment.com свободен",
    "analysis": {
-    "what": "Скрипты для Blender, создаваемые с использованием искусственного интеллекта, позволяют автоматизировать 3D-моделирование через AI-ассистенты и управляемые рабочие потоки. Такие инструменты переводят естественные запросы в конкретные действия в Blender.",
-    "why_now": "11 упоминаний за неделю при ожидаемых 0.39, рост в 8.6 раза",
-    "earn_why": "Можно быстро создать продукт, который будет востребован в 3D-индустрии",
-    "learn_why": "Для специалистов 3D-моделирования важно понимать интеграцию AI в рабочие процессы",
-    "kill_criteria": "Отсутствие активных разработок на GitHub в течение 2 недель или снижение звёзд до 500 в день",
+    "what": "Готовая технологическая среда — это настроенный и настроенный в автоподготовке рабочий образ окружения (например, для программного обеспечения), который можно сразу запустить без настройки. Примеры — репозитории на GitHub, где описаны автоматизированные установки для программ, таких как Revit, Ultra Edit, DAW.",
+    "why_now": "17 упоминаний за неделю при ожидаемых 0.4, рост в 12.9 раза",
+    "earn_why": "Технология может быть быстро внедрена в B2B-сектор, где нужны быстрые рабочие среды",
+    "learn_why": "Для специалистов по DevOps и настройке ПО важно понимать, как автоматизировать среды",
+    "kill_criteria": "Появление публичного скептицизма в HN или отсутствие роста упоминаний в течение 3 недель",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "продукт на основе технологии",
-      "idea": "Разработать AI-ассистент для Blender, который автоматизирует создание сцен на основе текстовых запросов",
-      "first_step": "Создать минимально жизнеспособный репозиторий на GitHub с примером работы с ChatGPT и Blender API"
+      "idea": "Создать продукт для автоматической настройки рабочих сред в DAW, CAD или редакторах",
+      "first_step": "Создать репозиторий на GitHub с конфигурацией для одного из популярных редакторов (например, Revit или Ultra Edit)"
      },
      {
       "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Предоставить обучение пользователям работе с AI-скриптами в Blender через видео и документацию",
-      "first_step": "Создать базовую статью на HN или в блоге с примером использования AI-ассистента"
+      "idea": "Предложить клиентам готовые среды как часть сервиса по настройке рабочих станций",
+      "first_step": "Найти 3-5 примеров из GitHub и проанализировать их структуру и зависимости"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать бесплатный плагин-модуль для Blender, который интегрирует AI-ассистент в интерфейс",
-      "first_step": "Запустить тестовый репозиторий на GitHub с открытым кодом и документацией"
+      "idea": "Создать мод для Minecraft, который демонстрирует настройку среды виртуальной машины",
+      "first_step": "Создать минимальный скрипт для запуска виртуальной среды в Minecraft через мод"
      }
     ],
-    "cheap_bet": "Создать минимально жизнеспособный репозиторий на GitHub с примером работы с ChatGPT и Blender API",
-    "title_ru": "Скрипты для Blender с AI",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "coregold vcc",
-   "label": "coregold vcc",
-   "now": 16,
-   "by_source": {
-    "github": 16
-   },
-   "by_kind": {
-    "research": 0,
-    "builder": 16,
-    "talk": 0
-   },
-   "expected": 0.58,
-   "growth": 3.426,
-   "acceleration": 1.265,
-   "n_kinds": 1,
-   "builder_weight": 47.3,
-   "stars_per_day": 97.5,
-   "novelty": 0.88,
-   "focus": 0.88,
-   "specificity": 0.73,
-   "weeks_seen": 2,
-   "series": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    1.97,
-    19.41
-   ],
-   "series_by_kind": {
-    "research": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ],
-    "builder": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     2,
-     16
-    ],
-    "talk": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   "series_weeks": [
-    "2026-W40",
-    "2026-W41",
-    "2026-W42",
-    "2026-W43",
-    "2026-W44",
-    "2026-W45",
-    "now"
-   ],
-   "parts": {
-    "growth": 0.923,
-    "acceleration": 0.885,
-    "diversity": 0.0,
-    "builders": 0.808,
-    "media_gap": 1.0,
-    "toy_test": 0.2,
-    "novelty": 0.88,
-    "focus": 0.88
-   },
-   "score": 73.5,
-   "aliases": [
-    "coregold"
-   ],
-   "examples": [
-    {
-     "source": "github",
-     "title": "dhsakilkhan503-a11y/-virtual-card-usdt-qwen4-max-deepseek-v4-hybrid-routing: 聚焦 2026 年 11 月开源旗舰模型（Qwen4-Max Preview / DeepSeek-V4.1-Flash）海外多节点混合路由架构，解析第三方推理平台 Auto-Topup 高频微额扣款触发国内银行锁卡的底层原因，提供 CoreGold 商业 VCC 解决方案。",
-     "url": "https://github.com/dhsakilkhan503-a11y/-virtual-card-usdt-qwen4-max-deepseek-v4-hybrid-routing",
-     "snippet": "egold qwen4 qwen4exp",
-     "meta": {
-      "stars": 29,
-      "stars_per_day": 7.1
-     }
-    },
-    {
-     "source": "github",
-     "title": "DarenHsin308365/virtual-card-usdt-claude-code-autonomous-agents-vcc: An architectural FinOps and payment-clearing guide for autonomous multi-agent coding (Claude Code / GPT-6 Parallel Agents), solving Stripe Radar 402 de",
-     "url": "https://github.com/DarenHsin308365/virtual-card-usdt-claude-code-autonomous-agents-vcc",
-     "snippet": "tual Cards (VCC) and Apple Pay.. api apple applepay coregold vcc",
-     "meta": {
-      "stars": 29,
-      "stars_per_day": 6.9
-     }
-    },
-    {
-     "source": "github",
-     "title": "KenjiIra5580/openai-o3-deep-research-applepay-vcc: ⚡ 2026 实战指南：手把手教你用 CoreGold 商业 VCC + Apple Pay 开通 OpenAI o3 / Deep Research",
-     "url": "https://github.com/KenjiIra5580/openai-o3-deep-research-applepay-vcc",
-     "snippet": "enai openai-api vcc",
-     "meta": {
-      "stars": 35,
-      "stars_per_day": 6.7
-     }
-    }
-   ],
-   "fit": 0.19,
-   "fit_domain": "ai",
-   "domains": [],
-   "earn": 8.0,
-   "learn": 9.0,
-   "lane": "технологии",
-   "toy": {
-    "comments": 0,
-    "skeptic": 0,
-    "enthusiast": 0,
-    "examples": []
-   },
-   "toy_score": 0.2,
-   "media": 0,
-   "media_gap": 1.0,
-   "llm_title": "CoreGold VCC — виртуальная карта для платежей",
-   "llm_what": "архитектура виртуальной карты для платежей и финансовых операций",
-   "llm_kind": "технология, метод или инструмент",
-   "occupancy": {
-    "modrinth": {
-     "count": 0
-    },
-    "steam": {
-     "count": 0
-    },
-    "github": {
-     "count": 2
-    },
-    "domain": {
-     "domain": "coregoldvcc.com",
-     "free": true
-    }
-   },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 2 репозиториев · домен coregoldvcc.com свободен",
-   "analysis": {
-    "what": "CoreGold VCC — это виртуальная карта для платежей, которая позволяет использовать цифровые валюты (например, USDT) в сочетании с платежными системами, такими как Apple Pay. Технология активно обсуждается в контексте интеграции с AI-сервисами и автоматизированными агентами.",
-    "why_now": "16 упоминаний за неделю при ожидаемых 0.58, рост в 10.7 раза",
-    "earn_why": "Технология может быть использована в AI-финансовых сервисах, где требуется безопасный и быстрый доступ к цифровым валютам",
-    "learn_why": "Понимание архитектуры VCC и её взаимодействия с AI-платформами даёт преимущество в разработке инновационных финансовых решений",
-    "kill_criteria": "Отсутствие подтверждённой интеграции с платежными системами или AI-платформами в течение 2 недель",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "продукт на основе технологии",
-      "idea": "Разработать сервис для интеграции CoreGold VCC с AI-платформами, например, OpenAI или DeepSeek, для автоматизированного доступа к платформам через Apple Pay",
-      "first_step": "Создать техническое описание интеграции и проверить API-совместимость с OpenAI o3"
-     },
-     {
-      "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Предоставить экспертный обзор архитектуры CoreGold VCC и её применения в финансовых и AI-проектах",
-      "first_step": "Собрать примеры кода и архитектурные документы из GitHub, проанализировать их структуру"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Создать мод для Minecraft, в котором виртуальные карты VCC используются как инструмент для обмена цифровыми активами",
-      "first_step": "Найти базовые примеры виртуальных карт в Minecraft-модах и адаптировать их под VCC-логику"
-     }
-    ],
-    "cheap_bet": "Создать техническое описание интеграции и проверить API-совместимость с OpenAI o3",
-    "title_ru": "CoreGold VCC — виртуальная карта для платежей",
+    "cheap_bet": "Создать репозиторий на GitHub с конфигурацией для одного из популярных редакторов (например, Revit или Ultra Edit)",
+    "title_ru": "Готовая технологическая среда",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -1671,7 +1653,7 @@
      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
      "snippet": "Godzilla Minus Zero  is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. A sequel to Godzilla Minus One (2023), it is the 39th film in the Godzilla franchise, the 34th film thereof produced by Toho, and the sixth installment in the Reiwa era. The film stars Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Yuki Yamada, Kuranosuke Sasaki, Sakura Ando",
      "meta": {
-      "value": "600 тыс. просмотров Википедии за неделю"
+      "value": "618 тыс. просмотров Википедии за неделю"
      }
     },
     {
@@ -1680,7 +1662,7 @@
      "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_One",
      "snippet": "Godzilla Minus One  is a 2023 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. It is the 37th film in the Godzilla franchise, the 33rd film thereof produced by Toho, and the fifth installment in the Reiwa era. Set in postwar Japan, the film stars Ryunosuke Kamiki as a former kamikaze pilot suffering from post-traumatic stress disorder after encountering the ",
      "meta": {
-      "value": "217 тыс. просмотров Википедии за неделю"
+      "value": "227 тыс. просмотров Википедии за неделю"
      }
     },
     {
@@ -1689,7 +1671,7 @@
      "url": "https://en.wikipedia.org/wiki/Godzilla_(franchise)",
      "snippet": "",
      "meta": {
-      "value": "94 тыс. просмотров Википедии за неделю"
+      "value": "103 тыс. просмотров Википедии за неделю"
      }
     },
     {
@@ -1698,14 +1680,14 @@
      "url": "https://store.steampowered.com/app/4251460",
      "snippet": "",
      "meta": {
-      "value": "52 место в популярных новинках"
+      "value": "45 место в популярных новинках"
      }
     }
    ],
    "aliases": [],
    "fit": 0.0,
    "fit_domain": "",
-   "earn": 7.0,
+   "earn": 6.0,
    "learn": 8.0,
    "stars_per_day": 0,
    "llm_title": "Годзилла — киаю-мем",
@@ -1719,48 +1701,48 @@
      "count": 10
     },
     "github": {
-     "count": 1630
+     "count": 1631
     },
     "domain": {
      "domain": "godzilla.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 13 · Steam: 10 игр · GitHub: 1630 репозиториев · домен godzilla.com занят",
+   "occupancy_text": "моды Minecraft: 13 · Steam: 10 игр · GitHub: 1631 репозиториев · домен godzilla.com занят",
    "analysis": {
-    "what": "Мем о Годзилле, связанный с его появлением в фильмах «Godzilla Minus One» и «Godzilla Minus Zero», где Годзилла представлен как киаю (мифический монстр), вдохновляющий интернет-сообщество. В тренде — упоминания в Википедии и моды в Minecraft.",
-    "why_now": "В Википедии за неделю 600 тыс. просмотров за фильм «Godzilla Minus Zero» — это 3 раза больше, чем за «Godzilla Minus One».",
-    "earn_why": "Мемы с киаю-Годзиллой могут быть использованы в модах и контенте, где есть вовлечение аудитории.",
-    "learn_why": "Сообщество уже активно обсуждает киаю-Годзиллу, и понимание контекста фильмов и мемов важно для создания контента.",
-    "kill_criteria": "Появление нового фильма в 2027 году без упоминания киаю-Годзиллы или отсутствие модов в Minecraft в течение 2 недель.",
+    "what": "Мем о Годзилле, связанный с киаю-мемом (мемом о монстрах, которые уничтожают всё), всплыл в контексте новых фильмов серии «Годзилла» — в частности, фильмов 2023 и 2026 годов. Видно, что в Википедии растёт интерес к фильмам серии, а на Steam — популярность ремастера «Godzilla: Destroy All Monsters Melee».",
+    "why_now": "В Википедии за неделю 618 тыс. просмотров за фильм «Godzilla Minus Zero» и 227 тыс. — за «Godzilla Minus One»; на Steam — 45-е место в новинках.",
+    "earn_why": "Мемы с киаю-мемом — популярны, но не приносят прямого дохода без контента",
+    "learn_why": "Для понимания мемов важно знать, как формируются киаю-мемы в культуре",
+    "kill_criteria": "Появление контента, где Годзилла не связан с киаю-мемом (например, как обычный монстр в фильме)",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать мини-игру с Годзиллой как киаю, где игроки борются с монстрами в стиле киаю-мема",
-      "first_step": "Найти 1–2 примера киаю-мемов в Roblox и скопировать их механику"
+      "idea": "Создать мини-игру с киаю-мемом — Годзилла, который уничтожает всё вокруг, в стиле «мем-мобилы»",
+      "first_step": "Найти 1–2 примера киаю-мемов в интернете и скопировать их в сценарий"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Разработать мод в Minecraft, где Годзилла — киаю, с эффектами и поведением, вдохновлённым фильмами 2023–2026 гг.",
-      "first_step": "Проверить, есть ли уже моды с киаю-Годзиллой в Minecraft, и найти 1–2 похожих"
+      "idea": "Создать мод в Minecraft, где Годзилла — это монстр, который уничтожает всё, как в мемах",
+      "first_step": "Проверить, есть ли уже моды с Годзиллой в Minecraft, и найти 1–2 готовых шаблона"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать сайт с контентом о киаю-Годзилле: статьи, видео, фан-факты, связанные с фильмами 2023–2026 гг.",
-      "first_step": "Создать базу из 5 ключевых фактов из Википедии и добавить визуализацию"
+      "idea": "Создать простой сайт с мемами о Годзилле и киаю-мемах",
+      "first_step": "Занять домен godzilla.com и разместить 5–10 мемов с описаниями"
      }
     ],
-    "cheap_bet": "Найти 1–2 примера киаю-мемов в Roblox и скопировать их механику",
+    "cheap_bet": "Найти 1–2 примера киаю-мемов в интернете и скопировать их в сценарий",
     "title_ru": "Годзилла — киаю-мем",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "тема:abdul el sayed",
-   "label": "abdul el sayed",
+   "term": "тема:scott colom",
+   "label": "scott colom",
    "lane": "культура и мемы",
    "kind": "тема",
    "now": 2,
@@ -1780,35 +1762,34 @@
    },
    "examples": [
     {
-     "source": "wikipedia",
-     "title": "Abdul El-Sayed",
-     "url": "https://en.wikipedia.org/wiki/Abdul_El-Sayed",
-     "snippet": "Abdulrahman Mohamed El-Sayed is an American politician, epidemiologist, and academic who is a United States senator-elect from Michigan.",
+     "source": "polymarket",
+     "title": "Will Scott Colom win the 2028 Democratic presidential nomination?",
+     "url": "https://polymarket.com/market/will-scott-colom-win-the-2028-democratic-presidential-nomination",
+     "snippet": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Democratic Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Democratic Party sources.\n\nAny replacement of",
      "meta": {
-      "value": "923 тыс. просмотров Википедии за неделю"
+      "value": "306 тыс. долларов оборота за сутки"
      }
     },
     {
-     "source": "polymarket",
-     "title": "Will Abdul El-Sayed win the 2028 US Presidential Election?",
-     "url": "https://polymarket.com/market/will-abdul-el-sayed-win-the-2028-us-presidential-election",
-     "snippet": "The 2028 US Presidential Election is scheduled to take place on November 7, 2028.\n\nThis market will resolve to the person who wins the 2028 US Presidential Election.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources cal",
+     "source": "wikipedia",
+     "title": "Scott Colom",
+     "url": "https://en.wikipedia.org/wiki/Scott_Colom",
+     "snippet": "Scott Winston Colom is an American politician, lawyer, and jurist who is a United States senator-elect from Mississippi. A member of the Democratic Party, Colom has served as district attorney for the 16th Judicial District of Mississippi since 2016.",
      "meta": {
-      "value": "43 тыс. долларов оборота за сутки"
+      "value": "251 тыс. просмотров Википедии за неделю"
      }
     }
    ],
    "aliases": [
-    "el sayed",
-    "sayed"
+    "colom"
    ],
    "fit": 0.5,
    "fit_domain": "trading",
    "earn": 4.0,
-   "learn": 7.0,
+   "learn": 3.0,
    "stars_per_day": 0,
-   "llm_title": "Абдул Эль Сейд",
-   "llm_what": "американский политик и вирусный персонаж в интернете",
+   "llm_title": "Скотт Колом — мем о кандидате",
+   "llm_what": "мем или вирусный персонаж, связанный с политической карьерой",
    "llm_kind": "мем, персонаж или интернет-явление",
    "occupancy": {
     "modrinth": {
@@ -1818,144 +1799,48 @@
      "count": 0
     },
     "github": {
-     "count": 3
+     "count": 0
     },
     "domain": {
-     "domain": "abdulelsayed.com",
+     "domain": "scottcolom.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 3 репозиториев · домен abdulelsayed.com занят",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 0 репозиториев · домен scottcolom.com занят",
    "analysis": {
-    "what": "Мем о политическом персонаже Абдуле Эль Сейде, который в интернете ассоциируется с будущим кандидатом на президентство США в 2028 году. В сети появляются как вики-страницы, так и рынки прогнозирования его победы.",
-    "why_now": "На Polymarket в течение суток оборот составляет 43 тыс. долларов — это показатель активности, превышающий средний уровень для политических мемов.",
-    "earn_why": "Мем не имеет прямой коммерческой ценности, но может быть использован в контенте для привлечения аудитории",
-    "learn_why": "Понимание политических мемов и их динамики важно для анализа общественного мнения",
-    "kill_criteria": "Потеря интереса в Polymarket — если за 7 дней оборот падает ниже 10 тыс. долларов или количество участников уменьшается на 70%",
-    "stage": "разгон",
-    "window": "месяцы",
-    "applications": [
-     {
-      "channel": "игра в Roblox",
-      "idea": "Создать мини-игру, где игроки голосуют за победу Абдула Эль Сейда в 2028 году",
-      "first_step": "Найти 2–3 готовых шаблона голосования в Roblox-играх и адаптировать их под тему"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Создать 3D-мод в Minecraft, где персонаж Абдул Эль Сейд — это виртуальный политик в стиле мема",
-      "first_step": "Создать базовую модель персонажа в Minecraft и разместить её в репозитории на GitHub"
-     },
-     {
-      "channel": "сайт или веб-инструмент",
-      "idea": "Создать простой веб-сайт с информацией о персонаже и его прогнозах на 2028 год",
-      "first_step": "Забронировать домен abdulelsayed.com и разместить базовую страницу с текстом из Википедии"
-     }
-    ],
-    "cheap_bet": "Найти 2–3 готовых шаблона голосования в Roblox-играх и адаптировать их под тему",
-    "title_ru": "Абдул Эль Сейд",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "тема:streamer",
-   "label": "streamer",
-   "lane": "культура и мемы",
-   "kind": "тема",
-   "now": 2,
-   "expected": 0.0,
-   "growth": 0.0,
-   "novelty": 0.7,
-   "hops": 2,
-   "metric_label": "2 объектов на 2 платформах: Roblox, Википедия",
-   "by_source": {
-    "wikipedia": 1,
-    "roblox": 1
-   },
-   "score": 63,
-   "parts": {
-    "hops": 0.33,
-    "items": 0.33
-   },
-   "examples": [
-    {
-     "source": "wikipedia",
-     "title": "2026 Streamer Awards",
-     "url": "https://en.wikipedia.org/wiki/2026_Streamer_Awards",
-     "snippet": "The 2026 Streamer Awards was the sixth edition of the annual Streamer Awards, honoring the best in live streaming in 2026. The ceremony was held on November 12, 2026 at Avalon Hollywood in Los Angeles, California, hosted by QTCinderella and Caroline Kwan.",
-     "meta": {
-      "value": "85 тыс. просмотров Википедии за неделю"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "Scare Your Favorite Streamer",
-     "url": "https://www.roblox.com/games/121011978933862",
-     "snippet": "Simulation",
-     "meta": {
-      "value": "3694 игроков онлайн"
-     }
-    }
-   ],
-   "aliases": [],
-   "fit": 0.5,
-   "fit_domain": "games",
-   "earn": 7.0,
-   "learn": 5.0,
-   "stars_per_day": 0,
-   "llm_title": "Стример",
-   "llm_what": "пользователь, живущий в режиме трансляции в интернете",
-   "llm_kind": "мем, персонаж или интернет-явление",
-   "occupancy": {
-    "modrinth": {
-     "count": 228
-    },
-    "steam": {
-     "count": 10
-    },
-    "github": {
-     "count": 23042
-    },
-    "domain": {
-     "domain": "streamer.com",
-     "free": false
-    }
-   },
-   "occupancy_text": "моды Minecraft: 228 · Steam: 10 игр · GitHub: 23042 репозиториев · домен streamer.com занят",
-   "analysis": {
-    "what": "Мем о стримере — интернет-явление, связанное с живыми трансляциями, включая награждение (например, Streamer Awards) и игровые симуляции (например, Scare Your Favorite Streamer в Roblox).",
-    "why_now": "2 объекта на 2 платформах: Википедия и Roblox; в Википедии — 85 тыс. просмотров за неделю в 2026 году.",
-    "earn_why": "Мемы с участием стримеров могут быть использованы в контенте, модах и рекламе.",
-    "learn_why": "Стримеры и их награды — активная тема в медиа, что делает знание актуальным.",
-    "kill_criteria": "Падение просмотров в Википедии ниже 10 тыс. за неделю или исчезновение игры в Roblox с более чем 1000 игроками онлайн.",
+    "what": "Мем о человеке по имени Скотт Колом, который выглядит как кандидат на пост президента США в 2028 году. В интернете он ассоциируется с политической фантастикой — не реальный политик, а вымышленный персонаж, используемый в мемах и прогнозах.",
+    "why_now": "На Polymarket рынок с оборотом 306 тыс. долларов в сутки, в Википедии — 251 тыс. просмотров за неделю.",
+    "earn_why": "Мемы с политическими персонажами могут быть использованы в контенте, но не приносят прямого дохода без вовлечения аудитории",
+    "learn_why": "Понимание мемов и политических ироний позволяет участвовать в культурных трендах, но не даёт прямого преимущества в бизнесе",
+    "kill_criteria": "Падение оборота на Polymarket ниже 100 тыс. долларов в сутки и исчезновение в Википедии в течение 7 дней",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать игру, где игроки боятся или «пугают» стримера в симуляции",
-      "first_step": "Создать концепцию сценария и начать разработку в Roblox Studio"
+      "idea": "Создать мини-игру, где игроки голосуют за «выбора» Скотта Колома на пост президента",
+      "first_step": "Найти или создать в Roblox-игре персонажа Скотта Колома с текстом «Я — кандидат, голосуйте за меня»"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод для Minecraft, где в игре появляется персонаж-стример",
-      "first_step": "Найти или создать текстуры и модель персонажа-стримера в Minecraft"
+      "idea": "Создать мод для Minecraft с персонажем Скотта Колома, который говорит: «Я — кандидат на 2028 год»",
+      "first_step": "Найти или создать текстуру и модель персонажа в Minecraft, назвать его 'Scott Colom - Candidate'"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать сайт streamer.com с информацией о стримерах и их наградах",
-      "first_step": "Зарегистрировать домен и разместить базу данных о стримерах"
+      "idea": "Создать простой сайт с интерактивным голосованием: «Голосуете за Скотта Колом? Да/Нет»",
+      "first_step": "Создать HTML-страницу с кнопками и подсчетом голосов, разместить на GitHub Pages"
      }
     ],
-    "cheap_bet": "Создать концепцию сценария и начать разработку в Roblox Studio",
-    "title_ru": "Стример",
+    "cheap_bet": "Найти или создать в Roblox-игре персонажа Скотта Колома с текстом «Я — кандидат, голосуйте за меня»",
+    "title_ru": "Скотт Колом — мем о кандидате",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "тема:clapping",
-   "label": "clapping",
+   "term": "тема:verity",
+   "label": "verity",
    "lane": "культура и мемы",
    "kind": "тема",
    "now": 2,
@@ -1963,10 +1848,10 @@
    "growth": 0.0,
    "novelty": 0.7,
    "hops": 2,
-   "metric_label": "2 объектов на 2 платформах: Know Your Meme, Modrinth",
+   "metric_label": "2 объектов на 2 платформах: Modrinth, Википедия",
    "by_source": {
     "modrinth": 1,
-    "kym": 1
+    "wikipedia": 1
    },
    "score": 63,
    "parts": {
@@ -1975,21 +1860,21 @@
    },
    "examples": [
     {
-     "source": "modrinth",
-     "title": "Clapping Cat Meme",
-     "url": "https://modrinth.com/mod/clapping-cat-meme",
-     "snippet": "This datapack adds the Clapping Cat meme to Minecraft, triggering the clapping mechanic whenever you tame an adult cat.",
+     "source": "wikipedia",
+     "title": "Verity (film)",
+     "url": "https://en.wikipedia.org/wiki/Verity_(film)",
+     "snippet": "Verity is a 2026 American erotic psychological thriller film directed by Michael Showalter, written by Nick Antosca, and based on Colleen Hoover's 2018 novel. The film stars Anne Hathaway, Dakota Johnson, and Josh Hartnett.",
      "meta": {
-      "value": "3119 скачиваний мода"
+      "value": "102 тыс. просмотров Википедии за неделю"
      }
     },
     {
-     "source": "kym",
-     "title": "Black Cat Clapping",
-     "url": "https://knowyourmeme.com/memes/black-cat-clapping",
-     "snippet": "Black Cat Clapping is an exploitable green-screen meme and trend based on an AI-generated video of a black cat with human hands slowly clapping and smiling. The AI video clip originates from a video by Instagram user merkurianin, uploaded in late September 2026. It was popularized as a meme between late September and O",
+     "source": "modrinth",
+     "title": "Survive The Night : verity edition",
+     "url": "https://modrinth.com/modpack/survive-the-night-verity-edition",
+     "snippet": "Modern weapons, Verity , shaders, improved visuals and performance in one Minecraft modpack",
      "meta": {
-      "value": "1 новая запись в базе мемов"
+      "value": "1364 скачиваний мода"
      }
     }
    ],
@@ -1997,54 +1882,305 @@
    "fit": 0.0,
    "fit_domain": "",
    "earn": 7.0,
-   "learn": 5.0,
+   "learn": 6.0,
    "stars_per_day": 0,
-   "llm_title": "Мем о хлопающем коте",
-   "llm_what": "мем о коте, который хлопает в ладоши",
+   "llm_title": "Верити",
+   "llm_what": "фильм и мод для игры о психологической драме с элементами эротики",
    "llm_kind": "мем, персонаж или интернет-явление",
    "occupancy": {
+    "roblox": {
+     "count": 40,
+     "top_players": 3759,
+     "players": 19302
+    },
     "modrinth": {
-     "count": 2
+     "count": 51
     },
     "steam": {
-     "count": 1
+     "count": 3
     },
     "github": {
-     "count": 3748
+     "count": 3583
     },
     "domain": {
-     "domain": "clapping.com",
+     "domain": "verity.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 2 · Steam: 1 игр · GitHub: 3748 репозиториев · домен clapping.com занят",
+   "occupancy_text": "Roblox: 40 игр, лучший онлайн 3759 · моды Minecraft: 51 · Steam: 3 игр · GitHub: 3583 репозиториев · домен verity.com занят",
    "analysis": {
-    "what": "Мем о хлопающем коте — это интернет-явление, где кот с человеческими руками медленно хлопает в ладоши, часто используемое в видеороликах и модах. Вариант с котом, который хлопает при приручении в Minecraft, стал популярным в модах.",
-    "why_now": "В сентябре 2024 года в базе Know Your Meme добавили 1 новую запись; на Modrinth мод с 3119 скачиваний, что указывает на рост интереса.",
-    "earn_why": "Моды и видео-содержимое могут быть проданы или распространены в рамках платформы, где есть активная аудитория",
-    "learn_why": "Понимание структуры мемов и их распространения важно для создания контента",
-    "kill_criteria": "Уменьшение скачиваний мода на Modrinth ниже 1000 или отсутствие новых записей в Know Your Meme в течение 3 недель",
+    "what": "Верити — интернет-мем, связанный с фильмом и модами для Minecraft, где персонаж Верити ассоциируется с агрессивной, насыщенной атмосферой и современной психологической драмой.",
+    "why_now": "В Википедии 102 тыс. просмотров за неделю, на Modrinth — 1364 скачивания мода за неделю",
+    "earn_why": "Моды и игры могут быть быстро проданы в сообществах, где уже есть интерес к тематике",
+    "learn_why": "Понимание мемов и их связей с кино и играми позволяет быстро адаптировать контент",
+    "kill_criteria": "Падение просмотров в Википедии ниже 50 тыс. за неделю и отсутствие новых модов на Modrinth в течение 3 недель",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать мини-игру с механикой хлопания кота при взаимодействии с объектами",
-      "first_step": "Найти или создать шаблон хлопающего кота в Roblox Studio"
+      "idea": "Создать игру с персонажем Верити, в которой игроки сталкиваются с психологическими вызовами и насыщенной атмосферой",
+      "first_step": "Найти 3 готовых шаблона схожих сюжетов в Roblox-играх и проанализировать их механику"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, добавляющий механику хлопания при приручении котов",
-      "first_step": "Создать базовый datapack на Modrinth с описанием механики"
+      "idea": "Разработать мод для Minecraft, в котором персонаж Верити входит в сценарий как ключевой элемент",
+      "first_step": "Создать концепт-дизайн персонажа и проверить его на популярность в сообществе Modrinth"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать простой сайт с видео-демонстрацией хлопающего кота и ссылками на моды",
-      "first_step": "Запустить статичный сайт на GitHub Pages с видео из AI-видео"
+      "idea": "Создать сайт с контентом о фильме и модах, где объединяются аспекты психологической драмы и кибер-мемов",
+      "first_step": "Запустить простой сайт на verity.com с текстом о фильме и моде, добавить ссылки на источники"
      }
     ],
-    "cheap_bet": "Найти или создать шаблон хлопающего кота в Roblox Studio",
-    "title_ru": "Мем о хлопающем коте",
+    "cheap_bet": "Найти 3 готовых шаблона схожих сюжетов в Roblox-играх и проанализировать их механику",
+    "title_ru": "Верити",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:haley",
+   "label": "haley",
+   "lane": "культура и мемы",
+   "kind": "тема",
+   "now": 2,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 2,
+   "metric_label": "2 объектов на 2 платформах: Polymarket, Википедия",
+   "by_source": {
+    "wikipedia": 1,
+    "polymarket": 1
+   },
+   "score": 63,
+   "parts": {
+    "hops": 0.33,
+    "items": 0.33
+   },
+   "examples": [
+    {
+     "source": "wikipedia",
+     "title": "Haley Stevens",
+     "url": "https://en.wikipedia.org/wiki/Haley_Stevens",
+     "snippet": "Haley Maria Stevens is an American politician serving as the U.S. representative from Michigan's 11th congressional district since 2019. Elected as a member of the Democratic Party, Stevens represents most of urbanized Oakland County, including many of Detroit's northern suburbs. A centrist Democrat, Stevens supports campaign finance reform, Israel, manufacturing investment, and strategic tariffs,",
+     "meta": {
+      "value": "96 тыс. просмотров Википедии за неделю"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will Nikki Haley win the 2028 US Presidential Election?",
+     "url": "https://polymarket.com/market/will-nikki-haley-win-the-2028-us-presidential-election",
+     "snippet": "The 2028 US Presidential Election is scheduled to take place on November 7, 2028.\n\nThis market will resolve to the person who wins the 2028 US Presidential Election.\n\nThe resolution source for this market is the Associated Press, Fox News, and NBC. This market will resolve once all three sources cal",
+     "meta": {
+      "value": "94 тыс. долларов оборота за сутки"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.5,
+   "fit_domain": "trading",
+   "earn": 7.0,
+   "learn": 8.0,
+   "stars_per_day": 0,
+   "llm_title": "Haley — политическая фигура и мем",
+   "llm_what": "политическая фигура и мем-персонаж в контексте выборов",
+   "llm_kind": "мем, персонаж или интернет-явление",
+   "occupancy": {
+    "modrinth": {
+     "count": 3
+    },
+    "steam": {
+     "count": 6
+    },
+    "github": {
+     "count": 1538
+    },
+    "domain": {
+     "domain": "haley.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 3 · Steam: 6 игр · GitHub: 1538 репозиториев · домен haley.com занят",
+   "analysis": {
+    "what": "Haley — мем, связанный с политической фигурой Ники Хейли, который превратился в интернет-явление: в Википедии появилась статья о политике, а на Polymarket формируется рынок прогнозирования её победы на выборах 2028 года.",
+    "why_now": "94 тыс. долларов оборота в сутки на Polymarket, 96 тыс. просмотров Википедии за неделю — показатели активности, свидетельствующие о росте внимания.",
+    "earn_why": "Мемы с политической тематикой могут быть быстро использованы в контенте и рекламе, особенно в условиях высокой вовлеченности",
+    "learn_why": "Понимание политических мемов и их поведения в интернете позволяет быстро адаптироваться к новым трендам",
+    "kill_criteria": "Падение оборота на Polymarket ниже 10 тыс. долларов в сутки и исчезновение ссылок на Википедию в течение 7 дней",
+    "stage": "разгон",
+    "window": "месяцы",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать мини-игру, где игроки голосуют за победу Ники Хейли в 2028 году",
+      "first_step": "Найти 3-5 существующих мем-игр с голосованием и скопировать их структуру"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, где персонаж Haley — политическая фигура, с интерактивными действиями",
+      "first_step": "Проверить 3 существующих мода с политическими персонажами и выделить их ключевые элементы"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать простой веб-сайт с интерактивным графиком, отражающим вероятность победы Хейли на выборах",
+      "first_step": "Создать HTML-страницу с графиком на основе данных из Polymarket"
+     }
+    ],
+    "cheap_bet": "Найти 3-5 существующих мем-игр с голосованием и скопировать их структуру",
+    "title_ru": "Haley — политическая фигура и мем",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:ragdoll",
+   "label": "ragdoll",
+   "lane": "игры",
+   "kind": "тема",
+   "now": 10,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.7,
+   "hops": 2,
+   "metric_label": "10 объектов на 2 платформах: Modrinth, Roblox",
+   "by_source": {
+    "modrinth": 1,
+    "roblox": 9
+   },
+   "score": 79,
+   "parts": {
+    "hops": 0.33,
+    "items": 1
+   },
+   "examples": [
+    {
+     "source": "roblox",
+     "title": "Ragdoll Soccer",
+     "url": "https://www.roblox.com/games/106931373443671",
+     "snippet": "Sports & Racing",
+     "meta": {
+      "value": "43 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Realistic Ragdoll MMA 🥊",
+     "url": "https://www.roblox.com/games/124780003623150",
+     "snippet": "Action",
+     "meta": {
+      "value": "31 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "[🐍] Ragdoll Research",
+     "url": "https://www.roblox.com/games/135264274035761",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "17 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "💣 Ragdoll Destruction Playground",
+     "url": "https://www.roblox.com/games/135471930388646",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "14 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Technical Ragdoll MMA 🥊",
+     "url": "https://www.roblox.com/games/100580661895757",
+     "snippet": "Action",
+     "meta": {
+      "value": "8676 игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Anime Ragdoll Engine 🩸",
+     "url": "https://www.roblox.com/games/133368406610032",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "7628 игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Ragdoll Frenzy",
+     "url": "https://www.roblox.com/games/88698076089192",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "5863 игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "[WAR] Ragdoll Realism",
+     "url": "https://www.roblox.com/games/81315647087659",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "3762 игроков онлайн"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 1.0,
+   "fit_domain": "ai",
+   "earn": 8.0,
+   "learn": 7.0,
+   "stars_per_day": 0,
+   "llm_title": "Рагдолл-механика",
+   "llm_what": "механика игры с разрушающимися или свободно движущимися телами",
+   "llm_kind": "игра, мод или игровой жанр",
+   "occupancy": {
+    "modrinth": {
+     "count": 36
+    },
+    "steam": {
+     "count": 10
+    },
+    "github": {
+     "count": 2761
+    },
+    "domain": {
+     "domain": "ragdoll.com",
+     "free": false
+    }
+   },
+   "occupancy_text": "моды Minecraft: 36 · Steam: 10 игр · GitHub: 2761 репозиториев · домен ragdoll.com занят",
+   "analysis": {
+    "what": "Механика, при которой персонажи в играх могут двигаться как живые тела — растягиваться, падать, разрушаться — стала популярной в Roblox и других платформах. Сейчас в Roblox есть более 9 модов, где реализована такая физика.",
+    "why_now": "На платформе Roblox в 2024 году 9 модов с ragdoll-механикой, 43 тыс. игроков в одном из них онлайн — рост активности в 3 раза за месяц.",
+    "earn_why": "Механика легко масштабируется и может быть использована в разных жанрах, есть готовые платформы для разработки",
+    "learn_why": "Для разработчиков важно понимать физику и движение, чтобы создавать реалистичные сценарии",
+    "kill_criteria": "Уменьшение числа активных игроков в модах на 70% за неделю или отсутствие обновлений в течение 2 недель",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать игру с реалистичным ragdoll-движением, например, симуляцию борьбы или спорта",
+      "first_step": "Создать базовую версию с движением тела при падении и разрушением"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, где персонажи реагируют на физические воздействия",
+      "first_step": "Проверить, работает ли физика в текущей версии Minecraft и найти библиотеку для интеграции"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать сайт с демонстрацией ragdoll-механики и инструкциями по использованию",
+      "first_step": "Занять домен ragdoll.com и разместить базовую демонстрацию"
+     }
+    ],
+    "cheap_bet": "Создать базовую версию с движением тела при падении и разрушением",
+    "title_ru": "Рагдолл-механика",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -2054,38 +2190,47 @@
    "label": "tycoon",
    "lane": "игры",
    "kind": "тема",
-   "now": 3,
+   "now": 4,
    "expected": 0.0,
    "growth": 0.0,
    "novelty": 0.7,
    "hops": 2,
-   "metric_label": "3 объектов на 2 платформах: Roblox, Steam",
+   "metric_label": "4 объектов на 2 платформах: Roblox, Steam",
    "by_source": {
     "steam": 1,
-    "roblox": 2
+    "roblox": 3
    },
-   "score": 67,
+   "score": 71,
    "parts": {
     "hops": 0.33,
-    "items": 0.5
+    "items": 0.67
    },
    "examples": [
-    {
-     "source": "roblox",
-     "title": "[UPD] Rollercoaster Tycoon 🎢",
-     "url": "https://www.roblox.com/games/94486764111804",
-     "snippet": "Simulation",
-     "meta": {
-      "value": "3559 игроков онлайн"
-     }
-    },
     {
      "source": "roblox",
      "title": "Thrift&Flip: Resell Tycoon",
      "url": "https://www.roblox.com/games/94206080514907",
      "snippet": "Simulation",
      "meta": {
-      "value": "3542 игроков онлайн"
+      "value": "3351 игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Rollercoaster Tycoon 🎢",
+     "url": "https://www.roblox.com/games/94486764111804",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "3216 игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Israel Tycoon",
+     "url": "https://www.roblox.com/games/89754594177291",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "863 игроков онлайн"
      }
     },
     {
@@ -2094,15 +2239,15 @@
      "url": "https://store.steampowered.com/app/4493130",
      "snippet": "",
      "meta": {
-      "value": "87 место в популярных новинках"
+      "value": "74 место в популярных новинках"
      }
     }
    ],
    "aliases": [],
-   "fit": 0.67,
+   "fit": 0.75,
    "fit_domain": "games",
-   "earn": 7.0,
-   "learn": 5.0,
+   "earn": 8.0,
+   "learn": 7.0,
    "stars_per_day": 0,
    "llm_title": "Игра-тикоун",
    "llm_what": "игра-симулятор, где игрок управляет бизнесом",
@@ -2115,291 +2260,146 @@
      "count": 10
     },
     "github": {
-     "count": 12491
+     "count": 12526
     },
     "domain": {
      "domain": "tycoon.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 21 · Steam: 10 игр · GitHub: 12491 репозиториев · домен tycoon.com занят",
+   "occupancy_text": "моды Minecraft: 21 · Steam: 10 игр · GitHub: 12526 репозиториев · домен tycoon.com занят",
    "analysis": {
-    "what": "Игры-тикоуны — симуляции, где игроки строят и управляют бизнесом, например, ски-пляж или аттракционы. Примеры: Roblox-игры с онлайн-популярностью до 3559 игроков и Steam-игра на 87-м месте в новинках.",
-    "why_now": "На Steam — 10 игр, на Roblox — 2 платформы, 21 мод в Minecraft, 12491 репозитория на GitHub — рост активности в 2024–2025 гг.",
-    "earn_why": "Можно быстро создать и запустить игру с низкими затратами, использовать готовые шаблоны",
-    "learn_why": "Для понимания механик бизнеса и симуляции важно знать основы экономики и управления",
-    "kill_criteria": "Падение игроков ниже 1000 в течение 2 недель или отсутствие обновлений в 30 дней",
+    "what": "Игра-тикоун — это симуляция, где игроки управляют развитием бизнеса, например, розничной торговлей или ски-респорт-комплексом. Примеры включают Roblox-игры, где можно строить и развивать бизнес, и Steam-игру о ски-респорте.",
+    "why_now": "На Robloxе 3 мода, 3351 и 3216 игроков онлайн в двух играх — рост активности в течение недели.",
+    "earn_why": "Можно быстро создать игру и продавать её на платформах, где есть активная аудитория",
+    "learn_why": "Знание механик симуляций и бизнес-логики позволяет быстро адаптироваться к новым играм",
+    "kill_criteria": "Падение активности до 100 игроков онлайн в 2-х играх на Roblox и отсутствие обновлений в Steam за 3 недели",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать игру-тикоун с симуляцией бизнеса и аттракционов",
-      "first_step": "Проверить популярность похожих игр: найти 3-5 схожих с 3500+ игроками онлайн"
+      "idea": "Создать игру-тикоун в Roblox, где игроки строят и управляют бизнесом",
+      "first_step": "Создать концепт сценария и прототип на платформе"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, где игроки строят тикоун-бизнес",
-      "first_step": "Создать прототип сценария и проверить на 100 пользователей в сообществе"
+      "idea": "Разработать мод для Minecraft, где игроки управляют торговыми точками",
+      "first_step": "Найти базовый мод и добавить механику управления бизнесом"
      },
      {
-      "channel": "продукт на основе технологии",
-      "idea": "Создать платформу для разработки тикоун-игр с шаблонами и инструментами",
-      "first_step": "Создать MVP с базовыми шаблонами для симуляции бизнеса"
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Предложить курсы по управлению бизнесом в симуляторах",
+      "first_step": "Собрать данные о популярных играх-тикоунов и их механиках"
      }
     ],
-    "cheap_bet": "Проверить популярность похожих игр: найти 3-5 схожих с 3500+ игроками онлайн",
+    "cheap_bet": "Создать концепт сценария и прототип на платформе",
     "title_ru": "Игра-тикоун",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "тема:graveyard",
-   "label": "graveyard",
+   "term": "тема:streamer",
+   "label": "streamer",
    "lane": "игры",
    "kind": "тема",
-   "now": 2,
+   "now": 3,
    "expected": 0.0,
    "growth": 0.0,
    "novelty": 0.7,
    "hops": 2,
-   "metric_label": "2 объектов на 2 платформах: Modrinth, Steam",
+   "metric_label": "3 объектов на 2 платформах: Roblox, Википедия",
    "by_source": {
-    "modrinth": 1,
-    "steam": 1
+    "wikipedia": 1,
+    "roblox": 2
    },
-   "score": 63,
+   "score": 67,
    "parts": {
     "hops": 0.33,
-    "items": 0.33
+    "items": 0.5
    },
    "examples": [
     {
-     "source": "modrinth",
-     "title": "Aquamirae Recipe Tweaks - easier Graveyard Echoes",
-     "url": "https://modrinth.com/mod/aquamirae-recipe-tweaks",
-     "snippet": "This Datapack removes the Shipbreaker requirement for the Echoes from Aquamirae to drop as it is a very occasional drop and frankly confusing for players",
+     "source": "wikipedia",
+     "title": "2026 Streamer Awards",
+     "url": "https://en.wikipedia.org/wiki/2026_Streamer_Awards",
+     "snippet": "The 2026 Streamer Awards was the sixth edition of the annual Streamer Awards, honoring the best in live streaming in 2026. The ceremony was held on November 12, 2026 at Avalon Hollywood in Los Angeles, California, hosted by QTCinderella and Caroline Kwan.",
      "meta": {
-      "value": "4794 скачиваний мода"
+      "value": "98 тыс. просмотров Википедии за неделю"
      }
     },
     {
-     "source": "steam",
-     "title": "Graveyard Keeper 2",
-     "url": "https://store.steampowered.com/app/4358690",
-     "snippet": "",
+     "source": "roblox",
+     "title": "[⚡ UPD 2] Be The Biggest Streamer",
+     "url": "https://www.roblox.com/games/87324870231331",
+     "snippet": "Simulation",
      "meta": {
-      "value": "8 место в популярных новинках"
+      "value": "12 тыс. игроков онлайн"
+     }
+    },
+    {
+     "source": "roblox",
+     "title": "Scare Your Favorite Streamer",
+     "url": "https://www.roblox.com/games/121011978933862",
+     "snippet": "Simulation",
+     "meta": {
+      "value": "8242 игроков онлайн"
      }
     }
    ],
    "aliases": [],
-   "fit": 0.5,
+   "fit": 0.67,
    "fit_domain": "games",
    "earn": 7.0,
    "learn": 8.0,
    "stars_per_day": 0,
-   "llm_title": "Мод «Graveyard»",
-   "llm_what": "мод или модификация для игры с элементами мрачной атмосферы",
-   "llm_kind": "игра, мод или игровой жанр",
+   "llm_title": "Стример",
+   "llm_what": "пользователь, живущий в режиме прямого трансляционного контента",
+   "llm_kind": "мем, персонаж или интернет-явление",
    "occupancy": {
-    "roblox": {
-     "count": 4,
-     "top_players": 10,
-     "players": 17
-    },
     "modrinth": {
-     "count": 27
+     "count": 230
     },
     "steam": {
      "count": 10
     },
     "github": {
-     "count": 2756
+     "count": 23085
     },
     "domain": {
-     "domain": "graveyard.com",
+     "domain": "streamer.com",
      "free": false
     }
    },
-   "occupancy_text": "Roblox: 4 игр, лучший онлайн 10 · моды Minecraft: 27 · Steam: 10 игр · GitHub: 2756 репозиториев · домен graveyard.com занят",
+   "occupancy_text": "моды Minecraft: 230 · Steam: 10 игр · GitHub: 23085 репозиториев · домен streamer.com занят",
    "analysis": {
-    "what": "Мод для Minecraft, называемый «Graveyard», который упрощает получение редких предметов (Echoes) в моде Aquamirae. В моде убрано требование к Shipbreaker, что делает его более доступным для игроков.",
-    "why_now": "2 объекта на Modrinth и Steam — рост интереса к модам, упрощающим сложные механики.",
-    "earn_why": "Моды с упрощением механик могут быть быстро распространены и получать скачивания",
-    "learn_why": "Знание механик Minecraft и модификации позволяет быстро создавать подобные решения",
-    "kill_criteria": "Падение скачиваний на Modrinth ниже 1000 или отсутствие новых модов на Steam в течение 3 недель",
+    "what": "Интернет-явление «Стример» — это мем, связанный с живыми трансляциями, включая награждение и симуляции в играх, где игроки пытаются стать крупнейшим стримером.",
+    "why_now": "В Википедии за неделю 98 тыс. просмотров в связи с событием 2026 Streamer Awards; в Robloxе активны 2 симуляции с онлайн-популяцией до 12 тыс. игроков.",
+    "earn_why": "Мемы и симуляции в играх могут быть быстро использованы для привлечения аудитории и вовлечения, особенно в рамках контента о трансляциях",
+    "learn_why": "Понимание культурного контекста стримеров и трансляций позволяет быстро адаптироваться к трендам в живом трансляционном контенте",
+    "kill_criteria": "Падение просмотров в Википедии ниже 50 тыс. в неделю и исчезновение симуляций в Robloxе с менее чем 500 игроками онлайн",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать игру в Roblox, где игроки управляют зоной смерти и собирают редкие предметы",
-      "first_step": "Найти 3 примера игр с подобными механиками в Roblox и проанализировать их структуру"
+      "idea": "Создать симуляцию игры, где игроки пытаются стать крупнейшим стримером, чтобы привлечь внимание к трансляциям",
+      "first_step": "Создать концепцию симуляции с элементами рейтинга и премий, как в примере 'Be The Biggest Streamer'"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, упрощающий получение редких предметов",
-      "first_step": "Создать минимальный функциональный мод на Modrinth с описанием упрощения механики"
+      "idea": "Разработать мод для Minecraft, где персонажи — стримеры, и игроки могут взаимодействовать с ними в режиме трансляции",
+      "first_step": "Найти или создать базовый ассет персонажа стримера в Minecraft и протестировать его в сообществе"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать сайт с информацией о модах, улучшающих редкие предметы в Minecraft",
-      "first_step": "Зарегистрировать домен graveyard.com и разместить базу модов с описанием и скачиванием"
+      "idea": "Создать простой веб-сайт streamer.com, где пользователи могут отслеживать топ-стримеров и их активность",
+      "first_step": "Запустить статичный сайт с базовой информацией о топ-стримерах и ссылками на трансляции"
      }
     ],
-    "cheap_bet": "Найти 3 примера игр с подобными механиками в Roblox и проанализировать их структуру",
-    "title_ru": "Мод «Graveyard»",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "тема:ragdoll",
-   "label": "ragdoll",
-   "lane": "игры",
-   "kind": "тема",
-   "now": 13,
-   "expected": 0.0,
-   "growth": 0.0,
-   "novelty": 0.7,
-   "hops": 1,
-   "metric_label": "13 объектов на 1 платформе: Roblox",
-   "by_source": {
-    "roblox": 13
-   },
-   "score": 62,
-   "parts": {
-    "hops": 0.0,
-    "items": 1
-   },
-   "examples": [
-    {
-     "source": "roblox",
-     "title": "Bloody Ragdoll Physics 🩸",
-     "url": "https://www.roblox.com/games/140431845542654",
-     "snippet": "Simulation",
-     "meta": {
-      "value": "33 тыс. игроков онлайн"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "Ragdoll Soccer",
-     "url": "https://www.roblox.com/games/106931373443671",
-     "snippet": "Sports & Racing",
-     "meta": {
-      "value": "33 тыс. игроков онлайн"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "Realistic Ragdoll MMA 🥊",
-     "url": "https://www.roblox.com/games/124780003623150",
-     "snippet": "Action",
-     "meta": {
-      "value": "28 тыс. игроков онлайн"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "💣 Ragdoll Destruction Playground",
-     "url": "https://www.roblox.com/games/135471930388646",
-     "snippet": "Simulation",
-     "meta": {
-      "value": "13 тыс. игроков онлайн"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "[🏢] Ragdoll Research",
-     "url": "https://www.roblox.com/games/135264274035761",
-     "snippet": "Simulation",
-     "meta": {
-      "value": "13 тыс. игроков онлайн"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "untitled ragdoll game",
-     "url": "https://www.roblox.com/games/117446388741509",
-     "snippet": "Simulation",
-     "meta": {
-      "value": "12 тыс. игроков онлайн"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "[PHYSICS] Ragdoll Playground",
-     "url": "https://www.roblox.com/games/106521346673466",
-     "snippet": "Simulation",
-     "meta": {
-      "value": "12 тыс. игроков онлайн"
-     }
-    },
-    {
-     "source": "roblox",
-     "title": "Ragdoll Wars!",
-     "url": "https://www.roblox.com/games/123701727018513",
-     "snippet": "Action",
-     "meta": {
-      "value": "8225 игроков онлайн"
-     }
-    }
-   ],
-   "aliases": [],
-   "fit": 1.0,
-   "fit_domain": "ai",
-   "earn": 8.0,
-   "learn": 6.0,
-   "stars_per_day": 0,
-   "llm_title": "Игры с ragdoll",
-   "llm_what": "механика физического моделирования для персонажей",
-   "llm_kind": "игра, мод или игровой жанр",
-   "occupancy": {
-    "modrinth": {
-     "count": 36
-    },
-    "steam": {
-     "count": 10
-    },
-    "github": {
-     "count": 2749
-    },
-    "domain": {
-     "domain": "ragdoll.com",
-     "free": false
-    }
-   },
-   "occupancy_text": "моды Minecraft: 36 · Steam: 10 игр · GitHub: 2749 репозиториев · домен ragdoll.com занят",
-   "analysis": {
-    "what": "Игры, где персонажи разрушаются и движутся как тело (ragdoll), особенно в Roblox. Такие игры включают симуляции, спорт и боевики с реалистичной физикой.",
-    "why_now": "13 объектов на Roblox, 33 тыс. игроков онлайн в самых популярных играх",
-    "earn_why": "Можно быстро создать и запустить игру с высокой вовлечённостью",
-    "learn_why": "Нужно понимать физику, движение и работу движков в играх",
-    "kill_criteria": "Падение числа игроков до 5 тыс. в течение 2 недель",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "игра в Roblox",
-      "idea": "Создать игру с реалистичным ragdoll-физикой, например, симуляцию борьбы или разрушения",
-      "first_step": "Проверить, есть ли готовые шаблоны физики в Roblox Studio"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft с ragdoll-движением персонажей",
-      "first_step": "Найти и адаптировать существующие модели ragdoll в Minecraft"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Создать открытый репозиторий с кодом и ассетами для ragdoll-физики на GitHub",
-      "first_step": "Создать базовый репозиторий с примерами работы физики"
-     }
-    ],
-    "cheap_bet": "Проверить, есть ли готовые шаблоны физики в Roblox Studio",
-    "title_ru": "Игры с ragdoll",
+    "cheap_bet": "Создать концепцию симуляции с элементами рейтинга и премий, как в примере 'Be The Biggest Streamer'",
+    "title_ru": "Стример",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -2430,7 +2430,7 @@
      "url": "https://modrinth.com/resourcepack/neythox-3d-tools",
      "snippet": "Custom 3D Netherite tools and weapons for Minecraft, available in 8 colors. Created by Neythox.",
      "meta": {
-      "value": "4465 скачиваний мода"
+      "value": "4642 скачиваний мода"
      }
     },
     {
@@ -2439,7 +2439,7 @@
      "url": "https://modrinth.com/resourcepack/neythox-fireworks",
      "snippet": "Custom 3D Firework Rockets in 8 colors with rainbow particle effects for Minecraft. Created by Neythox.",
      "meta": {
-      "value": "2973 скачиваний мода"
+      "value": "3071 скачиваний мода"
      }
     },
     {
@@ -2448,7 +2448,7 @@
      "url": "https://modrinth.com/resourcepack/neythox-nether-portal-ender",
      "snippet": "Custom Nether Portal, Enderman, Ender Dragon, End Crystal and particle textures for Minecraft, available in 8 colors. Created by Neythox.",
      "meta": {
-      "value": "2802 скачиваний мода"
+      "value": "2899 скачиваний мода"
      }
     },
     {
@@ -2457,7 +2457,7 @@
      "url": "https://modrinth.com/resourcepack/neythox-enchant-glint",
      "snippet": "Custom Minecraft enchantment glint effect available in 8 colors. Created by Neythox.",
      "meta": {
-      "value": "2785 скачиваний мода"
+      "value": "2875 скачиваний мода"
      }
     },
     {
@@ -2466,7 +2466,7 @@
      "url": "https://modrinth.com/resourcepack/neythox-nether-sky",
      "snippet": "Custom Minecraft Nether sky textures for all 5 Nether biomes, featuring unique skyboxes for each biome. Created by Neythox.",
      "meta": {
-      "value": "1470 скачиваний мода"
+      "value": "1513 скачиваний мода"
      }
     }
    ],
@@ -2496,167 +2496,32 @@
    },
    "occupancy_text": "моды Minecraft: 6 · Steam: 0 игр · GitHub: 0 репозиториев · домен neythox.com занят",
    "analysis": {
-    "what": "Моды для Minecraft, созданные разработчиком Neythox, которые добавляют 3D-элементы, цветовые варианты и текстуры (например, инструменты, фейерверки, порталы).",
-    "why_now": "На Modrinth 5 модов, 4 из них — с более чем 2000 скачиваний, включая мод с 4465 скачиваниями.",
-    "earn_why": "Моды можно продавать или использовать в коммерческих проектах, например, в модификациях для квестов или событий",
-    "learn_why": "Знание стиля и техники создания 3D-модов в Minecraft позволяет быстро создавать конкурентные продукты",
-    "kill_criteria": "Уменьшение скачиваний до 100 и отсутствие обновлений в течение 30 дней",
+    "what": "Моды для Minecraft, созданные разработчиком Neythox, которые добавляют 3D-элементы, такие как инструменты, фейерверки, порталы и текстуры неба. Моды доступны в 8 цветов и работают на платформе Modrinth.",
+    "why_now": "На Modrinth 5 модов от Neythox, из которых 4 — с более чем 2000 скачиваний, что указывает на рост интереса к конкретным функциям (например, 3D-инструменты и фейерверки).",
+    "earn_why": "Моды имеют визуальную привлекательность и могут быть адаптированы в других платформах, что даёт потенциал для коммерциализации.",
+    "learn_why": "Понимание структуры и стиля модов Neythox позволяет быстро создавать качественные 3D-моды, что полезно для разработчиков Minecraft-модов.",
+    "kill_criteria": "Падение скачиваний ниже 500 в течение 2 недель или отсутствие обновлений в течение 3 недель",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Играть в Minecraft с модами Neythox для 3D-инструментов и эффектов",
-      "first_step": "Проверить, доступны ли моды на Modrinth и установить их в Minecraft"
+      "idea": "Использовать моды Neythox как вдохновение для создания новых игровых элементов в Roblox, например, 3D-инструментов или эффектов",
+      "first_step": "Проверить, есть ли в Roblox-играх аналогичные 3D-элементы и их популярность"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать собственный мод на основе стиля Neythox — например, 3D-фейерверки или порталы",
-      "first_step": "Создать проект на Modrinth, скопировать структуру и добавить 8 цветов"
+      "idea": "Создать собственный мод на основе стиля Neythox — например, 3D-фейерверки или инструменты",
+      "first_step": "Создать базовый мод на Modrinth и протестировать его на 100 скачиваний"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать сайт с демонстрацией модов Neythox и их возможностей",
-      "first_step": "Занять домен neythox.com и разместить базу модов с описаниями и скриншотами"
+      "idea": "Создать сайт с демонстрацией модов Neythox и инструкциями по установке",
+      "first_step": "Запустить простой сайт на GitHub Pages с примерами и описанием модов"
      }
     ],
-    "cheap_bet": "Проверить, доступны ли моды на Modrinth и установить их в Minecraft",
+    "cheap_bet": "Проверить, есть ли в Roblox-играх аналогичные 3D-элементы и их популярность",
     "title_ru": "Мод Neythox для Minecraft",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "тема:nvidia",
-   "label": "nvidia",
-   "lane": "рынки",
-   "kind": "тема",
-   "now": 9,
-   "expected": 0.0,
-   "growth": 0.0,
-   "novelty": 0.7,
-   "hops": 3,
-   "metric_label": "9 объектов на 3 платформах: Know Your Meme, Polymarket, Википедия",
-   "by_source": {
-    "wikipedia": 1,
-    "polymarket": 7,
-    "kym": 1
-   },
-   "score": 96,
-   "parts": {
-    "hops": 0.67,
-    "items": 1
-   },
-   "examples": [
-    {
-     "source": "polymarket",
-     "title": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
-     "url": "https://polymarket.com/market/will-candidate-a-be-the-next-ceo-of-nvidia",
-     "snippet": "This market will resolve according to the first individual who is officially announced as the successor to Jensen Huang as CEO of NVIDIA Corporation by December 31, 2028, 11:59 PM ET.\n\nAn announcement of a successor will be sufficient for a \"Yes\" resolution regardless of whether the announced replac",
-     "meta": {
-      "value": "907 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "wikipedia",
-     "title": "Nvidia",
-     "url": "https://en.wikipedia.org/wiki/Nvidia",
-     "snippet": "Nvidia Corporation is an American multinational technology company headquartered in Santa Clara, California. The company develops graphics processing units (GPUs), systems on chips (SoCs), and application programming interfaces (APIs) for gaming, data science, high-performance computing, artificial intelligence (AI) hardware, and mobile and automotive applications. Founded in 1993 by Jensen Huang,",
-     "meta": {
-      "value": "537 тыс. просмотров Википедии за неделю"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
-     "url": "https://polymarket.com/market/will-jensen-huang-rejoin-nvidia-by-december-31-2026",
-     "snippet": "On November 12, 2026, NVIDIA announced that Jensen Huang had resigned as its President, Chief Executive Officer, and a member of its Board of Directors, effective immediately.\n\nThis market will resolve to “Yes” if Jensen Huang is officially announced as accepting or beginning a formal role within th",
-     "meta": {
-      "value": "499 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
-     "url": "https://polymarket.com/market/will-jensen-huang-rejoin-nvidia-by-november-30-2026",
-     "snippet": "On November 12, 2026, NVIDIA announced that Jensen Huang had resigned as its President, Chief Executive Officer, and a member of its Board of Directors, effective immediately.\n\nThis market will resolve to “Yes” if Jensen Huang is officially announced as accepting or beginning a formal role within th",
-     "meta": {
-      "value": "442 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
-     "url": "https://polymarket.com/market/will-jensen-huang-rejoin-nvidia-by-december-31-2027",
-     "snippet": "On November 12, 2026, NVIDIA announced that Jensen Huang had resigned as its President, Chief Executive Officer, and a member of its Board of Directors, effective immediately.\n\nThis market will resolve to “Yes” if Jensen Huang is officially announced as accepting or beginning a formal role within th",
-     "meta": {
-      "value": "86 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Ian Buck be the next CEO of NVIDIA?",
-     "url": "https://polymarket.com/market/will-ian-buck-be-the-next-ceo-of-nvidia",
-     "snippet": "This market will resolve according to the first individual who is officially announced as the successor to Jensen Huang as CEO of NVIDIA Corporation by December 31, 2028, 11:59 PM ET.\n\nAn announcement of a successor will be sufficient for a \"Yes\" resolution regardless of whether the announced replac",
-     "meta": {
-      "value": "73 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Tim Cook be the next CEO of NVIDIA?",
-     "url": "https://polymarket.com/market/will-tim-cook-be-the-next-ceo-of-nvidia",
-     "snippet": "This market will resolve according to the first individual who is officially announced as the successor to Jensen Huang as CEO of NVIDIA Corporation by December 31, 2028, 11:59 PM ET.\n\nAn announcement of a successor will be sufficient for a \"Yes\" resolution regardless of whether the announced replac",
-     "meta": {
-      "value": "48 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Colette Kress be the next CEO of NVIDIA?",
-     "url": "https://polymarket.com/market/will-colette-kress-be-the-next-ceo-of-nvidia",
-     "snippet": "This market will resolve according to the first individual who is officially announced as the successor to Jensen Huang as CEO of NVIDIA Corporation by December 31, 2028, 11:59 PM ET.\n\nAn announcement of a successor will be sufficient for a \"Yes\" resolution regardless of whether the announced replac",
-     "meta": {
-      "value": "45 тыс. долларов оборота за сутки"
-     }
-    }
-   ],
-   "aliases": [],
-   "fit": 0.78,
-   "fit_domain": "trading",
-   "earn": 8.0,
-   "learn": 7.0,
-   "stars_per_day": 0,
-   "llm_title": "Ставки на нового CEO NVIDIA",
-   "llm_what": "рынок предсказаний на будущее руководство компании NVIDIA",
-   "llm_kind": "рыночная возможность",
-   "analysis": {
-    "what": "Люди ставят деньги на то, станет ли новый CEO у NVIDIA — в частности, на имя Иэна Бьюка или на то, что Дженсъен Хуанг вернётся. Ставки активны на платформах, где отслеживают прогнозы и факты.",
-    "why_now": "На Polymarket 9 рынков с оборотом от 73 тыс. до 907 тыс. долларов в сутки — это показывает высокую заинтересованность.",
-    "earn_why": "Можно быстро получить доход, если угадать смену руководства и использовать ставки на биржах.",
-    "learn_why": "Знание о структуре и динамике ставок на CEO важно для понимания рыночных сигналов в технологических компаниях.",
-    "kill_criteria": "Нет официального объявления о новом CEO или о возвращении Хуанга — все ставки теряют смысл.",
-    "stage": "разгон",
-    "window": "месяцы",
-    "applications": [
-     {
-      "channel": "рыночная ставка",
-      "idea": "Создать ставку на то, станет ли Иэн Бьюк следующим CEO NVIDIA",
-      "first_step": "Открыть рынок на Polymarket с описанием: 'Will Ian Buck be the next CEO of NVIDIA?'"
-     },
-     {
-      "channel": "рыночная ставка",
-      "idea": "Создать ставку на то, вернётся ли Дженсен Хуанг в NVIDIA",
-      "first_step": "Открыть рынок на Polymarket с описанием: 'Will Jensen Huang rejoin NVIDIA by December 31, 2026?'"
-     },
-     {
-      "channel": "рыночная ставка",
-      "idea": "Проверить, как меняется вовлечённость в ставки на CEO по мере приближения к дате 2028 года",
-      "first_step": "Следить за оборотом на Polymarket в течение следующих 3 месяцев"
-     }
-    ],
-    "cheap_bet": "Открыть рынок на Polymarket с описанием: 'Will Ian Buck be the next CEO of NVIDIA?'",
-    "title_ru": "Ставки на нового CEO NVIDIA",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -2666,20 +2531,19 @@
    "label": "anthropic",
    "lane": "рынки",
    "kind": "тема",
-   "now": 3,
+   "now": 6,
    "expected": 0.0,
    "growth": 0.0,
    "novelty": 0.7,
-   "hops": 2,
-   "metric_label": "3 объектов на 2 платформах: Polymarket, Google Trends",
+   "hops": 1,
+   "metric_label": "6 объектов на 1 платформе: Polymarket",
    "by_source": {
-    "trends": 1,
-    "polymarket": 2
+    "polymarket": 6
    },
-   "score": 67,
+   "score": 62,
    "parts": {
-    "hops": 0.33,
-    "items": 0.5
+    "hops": 0.0,
+    "items": 1
    },
    "examples": [
     {
@@ -2688,7 +2552,43 @@
      "url": "https://polymarket.com/market/will-anthropics-market-cap-be-less-than-1pt25t-at-market-close-on-ipo-day",
      "snippet": "This market will resolve based on Anthropic's market capitalization at the closing price on its first day of trading.\n\nIf no IPO occurs by December 31, 2027, 11:59 PM ET, the market will resolve to \"No IPO by December 31, 2027\".\n\nMarket capitalization expresses the monetary value of a company’s outs",
      "meta": {
-      "value": "163 тыс. долларов оборота за сутки"
+      "value": "326 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
+     "url": "https://polymarket.com/market/will-anthropics-valuation-hit-high-1pt75t-by-december-31-328",
+     "snippet": "This market will resolve to \"Yes\" if Anthropic's private market valuation, as measured by the NPM Price reported by Nasdaq Private Market, LLC (NPM) for any date between market creation and December 31, 2026, is equal to or beyond (equal to or above for ↑ HIGH valuations, equal to or below for ↓ LOW",
+     "meta": {
+      "value": "129 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will Anthropic's market cap be between $2.0T and $2.25T at market close on IPO day?",
+     "url": "https://polymarket.com/market/will-anthropics-market-cap-be-between-2pt0t-and-2pt25t-at-market-close-on-ipo-day",
+     "snippet": "This market will resolve based on Anthropic's market capitalization at the closing price on its first day of trading.\n\nIf no IPO occurs by December 31, 2027, 11:59 PM ET, the market will resolve to \"No IPO by December 31, 2027\".\n\nMarket capitalization expresses the monetary value of a company’s outs",
+     "meta": {
+      "value": "99 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will Anthropic's market cap be between $1.75T and $2.0T at market close on IPO day?",
+     "url": "https://polymarket.com/market/will-anthropics-market-cap-be-between-1pt75t-and-2pt0t-at-market-close-on-ipo-day",
+     "snippet": "This market will resolve based on Anthropic's market capitalization at the closing price on its first day of trading.\n\nIf no IPO occurs by December 31, 2027, 11:59 PM ET, the market will resolve to \"No IPO by December 31, 2027\".\n\nMarket capitalization expresses the monetary value of a company’s outs",
+     "meta": {
+      "value": "91 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will Anthropic's market cap be between $1.5T and $1.75T at market close on IPO day?",
+     "url": "https://polymarket.com/market/will-anthropics-market-cap-be-between-1pt5t-and-1pt75t-at-market-close-on-ipo-day",
+     "snippet": "This market will resolve based on Anthropic's market capitalization at the closing price on its first day of trading.\n\nIf no IPO occurs by December 31, 2027, 11:59 PM ET, the market will resolve to \"No IPO by December 31, 2027\".\n\nMarket capitalization expresses the monetary value of a company’s outs",
+     "meta": {
+      "value": "89 тыс. долларов оборота за сутки"
      }
     },
     {
@@ -2697,90 +2597,7 @@
      "url": "https://polymarket.com/market/will-anthropics-market-cap-be-between-1pt25t-and-1pt5t-at-market-close-on-ipo-day",
      "snippet": "This market will resolve based on Anthropic's market capitalization at the closing price on its first day of trading.\n\nIf no IPO occurs by December 31, 2027, 11:59 PM ET, the market will resolve to \"No IPO by December 31, 2027\".\n\nMarket capitalization expresses the monetary value of a company’s outs",
      "meta": {
-      "value": "47 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "trends",
-     "title": "anthropic ipo date",
-     "url": "https://trends.google.com/trends/explore?q=anthropic%20ipo%20date",
-     "snippet": "The Investors Set to Win Big in Anthropic’s IPO",
-     "meta": {
-      "value": "500 поисковых запросов за сутки (оценка Google)"
-     }
-    }
-   ],
-   "aliases": [],
-   "fit": 0.67,
-   "fit_domain": "trading",
-   "earn": 8.0,
-   "learn": 6.0,
-   "stars_per_day": 0,
-   "llm_title": "Рынок Anthropic: IPO и капитализация",
-   "llm_what": "рынок предсказаний на IPO и рыночную капитализацию компании Anthropic",
-   "llm_kind": "рыночная возможность",
-   "analysis": {
-    "what": "Рынок Anthropic — возможность инвестировать в его IPO, где тренд отслеживается через прогнозы капитализации и дату публикации. Включает рынки, где прогнозируют, будет ли капитализация ниже $1.25T или между $1.25T и $1.5T.",
-    "why_now": "3 объекта на 2 платформах: Polymarket (2), Google Trends (1). В Google Trends — 500 запросов в день.",
-    "earn_why": "Можно быстро получить доход, если IPO произойдет и капитализация превысит ожидания",
-    "learn_why": "Понимание рынков IPO и анализа прогнозов важно для принятия решений",
-    "kill_criteria": "Отсутствие IPO до 31 декабря 2027 года",
-    "stage": "разгон",
-    "window": "месяцы",
-    "applications": [
-     {
-      "channel": "рыночная ставка",
-      "idea": "Сделать ставку на капитализацию Anthropic в день IPO",
-      "first_step": "Проверить дату IPO (31 декабря 2027 года) и текущие прогнозы на Polymarket"
-     },
-     {
-      "channel": "рыночная ставка",
-      "idea": "Оценить вероятность IPO до 31 декабря 2027 года через Google Trends",
-      "first_step": "Проверить количество поисковых запросов — текущий уровень 500 в день"
-     },
-     {
-      "channel": "рыночная ставка",
-      "idea": "Создать прогноз на базе текущих данных о капитализации",
-      "first_step": "Собрать данные с Polymarket: объемы оборота (163 тыс. и 47 тыс. долларов в день)"
-     }
-    ],
-    "cheap_bet": "Проверить дату IPO (31 декабря 2027 года) и текущие прогнозы на Polymarket",
-    "title_ru": "Рынок Anthropic: IPO и капитализация",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "polymarket:561994",
-   "label": "Will Kristi Noem win the 2028 Republican presidential nomination?",
-   "lane": "рынки",
-   "kind": "объект",
-   "now": 1,
-   "value": 1151835.522,
-   "expected": 0.0,
-   "growth": 0.0,
-   "novelty": 0.6,
-   "metric_label": "1,2 млн долларов оборота за сутки",
-   "by_source": {
-    "polymarket": 1
-   },
-   "score": 57.8,
-   "spark": [
-    1151835.522
-   ],
-   "parts": {
-    "growth": 0.5,
-    "rank": 1.0,
-    "novelty": 0.6
-   },
-   "examples": [
-    {
-     "source": "polymarket",
-     "title": "Will Kristi Noem win the 2028 Republican presidential nomination?",
-     "url": "https://polymarket.com/market/will-kristi-noem-win-the-2028-republican-presidential-nomination",
-     "snippet": "This market will resolve to “Yes” if the named individual wins and accepts the 2028 nomination of the Republican Party for U.S. president. Otherwise, this market will resolve to “No”.\n\nThe resolution source for this market will be a consensus of official Republican Party sources.\n\nAny replacement of",
-     "meta": {
-      "value": "1,2 млн долларов оборота за сутки"
+      "value": "84 тыс. долларов оборота за сутки"
      }
     }
    ],
@@ -2790,43 +2607,43 @@
    "earn": 6.0,
    "learn": 8.0,
    "stars_per_day": 0,
-   "llm_title": "Ставки на победу Кристи Нойм",
-   "llm_what": "ставка на получение кандидатуры в Республиканской партии",
+   "llm_title": "Рынок капитализации Anthropic",
+   "llm_what": "рынок предсказаний на капитализацию компании Anthropic",
    "llm_kind": "рыночная возможность",
    "analysis": {
-    "what": "Люди ставят деньги на то, победит ли Кристи Нойм на выборах президента США в 2028 году в республиканской партии. Ставки формируются на платформе Polymarket.",
-    "why_now": "Оборот за сутки — 1,2 млн долларов.",
-    "earn_why": "Можно быстро использовать ставки как индикаторы, но прибыль зависит от верного прогноза.",
-    "learn_why": "Понимание рынка ставок помогает прогнозировать политические тренды.",
-    "kill_criteria": "Ставки резко снизятся или исчезнут в течение 48 часов.",
+    "what": "Рынок капитализации Anthropic — это набор прогнозных рынков на платформе Polymarket, где участники ставят на то, достигнет ли компания Anthropic определённого уровня капитализации на день своего публичного старта или в течение 2026–2027 годов.",
+    "why_now": "На платформе Polymarket создано 6 таких рынков, каждый из которых имеет оборот от 84 до 129 тыс. долларов в сутки — показатель активности и интереса к прогнозу роста капитализации.",
+    "earn_why": "Рынок связан с высокой волатильностью и прогнозами, но не имеет прямого дохода без участия в торговле или аналитике",
+    "learn_why": "Понимание механизмов оценки капитализации и поведения рынков в условиях неопределённости позволяет прогнозировать изменения в технологических компаниях",
+    "kill_criteria": "Появление официального отказа от IPO или публичного уведомления о смене стратегии капитализации Anthropic до 2027 года",
     "stage": "разгон",
-    "window": "недели",
+    "window": "месяцы",
     "applications": [
      {
       "channel": "рыночная ставка",
-      "idea": "Создать ставку на победу Кристи Нойм в 2028 году на Polymarket",
-      "first_step": "Открыть аккаунт на Polymarket и ввести вопрос о победе Нойм"
+      "idea": "Создать ставку на то, достигнет ли Anthropic капитализацию в $1.75T к концу 2026 года",
+      "first_step": "Открыть рынок на Polymarket с вопросом о достижении $1.75T и включить ставку с оборотом 100 тыс. долларов в сутки"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Анализировать динамику ставок для оценки вероятности победы",
-      "first_step": "Проверить текущий оборот и распределение ставок на рынке"
+      "idea": "Проверить, произойдёт ли IPO Anthropic до 31 декабря 2027 года",
+      "first_step": "Создать рынок с условием: «ИПО до 31 декабря 2027 года» и установить минимальный оборот 80 тыс. долларов в сутки"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Использовать ставки как индикатор политической поддержки",
-      "first_step": "Собрать данные по ставкам и выявить тенденции в течение 7 дней"
+      "idea": "Оценить вероятность достижения капитализации в диапазоне $2.0T–$2.25T на день IPO",
+      "first_step": "Создать рынок с диапазоном $2.0T–$2.25T и оборотом 99 тыс. долларов в сутки"
      }
     ],
-    "cheap_bet": "Открыть аккаунт на Polymarket и ввести вопрос о победе Нойм",
-    "title_ru": "Ставки на победу Кристи Нойм",
+    "cheap_bet": "Открыть рынок на Polymarket с вопросом о достижении $1.75T и включить ставку с оборотом 100 тыс. долларов в сутки",
+    "title_ru": "Рынок капитализации Anthropic",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "coingecko:macca-the-gator-2",
-   "label": "Macca the Gator (MACCA)",
+   "term": "coingecko:gato-the-cat",
+   "label": "Gato The Cat (GATO)",
    "lane": "рынки",
    "kind": "объект",
    "now": 1,
@@ -2850,8 +2667,8 @@
    "examples": [
     {
      "source": "coingecko",
-     "title": "Macca the Gator (MACCA)",
-     "url": "https://www.coingecko.com/en/coins/macca-the-gator-2",
+     "title": "Gato The Cat (GATO)",
+     "url": "https://www.coingecko.com/en/coins/gato-the-cat",
      "snippet": "",
      "meta": {
       "value": "15 место в поисковых трендах CoinGecko"
@@ -2862,38 +2679,186 @@
    "fit": 0.0,
    "fit_domain": "",
    "earn": 7.0,
-   "learn": 4.0,
+   "learn": 5.0,
    "stars_per_day": 0,
-   "llm_title": "Криптовалюта MACCA",
-   "llm_what": "криптовалюта с именем Macca the Gator",
+   "llm_title": "Криптовалюта GATO",
+   "llm_what": "криптовалюта с именем Gato The Cat",
    "llm_kind": "рыночная возможность",
    "analysis": {
-    "what": "Криптовалюта MACCA — криптовалюта, которая входит на 15-е место в поисковых трендах на CoinGecko.",
-    "why_now": "Входит на 15-е место в поисковых трендах CoinGecko",
-    "earn_why": "Можно быстро использовать данные для ставок на рост",
-    "learn_why": "Необходимо понимать динамику криптовалютных трендов",
-    "kill_criteria": "Упадет на 10-е место и ниже в поисковых трендах CoinGecko",
+    "what": "Криптовалюта GATO — криптовалютная альтернатива, которая сейчас входит в топ-15 поисковых результатов на CoinGecko.",
+    "why_now": "15 место в поисковых трендах на CoinGecko",
+    "earn_why": "Можно быстро получить доход, если вовремя купить и продать при росте",
+    "learn_why": "Для понимания рыночной динамики и поведения инвесторов важно",
+    "kill_criteria": "Упадет на 50% в течение 7 дней или исчезнет из топ-15 поисковых результатов",
     "stage": "зарождение",
     "window": "недели",
     "applications": [
      {
       "channel": "рыночная ставка",
-      "idea": "Поставить ставку на рост цен MACCA в рамках криптовалютного рынка",
+      "idea": "Поставить ставку на рост цены GATO в ближайшие 30 дней",
       "first_step": "Проверить исторические данные и объемы торгов на CoinGecko"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Создать аналитический отчет о росте интереса к MACCA",
-      "first_step": "Собрать данные о поисковых запросах и трендах на CoinGecko"
+      "idea": "Создать позицию в криптовалютном портфеле с учетом роста интереса к GATO",
+      "first_step": "Оценить риски и коэффициенты волатильности"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Разработать стратегию для инвестирования в MACCA на основе поисковых трендов",
-      "first_step": "Проанализировать топ-15 криптовалют по поисковым запросам"
+      "idea": "Разработать рекламу или контент, ориентированный на новую криптовалюту",
+      "first_step": "Найти ключевые слова и топ-15 поисковых запросов"
      }
     ],
     "cheap_bet": "Проверить исторические данные и объемы торгов на CoinGecko",
-    "title_ru": "Криптовалюта MACCA",
+    "title_ru": "Криптовалюта GATO",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "coingecko:solana",
+   "label": "Solana (SOL)",
+   "lane": "рынки",
+   "kind": "объект",
+   "now": 1,
+   "value": 14,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.6,
+   "metric_label": "14 место в поисковых трендах CoinGecko",
+   "by_source": {
+    "coingecko": 1
+   },
+   "score": 56.0,
+   "spark": [
+    14
+   ],
+   "parts": {
+    "growth": 0.5,
+    "rank": 0.93,
+    "novelty": 0.6
+   },
+   "examples": [
+    {
+     "source": "coingecko",
+     "title": "Solana (SOL)",
+     "url": "https://www.coingecko.com/en/coins/solana",
+     "snippet": "",
+     "meta": {
+      "value": "14 место в поисковых трендах CoinGecko"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.0,
+   "fit_domain": "",
+   "earn": 7.0,
+   "learn": 5.0,
+   "stars_per_day": 0,
+   "llm_title": "Solana (SOL)",
+   "llm_what": "коин-актив на рынке криптовалют",
+   "llm_kind": "рыночная возможность",
+   "analysis": {
+    "what": "Интерес к криптовалюте Solana (SOL) растёт, так как она заняла 14 место в поисковых трендах на CoinGecko.",
+    "why_now": "Solana заняла 14 место в поисковых трендах на CoinGecko — это показывает рост запросов на платформу.",
+    "earn_why": "Можно быстро получить доход, если вовлечься в торговлю на основе поисковых трендов",
+    "learn_why": "Для понимания рыночной динамики важно знать, как работают поисковые тренды и поведение инвесторов",
+    "kill_criteria": "Снижение позиции Solana до 20-го места в поисковых трендах CoinGecko в течение 3 дней",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "Сделать ставку на рост цены SOL в ближайшие недели",
+      "first_step": "Проверить исторические данные и текущие объемы торгов на CoinGecko"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Разработать стратегию покупки SOL с учетом рыночной волатильности",
+      "first_step": "Собрать данные о конкуренции и трендах в других криптовалютах"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Предложить инвесторам вступить в позицию на SOL с помощью анализа поисковых трендов",
+      "first_step": "Оценить объем поисковых запросов и их динамику в течение последних 7 дней"
+     }
+    ],
+    "cheap_bet": "Проверить исторические данные и текущие объемы торгов на CoinGecko",
+    "title_ru": "Solana (SOL)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "polymarket:3580933",
+   "label": "Will Puma Shen win the next Taipei Mayor election?",
+   "lane": "рынки",
+   "kind": "объект",
+   "now": 1,
+   "value": 416909.7673550001,
+   "expected": 0.0,
+   "growth": 0.0,
+   "novelty": 0.6,
+   "metric_label": "417 тыс. долларов оборота за сутки",
+   "by_source": {
+    "polymarket": 1
+   },
+   "score": 55.7,
+   "spark": [
+    416909.7673550001
+   ],
+   "parts": {
+    "growth": 0.5,
+    "rank": 0.92,
+    "novelty": 0.6
+   },
+   "examples": [
+    {
+     "source": "polymarket",
+     "title": "Will Puma Shen win the next Taipei Mayor election?",
+     "url": "https://polymarket.com/market/will-puma-shen-win-the-next-taipei-mayor-election-20260813125857102",
+     "snippet": "Taiwanese local elections are scheduled to be held on November 28, 2026.\n\nThis market will resolve according to the candidate who becomes the next Mayor of Taipei as a result of this election.\n\nTemporary, interim, or placeholder Mayors appointed before the election will not be considered.\n\nIf the re",
+     "meta": {
+      "value": "417 тыс. долларов оборота за сутки"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.9,
+   "fit_domain": "trading",
+   "earn": 8.0,
+   "learn": 6.0,
+   "stars_per_day": 0,
+   "llm_title": "Ставки на выборы мэра Тайбэя",
+   "llm_what": "ставка на победу кандидата в выборах мэра Тайбэя",
+   "llm_kind": "рыночная возможность",
+   "analysis": {
+    "what": "Люди ставят деньги на то, победит ли Пуму Шэнь на выборах мэра Тайбэя в 2026 году. Это рынок прогнозов, где участники вкладывают деньги в прогнозы на результат выборов.",
+    "why_now": "Выборы запланированы на 28 ноября 2026 года — до этого времени нет других значимых событий, и рынок активно формируется.",
+    "earn_why": "Можно быстро получить доход, если предсказать результат выборов и выиграть ставку.",
+    "learn_why": "Знание структуры рынков прогнозов и поведения участников помогает понимать, как формируются мнения.",
+    "kill_criteria": "Выборы отменены или результаты объявлены — ставки резко падают и теряют оборот.",
+    "stage": "зарождение",
+    "window": "месяцы",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "Создать ставку на победу Пуму Шэнь в выборах мэра Тайбэя",
+      "first_step": "Проверить, есть ли уже ставки на Polymarket и оценить объем оборота"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Провести анализ ставок для выявления скрытых предпосылок или дисбаланса доверия",
+      "first_step": "Собрать данные о ставках за последние 7 дней и построить график изменения объема"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "Использовать ставки как индикатор общественного мнения для аналитики",
+      "first_step": "Сравнить текущие ставки с историческими данными предыдущих выборов в Тайбэе"
+     }
+    ],
+    "cheap_bet": "Проверить, есть ли уже ставки на Polymarket и оценить объем оборота",
+    "title_ru": "Ставки на выборы мэра Тайбэя",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -2904,23 +2869,23 @@
   {
    "term": "typescript",
    "label": "typescript",
-   "now": 367,
+   "now": 454,
    "by_source": {
     "arxiv": 3,
-    "github": 363,
+    "github": 450,
     "hn": 1
    },
    "by_kind": {
     "research": 3,
-    "builder": 363,
+    "builder": 450,
     "talk": 1
    },
-   "expected": 63.23,
-   "growth": 2.514,
-   "acceleration": 0.558,
+   "expected": 65.02,
+   "growth": 2.782,
+   "acceleration": 0.613,
    "n_kinds": 2,
-   "builder_weight": 1748.13,
-   "stars_per_day": 20372.3,
+   "builder_weight": 2052.13,
+   "stars_per_day": 18533.3,
    "novelty": 0.25,
    "focus": 0.99,
    "specificity": 1.0,
@@ -2932,7 +2897,7 @@
     66.56,
     85.96,
     77.86,
-    444.01
+    534.45
    ],
    "series_by_kind": {
     "research": [
@@ -2951,7 +2916,7 @@
      65,
      81,
      78,
-     363
+     450
     ],
     "talk": [
      3,
@@ -2976,27 +2941,27 @@
   {
    "term": "general purpose",
    "label": "general purpose",
-   "now": 373,
+   "now": 463,
    "by_source": {
     "arxiv": 57,
     "biorxiv": 2,
-    "github": 313,
+    "github": 403,
     "hn": 1
    },
    "by_kind": {
     "research": 59,
-    "builder": 313,
+    "builder": 403,
     "talk": 1
    },
-   "expected": 73.18,
-   "growth": 2.33,
-   "acceleration": 0.512,
+   "expected": 75.25,
+   "growth": 2.602,
+   "acceleration": 0.569,
    "n_kinds": 2,
-   "builder_weight": 1599.57,
-   "stars_per_day": 19267.7,
+   "builder_weight": 1905.01,
+   "stars_per_day": 17494.8,
    "novelty": 0.25,
-   "focus": 0.86,
-   "specificity": 0.88,
+   "focus": 0.89,
+   "specificity": 0.89,
    "weeks_seen": 7,
    "series": [
     121.0,
@@ -3005,7 +2970,7 @@
     85.72,
     74.43,
     86.73,
-    451.29
+    545.07
    ],
    "series_by_kind": {
     "research": [
@@ -3024,7 +2989,7 @@
      2,
      1,
      3,
-     313
+     403
     ],
     "talk": [
      0,
@@ -3049,27 +3014,28 @@
   {
    "term": "ai agent",
    "label": "ai agent",
-   "now": 532,
+   "now": 603,
    "by_source": {
-    "arxiv": 65,
+    "arxiv": 63,
     "biorxiv": 2,
-    "github": 449,
-    "hn": 16
+    "github": 520,
+    "huggingface": 1,
+    "hn": 18
    },
    "by_kind": {
-    "research": 67,
-    "builder": 449,
-    "talk": 16
+    "research": 65,
+    "builder": 520,
+    "talk": 18
    },
-   "expected": 226.67,
-   "growth": 1.183,
-   "acceleration": 0.248,
+   "expected": 233.07,
+   "growth": 1.324,
+   "acceleration": 0.277,
    "n_kinds": 3,
-   "builder_weight": 2004.11,
-   "stars_per_day": 21588.3,
+   "builder_weight": 2270.14,
+   "stars_per_day": 19797.4,
    "novelty": 0.25,
-   "focus": 0.91,
-   "specificity": 0.41,
+   "focus": 0.93,
+   "specificity": 0.42,
    "weeks_seen": 7,
    "series": [
     239.61,
@@ -3078,7 +3044,7 @@
     250.1,
     350.14,
     268.06,
-    625.99
+    690.18
    ],
    "series_by_kind": {
     "research": [
@@ -3088,7 +3054,7 @@
      61,
      60,
      75,
-     67
+     65
     ],
     "builder": [
      235,
@@ -3097,7 +3063,7 @@
      187,
      274,
      197,
-     449
+     521
     ],
     "talk": [
      18,
@@ -3106,7 +3072,7 @@
      27,
      21,
      20,
-     16
+     18
     ]
    },
    "series_weeks": [
@@ -3122,26 +3088,26 @@
   {
    "term": "multimodal",
    "label": "multimodal",
-   "now": 507,
+   "now": 592,
    "by_source": {
-    "arxiv": 173,
-    "biorxiv": 19,
-    "github": 315,
-    "huggingface": 22
+    "arxiv": 167,
+    "biorxiv": 18,
+    "github": 407,
+    "huggingface": 25
    },
    "by_kind": {
-    "research": 192,
-    "builder": 315,
+    "research": 185,
+    "builder": 407,
     "talk": 0
    },
-   "expected": 247.87,
-   "growth": 1.029,
-   "acceleration": 0.227,
+   "expected": 254.88,
+   "growth": 1.213,
+   "acceleration": 0.266,
    "n_kinds": 2,
-   "builder_weight": 1608.27,
-   "stars_per_day": 19336.0,
+   "builder_weight": 1920.34,
+   "stars_per_day": 17585.0,
    "novelty": 0.25,
-   "focus": 0.81,
+   "focus": 0.84,
    "specificity": 1.0,
    "weeks_seen": 7,
    "series": [
@@ -3151,7 +3117,7 @@
     285.4,
     261.03,
     254.26,
-    615.07
+    698.44
    ],
    "series_by_kind": {
     "research": [
@@ -3161,7 +3127,7 @@
      280,
      238,
      246,
-     192
+     185
     ],
     "builder": [
      12,
@@ -3170,7 +3136,7 @@
      3,
      11,
      12,
-     337
+     432
     ],
     "talk": [
      0,
@@ -3191,13 +3157,91 @@
     "2026-W45",
     "now"
    ]
+  },
+  {
+   "term": "openai",
+   "label": "openai",
+   "now": 527,
+   "by_source": {
+    "arxiv": 17,
+    "biorxiv": 1,
+    "github": 495,
+    "hn": 14
+   },
+   "by_kind": {
+    "research": 18,
+    "builder": 495,
+    "talk": 14
+   },
+   "expected": 246.77,
+   "growth": 1.053,
+   "acceleration": 0.266,
+   "n_kinds": 3,
+   "builder_weight": 2264.0,
+   "stars_per_day": 20195.7,
+   "novelty": 0.25,
+   "focus": 0.95,
+   "specificity": 1.0,
+   "weeks_seen": 7,
+   "series": [
+    574.75,
+    454.84,
+    199.94,
+    278.34,
+    62.9,
+    87.71,
+    605.24
+   ],
+   "series_by_kind": {
+    "research": [
+     19,
+     12,
+     10,
+     12,
+     13,
+     13,
+     18
+    ],
+    "builder": [
+     703,
+     483,
+     204,
+     264,
+     47,
+     76,
+     495
+    ],
+    "talk": [
+     62,
+     50,
+     36,
+     22,
+     10,
+     24,
+     14
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "now"
+   ]
   }
  ],
  "rejected": [
   {
    "term": "trial version",
    "lane": "технологии",
-   "reason": "технология, метод или инструмент, известно давно: версия программного обеспечения для тестирования без покупки"
+   "reason": "технология, метод или инструмент, известно давно: версия программного обеспечения для пробного использования"
+  },
+  {
+   "term": "microsoft outlook",
+   "lane": "технологии",
+   "reason": "технология, метод или инструмент, известно давно: программное обеспечение для управления электронной почтой и календарем"
   },
   {
    "term": "apple pay",
@@ -3210,9 +3254,9 @@
    "reason": "технология, метод или инструмент, известно давно: сервис оплаты через смартфон Apple"
   },
   {
-   "term": "hardware driver",
-   "lane": "наука",
-   "reason": "технология, метод или инструмент, известно давно: программное обеспечение для установки и управления драйверов устройств"
+   "term": "james",
+   "lane": "культура и мемы",
+   "reason": "шаблонная фраза или обычное слово, известно давно: имя человека, часто встречающееся в контексте политики, кино или спорта"
   },
   {
    "term": "chris van hollen",
@@ -3220,34 +3264,34 @@
    "reason": "имя, компания или разовая новость, известно давно: американский политик, сенатор из Мэриленда"
   },
   {
-   "term": "colette kress",
+   "term": "elissa slotkin",
    "lane": "культура и мемы",
-   "reason": "имя, компания или разовая новость, новое: американская бизнес-лидер, временный CEO Nvidia"
+   "reason": "имя, компания или разовая новость, новое: политическая фигура, кандидат на выборах 2028 года"
   },
   {
-   "term": "pete hegseth",
+   "term": "Stacy Keach",
    "lane": "культура и мемы",
-   "reason": "имя, компания или разовая новость, новое: американский политик и министр обороны, объект мемов и ставок"
+   "reason": "имя, компания или разовая новость, новое: американский актёр, известный своими театральными и киноролевыми работами"
   },
   {
-   "term": "marco rubio",
+   "term": "uefa",
    "lane": "культура и мемы",
-   "reason": "имя, компания или разовая новость, известно давно: американский политик, фигура в политических дебатах"
+   "reason": "устоявшаяся область, известно давно: международный футбольный турнир, организуемый UEFA"
   },
   {
-   "term": "Stephen Miller",
+   "term": "Mauricio Pochettino",
    "lane": "культура и мемы",
-   "reason": "имя, компания или разовая новость, новое: политический советник, фигура в администрации США"
-  },
-  {
-   "term": "malhotra",
-   "lane": "культура и мемы",
-   "reason": "имя, компания или разовая новость, известно давно: имя индийского продюсера и бизнесмена"
+   "reason": "имя, компания или разовая новость, новое: футбольный тренер, который станет главным тренером Манчестер Юнайтед"
   },
   {
    "term": "jensen huang",
    "lane": "рынки",
-   "reason": "имя, компания или разовая новость, новое: событие вокруг бывшего президента NVIDIA и его возвращения в компанию"
+   "reason": "имя, компания или разовая новость, новое: событие вокруг бывшего президента Nvidia"
+  },
+  {
+   "term": "nvidia",
+   "lane": "рынки",
+   "reason": "имя, компания или разовая новость, известно давно: компания по производству GPU и искусственному интеллекту"
   }
  ]
 }
