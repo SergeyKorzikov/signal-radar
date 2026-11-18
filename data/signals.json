@@ -7,7 +7,7 @@
    "2026-W46"
   ],
   "scores": [
-   74.3
+   71.6
   ],
   "lane": "наука"
  },
@@ -31,7 +31,7 @@
    "2026-W46"
   ],
   "scores": [
-   72.2
+   87.6
   ],
   "lane": "технологии"
  },
@@ -319,7 +319,7 @@
    "2026-W46"
   ],
   "scores": [
-   71
+   67
   ],
   "lane": "игры"
  },
@@ -379,7 +379,7 @@
    "2026-W46"
   ],
   "scores": [
-   80.3
+   74.6
   ],
   "lane": "технологии"
  },
@@ -499,7 +499,7 @@
    "2026-W46"
   ],
   "scores": [
-   73.5
+   73.8
   ],
   "lane": "технологии"
  },
@@ -572,6 +572,90 @@
   ],
   "scores": [
    55.7
+  ],
+  "lane": "рынки"
+ },
+ "portable mode": {
+  "label": "portable mode",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-18",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   73.2
+  ],
+  "lane": "технологии"
+ },
+ "тема:sery": {
+  "label": "series",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-18",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   79
+  ],
+  "lane": "культура и мемы"
+ },
+ "wikipedia:mauricio_pochettino": {
+  "label": "Mauricio Pochettino",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-18",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   64.9
+  ],
+  "lane": "культура и мемы"
+ },
+ "тема:crusader": {
+  "label": "crusaders",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-18",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   63
+  ],
+  "lane": "игры"
+ },
+ "coingecko:official-trump": {
+  "label": "Official Trump (TRUMP)",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-18",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   57.8
+  ],
+  "lane": "рынки"
+ },
+ "polymarket:3215007": {
+  "label": "Will there be no change in Fed interest rates after the December 2026 meeting?",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-18",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   56.6
+  ],
+  "lane": "рынки"
+ },
+ "polymarket:679032": {
+  "label": "Will Fabien Roussel win the 2027 French presidential election?",
+  "first_week": "2026-W46",
+  "first_seen": "2026-11-18",
+  "weeks": [
+   "2026-W46"
+  ],
+  "scores": [
+   56.2
   ],
   "lane": "рынки"
  }
