@@ -4,10 +4,12 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-15",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W47"
   ],
   "scores": [
-   71.6
+   71.6,
+   68.3
   ],
   "lane": "наука"
  },
@@ -52,10 +54,12 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-15",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W47"
   ],
   "scores": [
-   75.2
+   75.2,
+   74.1
   ],
   "lane": "технологии"
  },
@@ -304,9 +308,11 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-15",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W47"
   ],
   "scores": [
+   71,
    71
   ],
   "lane": "культура и мемы"
@@ -364,10 +370,12 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-16",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W47"
   ],
   "scores": [
-   58.5
+   58.5,
+   56.9
   ],
   "lane": "наука"
  },
@@ -376,10 +384,12 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-16",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W47"
   ],
   "scores": [
-   74.6
+   74.6,
+   72.7
   ],
   "lane": "технологии"
  },
@@ -436,10 +446,12 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-16",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W47"
   ],
   "scores": [
-   62
+   62,
+   79
   ],
   "lane": "рынки"
  },
@@ -496,10 +508,12 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-17",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W47"
   ],
   "scores": [
-   73.8
+   73.8,
+   71.9
   ],
   "lane": "технологии"
  },
@@ -656,6 +670,150 @@
   ],
   "scores": [
    56.2
+  ],
+  "lane": "рынки"
+ },
+ "ai data center": {
+  "label": "ai data centers",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   34.9
+  ],
+  "lane": "наука"
+ },
+ "virtual card usdt": {
+  "label": "virtual card usdt",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   71.5
+  ],
+  "lane": "технологии"
+ },
+ "trends:quem ama cuida novela": {
+  "label": "quem ama cuida novela",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.6
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:tennis": {
+  "label": "tennis",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.1
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:altın sert düşüş": {
+  "label": "altın sert düşüş",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   83.7
+  ],
+  "lane": "культура и мемы"
+ },
+ "steam:4946440": {
+  "label": "Granule",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "itch:https://kennymakesgames.itch.io/pin": {
+  "label": "Cult of PiN",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "roblox:10773618503": {
+  "label": "Hyper Realistic Ragdoll",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.8
+  ],
+  "lane": "игры"
+ },
+ "steam:2561460": {
+  "label": "Burning Sword: Death Sun",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.7
+  ],
+  "lane": "игры"
+ },
+ "coingecko:wasted-4": {
+  "label": "WASTED (WASTED)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:wanted-star": {
+  "label": "Wanted Star (WSTAR)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   81.4
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:lucia-2": {
+  "label": "Lucia (LUCIA)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-19",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   79.5
   ],
   "lane": "рынки"
  }
