@@ -9,7 +9,7 @@
   ],
   "scores": [
    71.6,
-   68.3
+   80.1
   ],
   "lane": "наука"
  },
@@ -375,7 +375,7 @@
   ],
   "scores": [
    58.5,
-   56.9
+   57.7
   ],
   "lane": "наука"
  },
@@ -389,7 +389,7 @@
   ],
   "scores": [
    74.6,
-   72.7
+   79.4
   ],
   "lane": "технологии"
  },
@@ -681,7 +681,7 @@
    "2026-W47"
   ],
   "scores": [
-   34.9
+   39.6
   ],
   "lane": "наука"
  },
@@ -693,7 +693,7 @@
    "2026-W47"
   ],
   "scores": [
-   71.5
+   78.4
   ],
   "lane": "технологии"
  },
@@ -813,7 +813,115 @@
    "2026-W47"
   ],
   "scores": [
-   79.5
+   83.2
+  ],
+  "lane": "рынки"
+ },
+ "speed limit": {
+  "label": "speed limit",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   36.6
+  ],
+  "lane": "наука"
+ },
+ "google ai studio": {
+  "label": "google ai studio",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   78.7
+  ],
+  "lane": "технологии"
+ },
+ "alternative access": {
+  "label": "alternative access",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   74.7
+  ],
+  "lane": "технологии"
+ },
+ "trends:रॉबर्ट कियोसाकी": {
+  "label": "रॉबर्ट कियोसाकी",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   83.7
+  ],
+  "lane": "культура и мемы"
+ },
+ "wikipedia:suki_waterhouse": {
+  "label": "Suki Waterhouse",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   66.2
+  ],
+  "lane": "культура и мемы"
+ },
+ "steam:5196330": {
+  "label": "IT THINKS! - Build Your Own GPU",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "steam:2292800": {
+  "label": "Blacksmith Master",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.7
+  ],
+  "lane": "игры"
+ },
+ "coingecko:chunkee-the-manatee": {
+  "label": "Chunkee The Manatee (CHUNKEE)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   81.4
+  ],
+  "lane": "рынки"
+ },
+ "polymarket:1163699": {
+  "label": "Clarity Act (H.R.3633) signed into law in 2026?",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-20",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   77.3
   ],
   "lane": "рынки"
  }
