@@ -9,7 +9,7 @@
   ],
   "scores": [
    71.6,
-   69.9
+   76.4
   ],
   "lane": "наука"
  },
@@ -59,7 +59,7 @@
   ],
   "scores": [
    75.2,
-   72.6
+   73.2
   ],
   "lane": "технологии"
  },
@@ -837,7 +837,7 @@
    "2026-W47"
   ],
   "scores": [
-   78.7
+   77.4
   ],
   "lane": "технологии"
  },
@@ -885,7 +885,7 @@
    "2026-W47"
   ],
   "scores": [
-   85.0
+   84.5
   ],
   "lane": "игры"
  },
@@ -933,7 +933,7 @@
    "2026-W47"
   ],
   "scores": [
-   71.7
+   77.7
   ],
   "lane": "технологии"
  },
@@ -1018,6 +1018,150 @@
   ],
   "scores": [
    77.7
+  ],
+  "lane": "рынки"
+ },
+ "longcat video": {
+  "label": "longcat video",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   59.2
+  ],
+  "lane": "наука"
+ },
+ "ai ecosystem": {
+  "label": "ai ecosystem",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   55.9
+  ],
+  "lane": "наука"
+ },
+ "gta vi ps": {
+  "label": "gta vi ps",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   78.9
+  ],
+  "lane": "технологии"
+ },
+ "trends:il t20": {
+  "label": "il t20",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:виа суперстар нтв": {
+  "label": "виа суперстар нтв",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.5
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:watford fc": {
+  "label": "watford fc",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   83.6
+  ],
+  "lane": "культура и мемы"
+ },
+ "тема:avenger": {
+  "label": "avengers",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   71
+  ],
+  "lane": "культура и мемы"
+ },
+ "itch:https://mokamwww.itch.io/fried-chicken-wings": {
+  "label": "Fried chicken wings cause love fire",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "steam:4697880": {
+  "label": "Rock Band Simulator",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.7
+  ],
+  "lane": "игры"
+ },
+ "polymarket:561988": {
+  "label": "Will Josh Hawley win the 2028 Republican presidential nomination?",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   80.0
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:venice-token": {
+  "label": "Venice Token (VVV)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   79.5
+  ],
+  "lane": "рынки"
+ },
+ "polymarket:5054002": {
+  "label": "Will \"Mo Bamba\" by Sheck Wes be on the radio in GTA VI at launch?",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-22",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   76.4
   ],
   "lane": "рынки"
  }
