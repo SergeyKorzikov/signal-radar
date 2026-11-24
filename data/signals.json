@@ -9,7 +9,7 @@
   ],
   "scores": [
    71.6,
-   71.0
+   72.1
   ],
   "lane": "наука"
  },
@@ -839,7 +839,7 @@
    "2026-W47"
   ],
   "scores": [
-   71.7
+   78.1
   ],
   "lane": "технологии"
  },
@@ -1031,7 +1031,7 @@
    "2026-W47"
   ],
   "scores": [
-   55.1
+   56.5
   ],
   "lane": "наука"
  },
@@ -1175,7 +1175,7 @@
    "2026-W47"
   ],
   "scores": [
-   72.4
+   79.1
   ],
   "lane": "технологии"
  },
@@ -1235,7 +1235,7 @@
    "2026-W47"
   ],
   "scores": [
-   85.0
+   84.8
   ],
   "lane": "игры"
  },
@@ -1284,6 +1284,162 @@
   ],
   "scores": [
    79.5
+  ],
+  "lane": "рынки"
+ },
+ "multi display": {
+  "label": "multi display",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   62.9
+  ],
+  "lane": "наука"
+ },
+ "senescence": {
+  "label": "senescence",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   26.7
+  ],
+  "lane": "наука"
+ },
+ "gta vi": {
+  "label": "gta vi",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   79.7
+  ],
+  "lane": "технологии"
+ },
+ "installation guide": {
+  "label": "installation guide",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   69.5
+  ],
+  "lane": "технологии"
+ },
+ "trends:quem ama cuida": {
+  "label": "quem ama cuida",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:relatório": {
+  "label": "relatório",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.6
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:hikmet çetin": {
+  "label": "hikmet çetin",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.1
+  ],
+  "lane": "культура и мемы"
+ },
+ "steam:3861740": {
+  "label": "A Thousand Cloys",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "steam:4224490": {
+  "label": "Internet Cafe 98",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.7
+  ],
+  "lane": "игры"
+ },
+ "coingecko:variational-x": {
+  "label": "Variational X (VAR)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   83.2
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:layerzero": {
+  "label": "LayerZero (ZRO)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   77.7
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:zcash": {
+  "label": "Zcash (ZEC)",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   74.5
+  ],
+  "lane": "рынки"
+ },
+ "polymarket:559655": {
+  "label": "Will Josh Shapiro win the 2028 Democratic presidential nomination?",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-24",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   72.1
   ],
   "lane": "рынки"
  }
