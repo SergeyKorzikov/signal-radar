@@ -9,7 +9,7 @@
   ],
   "scores": [
    71.6,
-   72.1
+   65.6
   ],
   "lane": "наука"
  },
@@ -695,7 +695,7 @@
    "2026-W47"
   ],
   "scores": [
-   78.4
+   68.9
   ],
   "lane": "технологии"
  },
@@ -767,7 +767,7 @@
    "2026-W47"
   ],
   "scores": [
-   85.0
+   84.6
   ],
   "lane": "игры"
  },
@@ -1031,7 +1031,7 @@
    "2026-W47"
   ],
   "scores": [
-   56.5
+   58.3
   ],
   "lane": "наука"
  },
@@ -1175,7 +1175,7 @@
    "2026-W47"
   ],
   "scores": [
-   79.1
+   74.1
   ],
   "lane": "технологии"
  },
@@ -1283,7 +1283,7 @@
    "2026-W47"
   ],
   "scores": [
-   79.5
+   85.0
   ],
   "lane": "рынки"
  },
@@ -1319,7 +1319,7 @@
    "2026-W47"
   ],
   "scores": [
-   79.7
+   79.5
   ],
   "lane": "технологии"
  },
@@ -1403,7 +1403,7 @@
    "2026-W47"
   ],
   "scores": [
-   83.2
+   81.4
   ],
   "lane": "рынки"
  },
@@ -1440,6 +1440,126 @@
   ],
   "scores": [
    72.1
+  ],
+  "lane": "рынки"
+ },
+ "frame interpolation": {
+  "label": "frame interpolation",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   51.6
+  ],
+  "lane": "наука"
+ },
+ "de bruijn": {
+  "label": "de bruijn",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   49.8
+  ],
+  "lane": "наука"
+ },
+ "inkling mini": {
+  "label": "inkling mini",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   73.1
+  ],
+  "lane": "технологии"
+ },
+ "trends:патриарх кирилл": {
+  "label": "патриарх кирилл",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "культура и мемы"
+ },
+ "kym:jupiter-incident-2011": {
+  "label": "Jupiter Incident 2011",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:football today": {
+  "label": "football today",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.6
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:juliano cazarré": {
+  "label": "juliano cazarré",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   84.1
+  ],
+  "lane": "культура и мемы"
+ },
+ "steam:5391260": {
+  "label": "Fish It!: Sort the Aquarium Shop",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "polymarket:7158208": {
+  "label": "Fourth Jensen Huang affair reported by November 30?",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   83.5
+  ],
+  "lane": "рынки"
+ },
+ "тема:uefa": {
+  "label": "uefa",
+  "first_week": "2026-W47",
+  "first_seen": "2026-11-25",
+  "weeks": [
+   "2026-W47"
+  ],
+  "scores": [
+   79
   ],
   "lane": "рынки"
  }
