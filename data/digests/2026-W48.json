@@ -1,10 +1,10 @@
 {
  "week": "2026-W48",
- "start": "2026-11-17T00:00:00+00:00",
- "end": "2026-11-24T00:00:00+00:00",
- "generated_at": "2026-11-26T15:00+00:00",
+ "start": "2026-11-18T00:00:00+00:00",
+ "end": "2026-11-25T00:00:00+00:00",
+ "generated_at": "2026-11-27T14:49+00:00",
  "analyst": "local",
- "summary": "Сигналы недели объединяются вокруг трендов в области ИИ, автономного ПО, геймерской экосистемы и крипто-рынков, где доминируют темы локальной обработки данных, модификаций, мемов и прогнозов. В первую очередь стоит следить за активностью в области нейросетевых инструментов (инклин мини, программирование в пространстве весов), ростом вирусных крипто-мемов (Pepe Wojak, O Algo Keys) и развитием рынков предсказаний (золото, аренда Ornn B200, УЕФА).",
+ "summary": "Сигналы недели объединяются вокруг трендов в области цифровой жизни: от здоровья при работе с экранами до инструментов для работы без установки, а также роста интереса к криптовалютам и игровым модам. Важно следить за мемами и социальными трендами, так как они отражают общественное настроение и могут предсказывать поведение в поиске и на рынке. Также стоит отслеживать прогнозы по ценам и индексации, как индикаторы экономических ожиданий.",
  "lanes": [
   "наука",
   "технологии",
@@ -14,20 +14,20 @@
  ],
  "stats": {
   "docs": {
-   "arxiv": 5006,
-   "biorxiv": 1543,
-   "github": 3008,
+   "arxiv": 5095,
+   "biorxiv": 1478,
+   "github": 3102,
    "huggingface": 600,
-   "hn": 1713
+   "hn": 1700
   },
-  "candidates": 466,
+  "candidates": 561,
   "history_weeks": 8,
   "items": {
    "wikipedia": 400,
    "trends": 60,
    "kym": 16,
    "urban": 10,
-   "roblox": 137,
+   "roblox": 146,
    "steam": 100,
    "itch": 36,
    "polymarket": 47,
@@ -37,263 +37,6 @@
   }
  },
  "main": [
-  {
-   "term": "weight space programming",
-   "label": "weight space programming",
-   "now": 22,
-   "by_source": {
-    "arxiv": 16,
-    "github": 2,
-    "huggingface": 2,
-    "hn": 4
-   },
-   "by_kind": {
-    "research": 16,
-    "builder": 2,
-    "talk": 4
-   },
-   "expected": 4.63,
-   "growth": 1.756,
-   "acceleration": 0.369,
-   "n_kinds": 3,
-   "builder_weight": 7.49,
-   "stars_per_day": 42.2,
-   "novelty": 0.62,
-   "focus": 0.92,
-   "specificity": 0.19,
-   "weeks_seen": 4,
-   "series": [
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    5.91,
-    13.95,
-    20.54,
-    18.83
-   ],
-   "series_by_kind": {
-    "research": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     4,
-     9,
-     18,
-     16
-    ],
-    "builder": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     2,
-     4,
-     3,
-     4
-    ],
-    "talk": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     3,
-     3,
-     4
-    ]
-   },
-   "series_weeks": [
-    "2026-W40",
-    "2026-W41",
-    "2026-W42",
-    "2026-W43",
-    "2026-W44",
-    "2026-W45",
-    "2026-W46",
-    "2026-W47",
-    "now"
-   ],
-   "parts": {
-    "growth": 0.67,
-    "acceleration": 0.275,
-    "diversity": 1.0,
-    "builders": 0.264,
-    "media_gap": 0.5,
-    "toy_test": 0.35,
-    "novelty": 0.62,
-    "focus": 0.92
-   },
-   "score": 59.7,
-   "aliases": [
-    "space programming",
-    "weight space"
-   ],
-   "examples": [
-    {
-     "source": "github",
-     "title": "mbzuai-oryx/LoopedWSP: Looped Weight-Space Programming: LLM-Written Transformers for Long Algorithmic Reasoning",
-     "url": "https://github.com/mbzuai-oryx/LoopedWSP",
-     "snippet": "c-reasoning claude interpretability llm looped-transformer maze-hard mechanistic-interpretability no-training reasoning sudoku tower-of-hanoi transformers weight-space-programming",
-     "meta": {
-      "stars": 122,
-      "stars_per_day": 36.8
-     }
-    },
-    {
-     "source": "hn",
-     "title": "Weight-Space Programming builds neural networks like a 1990s researcher",
-     "url": "https://news.ycombinator.com/item?id=50538977",
-     "snippet": "",
-     "meta": {
-      "points": 127
-     }
-    },
-    {
-     "source": "github",
-     "title": "effl-lab/Weight-Space-Programming: ",
-     "url": "https://github.com/effl-lab/Weight-Space-Programming",
-     "snippet": "",
-     "meta": {
-      "stars": 52,
-      "stars_per_day": 5.4
-     }
-    },
-    {
-     "source": "hn",
-     "title": "Show HN: Watch weight-space programming in action with WebGPU",
-     "url": "https://news.ycombinator.com/item?id=50561436",
-     "snippet": "",
-     "meta": {
-      "points": 40
-     }
-    },
-    {
-     "source": "huggingface",
-     "title": "eltokh7/inkling-2-mini-decision (feature-extraction)",
-     "url": "https://huggingface.co/eltokh7/inkling-2-mini-decision",
-     "snippet": "",
-     "meta": {
-      "likes": 106
-     }
-    },
-    {
-     "source": "huggingface",
-     "title": "ishiki-labs/weight-space-programming-for-audio-models",
-     "url": "https://huggingface.co/spaces/ishiki-labs/weight-space-programming-for-audio-models",
-     "snippet": "",
-     "meta": {
-      "likes": 9
-     }
-    },
-    {
-     "source": "hn",
-     "title": "Experiments in Weight-Space Programming",
-     "url": "https://news.ycombinator.com/item?id=50532141",
-     "snippet": "",
-     "meta": {
-      "points": 5
-     }
-    },
-    {
-     "source": "arxiv",
-     "title": "Weight-Space Programming for Materials Science",
-     "url": "https://arxiv.org/abs/2611.22013v1",
-     "snippet": "",
-     "meta": {}
-    },
-    {
-     "source": "arxiv",
-     "title": "Weight-Space Programming Doesn't Need Transformers",
-     "url": "https://arxiv.org/abs/2611.22055v1",
-     "snippet": "",
-     "meta": {}
-    }
-   ],
-   "fit": 0.38,
-   "fit_domain": "ai",
-   "domains": [
-    "cs.CV",
-    "story",
-    "cs.LG"
-   ],
-   "earn": 6.0,
-   "learn": 9.0,
-   "lane": "наука",
-   "toy": {
-    "comments": 46,
-    "skeptic": 0,
-    "enthusiast": 1,
-    "examples": [
-     {
-      "side": "энтузиаст",
-      "text": "can do. Experiments 1, 2, 3, 5 and 6. All of these are technical breakthroughs Weight space programming is a holy grail of RSI research, and what you are talking about is very different from that, while the paper's proposal",
-      "url": "https://news.ycombinator.com/item?id=50350355"
-     }
-    ]
-   },
-   "toy_score": 0.35,
-   "media_gap": 0.5,
-   "llm_title": "Программирование в пространстве весов",
-   "llm_what": "метод программирования нейросетей через пространство весов",
-   "llm_kind": "новые данные или научный проект",
-   "occupancy": {
-    "roblox": {
-     "count": 0,
-     "top_players": 0,
-     "players": 0
-    },
-    "modrinth": {
-     "count": 0
-    },
-    "steam": {
-     "count": 0
-    },
-    "github": {
-     "count": 333
-    },
-    "domain": {
-     "domain": "weightspaceprogramming.com",
-     "free": false
-    }
-   },
-   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 333 репозиториев · домен weightspaceprogramming.com занят",
-   "analysis": {
-    "what": "Программирование в пространстве весов — метод создания нейросетей, где алгоритмы строятся напрямую в структуре весов модели, как если бы это был код в классическом программировании. Техника позволяет модели решать сложные задачи, такие как логические головоломки или задачи с длинной последовательностью, без традиционного обучения.",
-    "why_now": "Упоминаний за неделю — 22, в 3,4 раза больше, чем ожидается (4,63)",
-    "earn_why": "Метод пока не в массовом применении, но может быть использован в специализированных проектах по интерпретации LLM",
-    "learn_why": "Для понимания основ интерпретации нейросетей и механического анализа — ключевое преимущество",
-    "kill_criteria": "Отсутствие роста упоминаний в течение 2 недель или отсутствие активных репозиториев на GitHub",
-    "stage": "разгон",
-    "window": "месяцы",
-    "applications": [
-     {
-      "channel": "продукт на основе технологии",
-      "idea": "Разработать инструмент для генерации нейросетей с пользовательскими алгоритмами в весах",
-      "first_step": "Создать минимальный рабочий пример на GitHub с примером решения логической задачи (например, судоку)"
-     },
-     {
-      "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Предоставить обучающий материал по принципам программирования в весах для исследователей в области интерпретации нейросетей",
-      "first_step": "Написать обзор на основе примеров из arXiv и HN, опубликовать на Hugging Face или Medium"
-     },
-     {
-      "channel": "рыночная ставка",
-      "idea": "Предложить ставку на внедрение метода в инструменты для интерпретации LLM",
-      "first_step": "Провести анализ 3-х репозиториев на GitHub и подготовить отчёт о потенциале"
-     }
-    ],
-    "cheap_bet": "Создать минимальный рабочий пример на GitHub с примером решения логической задачи (например, судоку)",
-    "title_ru": "Программирование в пространстве весов",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
   {
    "term": "eye care",
    "label": "eye care",
@@ -307,15 +50,15 @@
     "builder": 2,
     "talk": 0
    },
-   "expected": 0.82,
-   "growth": 1.458,
-   "acceleration": 0.359,
+   "expected": 0.83,
+   "growth": 1.45,
+   "acceleration": 0.356,
    "n_kinds": 2,
-   "builder_weight": 6.1,
-   "stars_per_day": 15.0,
+   "builder_weight": 5.67,
+   "stars_per_day": 11.5,
    "novelty": 0.62,
    "focus": 0.75,
-   "specificity": 0.07,
+   "specificity": 0.09,
    "weeks_seen": 4,
    "series": [
     0.0,
@@ -326,7 +69,7 @@
     1.97,
     0.0,
     2.16,
-    4.19
+    4.13
    ],
    "series_by_kind": {
     "research": [
@@ -375,16 +118,16 @@
     "now"
    ],
    "parts": {
-    "growth": 0.484,
-    "acceleration": 0.253,
+    "growth": 0.519,
+    "acceleration": 0.383,
     "diversity": 0.5,
-    "builders": 0.187,
+    "builders": 0.203,
     "media_gap": 0.5,
     "toy_test": 0.2,
     "novelty": 0.62,
     "focus": 0.75
    },
-   "score": 45.2,
+   "score": 47.7,
    "examples": [
     {
      "source": "github",
@@ -393,7 +136,7 @@
      "snippet": "ntrol ddc-ci desktop-application external-monitor eye-care multi-monitor productivity screen-dimmer system-tray windows-11",
      "meta": {
       "stars": 34,
-      "stars_per_day": 11.0
+      "stars_per_day": 8.3
      }
     },
     {
@@ -403,7 +146,7 @@
      "snippet": "0 break-reminder break-timer breaks desktop-app eye-care eye-health eye-strain health linux lookaway-alternative macos open-source productivity reminder rust stretchly-alternative tauri windows",
      "meta": {
       "stars": 16,
-      "stars_per_day": 4.0
+      "stars_per_day": 3.2
      }
     },
     {
@@ -442,6 +185,11 @@
    "llm_what": "программы и исследования по защите зрения при работе с экранами",
    "llm_kind": "новые данные или научный проект",
    "occupancy": {
+    "roblox": {
+     "count": 0,
+     "top_players": 0,
+     "players": 0
+    },
     "modrinth": {
      "count": 2
     },
@@ -449,243 +197,41 @@
      "count": 0
     },
     "github": {
-     "count": 1851
+     "count": 1852
     },
     "domain": {
      "domain": "eyecare.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 2 · Steam: 0 игр · GitHub: 1851 репозиториев · домен eyecare.com занят",
+   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 2 · Steam: 0 игр · GitHub: 1852 репозиториев · домен eyecare.com занят",
    "analysis": {
-    "what": "Новые научные проекты и открытые инструменты, направленные на защиту зрения при работе с экранами — включая приложения для регулировки яркости мониторов и напоминания о перерывах, а также исследования о финансовой нагрузке на пациентов с глаукомой и связи между сердечным ритмом и возрастной дегенерацией сетчатки.",
-    "why_now": "4 упоминания за неделю при ожидаемых 0.82, рост в 2.7 раза",
-    "earn_why": "Нет прямого коммерческого приложения, но есть потенциал в специализированной экспертизе или инструментах для IT-работников",
-    "learn_why": "Для специалистов в области офтальмологии, цифровой гигиены и здоровья — важная тема с высокой актуальностью",
-    "kill_criteria": "Появление значительного количества критических отзывов в HN или отсутствие активности в GitHub за 2 недели",
+    "what": "Новые научные проекты и открытые инструменты, направленные на защиту зрения при работе с экранами — включая приложения для регулировки яркости мониторов и напоминания о перерывах (20-20-20), а также исследования о финансовых и медицинских последствиях заболеваний глаз.",
+    "why_now": "4 упоминания за неделю против ожидаемых 0.83, рост в 2.7 раза",
+    "earn_why": "Нет прямого коммерческого применения, но есть потенциал в специализированных рынках (медицинские сервисы, корпоративные решения)",
+    "learn_why": "Важно понимать медицинские и технологические аспекты, чтобы оценивать риски и возможности",
+    "kill_criteria": "Появление 2+ научных статей, показывающих отсутствие связи между экранной нагрузкой и ухудшением зрения",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "продукт на основе технологии",
-      "idea": "Разработать приложение для Windows и Linux, которое автоматически регулирует яркость мониторов и напоминает о перерывах по принципу 20-20-20",
-      "first_step": "Создать минимальный функциональный прототип на основе кода из GitHub (например, MonitorDim-DDCBrightnessControl)"
+      "idea": "Разработать приложение для Windows, macOS и Linux, которое напоминает о перерывах 20-20-20 и улучшает осанку",
+      "first_step": "Создать MVP на основе кода RMoura98/yonder, добавить поддержку яркости мониторов и интеграцию с системными настройками"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Подготовить обзор научных статей о влиянии экранов на зрение и экономике заболеваний глаз",
+      "first_step": "Собрать и проанализировать 3-5 статей из bioRxiv по теме глаукомы и усталости глаз"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Оценить экономический вклад глаукомы в систему здравоохранения через анализ данных из библиотеки bioRxiv",
-      "first_step": "Собрать данные из публикаций bioRxiv по глаукоме и выявить ключевые показатели финансовой нагрузки"
-     },
-     {
-      "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Предоставить экспертный обзор рисков для пользователей экранов и связей с глазными заболеваниями",
-      "first_step": "Анализировать публикации bioRxiv и GitHub-проекты, выявлять общие темы и угрозы"
+      "idea": "Предложить сервис по мониторингу глазного здоровья через носимые устройства",
+      "first_step": "Провести анализ доступных данных по измерению вариабельности сердечного ритма и связи с дегенерацией сетчатки"
      }
     ],
-    "cheap_bet": "Создать минимальный функциональный прототип на основе кода из GitHub (например, MonitorDim-DDCBrightnessControl)",
+    "cheap_bet": "Создать MVP на основе кода RMoura98/yonder, добавить поддержку яркости мониторов и интеграцию с системными настройками",
     "title_ru": "Защита зрения при работе с экранами",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "internet connection",
-   "label": "internet connections",
-   "now": 4,
-   "by_source": {
-    "arxiv": 1,
-    "biorxiv": 1,
-    "github": 2
-   },
-   "by_kind": {
-    "research": 2,
-    "builder": 2,
-    "talk": 0
-   },
-   "expected": 0.88,
-   "growth": 1.412,
-   "acceleration": 0.95,
-   "n_kinds": 2,
-   "builder_weight": 5.07,
-   "stars_per_day": 7.5,
-   "novelty": 0.25,
-   "focus": 0.5,
-   "specificity": 0.09,
-   "weeks_seen": 7,
-   "series": [
-    0.0,
-    0.0,
-    1.87,
-    0.0,
-    0.0,
-    0.0,
-    0.0,
-    3.24,
-    4.19
-   ],
-   "series_by_kind": {
-    "research": [
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     0,
-     2,
-     2
-    ],
-    "builder": [
-     0,
-     0,
-     2,
-     0,
-     0,
-     0,
-     0,
-     1,
-     2
-    ],
-    "talk": [
-     0,
-     0,
-     0,
-     0,
-     2,
-     0,
-     0,
-     0,
-     0
-    ]
-   },
-   "series_weeks": [
-    "2026-W40",
-    "2026-W41",
-    "2026-W42",
-    "2026-W43",
-    "2026-W44",
-    "2026-W45",
-    "2026-W46",
-    "2026-W47",
-    "now"
-   ],
-   "parts": {
-    "growth": 0.44,
-    "acceleration": 0.758,
-    "diversity": 0.5,
-    "builders": 0.132,
-    "media_gap": 0.5,
-    "toy_test": 0.35,
-    "novelty": 0.25,
-    "focus": 0.5
-   },
-   "score": 43.8,
-   "examples": [
-    {
-     "source": "github",
-     "title": "PagalSarthak/qorvex: Every file is split into chunks and downloaded **through all your internet connections simultaneously** (Wi-Fi + Ethernet together on the same file) — instead of racing chunks down one pipe like ever",
-     "url": "https://github.com/PagalSarthak/qorvex",
-     "snippet": "nager-free idmlinux multi-connection-download torrent-client-desktop yt-dlp",
-     "meta": {
-      "stars": 17,
-      "stars_per_day": 4.8
-     }
-    },
-    {
-     "source": "github",
-     "title": "podstawek/explorer-of-serial: Local AI models, with no Internet connection, explore, discover and then program a vintage device attached to serial port",
-     "url": "https://github.com/podstawek/explorer-of-serial",
-     "snippet": "",
-     "meta": {
-      "stars": 13,
-      "stars_per_day": 2.7
-     }
-    },
-    {
-     "source": "arxiv",
-     "title": "Who Gets Blamed for the Blackout? A Critical Incident Analysis of Clients, Reputation Systems, and Online Freelancers",
-     "url": "https://arxiv.org/abs/2611.28365v1",
-     "snippet": "Online labor platforms such as Fiverr and Upwork judge freelancers by how fast they reply, whether they deliver on time, and what clients say about them. In the Global South, these signals depend on electricity and internet connections that workers do not control. This paper asks how infrastructure failures, such as po",
-     "meta": {}
-    },
-    {
-     "source": "biorxiv",
-     "title": "Sparrowhawk: harnessing WebAssembly for private microbial genomics, and beyond",
-     "url": "https://www.biorxiv.org/content/10.64898/2026.11.18.767565v1",
-     "snippet": "",
-     "meta": {}
-    }
-   ],
-   "fit": 0.0,
-   "fit_domain": "",
-   "domains": [
-    "Python",
-    "cs.CY",
-    "biorxiv:bioinformatics"
-   ],
-   "earn": 7.0,
-   "learn": 8.0,
-   "lane": "наука",
-   "toy": {
-    "comments": 15,
-    "skeptic": 0,
-    "enthusiast": 1,
-    "examples": [
-     {
-      "side": "энтузиаст",
-      "text": "ome internet connections and personal computers, trying to break into our canary servers one login at a time. Wow, there are still security companies that haven't heard of residential proxies? Which are extremely widely use",
-      "url": "https://news.ycombinator.com/item?id=50597288"
-     }
-    ]
-   },
-   "toy_score": 0.35,
-   "media_gap": 0.5,
-   "llm_title": "Многоконнектное скачивание",
-   "llm_what": "многопоточное скачивание файлов через все интернет-соединения",
-   "llm_kind": "технология, метод или инструмент",
-   "occupancy": {
-    "modrinth": {
-     "count": 0
-    },
-    "steam": {
-     "count": 0
-    },
-    "github": {
-     "count": 5999
-    },
-    "domain": {
-     "domain": "internetconnections.com",
-     "free": false
-    }
-   },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 5999 репозиториев · домен internetconnections.com занят",
-   "analysis": {
-    "what": "Многоконнектное скачивание — технология, при которой файлы разбиваются на части и одновременно загружаются через все доступные интернет-соединения (например, Wi-Fi и Ethernet). Используется в локальных клиентах, чтобы ускорить загрузку.",
-    "why_now": "Упоминаний за неделю — 4, в 2,7 раза больше, чем ожидается (0,88)",
-    "earn_why": "Технология может быть использована в быстродействующих системах, где важна скорость загрузки",
-    "learn_why": "Технология связана с актуальными проблемами загрузки и распределения данных",
-    "kill_criteria": "Отсутствие устойчивого теста на стабильность при загрузке через несколько соединений",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "продукт на основе технологии",
-      "idea": "Создать локальный клиент для скачивания файлов, использующий все доступные интернет-соединения",
-      "first_step": "Найти и проанализировать 3 репозитория на GitHub, где реализованы многоконнектные загрузки"
-     },
-     {
-      "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Подготовить обзор технологий многоконнектного скачивания для разработчиков и IT-команд",
-      "first_step": "Собрать 3 примера из GitHub и arXiv, выделить ключевые технические решения"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, который использует все соединения для загрузки ресурсов",
-      "first_step": "Проверить, есть ли в Minecraft моды, использующие параллельные соединения"
-     }
-    ],
-    "cheap_bet": "Найти и проанализировать 3 репозитория на GitHub, где реализованы многоконнектные загрузки",
-    "title_ru": "Многоконнектное скачивание",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -693,25 +239,25 @@
   {
    "term": "gta vi",
    "label": "gta vi",
-   "now": 27,
+   "now": 33,
    "by_source": {
-    "github": 23,
-    "hn": 4
+    "github": 28,
+    "hn": 5
    },
    "by_kind": {
     "research": 0,
-    "builder": 23,
-    "talk": 4
+    "builder": 28,
+    "talk": 5
    },
-   "expected": 2.17,
-   "growth": 2.922,
-   "acceleration": 1.519,
+   "expected": 2.19,
+   "growth": 3.183,
+   "acceleration": 1.574,
    "n_kinds": 2,
-   "builder_weight": 94.85,
-   "stars_per_day": 7429.0,
+   "builder_weight": 117.0,
+   "stars_per_day": 6366.9,
    "novelty": 0.88,
    "focus": 1.0,
-   "specificity": 0.68,
+   "specificity": 0.69,
    "weeks_seen": 2,
    "series": [
     0.0,
@@ -722,7 +268,7 @@
     0.0,
     0.0,
     16.21,
-    24.07
+    28.94
    ],
    "series_by_kind": {
     "research": [
@@ -745,7 +291,7 @@
      0,
      0,
      15,
-     23
+     28
     ],
     "talk": [
      0,
@@ -756,7 +302,7 @@
      0,
      0,
      3,
-     4
+     5
     ]
    },
    "series_weeks": [
@@ -771,16 +317,16 @@
     "now"
    ],
    "parts": {
-    "growth": 0.923,
-    "acceleration": 0.978,
+    "growth": 0.94,
+    "acceleration": 0.985,
     "diversity": 0.5,
-    "builders": 0.868,
+    "builders": 0.91,
     "media_gap": 0.5,
     "toy_test": 0.35,
     "novelty": 0.88,
     "focus": 1.0
    },
-   "score": 78.2,
+   "score": 79.1,
    "examples": [
     {
      "source": "github",
@@ -788,8 +334,8 @@
      "url": "https://github.com/Marvisak/VIctory",
      "snippet": "",
      "meta": {
-      "stars": 12984,
-      "stars_per_day": 4859.4
+      "stars": 13644,
+      "stars_per_day": 3715.2
      }
     },
     {
@@ -798,8 +344,8 @@
      "url": "https://github.com/4lwayz/portwatch-vi",
      "snippet": "",
      "meta": {
-      "stars": 5039,
-      "stars_per_day": 1093.1
+      "stars": 6306,
+      "stars_per_day": 1124.0
      }
     },
     {
@@ -808,8 +354,8 @@
      "url": "https://github.com/ubiquitarianism/leonida",
      "snippet": "",
      "meta": {
-      "stars": 2434,
-      "stars_per_day": 942.1
+      "stars": 2589,
+      "stars_per_day": 722.3
      }
     },
     {
@@ -823,35 +369,35 @@
     },
     {
      "source": "hn",
+     "title": "GTA VI PC Race: live tracker of unofficial PC ports",
+     "url": "https://news.ycombinator.com/item?id=50622506",
+     "snippet": "",
+     "meta": {
+      "points": 8
+     }
+    },
+    {
+     "source": "hn",
      "title": "Does GTA VI Run on PC Yet? Recompile Leaderboard",
      "url": "https://news.ycombinator.com/item?id=50620106",
      "snippet": "",
      "meta": {
       "points": 7
      }
-    },
-    {
-     "source": "hn",
-     "title": "GTA VI didn't break the internet, thanks to 'stupid DNS tricks'",
-     "url": "https://news.ycombinator.com/item?id=50561498",
-     "snippet": "",
-     "meta": {
-      "points": 6
-     }
     }
    ],
-   "fit": 0.22,
+   "fit": 0.23,
    "fit_domain": "games",
    "domains": [
     "Rust",
-    "Python",
-    "story"
+    "story",
+    "Python"
    ],
    "earn": 4.0,
    "learn": 7.0,
    "lane": "технологии",
    "toy": {
-    "comments": 102,
+    "comments": 103,
     "skeptic": 0,
     "enthusiast": 3,
     "examples": [
@@ -875,8 +421,8 @@
    "toy_score": 0.35,
    "media": null,
    "media_gap": 0.5,
-   "llm_title": "GTA VI",
-   "llm_what": "игра серии GTA, планируемая к релизу на ПК и консолях",
+   "llm_title": "GTA VI и порты на ПК",
+   "llm_what": "игра GTA VI и её порты на ПК",
    "llm_kind": "игра, мод или игровой жанр",
    "occupancy": {
     "modrinth": {
@@ -886,41 +432,41 @@
      "count": 0
     },
     "github": {
-     "count": 7841
+     "count": 7893
     },
     "domain": {
      "domain": "gtavi.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 3 · Steam: 0 игр · GitHub: 7841 репозиториев · домен gtavi.com занят",
+   "occupancy_text": "моды Minecraft: 3 · Steam: 0 игр · GitHub: 7893 репозиториев · домен gtavi.com занят",
    "analysis": {
-    "what": "Создание модов и эмуляций для GTA VI, в основном на платформе GitHub, где активно разрабатываются проекты по запуску игры на ПК и переносу интерфейсов с Xbox.",
-    "why_now": "Упоминаний в неделю — 27, в 7.6 раза больше, чем ожидается (2.17)",
-    "earn_why": "Моды и эмуляции могут быть использованы как контент для продвижения, но без официальной поддержки — рискованно",
-    "learn_why": "Понимание технических ограничений и процессов эмуляции важно для анализа и предсказания",
-    "kill_criteria": "Появление официального уведомления от Rockstar, что GTA VI не будет поддерживаться на ПК или эмуляции запрещены",
+    "what": "Попытки портировать игру GTA VI на ПК через моды и неофициальные проекты, включая репозитории на GitHub и живые трекеры в сообществе.",
+    "why_now": "Упоминаний в неделю — 33 (ожидаемо 2.19), рост в 9.1 раза; 28 упоминаний на GitHub, 5 — на Hacker News.",
+    "earn_why": "Моды и порты могут привлечь внимание к игре, но прямой доход — слабый",
+    "learn_why": "Понимание технических сложностей портов и реакции сообщества важно для анализа",
+    "kill_criteria": "Отсутствие новых репозиториев на GitHub в течение 3 недель и отсутствие обновлений в трекерах",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, имитирующий интерфейс или механику GTA VI",
-      "first_step": "Создать репозиторий на GitHub с описанием концепции и структурой"
+      "idea": "Создать мод для Minecraft, который имитирует интерфейс или механики GTA VI",
+      "first_step": "Создать репозиторий на GitHub с описанием концепции и техническими требованиями"
      },
      {
       "channel": "игра в Roblox",
-      "idea": "Создать Roblox-игру, где игроки могут «играть» в GTA VI через симуляцию",
-      "first_step": "Проверить, есть ли готовые шаблоны в Roblox-сообществе"
+      "idea": "Разработать в Roblox мини-игру, имитирующую движение и механики GTA VI",
+      "first_step": "Создать базовую сцену с движением и системой управления в Roblox Studio"
      },
      {
       "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Подготовить обзор модов и технических проблем с запуском GTA VI на ПК",
-      "first_step": "Собрать данные из GitHub и Hacker News, проанализировать топ-репозитории"
+      "idea": "Написать обзор портов и технических возможностей для сообщества",
+      "first_step": "Собрать данные из GitHub и Hacker News, проанализировать тенденции и опубликовать в формате статьи"
      }
     ],
-    "cheap_bet": "Создать репозиторий на GitHub с описанием концепции и структурой",
-    "title_ru": "GTA VI",
+    "cheap_bet": "Создать репозиторий на GitHub с описанием концепции и техническими требованиями",
+    "title_ru": "GTA VI и порты на ПК",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -928,24 +474,24 @@
   {
    "term": "daily desktop",
    "label": "daily desktop",
-   "now": 83,
+   "now": 94,
    "by_source": {
-    "github": 83
+    "github": 94
    },
    "by_kind": {
     "research": 0,
-    "builder": 83,
+    "builder": 94,
     "talk": 0
    },
    "expected": 0.47,
-   "growth": 5.838,
-   "acceleration": 1.549,
+   "growth": 6.01,
+   "acceleration": 1.582,
    "n_kinds": 1,
-   "builder_weight": 220.13,
-   "stars_per_day": 349.9,
+   "builder_weight": 227.23,
+   "stars_per_day": 294.3,
    "novelty": 1.0,
    "focus": 1.0,
-   "specificity": 0.58,
+   "specificity": 0.56,
    "weeks_seen": 1,
    "series": [
     0.0,
@@ -956,7 +502,7 @@
     0.0,
     0.0,
     0.0,
-    86.85
+    97.16
    ],
    "series_by_kind": {
     "research": [
@@ -979,7 +525,7 @@
      0,
      0,
      0,
-     83
+     94
     ],
     "talk": [
      0,
@@ -1006,24 +552,26 @@
    ],
    "parts": {
     "growth": 1.0,
-    "acceleration": 0.989,
+    "acceleration": 0.992,
     "diversity": 0.0,
-    "builders": 0.945,
+    "builders": 0.955,
     "media_gap": 0.5,
     "toy_test": 0.2,
     "novelty": 1.0,
     "focus": 1.0
    },
-   "score": 74.8,
+   "score": 75.0,
    "aliases": [
     "windows install walkthrough",
     "windows install",
     "install walkthrough",
+    "system repair",
+    "fix install notes",
+    "fix install",
     "windows setup",
-    "configuration notes",
-    "walkthrough",
     "install notes",
-    "full setup"
+    "configuration notes",
+    "walkthrough"
    ],
    "examples": [
     {
@@ -1033,7 +581,7 @@
      "snippet": "t pc-gaming terraria-desktop terraria-trainers terraria-windows windows-desktop",
      "meta": {
       "stars": 13,
-      "stars_per_day": 4.7
+      "stars_per_day": 3.4
      }
     },
     {
@@ -1043,7 +591,7 @@
      "snippet": "desktop-software kfa2-desktop kfa2-windows kfa2-xtreme-tuner-setup windows-app",
      "meta": {
       "stars": 13,
-      "stars_per_day": 4.6
+      "stars_per_day": 3.4
      }
     },
     {
@@ -1053,12 +601,12 @@
      "snippet": "desktop-software invision-desktop invision-studio invision-windows windows-app",
      "meta": {
       "stars": 13,
-      "stars_per_day": 4.6
+      "stars_per_day": 3.4
      }
     }
    ],
    "fit": 0.03,
-   "fit_domain": "games",
+   "fit_domain": "neuroscience",
    "domains": [],
    "earn": 8.0,
    "learn": 7.0,
@@ -1072,8 +620,8 @@
    "toy_score": 0.2,
    "media": null,
    "media_gap": 0.5,
-   "llm_title": "Дневной десктоп для геймеров",
-   "llm_what": "настольная рабочая среда для геймеров с настройками и инструментами",
+   "llm_title": "Дневной рабочий стол (Daily Desktop)",
+   "llm_what": "настройка и инструменты для рабочего стола в играх",
    "llm_kind": "технология, метод или инструмент",
    "occupancy": {
     "modrinth": {
@@ -1083,41 +631,41 @@
      "count": 3
     },
     "github": {
-     "count": 1464
+     "count": 1462
     },
     "domain": {
      "domain": "dailydesktop.com",
      "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 3 игр · GitHub: 1464 репозиториев · домен dailydesktop.com занят",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 3 игр · GitHub: 1462 репозиториев · домен dailydesktop.com занят",
    "analysis": {
-    "what": "Инструмент для настройки и установки программ на Windows, ориентированный на геймеров, в виде готовых инструкций и скриптов. Основан на GitHub и используется для автоматизации установки ПО, включая игры и редакторы.",
-    "why_now": "83 упоминания за неделю при ожидаемых 0.47, рост в 57.2 раза",
-    "earn_why": "Можно быстро создать и запустить инструмент, который решает реальную задачу геймеров",
-    "learn_why": "Понимание процессов установки ПО и настройки Windows важно для разработки геймерских инструментов",
-    "kill_criteria": "Нет роста упоминаний в течение 3 дней подряд или снижение звёзд на GitHub ниже 100 в сутки",
+    "what": "Дневной рабочий стол — инструмент для настройки и конфигурации ПК-систем, особенно в контексте установки программ и настройки рабочего стола. В основном используется в сообществах, разрабатывающих ПО для Windows.",
+    "why_now": "Упоминаний в GitHub за неделю — 94, в 64,4 раза больше, чем ожидалось (0,47)",
+    "earn_why": "Можно быстро создать инструмент или мод, который можно продавать или использовать в качестве сервиса",
+    "learn_why": "Для понимания настройки ПК и работы с конфигурацией рабочего стола важно знать основы Windows и ПО",
+    "kill_criteria": "Появление более 1000 отрицательных отзывов в GitHub или отсутствие активных разработок в течение 3 недель",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод для Minecraft, который устанавливает десктоп-интерфейс с настройками для геймеров",
-      "first_step": "Найти 3 репозитория с похожими инструкциями и проанализировать структуру установки"
+      "idea": "Создать мод для Minecraft, который настраивает рабочий стол и устанавливает нужные программы",
+      "first_step": "Найти и проанализировать примеры модов на GitHub, связанные с настройкой рабочего стола"
      },
      {
       "channel": "продукт на основе технологии",
-      "idea": "Разработать инструмент-помощник для установки ПО на Windows, с поддержкой геймерских приложений",
-      "first_step": "Создать минимальный скрипт установки для Terraria и запустить его на GitHub"
+      "idea": "Разработать инструмент для автоматической настройки ПК-систем при установке ПО",
+      "first_step": "Создать минимальный репозиторий на GitHub с примером конфигурации рабочего стола"
      },
      {
-      "channel": "игра в Roblox",
-      "idea": "Создать в Roblox симуляцию установки десктопа с геймерскими настройками",
-      "first_step": "Создать простой сценарий с интерфейсом установки и настройками"
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Предложить курс по настройке рабочего стола и установке ПО для новичков",
+      "first_step": "Собрать 5 примеров настроек из GitHub и оформить в виде пошагового гайд-документа"
      }
     ],
-    "cheap_bet": "Найти 3 репозитория с похожими инструкциями и проанализировать структуру установки",
-    "title_ru": "Дневной десктоп для геймеров",
+    "cheap_bet": "Найти и проанализировать примеры модов на GitHub, связанные с настройкой рабочего стола",
+    "title_ru": "Дневной рабочий стол (Daily Desktop)",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -1125,24 +673,24 @@
   {
    "term": "portable x64 prebuilt",
    "label": "portable x64 prebuilt",
-   "now": 33,
+   "now": 76,
    "by_source": {
-    "github": 33
+    "github": 76
    },
    "by_kind": {
     "research": 0,
-    "builder": 33,
+    "builder": 76,
     "talk": 0
    },
    "expected": 0.47,
-   "growth": 4.533,
-   "acceleration": 1.275,
+   "growth": 5.707,
+   "acceleration": 1.519,
    "n_kinds": 1,
-   "builder_weight": 135.12,
-   "stars_per_day": 704.7,
+   "builder_weight": 304.1,
+   "stars_per_day": 1485.9,
    "novelty": 1.0,
    "focus": 1.0,
-   "specificity": 0.69,
+   "specificity": 0.81,
    "weeks_seen": 1,
    "series": [
     0.0,
@@ -1153,7 +701,7 @@
     0.0,
     0.0,
     0.0,
-    34.53
+    78.55
    ],
    "series_by_kind": {
     "research": [
@@ -1176,7 +724,7 @@
      0,
      0,
      0,
-     33
+     76
     ],
     "talk": [
      0,
@@ -1202,60 +750,61 @@
     "now"
    ],
    "parts": {
-    "growth": 0.989,
-    "acceleration": 0.835,
+    "growth": 0.992,
+    "acceleration": 0.977,
     "diversity": 0.0,
-    "builders": 0.923,
+    "builders": 0.97,
     "media_gap": 0.5,
     "toy_test": 0.2,
     "novelty": 1.0,
     "focus": 1.0
    },
-   "score": 72.5,
+   "score": 74.8,
    "aliases": [
     "x64 prebuilt",
     "portable x64",
-    "prebuilt"
+    "prebuilt",
+    "windows tool"
    ],
    "examples": [
     {
      "source": "github",
-     "title": "Betty4631/ai-text-humanizer: Rewrite AI text so detectors score it 0%. Local paraphrase engine, instant. | humanizer ai-detector paraphrase gptzero turnitin | Portable x64 prebuilt for Windows",
-     "url": "https://github.com/Betty4631/ai-text-humanizer",
-     "snippet": "tor ai-text-humanizer gptzero humanizer open-source paraphrase portable prebuilt productivity turnitin windows-tool",
-     "meta": {
-      "stars": 67,
-      "stars_per_day": 24.8
-     }
-    },
-    {
-     "source": "github",
-     "title": "AnnVieira90/face-swap-local: Face swap for photos and video. One script, fully local, no watermarks. | face-swap deepfake insightface video photo | Portable x64 prebuilt for Windows",
-     "url": "https://github.com/AnnVieira90/face-swap-local",
-     "snippet": "ap deepfake face-swap face-swap-local insightface open-source photo portable prebuilt productivity video windows-tool",
-     "meta": {
-      "stars": 67,
-      "stars_per_day": 24.8
-     }
-    },
-    {
-     "source": "github",
-     "title": "nataliericcardi267/subtitle-gen-ai: Auto subtitles for any video in 100+ languages. Local whisper, SRT/ASS/VTT out. | subtitles whisper srt captions video | Portable x64 prebuilt for Windows",
-     "url": "https://github.com/nataliericcardi267/subtitle-gen-ai",
-     "snippet": "aptions open-source portable prebuilt productivity srt subtitle-gen-ai subtitles video whisper windows-tool",
+     "title": "ShirleyRodrigues6287/cursor-session-rotate: Cursor session rotation: unlimited IDE access, checkpoint on rotation. | cursor session rotate windows tool utility | Portable x64 prebuilt for Windows",
+     "url": "https://github.com/ShirleyRodrigues6287/cursor-session-rotate",
+     "snippet": "on-rotate open-source portable prebuilt productivity rotate session tool utility windows windows-tool",
      "meta": {
       "stars": 66,
-      "stars_per_day": 24.6
+      "stars_per_day": 24.7
+     }
+    },
+    {
+     "source": "github",
+     "title": "ferrari4050/deepseek-cli-unlimited: DeepSeek CLI session rotation: unlimited local access, checkpoint on rotation. | deepseek cli unlimited windows tool utility | Portable x64 prebuilt for Windows",
+     "url": "https://github.com/ferrari4050/deepseek-cli-unlimited",
+     "snippet": "ek deepseek-cli-unlimited open-source portable prebuilt productivity tool unlimited utility windows windows-tool",
+     "meta": {
+      "stars": 66,
+      "stars_per_day": 24.7
+     }
+    },
+    {
+     "source": "github",
+     "title": "Momokar4388/cop-cli-tool: Copilot CLI session rotation: unlimited local access, checkpoint on rotation. | copilot cli unlimited windows tool utility | Portable x64 prebuilt for Windows",
+     "url": "https://github.com/Momokar4388/cop-cli-tool",
+     "snippet": "i-tool copilot copilot-cli-unlimited open-source portable prebuilt productivity tool unlimited utility windows windows-tool",
+     "meta": {
+      "stars": 66,
+      "stars_per_day": 24.7
      }
     }
    ],
    "fit": 0.17,
-   "fit_domain": "ai",
+   "fit_domain": "games",
    "domains": [
     "C++"
    ],
    "earn": 8.0,
-   "learn": 7.0,
+   "learn": 9.0,
    "lane": "технологии",
    "toy": {
     "comments": 0,
@@ -1266,8 +815,8 @@
    "toy_score": 0.2,
    "media": null,
    "media_gap": 0.5,
-   "llm_title": "Портативная x64-версия ПО",
-   "llm_what": "портативная предварительно собранная версия программного обеспечения для работы на x64",
+   "llm_title": "Портативная предварительно собранная версия (x64)",
+   "llm_what": "портативная предварительно собранная версия ПО для работы с IDE и AI-инструментами",
    "llm_kind": "технология, метод или инструмент",
    "occupancy": {
     "modrinth": {
@@ -1286,60 +835,58 @@
    },
    "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 330 репозиториев · домен portablex64prebuilt.com свободен",
    "analysis": {
-    "what": "Портативная x64-версия ПО — это сборки программного обеспечения, работающие на локальном компьютере без зависимости от интернета, которые можно запускать на разных устройствах. Такие версии позволяют обрабатывать данные (например, текст, видео, фото) локально, не передавая их на серверы.",
-    "why_now": "Упоминаний за неделю — 33, при ожидаемых 0.47, рост в 23.2 раза",
-    "earn_why": "Можно быстро создать и продать инструменты, использующие локальную обработку, особенно в сегментах, где важна конфиденциальность",
-    "learn_why": "Знание принципов локальной обработки данных и работы с open-source моделями позволяет быстро адаптироваться к новым инструментам",
-    "kill_criteria": "Отсутствие активных разработок на GitHub в течение 2 недель, снижение звёзд до 100 в день",
+    "what": "Портативная предварительно собранная версия (x64) — это инструмент, который позволяет запускать программное обеспечение без установки на компьютер, сохраняя настройки и состояние сессии. Примеры — открытые инструменты для работы с IDE (например, Cursor, DeepSeek, Copilot) и CLI-инструментами, которые работают в режиме «без установки».",
+    "why_now": "Упоминаний за неделю — 76, при ожидаемых 0.47, рост в 52.2 раза",
+    "earn_why": "Можно быстро создать и продать портативные инструменты, особенно для разработчиков, которые ценят автономность",
+    "learn_why": "Знание работы с портативными сессиями и сохранением состояния важно для разработки инструментов в области ИИ и DevOps",
+    "kill_criteria": "Появление ошибок в работе сессий при переключении, отсутствие совместимости с основными системами или отсутствие поддержки x64",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "продукт на основе технологии",
-      "idea": "Создать инструмент для локальной обработки текста, например, переформулирование AI-текста без детекторов",
-      "first_step": "Создать репозиторий на GitHub с примером локального парсера текста, используя open-source модель"
+      "idea": "Создать портативную версию инструмента для разработки (например, IDE или CLI-клиента) с поддержкой сессий и сохранением состояния",
+      "first_step": "Создать репозиторий на GitHub с минимальным функционалом (например, сессия с сохранением состояния)"
      },
      {
-      "channel": "продукт на основе технологии",
-      "idea": "Разработать локальную систему автоматического генерирования субтитров для видео",
-      "first_step": "Найти и адаптировать модель Whisper для работы в локальной среде, добавить генерацию SRT-файлов"
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, который использует портативные инструменты для автоматизации задач",
+      "first_step": "Проверить, возможно ли интегрировать портативный инструмент в существующий мод"
      },
      {
-      "channel": "продукт на основе технологии",
-      "idea": "Создать инструмент для локального обмена изображениями (face swap) без водяных знаков",
-      "first_step": "Разработать скрипт на основе InsightFace, работающий в режиме offline, с поддержкой фото и видео"
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Опубликовать обзор и сравнение портативных инструментов для разработчиков",
+      "first_step": "Собрать 3–5 примеров из GitHub, включая сессии и сохранение состояния"
      }
     ],
-    "cheap_bet": "Создать репозиторий на GitHub с примером локального парсера текста, используя open-source модель",
-    "title_ru": "Портативная x64-версия ПО",
+    "cheap_bet": "Создать репозиторий на GitHub с минимальным функционалом (например, сессия с сохранением состояния)",
+    "title_ru": "Портативная предварительно собранная версия (x64)",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "inkling mini",
-   "label": "inkling mini",
+   "term": "desktop hyper",
+   "label": "desktop hyper",
    "now": 18,
    "by_source": {
-    "github": 14,
-    "huggingface": 29,
-    "hn": 4
+    "github": 18
    },
    "by_kind": {
     "research": 0,
-    "builder": 14,
-    "talk": 4
+    "builder": 18,
+    "talk": 0
    },
-   "expected": 1.7,
-   "growth": 2.475,
-   "acceleration": 1.344,
-   "n_kinds": 2,
-   "builder_weight": 40.76,
-   "stars_per_day": 166.1,
-   "novelty": 0.88,
+   "expected": 0.47,
+   "growth": 3.688,
+   "acceleration": 1.093,
+   "n_kinds": 1,
+   "builder_weight": 102.91,
+   "stars_per_day": 1996.1,
+   "novelty": 1.0,
    "focus": 1.0,
-   "specificity": 0.92,
-   "weeks_seen": 2,
+   "specificity": 0.47,
+   "weeks_seen": 1,
    "series": [
     0.0,
     0.0,
@@ -1348,8 +895,8 @@
     0.0,
     0.0,
     0.0,
-    11.89,
-    14.65
+    0.0,
+    18.6
    ],
    "series_by_kind": {
     "research": [
@@ -1371,8 +918,8 @@
      0,
      0,
      0,
-     39,
-     43
+     0,
+     18
     ],
     "talk": [
      0,
@@ -1382,8 +929,8 @@
      0,
      0,
      0,
-     4,
-     4
+     0,
+     0
     ]
    },
    "series_weeks": [
@@ -1398,126 +945,169 @@
     "now"
    ],
    "parts": {
-    "growth": 0.835,
-    "acceleration": 0.89,
-    "diversity": 0.5,
-    "builders": 0.659,
+    "growth": 0.962,
+    "acceleration": 0.835,
+    "diversity": 0.0,
+    "builders": 0.887,
     "media_gap": 0.5,
     "toy_test": 0.2,
-    "novelty": 0.88,
+    "novelty": 1.0,
     "focus": 1.0
    },
-   "score": 71.7,
+   "score": 71.5,
    "aliases": [
-    "inkling"
+    "desktop serum",
+    "desktop analytics",
+    "desktop keyshot",
+    "desktop sharing",
+    "desktop connector",
+    "desktop dashboard",
+    "desktop software",
+    "desktop files",
+    "desktop app",
+    "desktop client"
    ],
    "examples": [
     {
      "source": "github",
-     "title": "tensorfish/squid5090: Highly Optimized Inference Engine for Inkling Mini 2 on NVIDIA 5090",
-     "url": "https://github.com/tensorfish/squid5090",
-     "snippet": "",
+     "title": "murphycarolyn75/riverside-fm-desktop: Riverside Fm Desktop for Windows 10/11. Records studio-quality remote podcasts and video interviews, capturing separate local tracks for each guest so you can edit, mix and export cl",
+     "url": "https://github.com/murphycarolyn75/riverside-fm-desktop",
+     "snippet": "p-ai desktop-analytics desktop-app desktop-apps desktop-claude desktop-client desktop-connector desktop-dashboard desktop-design desktop-etcher desktop-files desktop-hyper desktop-keyshot desktop-search desktop-serum desktop-sharing desktop-software desktop-tools desktop-utility",
      "meta": {
-      "stars": 258,
-      "stars_per_day": 78.1
-     }
-    },
-    {
-     "source": "hn",
-     "title": "Inkling 2 Mini",
-     "url": "https://news.ycombinator.com/item?id=50581260",
-     "snippet": "",
-     "meta": {
-      "points": 1488
-     }
-    },
-    {
-     "source": "huggingface",
-     "title": "thinkingmachines/Inkling-2-Mini (image-text-to-text)",
-     "url": "https://huggingface.co/thinkingmachines/Inkling-2-Mini",
-     "snippet": "age text to text conversational moe eval results 8 bit modelopt",
-     "meta": {
-      "likes": 6144
+      "stars": 347,
+      "stars_per_day": 113.7
      }
     },
     {
      "source": "github",
-     "title": "alesha-pro/maya-inkling-mini: Inkling 2 Mini on one RTX 3090: 128 tok/s, 344K context, images and tools. A Project Maya engine (maya-ik2) with every expert in VRAM.",
-     "url": "https://github.com/alesha-pro/maya-inkling-mini",
-     "snippet": "",
+     "title": "elifbhatia2005/asana-desktop: Asana Desktop for Windows 10/11. Organizes team tasks and projects on a shared board, tracks deadlines, assigns work and comments on updates, so teams coordinate projects from one desktop ap",
+     "url": "https://github.com/elifbhatia2005/asana-desktop",
+     "snippet": "esktop asana-desktop-download asana-desktop-mac asana-desktop-pro asana-download-desktop desktop desktop-ai desktop-app desktop-apps desktop-client desktop-design desktop-files desktop-hyper desktop-keyshot desktop-search desktop-serum desktop-sharing desktop-software desktop-tools",
      "meta": {
-      "stars": 173,
-      "stars_per_day": 33.8
-     }
-    },
-    {
-     "source": "huggingface",
-     "title": "unsloth/Inkling-2-Mini-GGUF (image-text-to-text)",
-     "url": "https://huggingface.co/unsloth/Inkling-2-Mini-GGUF",
-     "snippet": "",
-     "meta": {
-      "likes": 1423
-     }
-    },
-    {
-     "source": "hn",
-     "title": "Inkling-2-Mini in 5.4 GB Memory",
-     "url": "https://news.ycombinator.com/item?id=50591853",
-     "snippet": "",
-     "meta": {
-      "points": 598
-     }
-    },
-    {
-     "source": "huggingface",
-     "title": "AtomicChat/Inkling-2-Mini-Uncensored-GGUF (image-text-to-text)",
-     "url": "https://huggingface.co/AtomicChat/Inkling-2-Mini-Uncensored-GGUF",
-     "snippet": "",
-     "meta": {
-      "likes": 875
+      "stars": 346,
+      "stars_per_day": 113.4
      }
     },
     {
      "source": "github",
-     "title": "satellitedown/inkling-2-mini-abliterated-ingine: Abliterated Inkling-2-Mini on ingine, a custom CUDA engine for one RTX 5090: 256K context, DSpark speculation, OpenAI API, and a one-line installer/updater.",
-     "url": "https://github.com/satellitedown/inkling-2-mini-abliterated-ingine",
-     "snippet": "",
+     "title": "ahmed-code17/mint-desktop: Mint Desktop for Windows 10/11. Organizes your personal finances by linking bank accounts, tracking spending across categories, and building monthly budgets you can review and adjust in one pla",
+     "url": "https://github.com/ahmed-code17/mint-desktop",
+     "snippet": "ktop-ai desktop-analytics desktop-app desktop-apps desktop-claude desktop-client desktop-connector desktop-dashboard desktop-design desktop-etcher desktop-files desktop-hyper desktop-keyshot desktop-search desktop-serum desktop-sharing desktop-software desktop-tools desktop-utility",
      "meta": {
-      "stars": 83,
-      "stars_per_day": 15.3
-     }
-    },
-    {
-     "source": "hn",
-     "title": "Inkling 2 Mini, Cutting-Edge Performance for Your Local Setup",
-     "url": "https://news.ycombinator.com/item?id=50581846",
-     "snippet": "",
-     "meta": {
-      "points": 15
+      "stars": 346,
+      "stars_per_day": 113.2
      }
     }
    ],
-   "fit": 0.13,
-   "fit_domain": "ai",
-   "domains": [
-    "image-text-to-text",
-    "Python",
-    "text-generation"
-   ],
-   "earn": 8.0,
+   "fit": 0.11,
+   "fit_domain": "trading",
+   "domains": [],
+   "earn": 4.0,
    "learn": 7.0,
    "lane": "технологии",
    "toy": {
-    "comments": 3,
+    "comments": 0,
     "skeptic": 0,
     "enthusiast": 0,
     "examples": []
    },
    "toy_score": 0.2,
    "media_gap": 0.5,
-   "llm_title": "Инклин Мини",
-   "llm_what": "маленькая модель для обработки текста и изображений",
+   "llm_title": "Десктоп-Hyper",
+   "llm_what": "десктоп-приложение для улучшения работы с данными и ИИ",
    "llm_kind": "технология, метод или инструмент",
+   "occupancy": {
+    "modrinth": {
+     "count": 0
+    },
+    "steam": {
+     "count": 1
+    },
+    "github": {
+     "count": 10
+    },
+    "domain": {
+     "domain": "desktophyper.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 0 · Steam: 1 игр · GitHub: 10 репозиториев · домен desktophyper.com свободен",
+   "analysis": {
+    "what": "Десктоп-Hyper — это технологический инструмент или метод, который появляется в репозиториях на GitHub как часть названий приложений для Windows. Он чаще всего встречается в контексте других десктоп-приложений, например, для управления финансами, задачами или аудиозаписью.",
+    "why_now": "Упоминаний за неделю — 18, в 12.9 раз больше, чем ожидаемых 0.47",
+    "earn_why": "Технология может быть использована в приложениях, где важна интеграция с десктоп-интерфейсом, но пока нет прямого прибыльного продукта",
+    "learn_why": "Понимание, как интегрируются десктоп-интерфейсы в приложения, позволяет быстро адаптировать решения для финансовых или задачевых продуктов",
+    "kill_criteria": "Нет роста упоминаний в течение 3 недель подряд, или отсутствие активных разработок в репозиториях на GitHub",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "продукт на основе технологии",
+      "idea": "Создать приложение для управления финансами, в котором используется десктоп-интерфейс с интеграцией банковских счетов и аналитикой",
+      "first_step": "Создать минимальный функциональный репозиторий на GitHub с базовым скриптом для подключения к банковским API"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, который использует десктоп-интерфейс для управления ресурсами или задачами",
+      "first_step": "Найти или создать базовый мод, включающий в себя элементы управления через десктоп-панель"
+     },
+     {
+      "channel": "экспертиза: обзор, курс, консалтинг",
+      "idea": "Провести анализ, как десктоп-интеграции используются в приложениях для управления задачами и финансами",
+      "first_step": "Собрать 5 примеров репозиториев с использованием 'desktop-hyper' и проанализировать их структуру"
+     }
+    ],
+    "cheap_bet": "Создать минимальный функциональный репозиторий на GitHub с базовым скриптом для подключения к банковским API",
+    "title_ru": "Десктоп-Hyper",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "trends:arda turan",
+   "label": "arda turan",
+   "lane": "культура и мемы",
+   "kind": "объект",
+   "now": 1,
+   "value": 50000,
+   "expected": 50.0,
+   "growth": 8.38,
+   "novelty": 1.0,
+   "metric_label": "50 тыс. поисковых запросов за сутки (оценка Google) · новое в списке",
+   "by_source": {
+    "trends": 1
+   },
+   "score": 85.0,
+   "spark": [
+    0,
+    0,
+    50000
+   ],
+   "parts": {
+    "growth": 1.0,
+    "rank": 1.0,
+    "novelty": 1.0
+   },
+   "examples": [
+    {
+     "source": "trends",
+     "title": "arda turan",
+     "url": "https://trends.google.com/trends/explore?q=arda%20turan",
+     "snippet": "Fenerbahçe'nin zaferi Avrupa basınında: 'Londra değil, sanki İstanbul!'",
+     "meta": {
+      "value": "50 тыс. поисковых запросов за сутки (оценка Google)"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.0,
+   "fit_domain": "",
+   "earn": 6.0,
+   "learn": 4.0,
+   "stars_per_day": 0,
+   "llm_title": "Мем Арда Туран",
+   "llm_what": "мем о футболисте Арда Туране и его победе в Европе",
+   "llm_kind": "мем, персонаж или интернет-явление",
    "occupancy": {
     "roblox": {
      "count": 0,
@@ -1531,133 +1121,41 @@
      "count": 0
     },
     "github": {
-     "count": 8
+     "count": 3
     },
     "domain": {
-     "domain": "inklingmini.com",
+     "domain": "ardaturan.com",
      "free": false
     }
    },
-   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 8 репозиториев · домен inklingmini.com занят",
+   "occupancy_text": "Roblox: 0 игр · моды Minecraft: 0 · Steam: 0 игр · GitHub: 3 репозиториев · домен ardaturan.com занят",
    "analysis": {
-    "what": "Инклин Мини — это небольшой инструмент для инференса (обработки) текста и изображений, работающий на нейросетях, который может генерировать текст на основе изображений и наоборот. Он используется в проектах для быстрой разработки моделей с низким потреблением памяти.",
-    "why_now": "Упоминаний за неделю — 18, в 5.6 раза больше, чем ожидалось (1.7)",
-    "earn_why": "Можно быстро создавать небольшие проекты с ИИ-инструментами, которые могут быть проданы как сервисы или моды",
-    "learn_why": "Знание работы и ограничений Inkling Mini позволяет быстро адаптировать его к задачам в небольших проектах",
-    "kill_criteria": "Появление более чем 3 серьёзных ошибок в работе модели (например, неправильная генерация текста или изображений) в реальных проектах",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "продукт на основе технологии",
-      "idea": "Создать сервис для генерации текста из изображений с использованием Inkling Mini",
-      "first_step": "Создать минимально жизнеспособный прототип на Hugging Face с примером изображения и текста"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, использующий Inkling Mini для генерации текстовых описаний объектов",
-      "first_step": "Проверить, работает ли модель в среде Minecraft через API и найти библиотеку для интеграции"
-     },
-     {
-      "channel": "экспертиза: обзор, курс, консалтинг",
-      "idea": "Создать обучающий материал о применении Inkling Mini в небольших проектах по ИИ",
-      "first_step": "Собрать 3 примера из GitHub и Hugging Face, описать их в виде сравнительного анализа"
-     }
-    ],
-    "cheap_bet": "Создать минимально жизнеспособный прототип на Hugging Face с примером изображения и текста",
-    "title_ru": "Инклин Мини",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "trends:gram altın ne kadar 2026",
-   "label": "gram altın ne kadar 2026",
-   "lane": "культура и мемы",
-   "kind": "объект",
-   "now": 1,
-   "value": 2000,
-   "expected": 50.0,
-   "growth": 3.81,
-   "novelty": 1.0,
-   "metric_label": "2000 поисковых запросов за сутки (оценка Google) · новое в списке",
-   "by_source": {
-    "trends": 1
-   },
-   "score": 85.0,
-   "spark": [
-    0,
-    0,
-    2000
-   ],
-   "parts": {
-    "growth": 1.0,
-    "rank": 1.0,
-    "novelty": 1.0
-   },
-   "examples": [
-    {
-     "source": "trends",
-     "title": "gram altın ne kadar 2026",
-     "url": "https://trends.google.com/trends/explore?q=gram%20altın%20ne%20kadar%202026",
-     "snippet": "Altın düşüşünü sürdürüyor: İşte fiyatlar...",
-     "meta": {
-      "value": "2000 поисковых запросов за сутки (оценка Google)"
-     }
-    }
-   ],
-   "aliases": [],
-   "fit": 0.0,
-   "fit_domain": "",
-   "earn": 7.0,
-   "learn": 8.0,
-   "stars_per_day": 0,
-   "llm_title": "Цена золота в 2026 году",
-   "llm_what": "средняя цена грамма золота в 2026 году",
-   "llm_kind": "рыночная возможность",
-   "occupancy": {
-    "modrinth": {
-     "count": 0
-    },
-    "steam": {
-     "count": 0
-    },
-    "github": {
-     "count": 0
-    },
-    "domain": {
-     "domain": "gramaltnnekadar.com",
-     "free": true
-    }
-   },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 0 репозиториев · домен gramaltnnekadar.com свободен",
-   "analysis": {
-    "what": "Пользователи ищут прогнозы цены золота в 2026 году, особенно в формате «gram altın ne kadar 2026» — это запрос, связанный с ожиданиями цен на золото в будущем.",
-    "why_now": "2000 поисковых запросов в сутки (оценка Google Trends)",
-    "earn_why": "Пользователи ищут прогнозы, но не всегда доверяют, поэтому можно быстро создать ценность и привлечь аудиторию",
-    "learn_why": "Понимание рыночных трендов и поведения людей при прогнозировании цен — важный навык для аналитиков и инвесторов",
-    "kill_criteria": "Появление более точного и проверенного прогноза с подтверждением от финансовых экспертов, который заменит текущий запрос",
+    "what": "Мем о человеке Арде Туране, который стал символом победы футбольной команды Фенербахче в Европе. В мемах он ассоциируется с фразой «Не Лондон, а Истанбул!».",
+    "why_now": "50 тыс. поисковых запросов в сутки (оценка Google)",
+    "earn_why": "Мем может быть быстро использован в контенте, но требует активного поддержания",
+    "learn_why": "Для понимания контекста и культурной значимости мема важно знать футбольные события",
+    "kill_criteria": "Снижение поисковых запросов до 10 тыс. в сутки и отсутствие новых контентов в 3 недели",
     "stage": "зарождение",
     "window": "недели",
     "applications": [
      {
-      "channel": "сайт или веб-инструмент",
-      "idea": "Создать простой веб-инструмент с прогнозом цены золота в 2026 году на основе текущих тенденций",
-      "first_step": "Проверить актуальные данные о цене золота и найти источники прогнозов"
+      "channel": "игра в Roblox",
+      "idea": "Создать игру с персонажем Арда Турана, где игроки проходят сценарий победы в Европе",
+      "first_step": "Найти 1–2 примера сценариев из мемов и переписать их в формате сюжета"
      },
      {
-      "channel": "сайт или веб-инструмент",
-      "idea": "Создать страницу с объяснением рисков и факторов, влияющих на цену золота в 2026 году",
-      "first_step": "Собрать данные из финансовых новостей и аналитики"
+      "channel": "мод или ассет",
+      "idea": "Создать мод в Minecraft с персонажем Арда Турана и фразой «Не Лондон, а Истанбул!»",
+      "first_step": "Создать базовый ассет персонажа и текстуру с фразой"
      },
      {
-      "channel": "сайт или веб-инструмент",
-      "idea": "Предложить пользователю ввести свой прогноз и получить обратную связь",
-      "first_step": "Создать форму для ввода прогноза и начать тестирование на 100 пользователей"
+      "channel": "мерч или цифровые товары",
+      "idea": "Выпустить цифровой мерч — NFT-карты или стикеры с мемом Арда Турана",
+      "first_step": "Проверить, есть ли уже подобные товары на платформах, как Etsy или Telegram-каналы"
      }
     ],
-    "cheap_bet": "Проверить актуальные данные о цене золота и найти источники прогнозов",
-    "title_ru": "Цена золота в 2026 году",
+    "cheap_bet": "Найти 1–2 примера сценариев из мемов и переписать их в формате сюжета",
+    "title_ru": "Мем Арда Туран",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -1701,8 +1199,8 @@
    "aliases": [],
    "fit": 0.0,
    "fit_domain": "",
-   "earn": 3.0,
-   "learn": 5.0,
+   "earn": 2.0,
+   "learn": 3.0,
    "stars_per_day": 0,
    "llm_title": "Мемы O Algo Keys",
    "llm_what": "серией мемов с персонажем Meximutt, который говорит «keys» («kill yourself»)",
@@ -1724,80 +1222,80 @@
    },
    "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 0 репозиториев · домен oalgokeys.com свободен",
    "analysis": {
-    "what": "Мем о персонаже O Algo Keys, который говорит слово «keys» (переводится как «убей себя»), впервые появился в ноябре 2024 года. Персонаж Meximutt, известный как O Algo или Mateo, стал символом серии AI-сгенерированных мемов.",
+    "what": "Мем о персонаже O Algo Keys, который говорит слово «keys» (переводится как «убей себя»), в котором AI-генерирует изображения и тексты с участием персонажа Meximutt. Мем начал распространяться в ноябре 2024 года.",
     "why_now": "16 новая запись в базе мемов на Know Your Meme",
-    "earn_why": "Мемы могут быть использованы в контенте, но без прямой коммерческой модели — рентабельность низкая",
-    "learn_why": "Понимание мемов и AI-генерации важно для контент-создания, но не требует глубоких знаний",
-    "kill_criteria": "Нет новых записей в базе Know Your Meme в течение 30 дней",
+    "earn_why": "Мем не имеет прямого коммерческого потенциала",
+    "learn_why": "Нет необходимости в глубоком понимании — достаточно знания смысла и контекста",
+    "kill_criteria": "Мем не будет распространяться, если не появится новый контент или не начнутся моды/игры с участием персонажа",
     "stage": "зарождение",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать игру с персонажем O Algo Keys, который говорит «keys» в определённых ситуациях",
-      "first_step": "Найти или создать шаблон для персонажа в Roblox, включая анимацию и диалог"
+      "idea": "Создать мини-игру с персонажем O Algo Keys, который говорит «keys» при взаимодействии",
+      "first_step": "Найти или создать в Roblox-экосистеме простой сценарий с голосом и реакцией на «keys»"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод для Minecraft с персонажем O Algo Keys, который говорит «keys» при взаимодействии",
-      "first_step": "Проверить, есть ли готовые текстуры и анимации в Minecraft-модовом пространстве"
+      "idea": "Создать мод для Minecraft с персонажем Meximutt, который говорит «keys» при взаимодействии",
+      "first_step": "Проверить, есть ли в Minecraft-модах подобные элементы, и создать простой ассет"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать простой веб-сайт с коллекцией мемов O Algo Keys и интерактивными фразами",
-      "first_step": "Зарегистрировать домен oalgokeys.com и создать базу мемов с текстами и изображениями"
+      "idea": "Создать веб-сайт с коллекцией мемов O Algo Keys и интерактивным текстом «keys»",
+      "first_step": "Зарегистрировать домен oalgokeys.com и создать базу мемов с текстом и изображениями"
      }
     ],
-    "cheap_bet": "Найти или создать шаблон для персонажа в Roblox, включая анимацию и диалог",
+    "cheap_bet": "Найти или создать в Roblox-экосистеме простой сценарий с голосом и реакцией на «keys»",
     "title_ru": "Мемы O Algo Keys",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "trends:piyango",
-   "label": "piyango",
+   "term": "trends:asgari ücret",
+   "label": "asgari ücret",
    "lane": "культура и мемы",
    "kind": "объект",
    "now": 1,
-   "value": 1000,
+   "value": 10000,
    "expected": 50.0,
-   "growth": 2.87,
+   "growth": 6.07,
    "novelty": 1.0,
-   "metric_label": "1000 поисковых запросов за сутки (оценка Google) · новое в списке",
+   "metric_label": "10 тыс. поисковых запросов за сутки (оценка Google) · новое в списке",
    "by_source": {
     "trends": 1
    },
-   "score": 82.7,
+   "score": 84.6,
    "spark": [
     0,
     0,
-    1000
+    10000
    ],
    "parts": {
-    "growth": 0.96,
-    "rank": 0.97,
+    "growth": 1.0,
+    "rank": 0.98,
     "novelty": 1.0
    },
    "examples": [
     {
      "source": "trends",
-     "title": "piyango",
-     "url": "https://trends.google.com/trends/explore?q=piyango",
-     "snippet": "ÇILGIN SAYISAL LOTO SONUÇLARI 25 KASIM 2026 || Milli Piyango Online ile Çılgın Sayısal Loto çekiliş sonuçları ve kazanan numaralar belli oldu!",
+     "title": "asgari ücret",
+     "url": "https://trends.google.com/trends/explore?q=asgari%20ücret",
+     "snippet": "Emekliye kademeli zam formülü! Yaş ve prim günü fazla olan daha yüksek zam mı alacak?",
      "meta": {
-      "value": "1000 поисковых запросов за сутки (оценка Google)"
+      "value": "10 тыс. поисковых запросов за сутки (оценка Google)"
      }
     }
    ],
    "aliases": [],
    "fit": 0.0,
    "fit_domain": "",
-   "earn": 4.0,
-   "learn": 7.0,
+   "earn": 3.0,
+   "learn": 4.0,
    "stars_per_day": 0,
-   "llm_title": "Piyango — вирусная лотерея",
-   "llm_what": "онлайн-лотерея с вирусным мем-содержанием и вовлечённостью",
+   "llm_title": "Минимальный оклад в Турции",
+   "llm_what": "минимальный оклад в Турции, тема дискуссий о повышении",
    "llm_kind": "мем, персонаж или интернет-явление",
    "occupancy": {
     "modrinth": {
@@ -1807,91 +1305,78 @@
      "count": 0
     },
     "github": {
-     "count": 69
+     "count": 9
     },
     "domain": {
-     "domain": "piyango.com",
-     "free": false
+     "domain": "asgaricret.com",
+     "free": true
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 69 репозиториев · домен piyango.com занят",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 9 репозиториев · домен asgaricret.com свободен",
    "analysis": {
-    "what": "Piyango — вирусная лотерея, в которой пользователи обсуждают результаты числового лото, особенно в контексте онлайн-результатов и «чудесных» выигрышей. Связано с мемом о «чудесных» числах и вирусными результатами.",
-    "why_now": "1000 поисковых запросов в сутки (оценка Google), новый тренд в Google Trends.",
-    "earn_why": "Мемы с высокой вовлечённостью могут привлекать внимание, но без прямой коммерческой модели — сложно заработать",
-    "learn_why": "Понимание культурных мемов и их поведения в интернете важно для анализа вирусных трендов",
-    "kill_criteria": "Уменьшение поисковых запросов до 100 в сутки или исчезновение в Google Trends",
+    "what": "Мем о «минимальном окладе в Турции» (asgari ücret), который появился в поиске и связан с вопросами о размере зарплаты и условиях повышения заработной платы. В мемах используется ирония и сарказм вокруг официальных формул и правил.",
+    "why_now": "10 тыс. поисковых запросов в сутки (оценка Google Trends)",
+    "earn_why": "Мемы с низкой вовлечённостью и несвязанной с реальными рынками — сложно превратить в доход",
+    "learn_why": "Понимание формул и контекста мема важно для создания контента, но не даёт прямого преимущества в экспертизе",
+    "kill_criteria": "Падение поисковых запросов ниже 1000 в сутки или исчезновение в Google Trends",
     "stage": "зарождение",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать мини-игру, где игроки угадывают числа лотереи Piyango, и получают награды за правильные ответы",
-      "first_step": "Найти 1–2 примера вирусных результатов лотереи и создать сценарий с угадыванием чисел"
+      "idea": "Создать мини-игру, где игроки выбирают, какую зарплату получат по формуле «asgari ücret» в зависимости от возраста и стажа",
+      "first_step": "Найти 1–2 готовых шаблона формул из интернета и создать простую сцену в Roblox"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод в Minecraft, где при вводе чисел появляются визуальные эффекты, напоминающие лотерею",
-      "first_step": "Создать простой мод с визуализацией чисел и эффектами, основанными на вирусных результатах"
+      "idea": "Создать мод для Minecraft, где в мире есть «зарплата» и игроки могут «получать» её по правилам asgari ücret",
+      "first_step": "Найти бесплатный мод-шаблон и адаптировать его под формулу минимального оклада"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать простой веб-сайт с отображением результатов лотереи Piyango и возможностью угадывать числа",
-      "first_step": "Занять домен piyango.com и разместить базовый интерфейс с примерами результатов"
+      "idea": "Создать простой веб-инструмент, который рассчитывает зарплату по формуле asgari ücret на основе возраста и стажа",
+      "first_step": "Создать HTML-страницу с формой ввода и выводом результата, использовать формулу из открытых источников"
      }
     ],
-    "cheap_bet": "Найти 1–2 примера вирусных результатов лотереи и создать сценарий с угадыванием чисел",
-    "title_ru": "Piyango — вирусная лотерея",
+    "cheap_bet": "Найти 1–2 готовых шаблона формул из интернета и создать простую сцену в Roblox",
+    "title_ru": "Минимальный оклад в Турции",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "тема:godzilla",
-   "label": "godzilla",
+   "term": "trends:индексация",
+   "label": "индексация",
    "lane": "культура и мемы",
-   "kind": "тема",
-   "now": 3,
-   "expected": 0.0,
-   "growth": 0.0,
-   "novelty": 0.7,
-   "hops": 2,
-   "metric_label": "3 объектов на 2 платформах: Steam, Википедия",
+   "kind": "объект",
+   "now": 1,
+   "value": 10000,
+   "expected": 50.0,
+   "growth": 6.07,
+   "novelty": 1.0,
+   "metric_label": "10 тыс. поисковых запросов за сутки (оценка Google) · новое в списке",
    "by_source": {
-    "wikipedia": 2,
-    "steam": 1
+    "trends": 1
    },
-   "score": 67,
+   "score": 84.1,
+   "spark": [
+    0,
+    0,
+    10000
+   ],
    "parts": {
-    "hops": 0.33,
-    "items": 0.5
+    "growth": 1.0,
+    "rank": 0.97,
+    "novelty": 1.0
    },
    "examples": [
     {
-     "source": "wikipedia",
-     "title": "Godzilla Minus Zero",
-     "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_Zero",
-     "snippet": "Godzilla Minus Zero  is a 2026 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. A sequel to Godzilla Minus One (2023), it is the 39th film in the Godzilla franchise, the 34th film thereof produced by Toho, and the sixth installment in the Reiwa era. The film stars Ryunosuke Kamiki, Minami Hamabe, Hidetaka Yoshioka, Yuki Yamada, Kuranosuke Sasaki, Sakura Ando",
+     "source": "trends",
+     "title": "индексация",
+     "url": "https://trends.google.com/trends/explore?q=индексация",
+     "snippet": "Пенсии и пособия в 2027 году: Соцфонд назвал сумму ежеминутных перечислений, индексация и рост выплат",
      "meta": {
-      "value": "259 тыс. просмотров Википедии за неделю"
-     }
-    },
-    {
-     "source": "wikipedia",
-     "title": "Godzilla Minus One",
-     "url": "https://en.wikipedia.org/wiki/Godzilla_Minus_One",
-     "snippet": "Godzilla Minus One  is a 2023 Japanese epic kaiju film written, directed, and with visual effects by Takashi Yamazaki. It is the 37th film in the Godzilla franchise, the 33rd film thereof produced by Toho, and the fifth installment in the Reiwa era. Set in postwar Japan, the film stars Ryunosuke Kamiki as a former kamikaze pilot suffering from post-traumatic stress disorder after encountering the ",
-     "meta": {
-      "value": "99 тыс. просмотров Википедии за неделю"
-     }
-    },
-    {
-     "source": "steam",
-     "title": "Godzilla: Destroy All Monsters Melee Remastered",
-     "url": "https://store.steampowered.com/app/4251460",
-     "snippet": "",
-     "meta": {
-      "value": "62 место в популярных новинках"
+      "value": "10 тыс. поисковых запросов за сутки (оценка Google)"
      }
     }
    ],
@@ -1899,61 +1384,149 @@
    "fit": 0.0,
    "fit_domain": "",
    "earn": 7.0,
-   "learn": 5.0,
+   "learn": 8.0,
    "stars_per_day": 0,
-   "llm_title": "Годзилла",
-   "llm_what": "серия фильмов о монстрике Годзилле",
+   "llm_title": "Индексация пенсий",
+   "llm_what": "процесс повышения пенсий и пособий в зависимости от инфляции",
    "llm_kind": "мем, персонаж или интернет-явление",
    "occupancy": {
     "modrinth": {
-     "count": 13
+     "count": 0
     },
     "steam": {
-     "count": 10
+     "count": 0
     },
     "github": {
-     "count": 1641
-    },
-    "domain": {
-     "domain": "godzilla.com",
-     "free": false
+     "count": 916
     }
    },
-   "occupancy_text": "моды Minecraft: 13 · Steam: 10 игр · GitHub: 1641 репозиториев · домен godzilla.com занят",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 0 игр · GitHub: 916 репозиториев",
    "analysis": {
-    "what": "Мем о Годзилле, связанный с кинопроектами и их визуальными эффектами, в частности с фильмами «Godzilla Minus One» и «Godzilla Minus Zero». В тренде — моды в Minecraft, игры на Steam и репозитории на GitHub.",
-    "why_now": "В Википедии за неделю 259 тыс. просмотров за фильм «Godzilla Minus Zero», 99 тыс. — за «Godzilla Minus One»; на Steam — 62-е место в новинках.",
-    "earn_why": "Мемы с кинопроектами могут быть быстро адаптированы в игры и моды, где есть активная аудитория",
-    "learn_why": "Для понимания визуальных и культурных контекстов фильмов важно знать сюжеты и анимационные стили",
-    "kill_criteria": "Появление контента без визуальных эффектов или отсутствие роста просмотров в Википедии и Steam",
+    "what": "Мем о «индексации пенсий» — интернет-явление, связанное с обсуждением повышения пенсий, в котором упоминается цифра 10 тыс. поисковых запросов в день. В контексте это связано с новостями о соцфонде и ежеминутных перечислениях выплат.",
+    "why_now": "10 тыс. поисковых запросов в день (оценка Google Trends) — рост в 3 раза за последние 30 дней.",
+    "earn_why": "Мемы с высокой вовлечённостью могут быть использованы в коммерческих кампаниях, например, в пенсионных компаниях",
+    "learn_why": "Понимание мемов о социальных темах позволяет быстро адаптироваться к трендам в общественном сознании",
+    "kill_criteria": "Снижение поисковых запросов до 5 тыс. в день в течение 3 дней",
     "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать мини-игру с Годзиллой в стиле кибер-мема",
-      "first_step": "Найти 1–2 готовых шаблона мема в Roblox-сообществах"
+      "idea": "Создать игру, где игроки участвуют в «индексации пенсий» — например, виртуальные пенсионеры получают повышение за каждый уровень, как в меме",
+      "first_step": "Найти 3 примера мемов с «индексацией» в TikTok или Reddit"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод в Minecraft с Годзиллой как кибер-монстром",
-      "first_step": "Проверить, есть ли готовые моды в Minecraft-сообществах"
+      "idea": "Создать мод для Minecraft, где в мире есть «индексация» — пенсии растут с каждым днём",
+      "first_step": "Создать концепт-дизайн с текстом «индексация +1%» и вставить в репозиторий на GitHub"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать простой сайт с визуальными эффектами Годзиллы",
-      "first_step": "Занять домен godzilla.com и разместить базовый HTML-шаблон"
+      "idea": "Создать простой веб-инструмент, где пользователи вводят год и получают прогноз по индексации пенсий",
+      "first_step": "Создать страницу на Notion или Vercel с примером расчёта по 2027 году"
      }
     ],
-    "cheap_bet": "Найти 1–2 готовых шаблона мема в Roblox-сообществах",
-    "title_ru": "Годзилла",
+    "cheap_bet": "Найти 3 примера мемов с «индексацией» в TikTok или Reddit",
+    "title_ru": "Индексация пенсий",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "steam:4193300",
-   "label": "Fleshborn",
+   "term": "roblox:7326934954",
+   "label": "99 Nights in the Forest 🔦",
+   "lane": "игры",
+   "kind": "объект",
+   "now": 1,
+   "value": 267725,
+   "expected": 104.0,
+   "growth": 9.75,
+   "novelty": 1.0,
+   "metric_label": "268 тыс. игроков онлайн · новое в списке",
+   "by_source": {
+    "roblox": 1
+   },
+   "score": 85.0,
+   "spark": [
+    0,
+    0,
+    267725
+   ],
+   "parts": {
+    "growth": 1.0,
+    "rank": 1.0,
+    "novelty": 1.0
+   },
+   "examples": [
+    {
+     "source": "roblox",
+     "title": "99 Nights in the Forest 🔦",
+     "url": "https://www.roblox.com/games/79546208627805",
+     "snippet": "Survival",
+     "meta": {
+      "value": "268 тыс. игроков онлайн"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.0,
+   "fit_domain": "",
+   "earn": 8.0,
+   "learn": 7.0,
+   "stars_per_day": 0,
+   "llm_title": "99 Ночей в лесу",
+   "llm_what": "survival-игра в лесу с элементами мистики и выживания",
+   "llm_kind": "игра, мод или игровой жанр",
+   "occupancy": {
+    "modrinth": {
+     "count": 3
+    },
+    "steam": {
+     "count": 1
+    },
+    "github": {
+     "count": 488
+    },
+    "domain": {
+     "domain": "99nightsinthe.com",
+     "free": true
+    }
+   },
+   "occupancy_text": "моды Minecraft: 3 · Steam: 1 игр · GitHub: 488 репозиториев · домен 99nightsinthe.com свободен",
+   "analysis": {
+    "what": "Игра в Roblox под названием «99 Ночей в лесу» — выживание в лесной среде с элементами мистики и динамичного взаимодействия.",
+    "why_now": "268 тыс. игроков онлайн — рост в новом списке, что указывает на быстрое распространение.",
+    "earn_why": "Можно быстро создать копию и запустить на платформе с высокой вовлечённостью",
+    "learn_why": "Понимание механик выживания и атмосферы позволяет быстро адаптировать идеи",
+    "kill_criteria": "Снижение до 10 тыс. игроков онлайн в течение 3 дней или отсутствие обновлений в течение 7 дней",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "игра в Roblox",
+      "idea": "Создать собственную версию игры «99 Ночей в лесу» в Roblox с аналогичной механикой выживания",
+      "first_step": "Проверить доступность и настроить базовую карту в Roblox Studio"
+     },
+     {
+      "channel": "мод или ассет",
+      "idea": "Разработать мод для Minecraft, вдохновлённый механикой игры «99 Ночей в лесу»",
+      "first_step": "Найти и адаптировать существующие элементы выживания и атмосферы"
+     },
+     {
+      "channel": "сайт или веб-инструмент",
+      "idea": "Создать сайт с описанием и гайдами по игре «99 Ночей в лесу»",
+      "first_step": "Зарегистрировать домен 99nightsinthe.com и разместить базовую информацию"
+     }
+    ],
+    "cheap_bet": "Проверить доступность и настроить базовую карту в Roblox Studio",
+    "title_ru": "99 Ночей в лесу",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "steam:4704000",
+   "label": "Shark Mart",
    "lane": "игры",
    "kind": "объект",
    "now": 1,
@@ -1979,8 +1552,8 @@
    "examples": [
     {
      "source": "steam",
-     "title": "Fleshborn",
-     "url": "https://store.steampowered.com/app/4193300",
+     "title": "Shark Mart",
+     "url": "https://store.steampowered.com/app/4704000",
      "snippet": "",
      "meta": {
       "value": "100 место в популярных новинках"
@@ -1990,55 +1563,55 @@
    "aliases": [],
    "fit": 0.0,
    "fit_domain": "",
-   "earn": 4.0,
-   "learn": 6.0,
+   "earn": 6.0,
+   "learn": 7.0,
    "stars_per_day": 0,
-   "llm_title": "Fleshborn",
-   "llm_what": "новая игра в жанре RPG с элементами фэнтези и биологического роста",
+   "llm_title": "Shark Mart",
+   "llm_what": "новая игра в жанре симулятора с элементами аркады и экономики",
    "llm_kind": "игра, мод или игровой жанр",
    "occupancy": {
     "modrinth": {
      "count": 0
     },
     "steam": {
-     "count": 3
+     "count": 2
     },
     "github": {
-     "count": 4
+     "count": 2
     },
     "domain": {
-     "domain": "fleshborn.com",
-     "free": true
+     "domain": "sharkmart.com",
+     "free": false
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 3 игр · GitHub: 4 репозиториев · домен fleshborn.com свободен",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 2 игр · GitHub: 2 репозиториев · домен sharkmart.com занят",
    "analysis": {
-    "what": "Игра Fleshborn — новая игра в жанре survival-рп, появившаяся на Steam. Входит в топ-100 новинок, что указывает на начальную популярность.",
-    "why_now": "Появилась на Steam в топ-100 новинок — 100-е место в списке.",
-    "earn_why": "Мало игроков, но есть потенциал для модификации и расширения",
-    "learn_why": "Нужно понимать механики survival-рп и архитектуру игрового мира",
-    "kill_criteria": "Удаление из топ-100 новинок Steam или отсутствие обновлений в течение 2 недель",
-    "stage": "зарождение",
+    "what": "Shark Mart — это игра в стиле Minecraft, где игроки строят магазины и торгуют с рыбами. В тренде — мод для Minecraft, который входит в топ-100 новинок на Steam.",
+    "why_now": "Входит в топ-100 новинок на Steam — это 100-е место в списке, что указывает на рост визуальной заметности.",
+    "earn_why": "Моды и игры в Minecraft могут быть проданы через платформы, но без активного сообщества — рентабельность низкая",
+    "learn_why": "Для понимания механик магазинов и рыбной экономики требуется знание игровых механик и модов",
+    "kill_criteria": "Удаление из топ-100 новинок Steam или отсутствие активных модов в Minecraft на 2 недели",
+    "stage": "разгон",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать аналогичную игру в Roblox в жанре survival-рп",
-      "first_step": "Проверить, есть ли в Roblox аналогичные игры и их пользовательскую базу"
+      "idea": "Создать аналог Shark Mart в Roblox с элементами магазинов и рыбной торговли",
+      "first_step": "Проверить, есть ли в Roblox моды с подобной тематикой и найти 1–2 примера"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод для Minecraft, основанный на концепции Fleshborn",
-      "first_step": "Найти базовые игровые механики и визуальные стили из оригинальной игры"
+      "idea": "Разработать мод для Minecraft, имитирующий Shark Mart с торговыми точками и рыбами",
+      "first_step": "Создать базовый скелет мода и прототип магазина в Minecraft"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать сайт с информацией о мире Fleshborn и его механиках",
-      "first_step": "Создать простую страницу на домене fleshborn.com"
+      "idea": "Создать веб-сайт sharkmart.com с информацией о моде и магазине",
+      "first_step": "Запустить простую статическую страницу на домене sharkmart.com"
      }
     ],
-    "cheap_bet": "Проверить, есть ли в Roblox аналогичные игры и их пользовательскую базу",
-    "title_ru": "Fleshborn",
+    "cheap_bet": "Проверить, есть ли в Roblox моды с подобной тематикой и найти 1–2 примера",
+    "title_ru": "Shark Mart",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -2086,7 +1659,7 @@
    "learn": 3.0,
    "stars_per_day": 0,
    "llm_title": "Глубина вымирания",
-   "llm_what": "тактическая RPG о выживании в затопленном мире",
+   "llm_what": "тактическая RPG про погружение в затопленный мир",
    "llm_kind": "игра, мод или игровой жанр",
    "occupancy": {
     "modrinth": {
@@ -2136,8 +1709,8 @@
    }
   },
   {
-   "term": "steam:3109590",
-   "label": "Cat Cafe Manager 2: Big City Bliss",
+   "term": "steam:4370210",
+   "label": "Split Brain Samsara",
    "lane": "игры",
    "kind": "объект",
    "now": 1,
@@ -2163,8 +1736,8 @@
    "examples": [
     {
      "source": "steam",
-     "title": "Cat Cafe Manager 2: Big City Bliss",
-     "url": "https://store.steampowered.com/app/3109590",
+     "title": "Split Brain Samsara",
+     "url": "https://store.steampowered.com/app/4370210",
      "snippet": "",
      "meta": {
       "value": "99 место в популярных новинках"
@@ -2172,149 +1745,57 @@
     }
    ],
    "aliases": [],
-   "fit": 0.0,
-   "fit_domain": "",
-   "earn": 4.0,
-   "learn": 5.0,
+   "fit": 1.0,
+   "fit_domain": "neuroscience",
+   "earn": 3.0,
+   "learn": 2.0,
    "stars_per_day": 0,
-   "llm_title": "Кошачий кафе 2: Большой город",
-   "llm_what": "игра о управлении кошачьим кафе в городе",
+   "llm_title": "Split Brain Samsara",
+   "llm_what": "игра о раздвоении сознания и циклических реальностях",
    "llm_kind": "игра, мод или игровой жанр",
    "occupancy": {
     "modrinth": {
      "count": 0
     },
     "steam": {
-     "count": 1
+     "count": 2
     },
     "github": {
      "count": 0
     },
     "domain": {
-     "domain": "catcafemanager2.com",
+     "domain": "splitbrainsamsara.com",
      "free": true
     }
    },
-   "occupancy_text": "моды Minecraft: 0 · Steam: 1 игр · GitHub: 0 репозиториев · домен catcafemanager2.com свободен",
+   "occupancy_text": "моды Minecraft: 0 · Steam: 2 игр · GitHub: 0 репозиториев · домен splitbrainsamsara.com свободен",
    "analysis": {
-    "what": "Игра для управления кошачьим кафе в стиле городской жизни. Появилась как новинка в списке популярных игр на Steam.",
-    "why_now": "99-е место в популярных новинках на Steam — показывает рост внимания к новым играм в жанре управления.",
-    "earn_why": "Мало игроков, но потенциал в модификации и копировании. Нет прямого дохода без масштаба.",
-    "learn_why": "Жанр не требует глубоких знаний, но важно понимать механику управления и визуальную составляющую.",
-    "kill_criteria": "Удаление из списка новинок Steam или отсутствие новых пользователей в течение 3 недель",
+    "what": "Игра Split Brain Samsara — новая игра в жанре симуляции и психологии, появившаяся на Steam. Она занимает 99-е место в списке популярных новинок.",
+    "why_now": "Появилась в новинках Steam — 1 запись из 1 источника.",
+    "earn_why": "Мало игроков, нет явного коммерческого потенциала",
+    "learn_why": "Концепция интересна, но не имеет прямого применения в обучении",
+    "kill_criteria": "Удаление из списка новинок Steam или отсутствие новых отзывов в течение 2 недель",
     "stage": "зарождение",
     "window": "недели",
     "applications": [
      {
       "channel": "игра в Roblox",
-      "idea": "Создать аналогичную игру в Roblox с элементами управления кошачьим кафе",
-      "first_step": "Проверить, есть ли в Roblox аналоги и как они работают"
+      "idea": "Создать аналогичную игру в Roblox с темой раздвоенного сознания",
+      "first_step": "Проверить, есть ли в Roblox аналогичные концепции и темы"
      },
      {
       "channel": "мод или ассет",
-      "idea": "Создать мод для Minecraft, где игроки управляют кошачьим кафе",
-      "first_step": "Найти базовые ассеты и проверить совместимость с Minecraft"
-     },
-     {
-      "channel": "игра в Roblox",
-      "idea": "Разработать мини-игру в Roblox по сюжету кошачьего кафе",
-      "first_step": "Создать прототип с базовыми функциями: обслуживание, покупка, уход за животными"
-     }
-    ],
-    "cheap_bet": "Проверить, есть ли в Roblox аналоги и как они работают",
-    "title_ru": "Кошачий кафе 2: Большой город",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "steam:4933500",
-   "label": "Me and You",
-   "lane": "игры",
-   "kind": "объект",
-   "now": 1,
-   "value": 98,
-   "expected": 0.5,
-   "growth": 6.04,
-   "novelty": 1.0,
-   "metric_label": "98 место в популярных новинках · новое в списке",
-   "by_source": {
-    "steam": 1
-   },
-   "score": 84.5,
-   "spark": [
-    0,
-    0,
-    98
-   ],
-   "parts": {
-    "growth": 1.0,
-    "rank": 0.98,
-    "novelty": 1.0
-   },
-   "examples": [
-    {
-     "source": "steam",
-     "title": "Me and You",
-     "url": "https://store.steampowered.com/app/4933500",
-     "snippet": "",
-     "meta": {
-      "value": "98 место в популярных новинках"
-     }
-    }
-   ],
-   "aliases": [],
-   "fit": 0.0,
-   "fit_domain": "",
-   "earn": 7.0,
-   "learn": 8.0,
-   "stars_per_day": 0,
-   "llm_title": "Me and You",
-   "llm_what": "игра-мем с механикой совместной игры и сюжетом о дружбе",
-   "llm_kind": "игра, мод или игровой жанр",
-   "occupancy": {
-    "modrinth": {
-     "count": 93
-    },
-    "steam": {
-     "count": 10
-    },
-    "github": {
-     "count": 507
-    },
-    "domain": {
-     "domain": "meandyou.com",
-     "free": false
-    }
-   },
-   "occupancy_text": "моды Minecraft: 93 · Steam: 10 игр · GitHub: 507 репозиториев · домен meandyou.com занят",
-   "analysis": {
-    "what": "Игра или мод под названием «Me and You» — популярный проект в Minecraft, который недавно попал в топ-100 новинок на Steam. Наличие домена meandyou.com указывает на запуск официального сайта.",
-    "why_now": "Появилось на 98-м месте в популярных новинках на Steam — это свидетельство роста внимания в течение недели.",
-    "earn_why": "Моды и игры в Minecraft быстро распространяются, и есть потенциал для коммерциализации через продажу ассетов или модов",
-    "learn_why": "Концепция «Me and You» — это простая, но востребованная механика совместного взаимодействия, которую можно быстро понять и адаптировать",
-    "kill_criteria": "Упадет с 98-го места в новинках на Steam и не появится в топе в течение 3 недель",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "игра в Roblox",
-      "idea": "Создать аналогичную игру в Roblox с механикой «Me and You» — совместного взаимодействия игроков",
-      "first_step": "Проверить, есть ли в Roblox аналогичные проекты и посмотреть на популярность в топе"
-     },
-     {
-      "channel": "мод или ассет",
-      "idea": "Разработать мод для Minecraft, основанный на концепции «Me and You»",
-      "first_step": "Найти в GitHub репозитории с похожими модами и проанализировать их структуру"
+      "idea": "Создать мод для Minecraft, основанный на концепции Split Brain Samsara",
+      "first_step": "Найти в Minecraft примеры схожих механик и тематики"
      },
      {
       "channel": "сайт или веб-инструмент",
-      "idea": "Создать веб-платформу для совместных игр, похожую на meandyou.com",
-      "first_step": "Проверить, не занято ли имя meandyou.com и найти альтернативы"
+      "idea": "Создать веб-сайт с описанием игры и интерактивными сценариями раздвоенного сознания",
+      "first_step": "Зарегистрировать домен splitbrainsamsara.com и создать базовую страницу"
      }
     ],
-    "cheap_bet": "Проверить, есть ли в Roblox аналогичные проекты и посмотреть на популярность в топе",
-    "title_ru": "Me and You",
+    "cheap_bet": "Проверить, есть ли в Roblox аналогичные концепции и темы",
+    "title_ru": "Split Brain Samsara",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -2358,165 +1839,46 @@
    "aliases": [],
    "fit": 0.0,
    "fit_domain": "",
-   "earn": 6.0,
-   "learn": 8.0,
+   "earn": 7.0,
+   "learn": 5.0,
    "stars_per_day": 0,
    "llm_title": "Рынок ZYLO",
    "llm_what": "экосистема криптовалюты с токеном ZYLO",
    "llm_kind": "рыночная возможность",
    "analysis": {
-    "what": "Рынок ZYLO — это новое направление в криптовалютной сфере, которое появилось в топе поисковых трендов на CoinGecko, заняв 13-е место.",
-    "why_now": "Занял 13-е место в поисковых трендах CoinGecko — это первый вхождение в список.",
-    "earn_why": "Можно быстро использовать данные для ставок, если есть доступ к трендам и аналитике",
-    "learn_why": "Для понимания экосистемы ZYLO важно изучить структуру и ключевые игроков",
-    "kill_criteria": "Потеря позиции в поисковых трендах CoinGecko или отсутствие новых упоминаний в течение 2 недель",
+    "what": "Рынок ZYLO — это область криптовалютной экосистемы, которая сейчас начинает появляться в поисковых результатах.",
+    "why_now": "Займет 13 место в поисковых трендах на CoinGecko — это первый вхождение в список.",
+    "earn_why": "Можно быстро вложить в ZYLO, если появляется в поиске — это сигнал к активности",
+    "learn_why": "Для понимания динамики криптоэкосистемы важно знать, как новые проекты входят в поисковые тренды",
+    "kill_criteria": "Потеря позиции в топе поисковых трендов CoinGecko или исчезновение в списке",
     "stage": "зарождение",
     "window": "недели",
     "applications": [
      {
       "channel": "рыночная ставка",
-      "idea": "Поставить ставку на рост ZYLO в криптовалютной экосистеме",
-      "first_step": "Проверить историю цен и объемы торгов на CoinGecko"
+      "idea": "Поставить ставку на рост цен ZYLO в рамках криптовалютного рынка",
+      "first_step": "Проверить текущие данные о ZYLO на CoinGecko и оценить объем поисковых запросов"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Оценить потенциал ZYLO как альтернативы в экосистеме криптовалют",
-      "first_step": "Сравнить с другими проектами по объему и активности"
+      "idea": "Создать аналитический отчет о росте ZYLO в сравнении с другими криптоэкосистемами",
+      "first_step": "Собрать данные о позиции ZYLO в топе поисковых трендов и его динамике"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Создать аналитический отчет о ZYLO и его позиции в экосистеме",
-      "first_step": "Собрать данные по трендам, упоминаниям и активности в сообществе"
+      "idea": "Разработать стратегию входа в экосистему ZYLO с учетом поисковой активности",
+      "first_step": "Проанализировать, как ZYLO появился в топе и какие ключевые слова используются"
      }
     ],
-    "cheap_bet": "Проверить историю цен и объемы торгов на CoinGecko",
+    "cheap_bet": "Проверить текущие данные о ZYLO на CoinGecko и оценить объем поисковых запросов",
     "title_ru": "Рынок ZYLO",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "тема:uefa",
-   "label": "uefa",
-   "lane": "рынки",
-   "kind": "тема",
-   "now": 6,
-   "expected": 0.0,
-   "growth": 0.0,
-   "novelty": 0.7,
-   "hops": 2,
-   "metric_label": "6 объектов на 2 платформах: Polymarket, Википедия",
-   "by_source": {
-    "polymarket": 4,
-    "wikipedia": 2
-   },
-   "score": 79,
-   "parts": {
-    "hops": 0.33,
-    "items": 1
-   },
-   "examples": [
-    {
-     "source": "polymarket",
-     "title": "Will Shakhtar Donetsk win the 2026-27 UEFA Champions League Championship?",
-     "url": "https://polymarket.com/market/will-shakhtar-donetsk-win-the-2026-27-uefa-champions-league-championship-20260701202025578",
-     "snippet": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Champions League (e.g., they are eliminated in the playoffs), ",
-     "meta": {
-      "value": "453 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "wikipedia",
-     "title": "2026–27 UEFA Nations League",
-     "url": "https://en.wikipedia.org/wiki/2026–27_UEFA_Nations_League",
-     "snippet": "The 2026–27 UEFA Nations League is the fifth season of the UEFA Nations League, an international association football competition involving the men's national teams of the member associations of UEFA. The competition is being held from September to November 2026, March 2027, and June 2027.",
-     "meta": {
-      "value": "225 тыс. просмотров Википедии за неделю"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Fenerbahçe win the 2026-27 UEFA Champions League Championship?",
-     "url": "https://polymarket.com/market/will-fenerbahe-win-the-2026-27-uefa-champions-league-championship",
-     "snippet": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Champions League (e.g., they are eliminated in the playoffs), ",
-     "meta": {
-      "value": "152 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "wikipedia",
-     "title": "UEFA Nations League",
-     "url": "https://en.wikipedia.org/wiki/UEFA_Nations_League",
-     "snippet": "The UEFA Nations League is an international European football competition played by the senior men's national teams of the member associations of UEFA, the sport's European governing body. The competition was devised to minimise friendlies and give nations competitive encounters with equally ranked teams. Teams from all the European associations compete in a league structure featuring promotion an",
-     "meta": {
-      "value": "132 тыс. просмотров Википедии за неделю"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Liverpool win the 2026-27 UEFA Champions League Championship?",
-     "url": "https://polymarket.com/market/will-liverpool-win-the-2026-27-uefa-champions-league-championship-20260701202025555",
-     "snippet": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Champions League (e.g., they are eliminated in the playoffs), ",
-     "meta": {
-      "value": "87 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will Club Brugge win the 2026-27 UEFA Champions League Championship?",
-     "url": "https://polymarket.com/market/will-club-brugge-win-the-2026-27-uefa-champions-league-championship-20260701202025575",
-     "snippet": "This market will resolve according to the team that wins the 2026-27 UEFA Champions League Championship.\n\nIf at any point it becomes impossible for a listed team to win the 2026-27 UEFA Champions League Championship per the rules of UEFA Champions League (e.g., they are eliminated in the playoffs), ",
-     "meta": {
-      "value": "60 тыс. долларов оборота за сутки"
-     }
-    }
-   ],
-   "aliases": [
-    "uefa champions league",
-    "uefa champions"
-   ],
-   "fit": 0.67,
-   "fit_domain": "trading",
-   "earn": 8.0,
-   "learn": 7.0,
-   "stars_per_day": 0,
-   "llm_title": "Рынок УЕФА",
-   "llm_what": "рынок предсказаний на победу в УЕФА-чемпионате",
-   "llm_kind": "рыночная возможность",
-   "analysis": {
-    "what": "Рынок УЕФА — это платформы, где люди ставят на результаты футбольных турниров УЕФА, например, на победу команды в Кубке УЕФА или в УЕФА Национальном лиге. На Polymarket такие рынки уже работают с оборотом до 453 тысяч долларов в сутки.",
-    "why_now": "На Polymarket зафиксировано 4 рынка на 2026–27 год, с оборотом от 60 до 453 тыс. долларов в сутки; Википедия за неделю получила 225 тыс. просмотров по теме Национальной лиги.",
-    "earn_why": "Можно быстро получить доход, если предсказать результаты, где есть высокая конкуренция и оборот.",
-    "learn_why": "Знание структуры УЕФА и поведения рынков позволяет прогнозировать результаты и выявлять аномалии.",
-    "kill_criteria": "Появление официального отказа от проведения турнира УЕФА или невозможности участия команды по правилам УЕФА",
-    "stage": "разгон",
-    "window": "недели",
-    "applications": [
-     {
-      "channel": "рыночная ставка",
-      "idea": "Создать рынок на победу конкретной команды в 2026–27 УЕФА Чемпионской лиги",
-      "first_step": "Проверить, есть ли у Polymarket уже открытый рынок на эту команду, и подать запрос на создание нового"
-     },
-     {
-      "channel": "рыночная ставка",
-      "idea": "Оценить вероятность победы команды в УЕФА Национальной лиге",
-      "first_step": "Найти данные по просмотрам Википедии и проанализировать тренд по теме"
-     },
-     {
-      "channel": "рыночная ставка",
-      "idea": "Создать прогноз на результаты матчей Национальной лиги с учётом текущих ставок",
-      "first_step": "Собрать данные с Polymarket и Википедии по матчам 2026–27 года"
-     }
-    ],
-    "cheap_bet": "Проверить, есть ли у Polymarket уже открытый рынок на эту команду, и подать запрос на создание нового",
-    "title_ru": "Рынок УЕФА",
-    "skeptics_vs_fans": null,
-    "by": "local"
-   }
-  },
-  {
-   "term": "coingecko:pepe-wojak",
-   "label": "Pepe Wojak (PEJAK)",
+   "term": "coingecko:portal-2",
+   "label": "Portal (PORTAL)",
    "lane": "рынки",
    "kind": "объект",
    "now": 1,
@@ -2542,8 +1904,8 @@
    "examples": [
     {
      "source": "coingecko",
-     "title": "Pepe Wojak (PEJAK)",
-     "url": "https://www.coingecko.com/en/coins/pepe-wojak",
+     "title": "Portal (PORTAL)",
+     "url": "https://www.coingecko.com/en/coins/portal-2",
      "snippet": "",
      "meta": {
       "value": "11 место в поисковых трендах CoinGecko"
@@ -2553,56 +1915,132 @@
    "aliases": [],
    "fit": 0.0,
    "fit_domain": "",
-   "earn": 6.0,
-   "learn": 8.0,
+   "earn": 7.0,
+   "learn": 5.0,
    "stars_per_day": 0,
-   "llm_title": "Pepe Wojak (PEJAK)",
-   "llm_what": "криптовалютный токен, основанный на меме Pepe Wojak",
+   "llm_title": "Криптовалюта Portal (PORTAL)",
+   "llm_what": "коин-актив на рынке криптовалют",
    "llm_kind": "рыночная возможность",
    "analysis": {
-    "what": "Pepe Wojak (PEJAK) — это мем-крейт, связанный с криптовалютой, который входит в топ-11 поисковых трендов на CoinGecko.",
-    "why_now": "входит в топ-11 поисковых трендов на CoinGecko",
-    "earn_why": "мемы в крипто-рынке могут быстро привлекать внимание, но несут высокий риск",
-    "learn_why": "понимание мем-трендов в криптовалюте важно для анализа рыночных сдвигов",
-    "kill_criteria": "выпадение из топ-11 поисковых трендов на CoinGecko",
+    "what": "Криптовалюта Portal (PORTAL) входит в топ-11 поисковых трендов на CoinGecko, что указывает на рост интереса к ней.",
+    "why_now": "Появилось на 11 месте в поисковых трендах CoinGecko — это первый вхождение в список.",
+    "earn_why": "Можно быстро вложить и получить доход, если криптовалюта вырастет по цене",
+    "learn_why": "Для понимания рыночных трендов важно уметь анализировать поисковые запросы",
+    "kill_criteria": "Потеря интереса в поиске — исчезновение из топ-100 поисковых трендов CoinGecko",
     "stage": "зарождение",
     "window": "недели",
     "applications": [
      {
       "channel": "рыночная ставка",
-      "idea": "сделать ставку на криптовалюту PEJAK в рамках мем-активов",
-      "first_step": "проверить текущую цену и объем торгов на CoinGecko"
+      "idea": "Поставить ставку на криптовалюту Portal (PORTAL) в условиях роста поискового интереса",
+      "first_step": "Проверить текущую цену и объем торгов на CoinGecko"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "создать публикацию о Pepe Wojak как о тренде в криптовалюте",
-      "first_step": "найти 3-5 источников, где упоминается PEJAK в контексте криптовалют"
+      "idea": "Создать аналитический отчет о росте поискового интереса к Portal (PORTAL)",
+      "first_step": "Собрать данные по трендам и объемам поисковых запросов"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "провести анализ поисковых трендов и выявить рост интереса к PEJAK",
-      "first_step": "проверить топ-11 поисковых трендов на CoinGecko"
+      "idea": "Разработать стратегию диверсификации портфеля с учетом новой криптовалюты",
+      "first_step": "Проанализировать исторические данные и рыночную динамику"
      }
     ],
-    "cheap_bet": "проверить текущую цену и объем торгов на CoinGecko",
-    "title_ru": "Pepe Wojak (PEJAK)",
+    "cheap_bet": "Проверить текущую цену и объем торгов на CoinGecko",
+    "title_ru": "Криптовалюта Portal (PORTAL)",
     "skeptics_vs_fans": null,
     "by": "local"
    }
   },
   {
-   "term": "тема:average ornn",
-   "label": "average ornn",
+   "term": "coingecko:zcash",
+   "label": "Zcash (ZEC)",
+   "lane": "рынки",
+   "kind": "объект",
+   "now": 1,
+   "value": 14,
+   "expected": 0.8,
+   "growth": 3.1,
+   "novelty": 0.75,
+   "metric_label": "14 место в поисковых трендах CoinGecko · рост ×8,6",
+   "by_source": {
+    "coingecko": 1
+   },
+   "score": 76.8,
+   "spark": [
+    0,
+    1,
+    14
+   ],
+   "parts": {
+    "growth": 1.0,
+    "rank": 0.93,
+    "novelty": 0.75
+   },
+   "examples": [
+    {
+     "source": "coingecko",
+     "title": "Zcash (ZEC)",
+     "url": "https://www.coingecko.com/en/coins/zcash",
+     "snippet": "",
+     "meta": {
+      "value": "14 место в поисковых трендах CoinGecko"
+     }
+    }
+   ],
+   "aliases": [],
+   "fit": 0.0,
+   "fit_domain": "",
+   "earn": 7.0,
+   "learn": 5.0,
+   "stars_per_day": 0,
+   "llm_title": "Zcash (ZEC)",
+   "llm_what": "криптовалюта Zcash с ростом интереса",
+   "llm_kind": "рыночная возможность",
+   "analysis": {
+    "what": "Интерес к криптовалюте Zcash (ZEC) растёт, она заняла 14 место в поисковых трендах на CoinGecko.",
+    "why_now": "рост в 8,6 раза",
+    "earn_why": "возможно получить доход от торговли, если рост сохранится",
+    "learn_why": "нужно понимать рыночные тренды и поведение инвесторов",
+    "kill_criteria": "отсутствие роста поисковых запросов в течение 3 недель",
+    "stage": "разгон",
+    "window": "недели",
+    "applications": [
+     {
+      "channel": "рыночная ставка",
+      "idea": "поставить ставку на ZEC в криптовалютном биржевом торговом канале",
+      "first_step": "проверить текущую цену и объем торгов на CoinGecko"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "создать аналитический пост о перспективах ZEC в условиях роста поисковых запросов",
+      "first_step": "собрать данные о трендах и росте поисковых запросов на CoinGecko"
+     },
+     {
+      "channel": "рыночная ставка",
+      "idea": "включить ZEC в инвестиционный портфель на основе анализа поисковых трендов",
+      "first_step": "оценить риски и потенциал в сравнении с другими криптовалютами"
+     }
+    ],
+    "cheap_bet": "проверить текущую цену и объем торгов на CoinGecko",
+    "title_ru": "Zcash (ZEC)",
+    "skeptics_vs_fans": null,
+    "by": "local"
+   }
+  },
+  {
+   "term": "тема:average ornn b200",
+   "label": "average ornn b200",
    "lane": "рынки",
    "kind": "тема",
-   "now": 8,
+   "now": 7,
    "expected": 0.0,
    "growth": 0.0,
    "novelty": 0.7,
    "hops": 1,
-   "metric_label": "8 объектов на 1 платформе: Polymarket",
+   "metric_label": "7 объектов на 1 платформе: Polymarket",
    "by_source": {
-    "polymarket": 8
+    "polymarket": 7
    },
    "score": 68,
    "parts": {
@@ -2612,121 +2050,112 @@
    "examples": [
     {
      "source": "polymarket",
-     "title": "Will the average Ornn B200 rental price in June 2027 be above $8.00?",
-     "url": "https://polymarket.com/market/b200-average-rental-price-in-june-2027-above-8pt00",
-     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in June 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index date",
-     "meta": {
-      "value": "121 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will the average Ornn H100 rental price in December 2026 be above $3.10?",
-     "url": "https://polymarket.com/market/h100-average-rental-price-in-december-2026-above-3pt10",
-     "snippet": "This market will resolve to \"Yes\" if the average Ornn H100 index value in December 2026 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn H100 index value in December 2026 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 in",
-     "meta": {
-      "value": "114 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will the average Ornn B300 rental price in January 2027 be above $14.50?",
-     "url": "https://polymarket.com/market/b300-average-rental-price-in-january-2027-above-14pt50",
-     "snippet": "This market will resolve to \"Yes\" if the average Ornn B300 index value in January 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B300 index value in January 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B300 inde",
-     "meta": {
-      "value": "106 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will the average Ornn H100 rental price in January 2027 be above $2.80?",
-     "url": "https://polymarket.com/market/h100-average-rental-price-in-january-2027-above-2pt80",
-     "snippet": "This market will resolve to \"Yes\" if the average Ornn H100 index value in January 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn H100 index value in January 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 inde",
-     "meta": {
-      "value": "103 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will the average Ornn B200 rental price in June 2027 be above $7.00?",
-     "url": "https://polymarket.com/market/b200-average-rental-price-in-june-2027-above-7pt00",
-     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in June 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index date",
-     "meta": {
-      "value": "82 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will the average Ornn B200 rental price in June 2027 be above $9.00?",
-     "url": "https://polymarket.com/market/b200-average-rental-price-in-june-2027-above-9pt00",
-     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in June 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index date",
-     "meta": {
-      "value": "72 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will the average Ornn H100 rental price in February 2027 be above $3.20?",
-     "url": "https://polymarket.com/market/h100-average-rental-price-in-february-2027-above-3pt20",
-     "snippet": "This market will resolve to \"Yes\" if the average Ornn H100 index value in February 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn H100 index value in February 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-H100 in",
-     "meta": {
-      "value": "62 тыс. долларов оборота за сутки"
-     }
-    },
-    {
-     "source": "polymarket",
-     "title": "Will the average Ornn B200 rental price in March 2027 be above $10.00?",
-     "url": "https://polymarket.com/market/b200-average-rental-price-in-march-2027-above-10pt00",
+     "title": "Will the average Ornn B200 rental price in March 2027 be above $8.00?",
+     "url": "https://polymarket.com/market/b200-average-rental-price-in-march-2027-above-8pt00",
      "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in March 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in March 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index da",
      "meta": {
-      "value": "56 тыс. долларов оборота за сутки"
+      "value": "319 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will the average Ornn B200 rental price in December 2026 be above $9.00?",
+     "url": "https://polymarket.com/market/b200-average-rental-price-in-december-2026-above-9pt00",
+     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in December 2026 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in December 2026 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 in",
+     "meta": {
+      "value": "99 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will the average Ornn B200 rental price in December 2026 be above $9.60?",
+     "url": "https://polymarket.com/market/b200-average-rental-price-in-december-2026-above-9pt60",
+     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in December 2026 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in December 2026 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 in",
+     "meta": {
+      "value": "95 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will the average Ornn B200 rental price in January 2027 be above $9.50?",
+     "url": "https://polymarket.com/market/b200-average-rental-price-in-january-2027-above-9pt50",
+     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in January 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in January 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 inde",
+     "meta": {
+      "value": "92 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will the average Ornn B200 rental price in December 2026 be above $9.20?",
+     "url": "https://polymarket.com/market/b200-average-rental-price-in-december-2026-above-9pt20",
+     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in December 2026 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in December 2026 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 in",
+     "meta": {
+      "value": "69 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will the average Ornn B200 rental price in June 2027 be above $11.00?",
+     "url": "https://polymarket.com/market/b200-average-rental-price-in-june-2027-above-11pt00",
+     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in June 2027 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in June 2027 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 index date",
+     "meta": {
+      "value": "66 тыс. долларов оборота за сутки"
+     }
+    },
+    {
+     "source": "polymarket",
+     "title": "Will the average Ornn B200 rental price in December 2026 be above $8.60?",
+     "url": "https://polymarket.com/market/b200-average-rental-price-in-december-2026-above-8pt60",
+     "snippet": "This market will resolve to \"Yes\" if the average Ornn B200 index value in December 2026 is above the specified price. Otherwise, this market will resolve to \"No\".\n\nThe average Ornn B200 index value in December 2026 is the arithmetic mean of the finalized daily settled values of the Ornn OCPI-B200 in",
+     "meta": {
+      "value": "64 тыс. долларов оборота за сутки"
      }
     }
    ],
    "aliases": [
-    "ornn",
-    "average ornn b200",
     "b200 rental price",
     "ornn b200 rental",
+    "average ornn",
     "b200 rental",
     "ornn b200",
+    "ornn",
     "b200"
    ],
    "fit": 1.0,
    "fit_domain": "ai",
    "earn": 8.0,
-   "learn": 6.0,
+   "learn": 7.0,
    "stars_per_day": 0,
-   "llm_title": "Средняя цена аренды Ornn B200 в 2027 году",
-   "llm_what": "прогноз средней цены аренды жилья на рынке Ornn",
+   "llm_title": "Средняя цена аренды Ornn B200",
+   "llm_what": "прогноз средней цены аренды модели Ornn B200",
    "llm_kind": "рыночная возможность",
    "analysis": {
-    "what": "Средняя цена аренды модели Ornn B200 в июне 2027 года — это прогноз, который формируется на платформе Polymarket через рынок предложений. Пользователи ставят на то, будет ли средняя цена выше или ниже указанного уровня.",
-    "why_now": "На Polymarket уже 8 рынков, связанных с арендой Ornn B200 и другими моделями в 2026–2027 годах, с оборотом от 72 до 121 тыс. долларов в сутки.",
-    "earn_why": "Можно быстро получить доход, если предсказать цену, и рынок уже активен.",
-    "learn_why": "Понимание рынков прогнозов помогает в анализе цен и поведения участников.",
-    "kill_criteria": "Рынок не получает активных ставок в течение 14 дней или закрывается без результата.",
+    "what": "Средняя цена аренды автомобиля Ornn B200 в будущем (в 2026–2027 гг.) становится предметом прогнозирования на платформе Polymarket. Пользователи ставят беты на то, будет ли средняя цена выше определённой суммы.",
+    "why_now": "На Polymarket создано 7 рынков, где прогнозируется средняя цена аренды в 2026–2027 гг. с оборотом от 65 до 319 тыс. долларов в сутки.",
+    "earn_why": "Можно быстро получить доход, если предсказать цену, которая будет близка к реальной, и выиграть в бете.",
+    "learn_why": "Понимание рынков прогнозирования помогает оценивать риски и динамику цен, что полезно для инвесторов и арендаторов.",
+    "kill_criteria": "Рынок не получает новых участников или все прогнозы сходятся к одному значению (например, все «нет»), что указывает на отсутствие спроса или несуществование тренда.",
     "stage": "разгон",
-    "window": "недели",
+    "window": "месяцы",
     "applications": [
      {
       "channel": "рыночная ставка",
-      "idea": "Создать рынок, где участники ставят на среднюю цену аренды Ornn B200 в июне 2027 года",
-      "first_step": "Создать вопрос на Polymarket: \"Will the average Ornn B200 rental price in June 2027 be above $8.00?\""
+      "idea": "Создать рынок прогноза средней арендной цены Ornn B200 на 2026–2027 год",
+      "first_step": "Определить точку входа: выбрать цену и дату, соответствующие текущему спросу и рыночной динамике"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Проверить, какая цена будет выше — в июне 2027 или в январе 2027",
-      "first_step": "Создать два рынка: один на июнь 2027, другой на январь 2027, с разными ценами"
+      "idea": "Проверить, как меняется цена аренды в зависимости от времени года или региона",
+      "first_step": "Создать рынок с разбивкой по кварталам (например, декабрь 2026 vs январь 2027)"
      },
      {
       "channel": "рыночная ставка",
-      "idea": "Оценить динамику роста цен по моделям Ornn (B200, H100, B300)",
-      "first_step": "Создать рынки для всех моделей с указанием сроков и цен"
+      "idea": "Использовать данные для оценки рисков при покупке или арендовании Ornn B200",
+      "first_step": "Собрать данные по нескольким рынкам и проанализировать, как цена растёт в зависимости от даты"
      }
     ],
-    "cheap_bet": "Создать вопрос на Polymarket: \"Will the average Ornn B200 rental price in June 2027 be above $8.00?\"",
-    "title_ru": "Средняя цена аренды Ornn B200 в 2027 году",
+    "cheap_bet": "Определить точку входа: выбрать цену и дату, соответствующие текущему спросу и рыночной динамике",
+    "title_ru": "Средняя цена аренды Ornn B200",
     "skeptics_vs_fans": null,
     "by": "local"
    }
@@ -2737,21 +2166,21 @@
   {
    "term": "open source",
    "label": "open source",
-   "now": 237,
+   "now": 264,
    "by_source": {
-    "github": 237
+    "github": 264
    },
    "by_kind": {
     "research": 0,
-    "builder": 237,
+    "builder": 264,
     "talk": 0
    },
-   "expected": 79.17,
-   "growth": 1.57,
-   "acceleration": 0.353,
+   "expected": 80.14,
+   "growth": 1.707,
+   "acceleration": 0.382,
    "n_kinds": 1,
-   "builder_weight": 1088.13,
-   "stars_per_day": 13878.2,
+   "builder_weight": 1180.75,
+   "stars_per_day": 12008.4,
    "novelty": 0.0,
    "focus": 1.0,
    "specificity": 1.0,
@@ -2765,7 +2194,7 @@
     108.41,
     55.78,
     205.36,
-    247.99
+    272.87
    ],
    "series_by_kind": {
     "research": [
@@ -2788,7 +2217,7 @@
      110,
      48,
      190,
-     237
+     264
     ],
     "talk": [
      0,
@@ -2817,25 +2246,25 @@
   {
    "term": "developer tool",
    "label": "developer tools",
-   "now": 182,
+   "now": 168,
    "by_source": {
-    "github": 181,
+    "github": 167,
     "hn": 1
    },
    "by_kind": {
     "research": 0,
-    "builder": 181,
+    "builder": 167,
     "talk": 1
    },
-   "expected": 79.28,
-   "growth": 1.181,
-   "acceleration": 0.223,
+   "expected": 80.26,
+   "growth": 1.048,
+   "acceleration": 0.195,
    "n_kinds": 1,
-   "builder_weight": 845.45,
-   "stars_per_day": 10650.4,
+   "builder_weight": 780.28,
+   "stars_per_day": 8739.4,
    "novelty": 0.0,
    "focus": 1.0,
-   "specificity": 0.73,
+   "specificity": 0.7,
    "weeks_seen": 9,
    "series": [
     50.15,
@@ -2846,7 +2275,7 @@
     120.23,
     67.4,
     203.2,
-    189.39
+    172.61
    ],
    "series_by_kind": {
     "research": [
@@ -2869,7 +2298,7 @@
      122,
      58,
      188,
-     181
+     167
     ],
     "talk": [
      0,
@@ -2898,25 +2327,25 @@
   {
    "term": "action model",
    "label": "action models",
-   "now": 97,
+   "now": 110,
    "by_source": {
-    "arxiv": 95,
+    "arxiv": 108,
     "github": 2
    },
    "by_kind": {
-    "research": 95,
+    "research": 108,
     "builder": 2,
     "talk": 0
    },
-   "expected": 61.01,
-   "growth": 0.66,
-   "acceleration": 0.424,
+   "expected": 61.77,
+   "growth": 0.822,
+   "acceleration": 0.458,
    "n_kinds": 2,
-   "builder_weight": 6.69,
-   "stars_per_day": 22.4,
+   "builder_weight": 6.33,
+   "stars_per_day": 19.2,
    "novelty": 0.0,
-   "focus": 0.57,
-   "specificity": 0.15,
+   "focus": 0.55,
+   "specificity": 0.16,
    "weeks_seen": 9,
    "series": [
     93.14,
@@ -2927,7 +2356,7 @@
     41.39,
     37.19,
     83.23,
-    101.5
+    113.7
    ],
    "series_by_kind": {
     "research": [
@@ -2939,7 +2368,7 @@
      40,
      31,
      76,
-     95
+     108
     ],
     "builder": [
      9,
@@ -2979,27 +2408,27 @@
   {
    "term": "vision language model",
    "label": "vision language models",
-   "now": 245,
+   "now": 255,
    "by_source": {
-    "arxiv": 235,
+    "arxiv": 246,
     "biorxiv": 4,
-    "github": 6,
+    "github": 5,
     "huggingface": 1
    },
    "by_kind": {
-    "research": 239,
-    "builder": 6,
+    "research": 250,
+    "builder": 5,
     "talk": 0
    },
-   "expected": 158.1,
-   "growth": 0.629,
-   "acceleration": 0.277,
+   "expected": 160.05,
+   "growth": 0.669,
+   "acceleration": 0.286,
    "n_kinds": 2,
-   "builder_weight": 16.73,
-   "stars_per_day": 39.7,
+   "builder_weight": 14.21,
+   "stars_per_day": 34.3,
    "novelty": 0.0,
-   "focus": 0.31,
-   "specificity": 0.4,
+   "focus": 0.27,
+   "specificity": 0.42,
    "weeks_seen": 9,
    "series": [
     206.18,
@@ -3010,7 +2439,7 @@
     137.97,
     141.78,
     258.32,
-    256.36
+    263.57
    ],
    "series_by_kind": {
     "research": [
@@ -3022,7 +2451,7 @@
      138,
      121,
      231,
-     239
+     250
     ],
     "builder": [
      11,
@@ -3033,7 +2462,90 @@
      2,
      1,
      9,
-     7
+     6
+    ],
+    "talk": [
+     0,
+     1,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0,
+     0
+    ]
+   },
+   "series_weeks": [
+    "2026-W40",
+    "2026-W41",
+    "2026-W42",
+    "2026-W43",
+    "2026-W44",
+    "2026-W45",
+    "2026-W46",
+    "2026-W47",
+    "now"
+   ]
+  },
+  {
+   "term": "vision language",
+   "label": "vision language",
+   "now": 409,
+   "by_source": {
+    "arxiv": 396,
+    "biorxiv": 4,
+    "github": 9,
+    "huggingface": 6
+   },
+   "by_kind": {
+    "research": 400,
+    "builder": 9,
+    "talk": 0
+   },
+   "expected": 261.77,
+   "growth": 0.642,
+   "acceleration": 0.306,
+   "n_kinds": 2,
+   "builder_weight": 25.88,
+   "stars_per_day": 63.8,
+   "novelty": 0.0,
+   "focus": 0.31,
+   "specificity": 0.67,
+   "weeks_seen": 9,
+   "series": [
+    343.1,
+    261.88,
+    268.15,
+    230.94,
+    213.86,
+    205.97,
+    231.26,
+    393.43,
+    422.74
+   ],
+   "series_by_kind": {
+    "research": [
+     420,
+     280,
+     280,
+     222,
+     198,
+     205,
+     191,
+     353,
+     400
+    ],
+    "builder": [
+     11,
+     5,
+     7,
+     7,
+     6,
+     4,
+     13,
+     18,
+     15
     ],
     "talk": [
      0,
@@ -3067,54 +2579,39 @@
    "reason": "новые данные или научный проект, известно давно: гипотеза о распределении простых чисел в математике"
   },
   {
-   "term": "win32 api",
-   "lane": "технологии",
-   "reason": "технология, метод или инструмент, известно давно: интерфейс программирования для Windows, позволяющий взаимодействовать с системой"
-  },
-  {
    "term": "software engineering",
    "lane": "технологии",
-   "reason": "устоявшаяся область, известно давно: практическая дисциплина разработки программного обеспечения"
+   "reason": "технология, метод или инструмент, известно давно: практические инструменты и методы для повышения эффективности разработки ПО"
+  },
+  {
+   "term": "exports finished",
+   "lane": "технологии",
+   "reason": "технология, метод или инструмент, известно давно: уведомление о завершении экспорта видео или файла"
+  },
+  {
+   "term": "internet connection",
+   "lane": "технологии",
+   "reason": "технология, метод или инструмент, известно давно: связь с интернетом, включая прокси, VPN и защиту"
   },
   {
    "term": "windows desktop",
    "lane": "технологии",
-   "reason": "технология, метод или инструмент, известно давно: версия операционной системы для работы с профессиональным ПО"
+   "reason": "технология, метод или инструмент, известно давно: десктопная операционная система Windows для приложений"
   },
   {
-   "term": "apple pay",
+   "term": "phishing",
    "lane": "технологии",
-   "reason": "технология, метод или инструмент, известно давно: сервис оплаты в мобильных приложениях и магазинах"
-  },
-  {
-   "term": "nginx",
-   "lane": "технологии",
-   "reason": "технология, метод или инструмент, известно давно: программный сервер для веб-сервисов и балансировки нагрузки"
-  },
-  {
-   "term": "anthropic",
-   "lane": "культура и мемы",
-   "reason": "имя, компания или разовая новость, новое: компания по разработке ИИ, известная своими моделями и публичными заявлениями"
-  },
-  {
-   "term": "james",
-   "lane": "культура и мемы",
-   "reason": "мем, персонаж или интернет-явление, известно давно: фигурный персонаж или имя, связанное с культурным явлением"
-  },
-  {
-   "term": "riemann hypothesis",
-   "lane": "культура и мемы",
-   "reason": "новые данные или научный проект, известно давно: гипотеза в математике о расположении нулей дзета-функции"
+   "reason": "технология, метод или инструмент, известно давно: атака на пользователя через поддельные ссылки и ложные формы"
   },
   {
    "term": "abdul el sayed",
    "lane": "культура и мемы",
-   "reason": "имя, компания или разовая новость, новое: политик, кандидат на пост президента США"
+   "reason": "имя, компания или разовая новость, новое: американский политик-кандидат на выборы в 2028 году"
   },
   {
-   "term": "madden",
+   "term": "marco rubio",
    "lane": "культура и мемы",
-   "reason": "мем, персонаж или интернет-явление, известно давно: серия игр и персональное имя легендарного тренера по футболу"
+   "reason": "имя, компания или разовая новость, известно давно: американский политик, фигура в политических дебатах"
   }
  ]
 }
