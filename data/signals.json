@@ -94,10 +94,12 @@
   "first_week": "2026-W46",
   "first_seen": "2026-11-15",
   "weeks": [
-   "2026-W46"
+   "2026-W46",
+   "2026-W48"
   ],
   "scores": [
-   63
+   63,
+   88
   ],
   "lane": "культура и мемы"
  },
@@ -1325,7 +1327,7 @@
   ],
   "scores": [
    79.5,
-   79.1
+   80.0
   ],
   "lane": "технологии"
  },
@@ -1485,7 +1487,7 @@
   ],
   "scores": [
    73.1,
-   71.7
+   76.9
   ],
   "lane": "технологии"
  },
@@ -1583,7 +1585,7 @@
    "2026-W48"
   ],
   "scores": [
-   47.7
+   49.5
   ],
   "lane": "наука"
  },
@@ -1607,7 +1609,7 @@
    "2026-W48"
   ],
   "scores": [
-   75.0
+   74.4
   ],
   "lane": "технологии"
  },
@@ -1848,6 +1850,138 @@
   ],
   "scores": [
    68
+  ],
+  "lane": "рынки"
+ },
+ "slicer": {
+  "label": "slicer",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   35.2
+  ],
+  "lane": "наука"
+ },
+ "end driving": {
+  "label": "end driving",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   30.8
+  ],
+  "lane": "наука"
+ },
+ "desktop package": {
+  "label": "desktop package",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   79.1
+  ],
+  "lane": "технологии"
+ },
+ "trends:samsunspor - gençlerbirliği": {
+  "label": "samsunspor - gençlerbirliği",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "культура и мемы"
+ },
+ "trends:москва": {
+  "label": "москва",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   84.5
+  ],
+  "lane": "культура и мемы"
+ },
+ "steam:5165390": {
+  "label": "HOOD",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "itch:https://dawn-chorus.itch.io/dawn-chorus": {
+  "label": "Dawn Chorus",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "игры"
+ },
+ "roblox:10774784939": {
+  "label": "[🏹] Shoot Arrows For Animals!",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   84.7
+  ],
+  "lane": "игры"
+ },
+ "coingecko:world-liberty-financial": {
+  "label": "World Liberty Financial (WLFI)",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   85.0
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:usd1-wlfi": {
+  "label": "USD1 (USD1)",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   81.4
+  ],
+  "lane": "рынки"
+ },
+ "coingecko:pumpchan": {
+  "label": "PumpChan (PUMPCHAN)",
+  "first_week": "2026-W48",
+  "first_seen": "2026-11-28",
+  "weeks": [
+   "2026-W48"
+  ],
+  "scores": [
+   79.5
   ],
   "lane": "рынки"
  }
